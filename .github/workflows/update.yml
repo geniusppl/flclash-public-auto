@@ -1,7 +1,7 @@
 name: update-flclash
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "*/30 * * * *"
   workflow_dispatch:
 permissions:
   contents: write
@@ -19,10 +19,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add flclash.yaml
-          git diff --cached --quiet || git commit -m "update flclash.yaml"
+          git add flclash.yaml nodes.txt
+          git diff --cached --quiet || git commit -m "update flclash.yaml and nodes.txt"
           git push
       - name: purge jsdelivr cache
         if: success()
         run: |
           curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/flclash.yaml" || true
+          curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/nodes.txt" || true
