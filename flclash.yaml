@@ -38,7 +38,7 @@ proxies:
 - name: Estonia, Tallinn | [BL]-01
   server: ee.h1cloud.net
   port: 25895
-  client-fingerprint: chrome
+  client-fingerprint: edge
   encryption: none
   network: tcp
   reality-opts:
@@ -53,7 +53,7 @@ proxies:
 - name: Estonia, Tallinn | [BL]-02
   server: ee.h1cloud.net
   port: 25895
-  client-fingerprint: qq
+  client-fingerprint: firefox
   encryption: none
   network: tcp
   reality-opts:
@@ -68,7 +68,8 @@ proxies:
 - name: Estonia, Tallinn | [BL]-03
   server: ee.h1cloud.net
   port: 25895
-  client-fingerprint: edge
+  client-fingerprint: ios
+  encryption: none
   network: tcp
   reality-opts:
     public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
@@ -83,20 +84,6 @@ proxies:
   server: ee.h1cloud.net
   port: 25895
   client-fingerprint: random
-  network: tcp
-  reality-opts:
-    public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
-    short-id: a73f0410d728c823
-  servername: www.samsung.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
-  xudp: true
-- name: Estonia, Tallinn | [BL]-05
-  server: ee.h1cloud.net
-  port: 25895
-  client-fingerprint: edge
   encryption: none
   network: tcp
   reality-opts:
@@ -108,107 +95,174 @@ proxies:
   udp: true
   uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
   xudp: true
-- name: Estonia, Tallinn | [BL]-06
-  server: ee.h1cloud.net
-  port: 25895
+- name: France, Lille | [BL]
+  server: 185.154.155.142
+  port: 443
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: 5gUljD4oAU5CKh6ZpRFEm0kxzpFz20eGvVwK1vE9VWI
+    short-id: 335efec4069ae9a2
+  servername: guat3.uni-plan.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 706bce83-91db-4260-b175-cba29145cd56
+  xudp: true
+- name: France, Lille | [BL]-01
+  server: 185.154.155.142
+  port: 443
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: 5gUljD4oAU5CKh6ZpRFEm0kxzpFz20eGvVwK1vE9VWI
+    short-id: 335efec4069ae9a2
+  servername: guat3.uni-plan.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 706bce83-91db-4260-b175-cba29145cd56
+  xudp: true
+- name: France, Lille | [BL]-02
+  server: 185.154.155.142
+  port: 443
+  client-fingerprint: ios
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: 5gUljD4oAU5CKh6ZpRFEm0kxzpFz20eGvVwK1vE9VWI
+    short-id: 335efec4069ae9a2
+  servername: guat3.uni-plan.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 706bce83-91db-4260-b175-cba29145cd56
+  xudp: true
+- name: France, Lille | [BL]-03
+  server: 185.154.155.142
+  port: 443
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: 5gUljD4oAU5CKh6ZpRFEm0kxzpFz20eGvVwK1vE9VWI
+    short-id: 335efec4069ae9a2
+  servername: guat3.uni-plan.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 706bce83-91db-4260-b175-cba29145cd56
+  xudp: true
+- name: France, Lille | [BL]-04
+  server: 185.154.155.142
+  port: 443
   client-fingerprint: safari
-  encryption: none
+  flow: xtls-rprx-vision
   network: tcp
   reality-opts:
-    public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
-    short-id: a73f0410d728c823
-  servername: www.samsung.com
+    public-key: 5gUljD4oAU5CKh6ZpRFEm0kxzpFz20eGvVwK1vE9VWI
+    short-id: 335efec4069ae9a2
+  servername: guat3.uni-plan.com
   tls: true
   type: vless
   udp: true
-  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
-  xudp: true
-- name: Estonia, Tallinn | [BL]-07
-  server: ee.h1cloud.net
-  port: 25895
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
-    short-id: a73f0410d728c823
-  servername: www.samsung.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
-  xudp: true
-- name: Estonia, Tallinn | [BL]-08
-  server: ee.h1cloud.net
-  port: 25895
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
-    short-id: a73f0410d728c823
-  servername: www.samsung.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
+  uuid: 706bce83-91db-4260-b175-cba29145cd56
   xudp: true
 - name: France, Paris | 🌐 | [BL]
-  server: 151.101.215.97
-  port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: android
-  encryption: none
-  network: ws
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: XpnTeam-63
-  ws-opts:
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /
-  xudp: true
-- name: France, Paris | 🌐 | [BL]-01
-  server: 151.101.215.97
-  port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: safari
-  encryption: none
-  network: ws
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: XpnTeam-63
-  ws-opts:
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.67 Safari/537.36
-    path: /
-  xudp: true
-- name: France, Paris | 🌐 | [BL]-02
-  server: 151.101.215.97
+  server: 199.232.78.160
   port: 443
   alpn:
   - http/1.1
   client-fingerprint: chrome
-  encryption: none
   network: ws
   servername: ssl.fastly.com
   tls: true
   type: vless
   udp: true
-  uuid: XpnTeam-63
+  uuid: XpnTeam-66
   ws-opts:
     headers:
       Host: Appxdn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /
+  xudp: true
+- name: France, Paris | 🌐 | [BL]-01
+  server: 199.232.78.160
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  network: ws
+  servername: ssl.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: XpnTeam-66
+  ws-opts:
+    headers:
+      Host: Appxdn.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.84 Safari/537.36
+    path: /
+  xudp: true
+- name: France, Paris | 🌐 | [BL]-02
+  server: 199.232.78.160
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: ios
+  network: ws
+  servername: ssl.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: XpnTeam-66
+  ws-opts:
+    headers:
+      Host: Appxdn.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /
+  xudp: true
+- name: France, Paris | 🌐 | [BL]-03
+  server: 199.232.78.160
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: qq
+  network: ws
+  servername: ssl.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: XpnTeam-66
+  ws-opts:
+    headers:
+      Host: Appxdn.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /
+  xudp: true
+- name: France, Paris | 🌐 | [BL]-04
+  server: 199.232.78.160
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: safari
+  network: ws
+  servername: ssl.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: XpnTeam-66
+  ws-opts:
+    headers:
+      Host: Appxdn.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /
   xudp: true
 - name: Germany, Frankfurt am Main | [BL]
@@ -216,7 +270,7 @@ proxies:
   port: 443
   alpn:
   - h3
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   encryption: none
   network: xhttp
   servername: amp-api-edge.apps.apple.com
@@ -234,6 +288,60 @@ proxies:
   port: 443
   alpn:
   - h3
+  client-fingerprint: firefox
+  encryption: none
+  network: xhttp
+  servername: amp-api-edge.apps.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: bdf38176-48e9-40f1-9d1c-d501c333b464
+  xhttp-opts:
+    host: kkbr.tm
+    mode: auto
+    path: /crownnet
+  xudp: true
+- name: Germany, Frankfurt am Main | [BL]-02
+  server: 151.101.67.6
+  port: 443
+  alpn:
+  - h3
+  client-fingerprint: ios
+  encryption: none
+  network: xhttp
+  servername: amp-api-edge.apps.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: bdf38176-48e9-40f1-9d1c-d501c333b464
+  xhttp-opts:
+    host: kkbr.tm
+    mode: auto
+    path: /crownnet
+  xudp: true
+- name: Germany, Frankfurt am Main | [BL]-03
+  server: 151.101.67.6
+  port: 443
+  alpn:
+  - h3
+  client-fingerprint: qq
+  encryption: none
+  network: xhttp
+  servername: amp-api-edge.apps.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: bdf38176-48e9-40f1-9d1c-d501c333b464
+  xhttp-opts:
+    host: kkbr.tm
+    mode: auto
+    path: /crownnet
+  xudp: true
+- name: Germany, Frankfurt am Main | [BL]-04
+  server: 151.101.67.6
+  port: 443
+  alpn:
+  - h3
   client-fingerprint: safari
   encryption: none
   network: xhttp
@@ -247,59 +355,1062 @@ proxies:
     mode: auto
     path: /crownnet
   xudp: true
-- name: Poland, Warsaw | [BL]
-  server: 8.6.112.0
-  port: 2087
+- name: Germany, Frankfurt am Main | 🌐 | [BL]
+  server: 195.141.65.98
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  network: ws
+  servername: 148-253-210-191.sslip.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53f03acd-fec1-6685-fc8f-03baf9550cb8
+  ws-opts:
+    headers:
+      Host: 148-253-210-191.sslip.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /test-ws
+  xudp: true
+- name: Germany, Frankfurt am Main | 🌐 | [BL]-01
+  server: 195.141.65.98
+  port: 443
+  alpn:
+  - http/1.1
   client-fingerprint: firefox
+  encryption: none
   network: ws
-  servername: pl1.vlnet.site
+  servername: 148-253-210-191.sslip.io
   tls: true
   type: vless
   udp: true
-  uuid: 77290716-1ecb-5e6c-985b-8e2de8bbb434
+  uuid: 53f03acd-fec1-6685-fc8f-03baf9550cb8
   ws-opts:
     headers:
-      Host: pl1.vlnet.site
+      Host: 148-253-210-191.sslip.io
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/53.0.2785.143 Safari/537.36
+    path: /test-ws
+  xudp: true
+- name: Germany, Frankfurt am Main | 🌐 | [BL]-02
+  server: 195.141.65.98
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: ios
+  encryption: none
+  network: ws
+  servername: 148-253-210-191.sslip.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53f03acd-fec1-6685-fc8f-03baf9550cb8
+  ws-opts:
+    headers:
+      Host: 148-253-210-191.sslip.io
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: ''
+        Gecko) Chrome/45.0.2454.85 Safari/537.36
+    path: /test-ws
   xudp: true
-- name: Poland, Warsaw | [BL]-01
-  server: 8.6.112.0
-  port: 2087
-  client-fingerprint: safari
+- name: Germany, Frankfurt am Main | 🌐 | [BL]-03
+  server: 195.141.65.98
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: qq
+  encryption: none
   network: ws
-  servername: pl1.vlnet.site
+  servername: 148-253-210-191.sslip.io
   tls: true
   type: vless
   udp: true
-  uuid: 77290716-1ecb-5e6c-985b-8e2de8bbb434
+  uuid: 53f03acd-fec1-6685-fc8f-03baf9550cb8
   ws-opts:
     headers:
-      Host: pl1.vlnet.site
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
-        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-    path: ''
+      Host: 148-253-210-191.sslip.io
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /test-ws
   xudp: true
-- name: United States, Orem | [BL]
-  server: 201.58.183.42
+- name: Germany, Frankfurt am Main | 🌐 | [BL]-04
+  server: 195.141.65.98
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: safari
+  encryption: none
+  network: ws
+  servername: 148-253-210-191.sslip.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53f03acd-fec1-6685-fc8f-03baf9550cb8
+  ws-opts:
+    headers:
+      Host: 148-253-210-191.sslip.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /test-ws
+  xudp: true
+- name: Poland, Warsaw | 🌐 | [BL]
+  server: 177.1.192.117
   port: 443
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   network: tcp
   reality-opts:
-    public-key: y0wgEdmPNIKlAMJHeC0teOW_fBnX8tmRE8n1CwOZSwU
-    short-id: ''
-  servername: 13oktober.live
+    public-key: Lt3gSdGmfQMx50yH-OOJaNBSg80vzIveaNVwUUWJwzQ
+    short-id: 3952a220c86628a8
+  servername: up7.uni-plan.com
   tls: true
   type: vless
   udp: true
-  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
+  uuid: 706bce83-91db-4260-b175-cba29145cd56
   xudp: true
-- name: Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 | [BL]
-  server: 43.174.193.1
+- name: Poland, Warsaw | 🌐 | [BL]-01
+  server: 177.1.192.117
+  port: 443
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: Lt3gSdGmfQMx50yH-OOJaNBSg80vzIveaNVwUUWJwzQ
+    short-id: 3952a220c86628a8
+  servername: up7.uni-plan.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 706bce83-91db-4260-b175-cba29145cd56
+  xudp: true
+- name: Poland, Warsaw | 🌐 | [BL]-02
+  server: 177.1.192.117
   port: 443
   client-fingerprint: ios
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: Lt3gSdGmfQMx50yH-OOJaNBSg80vzIveaNVwUUWJwzQ
+    short-id: 3952a220c86628a8
+  servername: up7.uni-plan.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 706bce83-91db-4260-b175-cba29145cd56
+  xudp: true
+- name: Poland, Warsaw | 🌐 | [BL]-03
+  server: 177.1.192.117
+  port: 443
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: Lt3gSdGmfQMx50yH-OOJaNBSg80vzIveaNVwUUWJwzQ
+    short-id: 3952a220c86628a8
+  servername: up7.uni-plan.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 706bce83-91db-4260-b175-cba29145cd56
+  xudp: true
+- name: Poland, Warsaw | 🌐 | [BL]-04
+  server: 177.1.192.117
+  port: 443
+  client-fingerprint: safari
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: Lt3gSdGmfQMx50yH-OOJaNBSg80vzIveaNVwUUWJwzQ
+    short-id: 3952a220c86628a8
+  servername: up7.uni-plan.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 706bce83-91db-4260-b175-cba29145cd56
+  xudp: true
+- name: Poland, Warsaw | 🌐 | [BL]-05
+  server: 177.1.192.38
+  port: 8443
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: rczv8z0BFqH3QS9PfFAzLYZY8Iao1yEBhwcRskkQugo
+    short-id: b3e515e37815559d
+  servername: upnl.giftsbattle.vip
+  tls: true
+  type: vless
+  udp: true
+  uuid: 706bce83-91db-4260-b175-cba29145cd56
+  xudp: true
+- name: Poland, Warsaw | 🌐 | [BL]-06
+  server: 177.1.192.38
+  port: 8443
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: rczv8z0BFqH3QS9PfFAzLYZY8Iao1yEBhwcRskkQugo
+    short-id: b3e515e37815559d
+  servername: upnl.giftsbattle.vip
+  tls: true
+  type: vless
+  udp: true
+  uuid: 706bce83-91db-4260-b175-cba29145cd56
+  xudp: true
+- name: Poland, Warsaw | 🌐 | [BL]-07
+  server: 177.1.192.38
+  port: 8443
+  client-fingerprint: ios
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: rczv8z0BFqH3QS9PfFAzLYZY8Iao1yEBhwcRskkQugo
+    short-id: b3e515e37815559d
+  servername: upnl.giftsbattle.vip
+  tls: true
+  type: vless
+  udp: true
+  uuid: 706bce83-91db-4260-b175-cba29145cd56
+  xudp: true
+- name: Poland, Warsaw | 🌐 | [BL]-08
+  server: 177.1.192.38
+  port: 8443
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: rczv8z0BFqH3QS9PfFAzLYZY8Iao1yEBhwcRskkQugo
+    short-id: b3e515e37815559d
+  servername: upnl.giftsbattle.vip
+  tls: true
+  type: vless
+  udp: true
+  uuid: 706bce83-91db-4260-b175-cba29145cd56
+  xudp: true
+- name: Poland, Warsaw | 🌐 | [BL]-09
+  server: 177.1.192.38
+  port: 8443
+  client-fingerprint: safari
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: rczv8z0BFqH3QS9PfFAzLYZY8Iao1yEBhwcRskkQugo
+    short-id: b3e515e37815559d
+  servername: upnl.giftsbattle.vip
+  tls: true
+  type: vless
+  udp: true
+  uuid: 706bce83-91db-4260-b175-cba29145cd56
+  xudp: true
+- name: Poland, Warsaw | 🌐 | [BL]-10
+  server: 177.1.192.90
+  port: 443
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: PA7rbht6SKwvUgysJka_ffHvVEzl4s4RPDO3uPeuLxc
+    short-id: e12ed4adc5aee929
+  servername: up6.uni-plan.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 706bce83-91db-4260-b175-cba29145cd56
+  xudp: true
+- name: Poland, Warsaw | 🌐 | [BL]-11
+  server: 177.1.192.90
+  port: 443
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: PA7rbht6SKwvUgysJka_ffHvVEzl4s4RPDO3uPeuLxc
+    short-id: e12ed4adc5aee929
+  servername: up6.uni-plan.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 706bce83-91db-4260-b175-cba29145cd56
+  xudp: true
+- name: Poland, Warsaw | 🌐 | [BL]-12
+  server: 177.1.192.90
+  port: 443
+  client-fingerprint: ios
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: PA7rbht6SKwvUgysJka_ffHvVEzl4s4RPDO3uPeuLxc
+    short-id: e12ed4adc5aee929
+  servername: up6.uni-plan.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 706bce83-91db-4260-b175-cba29145cd56
+  xudp: true
+- name: Poland, Warsaw | 🌐 | [BL]-13
+  server: 177.1.192.90
+  port: 443
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: PA7rbht6SKwvUgysJka_ffHvVEzl4s4RPDO3uPeuLxc
+    short-id: e12ed4adc5aee929
+  servername: up6.uni-plan.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 706bce83-91db-4260-b175-cba29145cd56
+  xudp: true
+- name: Poland, Warsaw | 🌐 | [BL]-14
+  server: 177.1.192.90
+  port: 443
+  client-fingerprint: safari
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: PA7rbht6SKwvUgysJka_ffHvVEzl4s4RPDO3uPeuLxc
+    short-id: e12ed4adc5aee929
+  servername: up6.uni-plan.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 706bce83-91db-4260-b175-cba29145cd56
+  xudp: true
+- name: Sweden, Vaxjo | [BL]
+  server: 171.25.158.163
+  port: 443
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: Dt6OmhEDOi-Y204u5jWdQsHIgof7g8i52NUnTGc-yjM
+    short-id: ecb6f8fb31668176
+  servername: s9se1.newagetechnologies.live
+  tls: true
+  type: vless
+  udp: true
+  uuid: 706bce83-91db-4260-b175-cba29145cd56
+  xudp: true
+- name: Sweden, Vaxjo | [BL]-01
+  server: 171.25.158.163
+  port: 443
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: Dt6OmhEDOi-Y204u5jWdQsHIgof7g8i52NUnTGc-yjM
+    short-id: ecb6f8fb31668176
+  servername: s9se1.newagetechnologies.live
+  tls: true
+  type: vless
+  udp: true
+  uuid: 706bce83-91db-4260-b175-cba29145cd56
+  xudp: true
+- name: Sweden, Vaxjo | [BL]-02
+  server: 171.25.158.163
+  port: 443
+  client-fingerprint: ios
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: Dt6OmhEDOi-Y204u5jWdQsHIgof7g8i52NUnTGc-yjM
+    short-id: ecb6f8fb31668176
+  servername: s9se1.newagetechnologies.live
+  tls: true
+  type: vless
+  udp: true
+  uuid: 706bce83-91db-4260-b175-cba29145cd56
+  xudp: true
+- name: Sweden, Vaxjo | [BL]-03
+  server: 171.25.158.163
+  port: 443
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: Dt6OmhEDOi-Y204u5jWdQsHIgof7g8i52NUnTGc-yjM
+    short-id: ecb6f8fb31668176
+  servername: s9se1.newagetechnologies.live
+  tls: true
+  type: vless
+  udp: true
+  uuid: 706bce83-91db-4260-b175-cba29145cd56
+  xudp: true
+- name: Sweden, Vaxjo | [BL]-04
+  server: 171.25.158.163
+  port: 443
+  client-fingerprint: safari
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: Dt6OmhEDOi-Y204u5jWdQsHIgof7g8i52NUnTGc-yjM
+    short-id: ecb6f8fb31668176
+  servername: s9se1.newagetechnologies.live
+  tls: true
+  type: vless
+  udp: true
+  uuid: 706bce83-91db-4260-b175-cba29145cd56
+  xudp: true
+- name: Taiwan, Taipei | 🌐 | [BL]
+  server: 141.11.87.77
+  port: 443
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: b390142456517acc
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a270d3e-27b4-497d-8c8c-28f1f54958d9
+  xudp: true
+- name: Taiwan, Taipei | 🌐 | [BL]-01
+  server: 141.11.87.77
+  port: 443
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: b390142456517acc
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a270d3e-27b4-497d-8c8c-28f1f54958d9
+  xudp: true
+- name: Taiwan, Taipei | 🌐 | [BL]-02
+  server: 141.11.87.77
+  port: 443
+  client-fingerprint: ios
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: b390142456517acc
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a270d3e-27b4-497d-8c8c-28f1f54958d9
+  xudp: true
+- name: Taiwan, Taipei | 🌐 | [BL]-03
+  server: 141.11.87.77
+  port: 443
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: b390142456517acc
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a270d3e-27b4-497d-8c8c-28f1f54958d9
+  xudp: true
+- name: Taiwan, Taipei | 🌐 | [BL]-04
+  server: 141.11.87.77
+  port: 443
+  client-fingerprint: safari
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: b390142456517acc
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a270d3e-27b4-497d-8c8c-28f1f54958d9
+  xudp: true
+- name: The Netherlands, Amsterdam | [BL]
+  server: 103.118.209.80
+  port: 443
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: d66SelbTIURp_YpyFF83ApzzPEQFxOiEbrO7TFSdDRI
+    short-id: ff9881defc3b9cda
+  servername: nlsq.giftsbattle.vip
+  tls: true
+  type: vless
+  udp: true
+  uuid: 706bce83-91db-4260-b175-cba29145cd56
+  xudp: true
+- name: The Netherlands, Amsterdam | [BL]-01
+  server: 103.118.209.80
+  port: 443
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: d66SelbTIURp_YpyFF83ApzzPEQFxOiEbrO7TFSdDRI
+    short-id: ff9881defc3b9cda
+  servername: nlsq.giftsbattle.vip
+  tls: true
+  type: vless
+  udp: true
+  uuid: 706bce83-91db-4260-b175-cba29145cd56
+  xudp: true
+- name: The Netherlands, Amsterdam | [BL]-02
+  server: 103.118.209.80
+  port: 443
+  client-fingerprint: ios
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: d66SelbTIURp_YpyFF83ApzzPEQFxOiEbrO7TFSdDRI
+    short-id: ff9881defc3b9cda
+  servername: nlsq.giftsbattle.vip
+  tls: true
+  type: vless
+  udp: true
+  uuid: 706bce83-91db-4260-b175-cba29145cd56
+  xudp: true
+- name: The Netherlands, Amsterdam | [BL]-03
+  server: 103.118.209.80
+  port: 443
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: d66SelbTIURp_YpyFF83ApzzPEQFxOiEbrO7TFSdDRI
+    short-id: ff9881defc3b9cda
+  servername: nlsq.giftsbattle.vip
+  tls: true
+  type: vless
+  udp: true
+  uuid: 706bce83-91db-4260-b175-cba29145cd56
+  xudp: true
+- name: The Netherlands, Amsterdam | [BL]-04
+  server: 103.118.209.80
+  port: 443
+  client-fingerprint: safari
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: d66SelbTIURp_YpyFF83ApzzPEQFxOiEbrO7TFSdDRI
+    short-id: ff9881defc3b9cda
+  servername: nlsq.giftsbattle.vip
+  tls: true
+  type: vless
+  udp: true
+  uuid: 706bce83-91db-4260-b175-cba29145cd56
+  xudp: true
+- name: United States, Detroit | [BL]
+  server: 2.58.113.192
+  port: 443
+  client-fingerprint: chrome
+  network: ws
+  tls: true
+  type: vless
+  udp: true
+  uuid: 49996e29-93c5-4975-b56f-792acbbf3444
+  ws-opts:
+    headers:
+      Host: jyfrj1cims.dev.onappjet.com
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /jx-yjkteysq815pzp
+  xudp: true
+- name: United States, Detroit | [BL]-01
+  server: 2.58.113.192
+  port: 443
+  client-fingerprint: firefox
+  network: ws
+  tls: true
+  type: vless
+  udp: true
+  uuid: 49996e29-93c5-4975-b56f-792acbbf3444
+  ws-opts:
+    headers:
+      Host: jyfrj1cims.dev.onappjet.com
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /jx-yjkteysq815pzp
+  xudp: true
+- name: United States, Detroit | [BL]-02
+  server: 2.58.113.192
+  port: 443
+  client-fingerprint: ios
+  network: ws
+  tls: true
+  type: vless
+  udp: true
+  uuid: 49996e29-93c5-4975-b56f-792acbbf3444
+  ws-opts:
+    headers:
+      Host: jyfrj1cims.dev.onappjet.com
+      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /jx-yjkteysq815pzp
+  xudp: true
+- name: United States, Detroit | [BL]-03
+  server: 2.58.113.192
+  port: 443
+  client-fingerprint: qq
+  network: ws
+  tls: true
+  type: vless
+  udp: true
+  uuid: 49996e29-93c5-4975-b56f-792acbbf3444
+  ws-opts:
+    headers:
+      Host: jyfrj1cims.dev.onappjet.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.77 Safari/537.36
+    path: /jx-yjkteysq815pzp
+  xudp: true
+- name: United States, Detroit | [BL]-04
+  server: 2.58.113.192
+  port: 443
+  client-fingerprint: safari
+  network: ws
+  tls: true
+  type: vless
+  udp: true
+  uuid: 49996e29-93c5-4975-b56f-792acbbf3444
+  ws-opts:
+    headers:
+      Host: jyfrj1cims.dev.onappjet.com
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
+        Gecko) Chrome/11.0.696.3 Safari/534.24
+    path: /jx-yjkteysq815pzp
+  xudp: true
+- name: United States, Secaucus | [BL]
+  server: a0688bt.us4.h1clayd.click
+  port: 443
+  client-fingerprint: chrome
+  encryption: none
+  network: tcp
+  reality-opts:
+    public-key: 5-9YzvyXcZ4J5Z4OaVTUbxUU2InvnwT17m0XY-Jse1E
+    short-id: 257420d9d430152a
+  servername: a0688bt.us4.h1clayd.click
+  tls: true
+  type: vless
+  udp: true
+  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
+  xudp: true
+- name: United States, Secaucus | [BL]-01
+  server: a0688bt.us4.h1clayd.click
+  port: 443
+  client-fingerprint: firefox
+  encryption: none
+  network: tcp
+  reality-opts:
+    public-key: 5-9YzvyXcZ4J5Z4OaVTUbxUU2InvnwT17m0XY-Jse1E
+    short-id: 257420d9d430152a
+  servername: a0688bt.us4.h1clayd.click
+  tls: true
+  type: vless
+  udp: true
+  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
+  xudp: true
+- name: United States, Secaucus | [BL]-02
+  server: a0688bt.us4.h1clayd.click
+  port: 443
+  client-fingerprint: ios
+  encryption: none
+  network: tcp
+  reality-opts:
+    public-key: 5-9YzvyXcZ4J5Z4OaVTUbxUU2InvnwT17m0XY-Jse1E
+    short-id: 257420d9d430152a
+  servername: a0688bt.us4.h1clayd.click
+  tls: true
+  type: vless
+  udp: true
+  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
+  xudp: true
+- name: United States, Secaucus | [BL]-03
+  server: a0688bt.us4.h1clayd.click
+  port: 443
+  client-fingerprint: qq
+  encryption: none
+  network: tcp
+  reality-opts:
+    public-key: 5-9YzvyXcZ4J5Z4OaVTUbxUU2InvnwT17m0XY-Jse1E
+    short-id: 257420d9d430152a
+  servername: a0688bt.us4.h1clayd.click
+  tls: true
+  type: vless
+  udp: true
+  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
+  xudp: true
+- name: United States, Secaucus | [BL]-04
+  server: a0688bt.us4.h1clayd.click
+  port: 443
+  client-fingerprint: safari
+  encryption: none
+  network: tcp
+  reality-opts:
+    public-key: 5-9YzvyXcZ4J5Z4OaVTUbxUU2InvnwT17m0XY-Jse1E
+    short-id: 257420d9d430152a
+  servername: a0688bt.us4.h1clayd.click
+  tls: true
+  type: vless
+  udp: true
+  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
+  xudp: true
+- name: Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]
+  server: 43.174.193.1
+  port: 443
+  client-fingerprint: chrome
+  encryption: none
+  network: ws
+  servername: ccc.010304.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI
+  xudp: true
+- name: Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-01
+  server: 43.174.193.1
+  port: 443
+  client-fingerprint: chrome
+  encryption: none
+  network: ws
+  servername: ccc.010304.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+    path: /
+  xudp: true
+- name: Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-02
+  server: 43.174.193.1
+  port: 443
+  client-fingerprint: edge
+  encryption: none
+  network: ws
+  servername: ccc.010304.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.110 Safari/537.36
+    path: /
+  xudp: true
+- name: Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-03
+  server: 43.174.193.1
+  port: 443
+  client-fingerprint: qq
+  encryption: none
+  network: ws
+  servername: ccc.010304.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /
+  xudp: true
+- name: Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-04
+  server: 43.174.193.1
+  port: 443
+  client-fingerprint: safari
+  encryption: none
+  network: ws
+  servername: ccc.010304.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /
+  xudp: true
+- name: Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-05
+  server: 43.174.193.1
+  port: 443
+  client-fingerprint: chrome
+  encryption: none
+  network: ws
+  servername: ccc.010304.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+  xudp: true
+- name: Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL]
+  server: 43.174.193.1
+  port: 443
+  client-fingerprint: chrome
+  encryption: none
+  network: ws
+  servername: ccc.010304.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /fp=chrome
+  xudp: true
+- name: Anycast-IP | 🇦🇹 🇩🇪 | [BL]
+  server: ss.ll0ll.vip
+  port: 2096
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+  network: grpc
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  servername: id.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e436321f-24a9-4c38-b935-7d7dee0c3f68
+  xudp: true
+- name: Anycast-IP | 🇦🇹 🇩🇪 | [BL]-01
+  server: ss.ll0ll.vip
+  port: 2096
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+  network: grpc
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  servername: id.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e436321f-24a9-4c38-b935-7d7dee0c3f68
+  xudp: true
+- name: Anycast-IP | 🇦🇹 🇩🇪 | [BL]-02
+  server: ss.ll0ll.vip
+  port: 2096
+  client-fingerprint: qq
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+  network: grpc
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  servername: id.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e436321f-24a9-4c38-b935-7d7dee0c3f68
+  xudp: true
+- name: Anycast-IP | 🇦🇹 🇩🇪 | [BL]-03
+  server: ss.ll0ll.vip
+  port: 2096
+  client-fingerprint: safari
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+  network: grpc
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  servername: id.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e436321f-24a9-4c38-b935-7d7dee0c3f68
+  xudp: true
+- name: Anycast-IP | 🇩🇪 🇪🇬 | [BL]
+  server: 94.249.195.177
+  port: 2027
+  client-fingerprint: chrome
+  network: xhttp
+  reality-opts:
+    public-key: EApxy12MeXpqt-78odxizwcXT6hX9f8XeAcbMDVRAV0
+    short-id: 6ba7b8109dad11d1
+  servername: nlka.skysafe.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6a6ac9b3-b336-44f7-a1c4-a03d6c2fae9e
+  xhttp-opts:
+    mode: auto
+    path: /patch
+  xudp: true
+- name: Anycast-IP | 🇩🇪 🇪🇬 | [BL]-01
+  server: 94.249.195.177
+  port: 2027
+  client-fingerprint: firefox
+  network: xhttp
+  reality-opts:
+    public-key: EApxy12MeXpqt-78odxizwcXT6hX9f8XeAcbMDVRAV0
+    short-id: 6ba7b8109dad11d1
+  servername: nlka.skysafe.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6a6ac9b3-b336-44f7-a1c4-a03d6c2fae9e
+  xhttp-opts:
+    mode: auto
+    path: /patch
+  xudp: true
+- name: Anycast-IP | 🇩🇪 🇪🇬 | [BL]-02
+  server: 94.249.195.177
+  port: 2027
+  client-fingerprint: ios
+  network: xhttp
+  reality-opts:
+    public-key: EApxy12MeXpqt-78odxizwcXT6hX9f8XeAcbMDVRAV0
+    short-id: 6ba7b8109dad11d1
+  servername: nlka.skysafe.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6a6ac9b3-b336-44f7-a1c4-a03d6c2fae9e
+  xhttp-opts:
+    mode: auto
+    path: /patch
+  xudp: true
+- name: Anycast-IP | 🇩🇪 🇪🇬 | [BL]-03
+  server: 94.249.195.177
+  port: 2027
+  client-fingerprint: qq
+  network: xhttp
+  reality-opts:
+    public-key: EApxy12MeXpqt-78odxizwcXT6hX9f8XeAcbMDVRAV0
+    short-id: 6ba7b8109dad11d1
+  servername: nlka.skysafe.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6a6ac9b3-b336-44f7-a1c4-a03d6c2fae9e
+  xhttp-opts:
+    mode: auto
+    path: /patch
+  xudp: true
+- name: Anycast-IP | 🇩🇪 🇪🇬 | [BL]-04
+  server: 94.249.195.177
+  port: 2027
+  client-fingerprint: safari
+  network: xhttp
+  reality-opts:
+    public-key: EApxy12MeXpqt-78odxizwcXT6hX9f8XeAcbMDVRAV0
+    short-id: 6ba7b8109dad11d1
+  servername: nlka.skysafe.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6a6ac9b3-b336-44f7-a1c4-a03d6c2fae9e
+  xhttp-opts:
+    mode: auto
+    path: /patch
+  xudp: true
+- name: Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-06
+  server: 43.174.193.1
+  port: 443
+  client-fingerprint: qq
+  encryption: none
+  network: ws
+  servername: ccc.010304.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.94 Safari/537.36
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI
+  xudp: true
+- name: Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-07
+  server: 43.174.193.1
+  port: 443
+  client-fingerprint: firefox
+  encryption: none
+  network: ws
+  servername: ccc.010304.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /fp
+  xudp: true
+- name: Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-08
+  server: 43.174.193.1
+  port: 443
+  client-fingerprint: qq
+  network: ws
+  servername: ccc.010304.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+    path: /fp=chromefp=chrome
+  xudp: true
+- name: Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇪 🇵🇱 | [BL]
+  server: 43.174.193.1
+  port: 443
+  client-fingerprint: firefox
+  encryption: none
+  network: ws
+  servername: ccc.010304.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+  xudp: true
+- name: Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇶 | [BL]
+  server: 43.174.193.1
+  port: 443
+  client-fingerprint: firefox
+  encryption: none
   network: ws
   servername: ccc.010304.xyz
   tls: true
@@ -310,10 +1421,10 @@ proxies:
     headers:
       Host: ccc.010304.xyz
       User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /
+        like Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI
   xudp: true
-- name: Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]
+- name: Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL]-01
   server: 43.174.193.1
   port: 443
   client-fingerprint: ios
@@ -327,156 +1438,14 @@ proxies:
   ws-opts:
     headers:
       Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/37.0.2062.120 Safari/537.36
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI
-  xudp: true
-- name: Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-01
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: firefox
-  encryption: none
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /
-  xudp: true
-- name: Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-02
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: chrome
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
-    path: /
-  xudp: true
-- name: Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 🇺🇸 | [BL]
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: safari
-  encryption: none
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /fp=chrome
-  xudp: true
-- name: Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇪 | [BL]
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: safari
-  encryption: none
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI
-  xudp: true
-- name: Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇪 🇵🇱 | [BL]
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: firefox
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.101 Safari/537.36
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome
-  xudp: true
-- name: Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇪 🇵🇱 | [BL]-01
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: ios
-  encryption: none
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /fp
-  xudp: true
-- name: Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇪 🇵🇱 | [BL]-02
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: firefox
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.106 Safari/537.36
-    path: /fp=chromefp=chrome
-  xudp: true
-- name: Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL]
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: android
-  encryption: none
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /fp=chrome
   xudp: true
 - name: Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]
   server: 43.174.193.1
   port: 443
-  client-fingerprint: chrome
-  encryption: none
+  client-fingerprint: android
   network: ws
   servername: ccc.010304.xyz
   tls: true
@@ -486,9 +1455,9 @@ proxies:
   ws-opts:
     headers:
       Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.102 Safari/537.36
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome
   xudp: true
 - name: Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-01
   server: 43.174.193.1
@@ -503,14 +1472,31 @@ proxies:
   ws-opts:
     headers:
       Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
-        (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/52.0.2743.116 Safari/537.36
     path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome
   xudp: true
 - name: Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-02
   server: 43.174.193.1
   port: 443
-  client-fingerprint: android
+  client-fingerprint: edge
+  network: ws
+  servername: ccc.010304.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome
+  xudp: true
+- name: Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-03
+  server: 43.174.193.1
+  port: 443
+  client-fingerprint: safari
   encryption: none
   network: ws
   servername: ccc.010304.xyz
@@ -521,11 +1507,11 @@ proxies:
   ws-opts:
     headers:
       Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
     path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
   xudp: true
-- name: Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-03
+- name: Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-04
   server: 43.174.193.1
   port: 443
   client-fingerprint: ios
@@ -539,62 +1525,9 @@ proxies:
   ws-opts:
     headers:
       Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/35.0.1916.153 Safari/537.36
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-  xudp: true
-- name: Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-04
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: safari
-  encryption: none
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.143 Safari/537.36
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-  xudp: true
-- name: Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-05
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: chrome
-  encryption: none
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
     path: /fp
-  xudp: true
-- name: Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-06
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: safari
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-    path: /fp=chromefp=chrome
   xudp: true
 - name: Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 🇺🇸 | [BL]
   server: 43.174.193.1
@@ -610,14 +1543,14 @@ proxies:
   ws-opts:
     headers:
       Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /fp
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /fp=chrome
   xudp: true
 - name: Anycast-IP | 🇦🇷 🇨🇦 🇵🇱 | [BL]
   server: 43.174.193.1
   port: 443
-  client-fingerprint: android
+  client-fingerprint: edge
   network: ws
   servername: ccc.010304.xyz
   tls: true
@@ -627,32 +1560,14 @@ proxies:
   ws-opts:
     headers:
       Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
     path: /fp=chromefp=chrome
   xudp: true
-- name: Anycast-IP | 🇦🇷 🇨🇦 🇵🇱 | [BL]-01
+- name: Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇮🇪 🇮🇶 🇵🇱 | [BL]
   server: 43.174.193.1
   port: 443
-  client-fingerprint: qq
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.101 Safari/537.36
-    path: /fp=chromefp=chrome
-  xudp: true
-- name: Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 | [BL]
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: qq
-  encryption: none
+  client-fingerprint: ios
   network: ws
   servername: ccc.010304.xyz
   tls: true
@@ -663,12 +1578,29 @@ proxies:
     headers:
       Host: ccc.010304.xyz
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.112 Safari/537.36
-    path: /fp=chrome
+        Gecko) Chrome/54.0.2840.71 Safari/537.36
+    path: /fp=chromefp=chrome
   xudp: true
 - name: Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]
   server: 43.174.193.1
   port: 443
+  client-fingerprint: firefox
+  network: ws
+  servername: ccc.010304.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/45.0.2454.101 Safari/537.36
+    path: /fp=chromefp=chrome
+  xudp: true
+- name: Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇵🇱 | [BL]
+  server: 43.174.193.1
+  port: 443
   client-fingerprint: chrome
   encryption: none
   network: ws
@@ -680,11 +1612,62 @@ proxies:
   ws-opts:
     headers:
       Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /fp
   xudp: true
-- name: Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇵🇱 | [BL]
+- name: Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇵🇱 🇺🇸 | [BL]
+  server: 43.174.193.1
+  port: 443
+  client-fingerprint: qq
+  network: ws
+  servername: ccc.010304.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome
+  xudp: true
+- name: Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇵🇱 🇺🇸 | [BL]-01
+  server: 43.174.193.1
+  port: 443
+  client-fingerprint: safari
+  network: ws
+  servername: ccc.010304.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.76 Safari/537.36
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome
+  xudp: true
+- name: Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇵🇱 🇺🇸 | [BL]-02
+  server: 43.174.193.1
+  port: 443
+  client-fingerprint: chrome
+  network: ws
+  servername: ccc.010304.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /fp=chromefp=chrome
+  xudp: true
+- name: Anycast-IP | 🇦🇷 🇩🇪 🇮🇶 🇵🇱 | [BL]
   server: 43.174.193.1
   port: 443
   client-fingerprint: android
@@ -698,117 +1681,14 @@ proxies:
   ws-opts:
     headers:
       Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
-        Slackware/Chrome/12.0.742.100 Safari/534.30
-    path: /
-  xudp: true
-- name: Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇵🇱 | [BL]-01
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: edge
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /
-  xudp: true
-- name: Anycast-IP | 🇦🇷 🇩🇪 🇮🇪 🇮🇶 🇵🇱 | [BL]
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: edge
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
-    path: /fp=chromefp=chrome
-  xudp: true
-- name: Anycast-IP | 🇦🇷 🇩🇪 🇵🇱 | [BL]
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: qq
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.116 Safari/537.36
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome
-  xudp: true
-- name: Anycast-IP | 🇦🇷 🇩🇪 🇵🇱 🇺🇸 | [BL]
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: qq
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /
-  xudp: true
-- name: Anycast-IP | 🇦🇷 🇩🇪 🇵🇱 🇺🇸 | [BL]-01
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: chrome
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.101 Safari/537.36
+        Gecko) Chrome/53.0.2785.143 Safari/537.36
     path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
   xudp: true
-- name: Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]
+- name: Anycast-IP | 🇦🇷 🇬🇧 🇵🇱 | [BL]
   server: 43.174.193.1
   port: 443
-  client-fingerprint: chrome
-  encryption: none
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /fp=chrome
-  xudp: true
-- name: Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]-01
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: chrome
+  client-fingerprint: edge
   encryption: none
   network: ws
   servername: ccc.010304.xyz
@@ -821,30 +1701,28 @@ proxies:
       Host: ccc.010304.xyz
       User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI
   xudp: true
-- name: Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]-02
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: edge
-  encryption: none
-  network: ws
-  servername: ccc.010304.xyz
+- name: Anycast-IP | 🇦🇹 🇩🇪 | [BL]-04
+  server: ss.ll0ll.vip
+  port: 2096
+  client-fingerprint: ios
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+  network: grpc
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  servername: id.vk.com
   tls: true
   type: vless
   udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI
+  uuid: e436321f-24a9-4c38-b935-7d7dee0c3f68
   xudp: true
-- name: Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]-03
+- name: Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 | [BL]
   server: 43.174.193.1
   port: 443
-  client-fingerprint: qq
+  client-fingerprint: android
   encryption: none
   network: ws
   servername: ccc.010304.xyz
@@ -856,13 +1734,13 @@ proxies:
     headers:
       Host: ccc.010304.xyz
       User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2272.104 Safari/537.36
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+        Chrome/39.0.2171.95 Safari/537.36
+    path: /fp=chrome
   xudp: true
-- name: Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]-04
+- name: Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇮🇪 🇵🇱 | [BL]
   server: 43.174.193.1
   port: 443
-  client-fingerprint: safari
+  client-fingerprint: qq
   encryption: none
   network: ws
   servername: ccc.010304.xyz
@@ -873,26 +1751,8 @@ proxies:
   ws-opts:
     headers:
       Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
-    path: /fp
-  xudp: true
-- name: Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇮🇶 🇵🇱 🇺🇸 | [BL]
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: android
-  encryption: none
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.110 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
     path: /fp
   xudp: true
 - name: Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]
@@ -910,66 +1770,12 @@ proxies:
     headers:
       Host: ccc.010304.xyz
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /fp=chrome
   xudp: true
 - name: Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-01
   server: 43.174.193.1
   port: 443
-  client-fingerprint: firefox
-  encryption: none
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /fp=chrome
-  xudp: true
-- name: Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-02
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: ios
-  encryption: none
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /fp=chrome
-  xudp: true
-- name: Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-03
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: firefox
-  encryption: none
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI
-  xudp: true
-- name: Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-04
-  server: 43.174.193.1
-  port: 443
   client-fingerprint: qq
   encryption: none
   network: ws
@@ -981,101 +1787,14 @@ proxies:
   ws-opts:
     headers:
       Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI
-  xudp: true
-- name: Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-05
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: android
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome
-  xudp: true
-- name: Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-06
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: edge
-  encryption: none
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-  xudp: true
-- name: Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-07
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: edge
-  encryption: none
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /fp
-  xudp: true
-- name: Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-08
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: chrome
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /fp=chrome
-  xudp: true
-- name: Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇵🇱 | [BL]
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: chrome
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /fp=chromefp=chrome
   xudp: true
 - name: Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL]
   server: 43.174.193.1
   port: 443
-  client-fingerprint: android
+  client-fingerprint: safari
   encryption: none
   network: ws
   servername: ccc.010304.xyz
@@ -1086,14 +1805,15 @@ proxies:
   ws-opts:
     headers:
       Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.102 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
     path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI
   xudp: true
 - name: Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL]-01
   server: 43.174.193.1
   port: 443
-  client-fingerprint: chrome
+  client-fingerprint: android
+  encryption: none
   network: ws
   servername: ccc.010304.xyz
   tls: true
@@ -1103,48 +1823,14 @@ proxies:
   ws-opts:
     headers:
       Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /fp=chromefp=chrome
-  xudp: true
-- name: Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 🇺🇸 | [BL]
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: safari
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
     path: /
   xudp: true
-- name: Anycast-IP | 🇨🇦 🇩🇪 🇵🇱 🇺🇸 | [BL]
+- name: Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇺🇸 | [BL]
   server: 43.174.193.1
   port: 443
-  client-fingerprint: safari
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome
-  xudp: true
-- name: Anycast-IP | 🇨🇦 🇩🇪 🇵🇱 🇺🇸 | [BL]-01
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: firefox
+  client-fingerprint: android
   encryption: none
   network: ws
   servername: ccc.010304.xyz
@@ -1155,336 +1841,26 @@ proxies:
   ws-opts:
     headers:
       Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/55.0.2883.87 Safari/537.36
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-  xudp: true
-- name: Anycast-IP | 🇨🇦 🇵🇱 | [BL]
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: ios
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome
-  xudp: true
-- name: Anycast-IP | 🇩🇪 🇬🇧 🇮🇪 🇮🇶 🇵🇱 | [BL]
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: chrome
-  encryption: none
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
-        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
+        wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
+        Mobile Safari/537.36
     path: /fp
   xudp: true
-- name: Anycast-IP | 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]
-  server: 43.174.193.1
+- name: Germany, Limburg an der Lahn | [BL]
+  server: 212.80.8.184
   port: 443
-  client-fingerprint: edge
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/69.0.3497.100 Safari/537.36
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome
-  xudp: true
-- name: Anycast-IP | 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]-01
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: firefox
-  encryption: none
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /fp
-  xudp: true
-- name: Anycast-IP | 🇩🇪 🇬🇧 🇮🇶 🇵🇱 🇺🇸 | [BL]
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: ios
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.112 Safari/537.36
-    path: /fp=chromefp=chrome
-  xudp: true
-- name: Anycast-IP | 🇩🇪 🇺🇦 | [BL]
-  server: 157.228.182.225
-  port: 443
-  client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
+  alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
   network: tcp
-  reality-opts:
-    public-key: KeICkezIir1GYyiS5bpRLLQqfRWBy4JXHRO-XLzWdFw
-    short-id: ''
-  servername: www.zabbix.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55ad002b-6cdf-4d76-81bb-91f3f605afc5
-  xudp: true
-- name: Anycast-IP | 🇫🇷 | [BL]
-  server: 199.232.78.170
-  port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  network: ws
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: XpnTeam-63
-  ws-opts:
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /
-  xudp: true
-- name: Anycast-IP | 🇫🇷 | [BL]-01
-  server: 199.232.78.160
-  port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  network: ws
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: XpnTeam-64
-  ws-opts:
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /
-  xudp: true
-- name: Anycast-IP | 🇫🇷 | [BL]-02
-  server: 199.232.78.170
-  port: 443
-  client-fingerprint: chrome
-  network: ws
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: XpnTeam-63
-  ws-opts:
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.102 Safari/537.36
-    path: /
-  xudp: true
-- name: Anycast-IP | 🇫🇷 | [BL]-03
-  server: 199.232.78.160
-  port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: qq
-  encryption: none
-  network: ws
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: XpnTeam-64
-  ws-opts:
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.110 Safari/537.36
-    path: /
-  xudp: true
-- name: Anycast-IP | 🇫🇷 | [BL]-04
-  server: 199.232.78.160
-  port: 443
-  client-fingerprint: chrome
-  network: ws
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: XpnTeam-64
-  ws-opts:
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/59.0.3071.115 Safari/537.36
-    path: /
-  xudp: true
-- name: Anycast-IP | 🇫🇷 🇺🇸 | [BL]
-  server: 199.232.78.170
-  port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: safari
-  encryption: none
-  network: ws
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: XpnTeam-63
-  ws-opts:
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
-    path: /
-  xudp: true
-- name: Anycast-IP | 🇫🇷 🇺🇸 | [BL]-01
-  server: 199.232.78.170
-  port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  network: ws
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: XpnTeam-63
-  ws-opts:
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /
-  xudp: true
-- name: Anycast-IP | 🇫🇷 🇺🇸 | [BL]-02
-  server: 199.232.78.160
-  port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  encryption: none
-  network: ws
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: XpnTeam-64
-  ws-opts:
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.110 Safari/537.36
-    path: /
-  xudp: true
-- name: Anycast-IP | 🇮🇪 🇮🇶 🇵🇱 | [BL]
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: chrome
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.76 Safari/537.36
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome
-  xudp: true
-- name: China, Jinrongjie (Xicheng District) | [BL]
-  server: 120.48.133.162
-  port: 10086
-  alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  network: ws
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: a8d931b0-6c27-428b-8d86-c20efea3dba7
-  ws-opts:
-    headers: {}
-    path: /
+  uuid: 9ed79305-5e4a-4977-92fb-014db8b0a62f
   xudp: true
-- name: China, Jinrongjie (Xicheng District) | [BL]-01
-  server: 120.48.133.162
-  port: 10086
-  alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  network: ws
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a8d931b0-6c27-428b-8d86-c20efea3dba7
-  ws-opts:
-    headers: {}
-    path: /
-  xudp: true
-- name: France, Gravelines | 🌐 | [BL]
-  server: 145.239.55.210
-  port: 80
-  alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  network: ws
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 067fcd63-b215-4abd-8529-ae929a9971a9
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
-    path: /
-  xudp: true
-- name: Germany, Nuremberg | 🌐 | [BL]
+- name: Germany, Nuremberg | [BL]
   server: 92.42.203.240
   port: 2052
   alpn:
@@ -1498,90 +1874,125 @@ proxies:
   udp: true
   uuid: 6a9d4c0b-938a-4b58-911d-e3ca45d17ab5
   xudp: true
-- name: Kazakhstan, Almaty | [BL]
-  server: 3h-kazakhstan1.09vpn.com
-  port: 80
-  alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  network: ws
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  ws-opts:
-    headers: {}
-    path: /vmess/
-  xudp: true
-- name: Kazakhstan, Almaty | [BL]-01
-  server: 38.107.234.57
-  port: 80
-  alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  network: ws
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  ws-opts:
-    headers:
-      Host: google.com
-    path: /vmess/
-  xudp: true
-- name: Kazakhstan, Almaty | [BL]-02
-  server: 38.107.234.57
-  port: 80
-  alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  network: ws
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  ws-opts:
-    headers: {}
-    path: /vmess/
-  xudp: true
-- name: Kazakhstan, Almaty | [BL]-03
-  server: 38.107.234.57
-  port: 80
-  alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  network: ws
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  ws-opts:
-    headers:
-      Host: 3h-kazakhstan1.09vpn.com
-    path: /vmess/
-  xudp: true
-- name: Turkey, Istanbul | [BL]
-  server: free.ertebatgoostar.ir
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
+  server: 45.131.4.38
   port: 443
   alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  network: tcp
+  - http/1.1
+  client-fingerprint: android
+  network: ws
+  password: humanity
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  sni: www.pleadcourt.org
+  type: trojan
   udp: true
-  uuid: 118b0abc-c8f6-476a-9777-bc73f6e2548b
-  xudp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.110 Safari/537.36
+    path: /assignment
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]-01
+  server: 45.131.4.38
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  network: ws
+  password: humanity
+  skip-cert-verify: false
+  sni: www.pleadcourt.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.110 Safari/537.36
+    path: /assignment
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]-02
+  server: 45.131.4.38
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: edge
+  network: ws
+  password: humanity
+  skip-cert-verify: false
+  sni: www.pleadcourt.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /assignment
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]-03
+  server: 45.131.4.38
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  network: ws
+  password: humanity
+  skip-cert-verify: false
+  sni: www.pleadcourt.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    path: /assignment
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]-04
+  server: 45.131.4.38
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: qq
+  network: ws
+  password: humanity
+  skip-cert-verify: false
+  sni: www.pleadcourt.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /assignment
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]-05
+  server: 8.47.69.0
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  network: ws
+  password: humanity
+  skip-cert-verify: false
+  sni: www.pleadcourt.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/42.0.2311.90 Safari/537.36
+    path: /assignment
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]-06
+  server: 8.47.69.0
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: safari
+  network: ws
+  password: humanity
+  skip-cert-verify: false
+  sni: www.pleadcourt.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /assignment
 - name: France, Paris | [BL]
   server: 141.193.213.172
   port: 443
@@ -1594,8 +2005,8 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.77 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
+        (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
     path: /assignment
 - name: France, Paris | [BL]-01
   server: 141.193.213.172
@@ -1609,8 +2020,8 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
     path: /assignment
 - name: France, Paris | [BL]-02
   server: 141.193.213.172
@@ -1624,8 +2035,8 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/39.0.2171.95 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /assignment
 - name: France, Paris | [BL]-03
   server: 141.193.213.172
@@ -1639,27 +2050,12 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/65.0.3325.181 Safari/537.36
     path: /assignment
 - name: France, Paris | [BL]-04
   server: 141.193.213.172
   port: 443
-  client-fingerprint: ios
-  network: ws
-  password: humanity
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /assignment
-- name: France, Paris | [BL]-05
-  server: 141.193.213.172
-  port: 443
   client-fingerprint: qq
   network: ws
   password: humanity
@@ -1669,254 +2065,14 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /assignment
-- name: France, Paris | [BL]-06
-  server: 141.193.213.172
-  port: 443
-  client-fingerprint: safari
-  network: ws
-  password: humanity
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
-    path: /assignment
-- name: France, Paris | [BL]-07
-  server: 141.193.213.172
-  port: 443
-  client-fingerprint: chrome
-  network: ws
-  password: humanity
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /assignment
-- name: France, Paris | [BL]-08
-  server: 194.147.149.54
-  port: 443
-  client-fingerprint: chrome
-  network: ws
-  password: humanity
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /assignment
-- name: France, Paris | [BL]-09
-  server: 194.147.149.54
-  port: 443
-  client-fingerprint: chrome
-  network: ws
-  password: humanity
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /assignment
-- name: France, Paris | [BL]-10
-  server: 194.147.149.54
-  port: 443
-  client-fingerprint: edge
-  network: ws
-  password: humanity
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
         Safari/537.36
     path: /assignment
-- name: France, Paris | [BL]-11
+- name: France, Paris | [BL]-05
   server: 194.147.149.54
-  port: 443
-  client-fingerprint: firefox
-  network: ws
-  password: humanity
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /assignment
-- name: France, Paris | [BL]-12
-  server: 194.147.149.54
-  port: 443
-  client-fingerprint: ios
-  network: ws
-  password: humanity
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /assignment
-- name: France, Paris | [BL]-13
-  server: 194.147.149.54
-  port: 443
-  client-fingerprint: qq
-  network: ws
-  password: humanity
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
-    path: /assignment
-- name: France, Paris | [BL]-14
-  server: 194.147.149.54
-  port: 443
-  client-fingerprint: safari
-  network: ws
-  password: humanity
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /assignment
-- name: France, Paris | [BL]-15
-  server: 45.80.111.7
   port: 443
   client-fingerprint: chrome
-  network: ws
-  password: humanity
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /assignment
-- name: France, Paris | [BL]-16
-  server: 45.80.111.7
-  port: 443
-  client-fingerprint: android
-  network: ws
-  password: humanity
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.106 Safari/537.36
-    path: /assignment
-- name: France, Paris | [BL]-17
-  server: 45.80.111.7
-  port: 443
-  client-fingerprint: chrome
-  network: ws
-  password: humanity
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-    path: /assignment
-- name: France, Paris | [BL]-18
-  server: 45.80.111.7
-  port: 443
-  client-fingerprint: edge
-  network: ws
-  password: humanity
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/50.0.2661.102 Safari/537.36
-    path: /assignment
-- name: France, Paris | [BL]-19
-  server: 45.80.111.7
-  port: 443
-  client-fingerprint: firefox
-  network: ws
-  password: humanity
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
-    path: /assignment
-- name: France, Paris | [BL]-20
-  server: 45.80.111.7
-  port: 443
-  client-fingerprint: ios
-  network: ws
-  password: humanity
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/69.0.3497.100 Safari/537.36
-    path: /assignment
-- name: France, Paris | [BL]-21
-  server: 45.80.111.7
-  port: 443
-  client-fingerprint: qq
-  network: ws
-  password: humanity
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.76 Safari/537.36
-    path: /assignment
-- name: France, Paris | [BL]-22
-  server: 45.80.111.7
-  port: 443
-  client-fingerprint: safari
   network: ws
   password: humanity
   skip-cert-verify: false
@@ -1926,12 +2082,147 @@ proxies:
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/55.0.2883.87 Safari/537.36
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /assignment
+- name: France, Paris | [BL]-06
+  server: 194.147.149.54
+  port: 443
+  client-fingerprint: edge
+  network: ws
+  password: humanity
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+    path: /assignment
+- name: France, Paris | [BL]-07
+  server: 194.147.149.54
+  port: 443
+  client-fingerprint: firefox
+  network: ws
+  password: humanity
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
+    path: /assignment
+- name: France, Paris | [BL]-08
+  server: 194.147.149.54
+  port: 443
+  client-fingerprint: ios
+  network: ws
+  password: humanity
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /assignment
+- name: France, Paris | [BL]-09
+  server: 194.147.149.54
+  port: 443
+  client-fingerprint: qq
+  network: ws
+  password: humanity
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /assignment
+- name: France, Paris | [BL]-10
+  server: 45.80.111.7
+  port: 443
+  client-fingerprint: android
+  network: ws
+  password: humanity
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.71 Safari/537.36
+    path: /assignment
+- name: France, Paris | [BL]-11
+  server: 45.80.111.7
+  port: 443
+  client-fingerprint: chrome
+  network: ws
+  password: humanity
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /assignment
+- name: France, Paris | [BL]-12
+  server: 45.80.111.7
+  port: 443
+  client-fingerprint: edge
+  network: ws
+  password: humanity
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /assignment
+- name: France, Paris | [BL]-13
+  server: 45.80.111.7
+  port: 443
+  client-fingerprint: firefox
+  network: ws
+  password: humanity
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /assignment
+- name: France, Paris | [BL]-14
+  server: 45.80.111.7
+  port: 443
+  client-fingerprint: ios
+  network: ws
+  password: humanity
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/35.0.1916.153 Safari/537.36
     path: /assignment
 - name: Lithuania, Šiauliai | [BL]
   server: 176.114.95.242
   port: 443
-  client-fingerprint: chrome
+  client-fingerprint: android
   password: UAKWGor-h0woFsxKSWK92HptcM0g2k2h
   skip-cert-verify: false
   sni: lt-1.1984.love
@@ -1940,7 +2231,7 @@ proxies:
 - name: Lithuania, Šiauliai | [BL]-01
   server: 176.114.95.242
   port: 443
-  client-fingerprint: android
+  client-fingerprint: ios
   password: UAKWGor-h0woFsxKSWK92HptcM0g2k2h
   skip-cert-verify: false
   sni: lt-1.1984.love
@@ -1949,7 +2240,7 @@ proxies:
 - name: Lithuania, Šiauliai | [BL]-02
   server: 176.114.95.242
   port: 443
-  client-fingerprint: ios
+  client-fingerprint: qq
   password: UAKWGor-h0woFsxKSWK92HptcM0g2k2h
   skip-cert-verify: false
   sni: lt-1.1984.love
@@ -1958,37 +2249,18 @@ proxies:
 - name: Lithuania, Šiauliai | [BL]-03
   server: 176.114.95.242
   port: 443
-  client-fingerprint: qq
-  password: UAKWGor-h0woFsxKSWK92HptcM0g2k2h
-  skip-cert-verify: false
-  sni: lt-1.1984.love
-  type: trojan
-  udp: true
-- name: Lithuania, Šiauliai | [BL]-04
-  server: 176.114.95.242
-  port: 443
   client-fingerprint: safari
-  password: UAKWGor-h0woFsxKSWK92HptcM0g2k2h
-  skip-cert-verify: false
-  sni: lt-1.1984.love
-  type: trojan
-  udp: true
-- name: Lithuania, Šiauliai | [BL]-05
-  server: 176.114.95.242
-  port: 443
-  client-fingerprint: firefox
-  network: tcp
   password: UAKWGor-h0woFsxKSWK92HptcM0g2k2h
   skip-cert-verify: false
   sni: lt-1.1984.love
   type: trojan
   udp: true
 - name: The Netherlands, Haarlem | [BL]
-  server: 45.131.4.38
+  server: 8.47.69.0
   port: 443
   alpn:
   - http/1.1
-  client-fingerprint: chrome
+  client-fingerprint: edge
   network: ws
   password: humanity
   skip-cert-verify: false
@@ -1997,117 +2269,15 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/46.0.2490.71 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /assignment
 - name: The Netherlands, Haarlem | [BL]-01
-  server: 45.131.4.38
-  port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  network: ws
-  password: humanity
-  skip-cert-verify: false
-  sni: www.pleadcourt.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /assignment
-- name: The Netherlands, Haarlem | [BL]-02
-  server: 45.131.4.38
+  server: 8.47.69.0
   port: 443
   alpn:
   - http/1.1
   client-fingerprint: ios
-  network: ws
-  password: humanity
-  skip-cert-verify: false
-  sni: www.pleadcourt.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /assignment
-- name: The Netherlands, Haarlem | [BL]-03
-  server: 45.131.4.38
-  port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: unsafe
-  network: ws
-  password: humanity
-  skip-cert-verify: false
-  sni: www.pleadcourt.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /assignment
-- name: The Netherlands, Haarlem | [BL]-04
-  server: 45.131.4.38
-  port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: qq
-  network: ws
-  password: humanity
-  skip-cert-verify: false
-  sni: www.pleadcourt.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /assignment
-- name: The Netherlands, Haarlem | [BL]-05
-  server: 45.131.4.38
-  port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: safari
-  network: ws
-  password: humanity
-  skip-cert-verify: false
-  sni: www.pleadcourt.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.71 Safari/537.36
-    path: /assignment
-- name: The Netherlands, Haarlem | [BL]-06
-  server: 8.47.69.0
-  port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: safari
-  network: ws
-  password: humanity
-  skip-cert-verify: false
-  sni: www.pleadcourt.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /assignment
-- name: The Netherlands, Haarlem | [BL]-07
-  server: 8.47.69.0
-  port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: android
   network: ws
   password: humanity
   skip-cert-verify: false
@@ -2119,7 +2289,7 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /assignment
-- name: The Netherlands, Haarlem | [BL]-08
+- name: The Netherlands, Haarlem | [BL]-02
   server: 8.47.69.0
   port: 443
   alpn:
@@ -2133,46 +2303,12 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
-        (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/56.0.2924.87 Safari/537.36
     path: /assignment
-- name: The Netherlands, Haarlem | [BL]-09
+- name: The Netherlands, Haarlem | [BL]-03
   server: 8.47.69.0
   port: 443
-  client-fingerprint: firefox
-  network: ws
-  password: humanity
-  skip-cert-verify: false
-  sni: www.pleadcourt.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
-    path: /assignment
-- name: The Netherlands, Haarlem | [BL]-10
-  server: 8.47.69.0
-  port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: unsafe
-  network: ws
-  password: humanity
-  skip-cert-verify: false
-  sni: www.pleadcourt.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /assignment
-- name: The Netherlands, Haarlem | [BL]-11
-  server: 8.47.69.0
-  port: 443
-  alpn:
-  - http/1.1
   client-fingerprint: chrome
   network: ws
   password: humanity
@@ -2183,39 +2319,9 @@ proxies:
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
     path: /assignment
-- name: The Netherlands, Haarlem | [BL]-12
-  server: 8.47.69.0
-  port: 443
-  client-fingerprint: android
-  network: ws
-  password: humanity
-  skip-cert-verify: false
-  sni: www.pleadcourt.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /assignment
-- name: The Netherlands, Haarlem | [BL]-13
-  server: 8.47.69.0
-  port: 443
-  client-fingerprint: chrome
-  network: ws
-  password: humanity
-  skip-cert-verify: false
-  sni: www.pleadcourt.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /assignment
-- name: The Netherlands, Haarlem | [BL]-14
+- name: The Netherlands, Haarlem | [BL]-04
   server: 8.47.69.0
   port: 443
   client-fingerprint: edge
@@ -2227,13 +2333,13 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+        Slackware/Chrome/12.0.742.100 Safari/534.30
     path: /assignment
-- name: The Netherlands, Haarlem | [BL]-15
+- name: The Netherlands, Haarlem | [BL]-05
   server: 8.47.69.0
   port: 443
-  client-fingerprint: safari
+  client-fingerprint: firefox
   network: ws
   password: humanity
   skip-cert-verify: false
@@ -2242,14 +2348,13 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
-        Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /assignment
-- name: The Netherlands, Haarlem | [BL]-16
+- name: The Netherlands, Haarlem | [BL]-06
   server: 8.47.69.0
   port: 443
-  client-fingerprint: chrome
+  client-fingerprint: ios
   network: ws
   password: humanity
   skip-cert-verify: false
@@ -2258,13 +2363,13 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
     path: /assignment
 - name: United States, Ashburn | [BL]
   server: 176.114.95.242
   port: 443
-  client-fingerprint: chrome
+  client-fingerprint: android
   network: tcp
   password: UAKWGor-h0woFsxKSWK92HptcM0g2k2h
   skip-cert-verify: false
@@ -2274,7 +2379,7 @@ proxies:
 - name: United States, Ashburn | [BL]-01
   server: 176.114.95.242
   port: 443
-  client-fingerprint: android
+  client-fingerprint: edge
   network: tcp
   password: UAKWGor-h0woFsxKSWK92HptcM0g2k2h
   skip-cert-verify: false
@@ -2284,7 +2389,7 @@ proxies:
 - name: United States, Ashburn | [BL]-02
   server: 176.114.95.242
   port: 443
-  client-fingerprint: edge
+  client-fingerprint: firefox
   network: tcp
   password: UAKWGor-h0woFsxKSWK92HptcM0g2k2h
   skip-cert-verify: false
@@ -2294,41 +2399,11 @@ proxies:
 - name: United States, Ashburn | [BL]-03
   server: 176.114.95.242
   port: 443
-  client-fingerprint: firefox
-  network: tcp
-  password: UAKWGor-h0woFsxKSWK92HptcM0g2k2h
-  skip-cert-verify: false
-  sni: us-1.1984.love
-  type: trojan
-  udp: true
-- name: United States, Ashburn | [BL]-04
-  server: 176.114.95.242
-  port: 443
   client-fingerprint: qq
   network: tcp
   password: UAKWGor-h0woFsxKSWK92HptcM0g2k2h
   skip-cert-verify: false
   sni: us-1.1984.love
-  type: trojan
-  udp: true
-- name: United States, Ashburn | [BL]-05
-  server: 176.114.95.242
-  port: 443
-  client-fingerprint: safari
-  network: tcp
-  password: UAKWGor-h0woFsxKSWK92HptcM0g2k2h
-  skip-cert-verify: false
-  sni: us-1.1984.love
-  type: trojan
-  udp: true
-- name: United States, Orem | [BL]-01
-  server: angelvpn.angelmh.cv
-  port: 1633
-  client-fingerprint: chrome
-  network: tcp
-  password: ltgp0n3l2z4f7t57
-  skip-cert-verify: false
-  sni: fornex.com
   type: trojan
   udp: true
 proxy-groups:
@@ -2342,91 +2417,120 @@ proxy-groups:
   - Estonia, Tallinn | [BL]-02
   - Estonia, Tallinn | [BL]-03
   - Estonia, Tallinn | [BL]-04
-  - Estonia, Tallinn | [BL]-05
-  - Estonia, Tallinn | [BL]-06
-  - Estonia, Tallinn | [BL]-07
-  - Estonia, Tallinn | [BL]-08
+  - France, Lille | [BL]
+  - France, Lille | [BL]-01
+  - France, Lille | [BL]-02
+  - France, Lille | [BL]-03
+  - France, Lille | [BL]-04
   - France, Paris | 🌐 | [BL]
   - France, Paris | 🌐 | [BL]-01
   - France, Paris | 🌐 | [BL]-02
+  - France, Paris | 🌐 | [BL]-03
+  - France, Paris | 🌐 | [BL]-04
   - Germany, Frankfurt am Main | [BL]
   - Germany, Frankfurt am Main | [BL]-01
-  - Poland, Warsaw | [BL]
-  - Poland, Warsaw | [BL]-01
-  - United States, Orem | [BL]
-  - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 | [BL]
+  - Germany, Frankfurt am Main | [BL]-02
+  - Germany, Frankfurt am Main | [BL]-03
+  - Germany, Frankfurt am Main | [BL]-04
+  - Germany, Frankfurt am Main | 🌐 | [BL]
+  - Germany, Frankfurt am Main | 🌐 | [BL]-01
+  - Germany, Frankfurt am Main | 🌐 | [BL]-02
+  - Germany, Frankfurt am Main | 🌐 | [BL]-03
+  - Germany, Frankfurt am Main | 🌐 | [BL]-04
+  - Poland, Warsaw | 🌐 | [BL]
+  - Poland, Warsaw | 🌐 | [BL]-01
+  - Poland, Warsaw | 🌐 | [BL]-02
+  - Poland, Warsaw | 🌐 | [BL]-03
+  - Poland, Warsaw | 🌐 | [BL]-04
+  - Poland, Warsaw | 🌐 | [BL]-05
+  - Poland, Warsaw | 🌐 | [BL]-06
+  - Poland, Warsaw | 🌐 | [BL]-07
+  - Poland, Warsaw | 🌐 | [BL]-08
+  - Poland, Warsaw | 🌐 | [BL]-09
+  - Poland, Warsaw | 🌐 | [BL]-10
+  - Poland, Warsaw | 🌐 | [BL]-11
+  - Poland, Warsaw | 🌐 | [BL]-12
+  - Poland, Warsaw | 🌐 | [BL]-13
+  - Poland, Warsaw | 🌐 | [BL]-14
+  - Sweden, Vaxjo | [BL]
+  - Sweden, Vaxjo | [BL]-01
+  - Sweden, Vaxjo | [BL]-02
+  - Sweden, Vaxjo | [BL]-03
+  - Sweden, Vaxjo | [BL]-04
+  - Taiwan, Taipei | 🌐 | [BL]
+  - Taiwan, Taipei | 🌐 | [BL]-01
+  - Taiwan, Taipei | 🌐 | [BL]-02
+  - Taiwan, Taipei | 🌐 | [BL]-03
+  - Taiwan, Taipei | 🌐 | [BL]-04
+  - The Netherlands, Amsterdam | [BL]
+  - The Netherlands, Amsterdam | [BL]-01
+  - The Netherlands, Amsterdam | [BL]-02
+  - The Netherlands, Amsterdam | [BL]-03
+  - The Netherlands, Amsterdam | [BL]-04
+  - United States, Detroit | [BL]
+  - United States, Detroit | [BL]-01
+  - United States, Detroit | [BL]-02
+  - United States, Detroit | [BL]-03
+  - United States, Detroit | [BL]-04
+  - United States, Secaucus | [BL]
+  - United States, Secaucus | [BL]-01
+  - United States, Secaucus | [BL]-02
+  - United States, Secaucus | [BL]-03
+  - United States, Secaucus | [BL]-04
   - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]
   - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-01
   - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-02
-  - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 🇺🇸 | [BL]
-  - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇪 | [BL]
-  - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇪 🇵🇱 | [BL]
-  - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇪 🇵🇱 | [BL]-01
-  - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇪 🇵🇱 | [BL]-02
+  - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-03
+  - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-04
+  - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-05
   - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL]
+  - Anycast-IP | 🇦🇹 🇩🇪 | [BL]
+  - Anycast-IP | 🇦🇹 🇩🇪 | [BL]-01
+  - Anycast-IP | 🇦🇹 🇩🇪 | [BL]-02
+  - Anycast-IP | 🇦🇹 🇩🇪 | [BL]-03
+  - Anycast-IP | 🇩🇪 🇪🇬 | [BL]
+  - Anycast-IP | 🇩🇪 🇪🇬 | [BL]-01
+  - Anycast-IP | 🇩🇪 🇪🇬 | [BL]-02
+  - Anycast-IP | 🇩🇪 🇪🇬 | [BL]-03
+  - Anycast-IP | 🇩🇪 🇪🇬 | [BL]-04
+  - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-06
+  - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-07
+  - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-08
+  - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇪 🇵🇱 | [BL]
+  - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇶 | [BL]
+  - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL]-01
   - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]
   - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-01
   - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-02
   - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-03
   - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-04
-  - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-05
-  - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-06
   - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 🇺🇸 | [BL]
   - Anycast-IP | 🇦🇷 🇨🇦 🇵🇱 | [BL]
-  - Anycast-IP | 🇦🇷 🇨🇦 🇵🇱 | [BL]-01
-  - Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 | [BL]
+  - Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇮🇪 🇮🇶 🇵🇱 | [BL]
   - Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]
   - Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇵🇱 | [BL]
-  - Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇵🇱 | [BL]-01
-  - Anycast-IP | 🇦🇷 🇩🇪 🇮🇪 🇮🇶 🇵🇱 | [BL]
-  - Anycast-IP | 🇦🇷 🇩🇪 🇵🇱 | [BL]
-  - Anycast-IP | 🇦🇷 🇩🇪 🇵🇱 🇺🇸 | [BL]
-  - Anycast-IP | 🇦🇷 🇩🇪 🇵🇱 🇺🇸 | [BL]-01
-  - Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]
-  - Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]-01
-  - Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]-02
-  - Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]-03
-  - Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]-04
-  - Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇮🇶 🇵🇱 🇺🇸 | [BL]
+  - Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇵🇱 🇺🇸 | [BL]
+  - Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇵🇱 🇺🇸 | [BL]-01
+  - Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇵🇱 🇺🇸 | [BL]-02
+  - Anycast-IP | 🇦🇷 🇩🇪 🇮🇶 🇵🇱 | [BL]
+  - Anycast-IP | 🇦🇷 🇬🇧 🇵🇱 | [BL]
+  - Anycast-IP | 🇦🇹 🇩🇪 | [BL]-04
+  - Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 | [BL]
+  - Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇮🇪 🇵🇱 | [BL]
   - Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]
   - Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-01
-  - Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-02
-  - Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-03
-  - Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-04
-  - Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-05
-  - Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-06
-  - Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-07
-  - Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-08
-  - Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇵🇱 | [BL]
   - Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL]
   - Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL]-01
-  - Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 🇺🇸 | [BL]
-  - Anycast-IP | 🇨🇦 🇩🇪 🇵🇱 🇺🇸 | [BL]
-  - Anycast-IP | 🇨🇦 🇩🇪 🇵🇱 🇺🇸 | [BL]-01
-  - Anycast-IP | 🇨🇦 🇵🇱 | [BL]
-  - Anycast-IP | 🇩🇪 🇬🇧 🇮🇪 🇮🇶 🇵🇱 | [BL]
-  - Anycast-IP | 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]
-  - Anycast-IP | 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]-01
-  - Anycast-IP | 🇩🇪 🇬🇧 🇮🇶 🇵🇱 🇺🇸 | [BL]
-  - Anycast-IP | 🇩🇪 🇺🇦 | [BL]
-  - Anycast-IP | 🇫🇷 | [BL]
-  - Anycast-IP | 🇫🇷 | [BL]-01
-  - Anycast-IP | 🇫🇷 | [BL]-02
-  - Anycast-IP | 🇫🇷 | [BL]-03
-  - Anycast-IP | 🇫🇷 | [BL]-04
-  - Anycast-IP | 🇫🇷 🇺🇸 | [BL]
-  - Anycast-IP | 🇫🇷 🇺🇸 | [BL]-01
-  - Anycast-IP | 🇫🇷 🇺🇸 | [BL]-02
-  - Anycast-IP | 🇮🇪 🇮🇶 🇵🇱 | [BL]
-  - China, Jinrongjie (Xicheng District) | [BL]
-  - China, Jinrongjie (Xicheng District) | [BL]-01
-  - France, Gravelines | 🌐 | [BL]
-  - Germany, Nuremberg | 🌐 | [BL]
-  - Kazakhstan, Almaty | [BL]
-  - Kazakhstan, Almaty | [BL]-01
-  - Kazakhstan, Almaty | [BL]-02
-  - Kazakhstan, Almaty | [BL]-03
-  - Turkey, Istanbul | [BL]
+  - Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇺🇸 | [BL]
+  - Germany, Limburg an der Lahn | [BL]
+  - Germany, Nuremberg | [BL]
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]-01
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]-02
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]-03
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]-04
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]-05
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]-06
   - France, Paris | [BL]
   - France, Paris | [BL]-01
   - France, Paris | [BL]-02
@@ -2442,20 +2546,10 @@ proxy-groups:
   - France, Paris | [BL]-12
   - France, Paris | [BL]-13
   - France, Paris | [BL]-14
-  - France, Paris | [BL]-15
-  - France, Paris | [BL]-16
-  - France, Paris | [BL]-17
-  - France, Paris | [BL]-18
-  - France, Paris | [BL]-19
-  - France, Paris | [BL]-20
-  - France, Paris | [BL]-21
-  - France, Paris | [BL]-22
   - Lithuania, Šiauliai | [BL]
   - Lithuania, Šiauliai | [BL]-01
   - Lithuania, Šiauliai | [BL]-02
   - Lithuania, Šiauliai | [BL]-03
-  - Lithuania, Šiauliai | [BL]-04
-  - Lithuania, Šiauliai | [BL]-05
   - The Netherlands, Haarlem | [BL]
   - The Netherlands, Haarlem | [BL]-01
   - The Netherlands, Haarlem | [BL]-02
@@ -2463,23 +2557,10 @@ proxy-groups:
   - The Netherlands, Haarlem | [BL]-04
   - The Netherlands, Haarlem | [BL]-05
   - The Netherlands, Haarlem | [BL]-06
-  - The Netherlands, Haarlem | [BL]-07
-  - The Netherlands, Haarlem | [BL]-08
-  - The Netherlands, Haarlem | [BL]-09
-  - The Netherlands, Haarlem | [BL]-10
-  - The Netherlands, Haarlem | [BL]-11
-  - The Netherlands, Haarlem | [BL]-12
-  - The Netherlands, Haarlem | [BL]-13
-  - The Netherlands, Haarlem | [BL]-14
-  - The Netherlands, Haarlem | [BL]-15
-  - The Netherlands, Haarlem | [BL]-16
   - United States, Ashburn | [BL]
   - United States, Ashburn | [BL]-01
   - United States, Ashburn | [BL]-02
   - United States, Ashburn | [BL]-03
-  - United States, Ashburn | [BL]-04
-  - United States, Ashburn | [BL]-05
-  - United States, Orem | [BL]-01
 - name: 自动选择
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -2491,91 +2572,120 @@ proxy-groups:
   - Estonia, Tallinn | [BL]-02
   - Estonia, Tallinn | [BL]-03
   - Estonia, Tallinn | [BL]-04
-  - Estonia, Tallinn | [BL]-05
-  - Estonia, Tallinn | [BL]-06
-  - Estonia, Tallinn | [BL]-07
-  - Estonia, Tallinn | [BL]-08
+  - France, Lille | [BL]
+  - France, Lille | [BL]-01
+  - France, Lille | [BL]-02
+  - France, Lille | [BL]-03
+  - France, Lille | [BL]-04
   - France, Paris | 🌐 | [BL]
   - France, Paris | 🌐 | [BL]-01
   - France, Paris | 🌐 | [BL]-02
+  - France, Paris | 🌐 | [BL]-03
+  - France, Paris | 🌐 | [BL]-04
   - Germany, Frankfurt am Main | [BL]
   - Germany, Frankfurt am Main | [BL]-01
-  - Poland, Warsaw | [BL]
-  - Poland, Warsaw | [BL]-01
-  - United States, Orem | [BL]
-  - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 | [BL]
+  - Germany, Frankfurt am Main | [BL]-02
+  - Germany, Frankfurt am Main | [BL]-03
+  - Germany, Frankfurt am Main | [BL]-04
+  - Germany, Frankfurt am Main | 🌐 | [BL]
+  - Germany, Frankfurt am Main | 🌐 | [BL]-01
+  - Germany, Frankfurt am Main | 🌐 | [BL]-02
+  - Germany, Frankfurt am Main | 🌐 | [BL]-03
+  - Germany, Frankfurt am Main | 🌐 | [BL]-04
+  - Poland, Warsaw | 🌐 | [BL]
+  - Poland, Warsaw | 🌐 | [BL]-01
+  - Poland, Warsaw | 🌐 | [BL]-02
+  - Poland, Warsaw | 🌐 | [BL]-03
+  - Poland, Warsaw | 🌐 | [BL]-04
+  - Poland, Warsaw | 🌐 | [BL]-05
+  - Poland, Warsaw | 🌐 | [BL]-06
+  - Poland, Warsaw | 🌐 | [BL]-07
+  - Poland, Warsaw | 🌐 | [BL]-08
+  - Poland, Warsaw | 🌐 | [BL]-09
+  - Poland, Warsaw | 🌐 | [BL]-10
+  - Poland, Warsaw | 🌐 | [BL]-11
+  - Poland, Warsaw | 🌐 | [BL]-12
+  - Poland, Warsaw | 🌐 | [BL]-13
+  - Poland, Warsaw | 🌐 | [BL]-14
+  - Sweden, Vaxjo | [BL]
+  - Sweden, Vaxjo | [BL]-01
+  - Sweden, Vaxjo | [BL]-02
+  - Sweden, Vaxjo | [BL]-03
+  - Sweden, Vaxjo | [BL]-04
+  - Taiwan, Taipei | 🌐 | [BL]
+  - Taiwan, Taipei | 🌐 | [BL]-01
+  - Taiwan, Taipei | 🌐 | [BL]-02
+  - Taiwan, Taipei | 🌐 | [BL]-03
+  - Taiwan, Taipei | 🌐 | [BL]-04
+  - The Netherlands, Amsterdam | [BL]
+  - The Netherlands, Amsterdam | [BL]-01
+  - The Netherlands, Amsterdam | [BL]-02
+  - The Netherlands, Amsterdam | [BL]-03
+  - The Netherlands, Amsterdam | [BL]-04
+  - United States, Detroit | [BL]
+  - United States, Detroit | [BL]-01
+  - United States, Detroit | [BL]-02
+  - United States, Detroit | [BL]-03
+  - United States, Detroit | [BL]-04
+  - United States, Secaucus | [BL]
+  - United States, Secaucus | [BL]-01
+  - United States, Secaucus | [BL]-02
+  - United States, Secaucus | [BL]-03
+  - United States, Secaucus | [BL]-04
   - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]
   - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-01
   - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-02
-  - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 🇺🇸 | [BL]
-  - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇪 | [BL]
-  - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇪 🇵🇱 | [BL]
-  - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇪 🇵🇱 | [BL]-01
-  - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇪 🇵🇱 | [BL]-02
+  - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-03
+  - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-04
+  - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-05
   - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL]
+  - Anycast-IP | 🇦🇹 🇩🇪 | [BL]
+  - Anycast-IP | 🇦🇹 🇩🇪 | [BL]-01
+  - Anycast-IP | 🇦🇹 🇩🇪 | [BL]-02
+  - Anycast-IP | 🇦🇹 🇩🇪 | [BL]-03
+  - Anycast-IP | 🇩🇪 🇪🇬 | [BL]
+  - Anycast-IP | 🇩🇪 🇪🇬 | [BL]-01
+  - Anycast-IP | 🇩🇪 🇪🇬 | [BL]-02
+  - Anycast-IP | 🇩🇪 🇪🇬 | [BL]-03
+  - Anycast-IP | 🇩🇪 🇪🇬 | [BL]-04
+  - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-06
+  - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-07
+  - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-08
+  - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇪 🇵🇱 | [BL]
+  - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇶 | [BL]
+  - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL]-01
   - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]
   - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-01
   - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-02
   - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-03
   - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-04
-  - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-05
-  - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-06
   - Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 🇺🇸 | [BL]
   - Anycast-IP | 🇦🇷 🇨🇦 🇵🇱 | [BL]
-  - Anycast-IP | 🇦🇷 🇨🇦 🇵🇱 | [BL]-01
-  - Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 | [BL]
+  - Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇮🇪 🇮🇶 🇵🇱 | [BL]
   - Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]
   - Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇵🇱 | [BL]
-  - Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇵🇱 | [BL]-01
-  - Anycast-IP | 🇦🇷 🇩🇪 🇮🇪 🇮🇶 🇵🇱 | [BL]
-  - Anycast-IP | 🇦🇷 🇩🇪 🇵🇱 | [BL]
-  - Anycast-IP | 🇦🇷 🇩🇪 🇵🇱 🇺🇸 | [BL]
-  - Anycast-IP | 🇦🇷 🇩🇪 🇵🇱 🇺🇸 | [BL]-01
-  - Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]
-  - Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]-01
-  - Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]-02
-  - Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]-03
-  - Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]-04
-  - Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇮🇶 🇵🇱 🇺🇸 | [BL]
+  - Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇵🇱 🇺🇸 | [BL]
+  - Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇵🇱 🇺🇸 | [BL]-01
+  - Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇵🇱 🇺🇸 | [BL]-02
+  - Anycast-IP | 🇦🇷 🇩🇪 🇮🇶 🇵🇱 | [BL]
+  - Anycast-IP | 🇦🇷 🇬🇧 🇵🇱 | [BL]
+  - Anycast-IP | 🇦🇹 🇩🇪 | [BL]-04
+  - Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 | [BL]
+  - Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇮🇪 🇵🇱 | [BL]
   - Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]
   - Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-01
-  - Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-02
-  - Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-03
-  - Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-04
-  - Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-05
-  - Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-06
-  - Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-07
-  - Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-08
-  - Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇵🇱 | [BL]
   - Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL]
   - Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL]-01
-  - Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 🇺🇸 | [BL]
-  - Anycast-IP | 🇨🇦 🇩🇪 🇵🇱 🇺🇸 | [BL]
-  - Anycast-IP | 🇨🇦 🇩🇪 🇵🇱 🇺🇸 | [BL]-01
-  - Anycast-IP | 🇨🇦 🇵🇱 | [BL]
-  - Anycast-IP | 🇩🇪 🇬🇧 🇮🇪 🇮🇶 🇵🇱 | [BL]
-  - Anycast-IP | 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]
-  - Anycast-IP | 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]-01
-  - Anycast-IP | 🇩🇪 🇬🇧 🇮🇶 🇵🇱 🇺🇸 | [BL]
-  - Anycast-IP | 🇩🇪 🇺🇦 | [BL]
-  - Anycast-IP | 🇫🇷 | [BL]
-  - Anycast-IP | 🇫🇷 | [BL]-01
-  - Anycast-IP | 🇫🇷 | [BL]-02
-  - Anycast-IP | 🇫🇷 | [BL]-03
-  - Anycast-IP | 🇫🇷 | [BL]-04
-  - Anycast-IP | 🇫🇷 🇺🇸 | [BL]
-  - Anycast-IP | 🇫🇷 🇺🇸 | [BL]-01
-  - Anycast-IP | 🇫🇷 🇺🇸 | [BL]-02
-  - Anycast-IP | 🇮🇪 🇮🇶 🇵🇱 | [BL]
-  - China, Jinrongjie (Xicheng District) | [BL]
-  - China, Jinrongjie (Xicheng District) | [BL]-01
-  - France, Gravelines | 🌐 | [BL]
-  - Germany, Nuremberg | 🌐 | [BL]
-  - Kazakhstan, Almaty | [BL]
-  - Kazakhstan, Almaty | [BL]-01
-  - Kazakhstan, Almaty | [BL]-02
-  - Kazakhstan, Almaty | [BL]-03
-  - Turkey, Istanbul | [BL]
+  - Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇺🇸 | [BL]
+  - Germany, Limburg an der Lahn | [BL]
+  - Germany, Nuremberg | [BL]
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]-01
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]-02
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]-03
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]-04
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]-05
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]-06
   - France, Paris | [BL]
   - France, Paris | [BL]-01
   - France, Paris | [BL]-02
@@ -2591,20 +2701,10 @@ proxy-groups:
   - France, Paris | [BL]-12
   - France, Paris | [BL]-13
   - France, Paris | [BL]-14
-  - France, Paris | [BL]-15
-  - France, Paris | [BL]-16
-  - France, Paris | [BL]-17
-  - France, Paris | [BL]-18
-  - France, Paris | [BL]-19
-  - France, Paris | [BL]-20
-  - France, Paris | [BL]-21
-  - France, Paris | [BL]-22
   - Lithuania, Šiauliai | [BL]
   - Lithuania, Šiauliai | [BL]-01
   - Lithuania, Šiauliai | [BL]-02
   - Lithuania, Šiauliai | [BL]-03
-  - Lithuania, Šiauliai | [BL]-04
-  - Lithuania, Šiauliai | [BL]-05
   - The Netherlands, Haarlem | [BL]
   - The Netherlands, Haarlem | [BL]-01
   - The Netherlands, Haarlem | [BL]-02
@@ -2612,23 +2712,10 @@ proxy-groups:
   - The Netherlands, Haarlem | [BL]-04
   - The Netherlands, Haarlem | [BL]-05
   - The Netherlands, Haarlem | [BL]-06
-  - The Netherlands, Haarlem | [BL]-07
-  - The Netherlands, Haarlem | [BL]-08
-  - The Netherlands, Haarlem | [BL]-09
-  - The Netherlands, Haarlem | [BL]-10
-  - The Netherlands, Haarlem | [BL]-11
-  - The Netherlands, Haarlem | [BL]-12
-  - The Netherlands, Haarlem | [BL]-13
-  - The Netherlands, Haarlem | [BL]-14
-  - The Netherlands, Haarlem | [BL]-15
-  - The Netherlands, Haarlem | [BL]-16
   - United States, Ashburn | [BL]
   - United States, Ashburn | [BL]-01
   - United States, Ashburn | [BL]-02
   - United States, Ashburn | [BL]-03
-  - United States, Ashburn | [BL]-04
-  - United States, Ashburn | [BL]-05
-  - United States, Orem | [BL]-01
 rules:
 - GEOSITE,private,DIRECT
 - GEOIP,private,DIRECT,no-resolve
