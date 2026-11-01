@@ -82,6 +82,29 @@
     },
     {
       "type": "vless",
+      "tag": "🇩🇪 Germany, Falkenstein | 🌐 | [BL] 3",
+      "server": "news.zoom.us",
+      "server_port": 2083,
+      "uuid": "36592d47-b9f5-4e8f-949e-45ac05472aab",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "site.check-looks.space"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "site.check-looks.space",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇳🇱 The Netherlands, Amsterdam | [BL]",
       "server": "sw.golangwikito.cfd",
       "server_port": 443,
@@ -90,10 +113,10 @@
       "tls": {
         "enabled": true,
         "server_name": "sw.golangwikito.cfd",
-        "insecure": false,
+        "insecure": true,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "safari"
         },
         "reality": {
           "enabled": true,
@@ -112,10 +135,10 @@
       "tls": {
         "enabled": true,
         "server_name": "sw.golangwikito.cfd",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "edge"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -137,7 +160,7 @@
         "insecure": true,
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -156,10 +179,10 @@
       "tls": {
         "enabled": true,
         "server_name": "sw.golangwikito.cfd",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "edge"
         },
         "reality": {
           "enabled": true,
@@ -178,10 +201,10 @@
       "tls": {
         "enabled": true,
         "server_name": "sw.golangwikito.cfd",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -203,160 +226,6 @@
         "insecure": true,
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg",
-          "short_id": "a1037b25dcef6aa7"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 The Netherlands, Amsterdam | [BL] 7",
-      "server": "sw.golangwikito.cfd",
-      "server_port": 443,
-      "uuid": "f8d52ece-fad4-478d-875d-df6eed3befa7",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "sw.golangwikito.cfd",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg",
-          "short_id": "a1037b25dcef6aa7"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 The Netherlands, Amsterdam | [BL] 8",
-      "server": "sw.golangwikito.cfd",
-      "server_port": 443,
-      "uuid": "f8d52ece-fad4-478d-875d-df6eed3befa7",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "sw.golangwikito.cfd",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg",
-          "short_id": "a1037b25dcef6aa7"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 The Netherlands, Amsterdam | [BL] 9",
-      "server": "sw.golangwikito.cfd",
-      "server_port": 443,
-      "uuid": "f8d52ece-fad4-478d-875d-df6eed3befa7",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "sw.golangwikito.cfd",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg",
-          "short_id": "a1037b25dcef6aa7"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 The Netherlands, Amsterdam | [BL] 10",
-      "server": "sw.golangwikito.cfd",
-      "server_port": 443,
-      "uuid": "f8d52ece-fad4-478d-875d-df6eed3befa7",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "sw.golangwikito.cfd",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg",
-          "short_id": "a1037b25dcef6aa7"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 The Netherlands, Amsterdam | [BL] 11",
-      "server": "sw.golangwikito.cfd",
-      "server_port": 443,
-      "uuid": "f8d52ece-fad4-478d-875d-df6eed3befa7",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "sw.golangwikito.cfd",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg",
-          "short_id": "a1037b25dcef6aa7"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 The Netherlands, Amsterdam | [BL] 12",
-      "server": "sw.golangwikito.cfd",
-      "server_port": 443,
-      "uuid": "f8d52ece-fad4-478d-875d-df6eed3befa7",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "sw.golangwikito.cfd",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg",
-          "short_id": "a1037b25dcef6aa7"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 The Netherlands, Amsterdam | [BL] 13",
-      "server": "sw.golangwikito.cfd",
-      "server_port": 443,
-      "uuid": "f8d52ece-fad4-478d-875d-df6eed3befa7",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "sw.golangwikito.cfd",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
           "fingerprint": "random"
         },
         "reality": {
@@ -368,31 +237,36 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 United States, Detroit | [BL]",
-      "server": "130.17.4.76",
+      "tag": "🌐 Anycast-IP | 🇦🇲 🇮🇶 | [BL]",
+      "server": "77.91.68.117",
       "server_port": 443,
-      "uuid": "f44f5cc3-df22-4183-a61b-c653485dd7f9",
+      "uuid": "5e610f80-fc6a-479d-8621-b672355b96a1",
       "transport": {
         "type": "ws",
-        "path": "/jx-o4e0xzvx0107se",
+        "path": "/",
         "headers": {
-          "Host": "jyfrj1cims.dev.onappjet.com"
+          "Host": "cf-1rm.pages.dev"
         }
       },
       "tls": {
         "enabled": true,
-        "insecure": false
+        "server_name": "cf-1rm.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
       "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 | [BL]",
+      "tag": "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 | [BL]",
       "server": "43.174.193.1",
       "server_port": 443,
       "uuid": "d342d11e-d224-4463-b982-532309285094",
       "transport": {
         "type": "ws",
-        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome",
+        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560",
         "headers": {
           "Host": "ccc.010304.xyz"
         }
@@ -404,6 +278,29 @@
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 | [BL]",
+      "server": "43.174.193.1",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "transport": {
+        "type": "ws",
+        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
         }
       }
     },
@@ -415,7 +312,7 @@
       "uuid": "d342d11e-d224-4463-b982-532309285094",
       "transport": {
         "type": "ws",
-        "path": "/fp=chrome",
+        "path": "/fp=chromefp=chrome",
         "headers": {
           "Host": "ccc.010304.xyz"
         }
@@ -426,7 +323,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "android"
+          "fingerprint": "qq"
         }
       }
     },
@@ -438,7 +335,7 @@
       "uuid": "d342d11e-d224-4463-b982-532309285094",
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/fp=chrome",
         "headers": {
           "Host": "ccc.010304.xyz"
         }
@@ -449,7 +346,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         }
       }
     },
@@ -461,225 +358,7 @@
       "uuid": "d342d11e-d224-4463-b982-532309285094",
       "transport": {
         "type": "ws",
-        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇪 🇵🇱 | [BL]",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇪 🇵🇱 | [BL] 2",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
         "path": "/fp=chrome",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇶 | [BL]",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/fp",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL]",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/fp=chromefp=chrome",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/fp=chrome",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL] 2",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/fp=chrome",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL] 3",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL] 4",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL] 5",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL] 6",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome",
         "headers": {
           "Host": "ccc.010304.xyz"
         }
@@ -696,59 +375,13 @@
     },
     {
       "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL] 7",
+      "tag": "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL] 3",
       "server": "43.174.193.1",
       "server_port": 443,
       "uuid": "d342d11e-d224-4463-b982-532309285094",
       "transport": {
         "type": "ws",
-        "path": "/fp=chromefp=chrome",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL] 8",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL] 9",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560",
+        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI",
         "headers": {
           "Host": "ccc.010304.xyz"
         }
@@ -765,229 +398,7 @@
     },
     {
       "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 🇺🇸 | [BL]",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/fp",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇬🇧 🇵🇱 | [BL]",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/fp",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇮🇶 🇵🇱 | [BL]",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/fp=chrome",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 | [BL]",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL] 2",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/fp",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇵🇱 🇺🇸 | [BL]",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇮🇪 🇵🇱 | [BL]",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/fp=chrome",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇮🇶 🇵🇱 | [BL]",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/fp=chromefp=chrome",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "android"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇮🇶 🇵🇱 | [BL] 2",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇦🇷 🇬🇧 🇮🇪 🇵🇱 | [BL]",
+      "tag": "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL] 4",
       "server": "43.174.193.1",
       "server_port": 443,
       "uuid": "d342d11e-d224-4463-b982-532309285094",
@@ -1004,36 +415,13 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "android"
+          "fingerprint": "qq"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇦🇷 🇮🇶 🇵🇱 | [BL]",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇦🇷 🇵🇱 🇺🇸 | [BL]",
+      "tag": "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL] 5",
       "server": "43.174.193.1",
       "server_port": 443,
       "uuid": "d342d11e-d224-4463-b982-532309285094",
@@ -1056,122 +444,7 @@
     },
     {
       "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL] 2",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/fp=chromefp=chrome",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇺🇸 | [BL]",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 🇵🇱 | [BL]",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 🇵🇱 | [BL] 2",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/fp",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 🇵🇱 | [BL] 3",
+      "tag": "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL] 6",
       "server": "43.174.193.1",
       "server_port": 443,
       "uuid": "d342d11e-d224-4463-b982-532309285094",
@@ -1194,285 +467,13 @@
     },
     {
       "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 | [BL]",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL]",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL] 2",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL] 3",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/fp=chromefp=chrome",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 🇺🇸 | [BL]",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/fp",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇵🇱 🇺🇸 | [BL]",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "android"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇵🇱 🇺🇸 | [BL] 2",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇵🇱 🇺🇸 | [BL] 3",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/fp",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "android"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇮🇪 🇮🇶 🇵🇱 🇺🇸 | [BL]",
+      "tag": "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇪 🇵🇱 | [BL]",
       "server": "43.174.193.1",
       "server_port": 443,
       "uuid": "d342d11e-d224-4463-b982-532309285094",
       "transport": {
         "type": "ws",
         "path": "/",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇩🇪 🇬🇧 🇮🇪 🇮🇶 🇵🇱 | [BL]",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "android"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇩🇪 🇬🇧 🇮🇪 🇵🇱 | [BL]",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇩🇪 🇬🇧 🇮🇪 🇵🇱 | [BL] 2",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]",
-      "server": "43.174.193.1",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "transport": {
-        "type": "ws",
-        "path": "/fp=chromefp=chrome",
         "headers": {
           "Host": "ccc.010304.xyz"
         }
@@ -1489,7 +490,30 @@
     },
     {
       "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇩🇪 🇬🇧 🇮🇶 🇵🇱 🇺🇸 | [BL]",
+      "tag": "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇶 | [BL]",
+      "server": "185.250.180.145",
+      "server_port": 443,
+      "uuid": "7b102311-43fd-4e8f-877e-8090623c101d",
+      "transport": {
+        "type": "ws",
+        "path": "/Telegram🇨🇳+@VPNine1",
+        "headers": {
+          "Host": "vp58.cc.cd"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "vp58.cc.cd",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL]",
       "server": "43.174.193.1",
       "server_port": 443,
       "uuid": "d342d11e-d224-4463-b982-532309285094",
@@ -1506,13 +530,212 @@
         "insecure": false,
         "utls": {
           "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL] 2",
+      "server": "43.174.193.1",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL] 3",
+      "server": "43.174.193.1",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "transport": {
+        "type": "ws",
+        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
           "fingerprint": "ios"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇩🇪 🇬🇧 🇵🇱 🇺🇸 | [BL]",
+      "tag": "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]",
+      "server": "43.174.193.1",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "transport": {
+        "type": "ws",
+        "path": "/fp=chrome",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL] 2",
+      "server": "43.174.193.1",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "android"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL] 3",
+      "server": "43.174.193.1",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "transport": {
+        "type": "ws",
+        "path": "/fp=chrome",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL] 4",
+      "server": "43.174.193.1",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "transport": {
+        "type": "ws",
+        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL] 5",
+      "server": "43.174.193.1",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 🇺🇸 | [BL]",
+      "server": "43.174.193.1",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "transport": {
+        "type": "ws",
+        "path": "/fp=chromefp=chrome",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇯🇵 | [BL]",
+      "server": "8.219.155.125",
+      "server_port": 443,
+      "uuid": "7b102311-43fd-4e8f-877e-8090623c101d",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "vp10.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "vp10.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇮🇪 🇵🇱 | [BL]",
       "server": "43.174.193.1",
       "server_port": 443,
       "uuid": "d342d11e-d224-4463-b982-532309285094",
@@ -1535,7 +758,1133 @@
     },
     {
       "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]",
+      "server": "43.174.193.1",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "transport": {
+        "type": "ws",
+        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL] 2",
+      "server": "43.174.193.1",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "transport": {
+        "type": "ws",
+        "path": "/fp=chromefp=chrome",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇵🇱 | [BL]",
+      "server": "43.174.193.1",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "transport": {
+        "type": "ws",
+        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇵🇱 | [BL] 2",
+      "server": "43.174.193.1",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "transport": {
+        "type": "ws",
+        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇵🇱 | [BL] 3",
+      "server": "43.174.193.1",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "transport": {
+        "type": "ws",
+        "path": "/fp",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇵🇱 🇺🇸 | [BL]",
+      "server": "43.174.193.1",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "transport": {
+        "type": "ws",
+        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇺🇸 | [BL]",
+      "server": "43.174.193.1",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "transport": {
+        "type": "ws",
+        "path": "/fp=chrome",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇮🇪 🇮🇶 | [BL]",
+      "server": "43.174.193.1",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "transport": {
+        "type": "ws",
+        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇮🇪 🇵🇱 | [BL]",
+      "server": "43.174.193.1",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "transport": {
+        "type": "ws",
+        "path": "/fp=chrome",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "android"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇮🇶 🇵🇱 | [BL]",
+      "server": "43.174.193.1",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "transport": {
+        "type": "ws",
+        "path": "/fp=chromefp=chrome",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇮🇶 🇵🇱 🇺🇸 | [BL]",
+      "server": "43.174.193.1",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "transport": {
+        "type": "ws",
+        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "android"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇮🇶 🇵🇱 🇺🇸 | [BL] 2",
+      "server": "43.174.193.1",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "transport": {
+        "type": "ws",
+        "path": "/fp",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇮🇶 🇵🇱 🇺🇸 | [BL] 3",
+      "server": "43.174.193.1",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "transport": {
+        "type": "ws",
+        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇦🇷 🇬🇧 🇮🇪 🇵🇱 | [BL]",
+      "server": "43.174.193.1",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "transport": {
+        "type": "ws",
+        "path": "/fp=chrome",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇦🇹 🇨🇦 🇺🇸 | [BL]",
+      "server": "185.175.58.196",
+      "server_port": 443,
+      "uuid": "5e610f80-fc6a-479d-8621-b672355b96a1",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "cf-1rm.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "cf-1rm.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇧🇬 🇨🇦 | [BL]",
+      "server": "95.133.166.163",
+      "server_port": 443,
+      "uuid": "5e610f80-fc6a-479d-8621-b672355b96a1",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "cf-1rm.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "cf-1rm.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]",
+      "server": "43.174.193.1",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "transport": {
+        "type": "ws",
+        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "android"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 🇺🇸 | [BL]",
+      "server": "43.174.193.1",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "transport": {
+        "type": "ws",
+        "path": "/fp",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 | [BL]",
+      "server": "43.174.193.1",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "transport": {
+        "type": "ws",
+        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇵🇱 | [BL]",
+      "server": "43.174.193.1",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "transport": {
+        "type": "ws",
+        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇵🇱 | [BL] 2",
+      "server": "43.174.193.1",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "transport": {
+        "type": "ws",
+        "path": "/fp",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "android"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇺🇸 | [BL]",
+      "server": "8.209.105.99",
+      "server_port": 443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "transport": {
+        "type": "ws",
+        "path": "/online?ed=2560",
+        "headers": {
+          "Host": "edg-2oo.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "edg-2oo.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 | [BL]",
+      "server": "47.245.131.215",
+      "server_port": 443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "transport": {
+        "type": "ws",
+        "path": "/outbound?ed=2560",
+        "headers": {
+          "Host": "edg-2oo.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "edg-2oo.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL]",
+      "server": "43.174.193.1",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "transport": {
+        "type": "ws",
+        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL] 2",
+      "server": "43.174.193.1",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "transport": {
+        "type": "ws",
+        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL] 3",
+      "server": "43.174.193.1",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 🇺🇸 | [BL]",
+      "server": "43.174.193.1",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "transport": {
+        "type": "ws",
+        "path": "/fp",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 🇺🇸 | [BL] 2",
+      "server": "43.174.193.1",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "transport": {
+        "type": "ws",
+        "path": "/fp=chromefp=chrome",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "android"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇺🇸 | [BL]",
+      "server": "47.245.135.191",
+      "server_port": 443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "transport": {
+        "type": "ws",
+        "path": "/discount/wiki?ed=2560",
+        "headers": {
+          "Host": "edg-2oo.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "edg-2oo.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇵🇱 | [BL]",
+      "server": "43.174.193.1",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "transport": {
+        "type": "ws",
+        "path": "/fp=chromefp=chrome",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇵🇱 🇺🇸 | [BL]",
+      "server": "43.174.193.1",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "transport": {
+        "type": "ws",
+        "path": "/fp",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇨🇦 🇭🇰 🇸🇬 | [BL]",
+      "server": "47.242.162.186",
+      "server_port": 443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "transport": {
+        "type": "ws",
+        "path": "/home?ed=2560",
+        "headers": {
+          "Host": "edg-2oo.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "edg-2oo.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇨🇦 🇮🇸 | [BL]",
+      "server": "89.147.111.185",
+      "server_port": 443,
+      "uuid": "5e610f80-fc6a-479d-8621-b672355b96a1",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "cf-1rm.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "cf-1rm.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇨🇦 🇰🇷 🇺🇸 | [BL]",
+      "server": "104.168.132.123",
+      "server_port": 443,
+      "uuid": "5e610f80-fc6a-479d-8621-b672355b96a1",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "cf-1rm.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "cf-1rm.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇨🇦 🇰🇷 🇺🇸 | [BL] 2",
+      "server": "47.253.251.184",
+      "server_port": 443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "transport": {
+        "type": "ws",
+        "path": "/article/pages/archive?ed=2560",
+        "headers": {
+          "Host": "edg-2oo.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "edg-2oo.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇨🇦 🇰🇷 🇺🇸 | [BL] 3",
+      "server": "47.253.251.184",
+      "server_port": 443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "transport": {
+        "type": "ws",
+        "path": "/article/pages/archive?ed=2560fp=chrome",
+        "headers": {
+          "Host": "edg-2oo.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "edg-2oo.pages.dev",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇨🇦 🇱🇹 | [BL]",
+      "server": "185.34.52.147",
+      "server_port": 443,
+      "uuid": "5e610f80-fc6a-479d-8621-b672355b96a1",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "cf-1rm.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "cf-1rm.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇨🇦 🇱🇹 | [BL] 2",
+      "server": "5.34.213.8",
+      "server_port": 443,
+      "uuid": "5e610f80-fc6a-479d-8621-b672355b96a1",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "cf-1rm.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "cf-1rm.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇨🇦 🇺🇸 | [BL]",
+      "server": "103.11.78.211",
+      "server_port": 8443,
+      "uuid": "3305c285-8d55-4f52-a3b0-2a582f5ffd59",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "sdwf-amq.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sdwf-amq.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇨🇦 🇺🇸 | [BL] 2",
+      "server": "128.203.252.97",
+      "server_port": 443,
+      "uuid": "5e610f80-fc6a-479d-8621-b672355b96a1",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "cf-1rm.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "cf-1rm.pages.dev",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇨🇦 🇺🇸 | [BL] 3",
+      "server": "43.110.39.42",
+      "server_port": 443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "transport": {
+        "type": "ws",
+        "path": "/section/app?ed=2560",
+        "headers": {
+          "Host": "edg-2oo.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "edg-2oo.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇨🇦 🇺🇸 | [BL] 4",
+      "server": "47.251.101.248",
+      "server_port": 443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "transport": {
+        "type": "ws",
+        "path": "/html/movies/watch?ed=2560",
+        "headers": {
+          "Host": "edg-2oo.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "edg-2oo.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇨🇦 🇺🇸 | [BL] 5",
+      "server": "47.251.110.54",
+      "server_port": 443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "transport": {
+        "type": "ws",
+        "path": "/trade?ed=2560",
+        "headers": {
+          "Host": "edg-2oo.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "edg-2oo.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇨🇦 🇺🇸 | [BL] 6",
+      "server": "47.253.187.132",
+      "server_port": 443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "transport": {
+        "type": "ws",
+        "path": "/forum/page?ed=2560",
+        "headers": {
+          "Host": "edg-2oo.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "edg-2oo.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇨🇦 🇺🇸 | [BL] 7",
+      "server": "47.85.38.117",
+      "server_port": 443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "transport": {
+        "type": "ws",
+        "path": "/my/ads/online?ed=2560",
+        "headers": {
+          "Host": "edg-2oo.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "edg-2oo.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇨🇭 🇮🇶 | [BL]",
+      "server": "45.90.56.67",
+      "server_port": 8443,
+      "uuid": "3305c285-8d55-4f52-a3b0-2a582f5ffd59",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "sdwf-amq.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sdwf-amq.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇩🇪 🇬🇧 🇮🇪 🇵🇱 🇺🇸 | [BL]",
+      "server": "43.174.193.1",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "transport": {
+        "type": "ws",
+        "path": "/fp=chromefp=chrome",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇩🇪 🇬🇧 🇮🇶 | [BL]",
+      "server": "5.187.4.45",
+      "server_port": 443,
+      "uuid": "5e610f80-fc6a-479d-8621-b672355b96a1",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "cf-1rm.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "cf-1rm.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇩🇪 🇬🇧 🇮🇶 🇸🇬 | [BL]",
+      "server": "5.104.107.80",
+      "server_port": 2053,
+      "uuid": "f0c9ebf7-76cc-44b7-8b30-b33ee0ffc898",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fproxyip%3DProxyIP.SG.CMLiussss.Net",
+        "headers": {
+          "Host": "coding.grok2.indevs.in"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "coding.grok2.indevs.in",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🌐 Anycast-IP | 🇫🇷 | [BL]",
+      "server": "199.232.78.160",
+      "server_port": 443,
+      "uuid": "49e29dba-814a-50b0-b4a9-deffe26ae624",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "Appxdn.global.ssl.fastly.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ssl.fastly.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇫🇷 | [BL] 2",
       "server": "199.232.78.170",
       "server_port": 443,
       "uuid": "49e29dba-814a-50b0-b4a9-deffe26ae624",
@@ -1553,39 +1902,80 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇨🇳 China, Shenzhen | [BL]",
-      "server": "39.108.113.127",
-      "server_port": 10086,
-      "uuid": "19ee3050-be66-4850-9f13-fc9d47487a3c",
-      "alter_id": 0,
-      "security": "auto",
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇬🇧 🇮🇶 | [BL]",
+      "server": "5.104.107.80",
+      "server_port": 2053,
+      "uuid": "f0c9ebf7-76cc-44b7-8b30-b33ee0ffc898",
       "transport": {
         "type": "ws",
-        "path": "/",
-        "headers": {}
+        "path": "/proxyip=ProxyIP.SG.CMLiussss.Net",
+        "headers": {
+          "Host": "coding.grok2.indevs.in"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "coding.grok2.indevs.in",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇨🇳 China, Shenzhen | [BL] 2",
-      "server": "39.108.113.127",
-      "server_port": 10086,
-      "uuid": "fccbad0f-eb6c-4bdd-80ed-145409e2f761",
-      "alter_id": 0,
-      "security": "auto",
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇬🇧 🇵🇱 | [BL]",
+      "server": "43.174.193.1",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "transport": {
+        "type": "ws",
+        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 Anycast-IP | 🇰🇷 🇱🇹 | [BL]",
+      "server": "94.176.237.240",
+      "server_port": 443,
+      "uuid": "5e610f80-fc6a-479d-8621-b672355b96a1",
       "transport": {
         "type": "ws",
         "path": "/",
-        "headers": {}
+        "headers": {
+          "Host": "cf-1rm.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "cf-1rm.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
       "type": "vmess",
       "tag": "🇩🇪 Germany, Frankfurt am Main | [BL]",
-      "server": "kRUXDIdk3hdiDOcf.v.3dns.vip",
+      "server": "8.209.124.67",
       "server_port": 443,
-      "uuid": "234a80412b4d44a3a8d8523cbfd58dc4",
+      "uuid": "234a8041-2b4d-44a3-a8d8-523cbfd58dc4",
       "alter_id": 0,
       "security": "auto",
       "transport": {
@@ -1604,27 +1994,6 @@
     {
       "type": "vmess",
       "tag": "🇩🇪 Germany, Frankfurt am Main | [BL] 2",
-      "server": "47.245.177.106",
-      "server_port": 443,
-      "uuid": "234a8041-2b4d-44a3-a8d8-523cbfd58dc4",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws-vmess",
-        "headers": {
-          "Host": "BxMzry7bu86yuvNb.v.3dns.vip"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "BxMzry7bu86yuvNb.v.3dns.vip",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇩🇪 Germany, Frankfurt am Main | [BL] 3",
       "server": "dBcaeS0WKJRoAhsQ.v.3dns.vip",
       "server_port": 443,
       "uuid": "234a80412b4d44a3a8d8523cbfd58dc4",
@@ -1645,28 +2014,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇩🇪 Germany, Frankfurt am Main | [BL] 4",
-      "server": "LO7ioZK1FPYWR1t1.v.3dns.vip",
-      "server_port": 443,
-      "uuid": "234a80412b4d44a3a8d8523cbfd58dc4",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws-vmess",
-        "headers": {
-          "Host": "LO7ioZK1FPYWR1t1.v.3dns.vip"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "LO7ioZK1FPYWR1t1.v.3dns.vip",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇩🇪 Germany, Frankfurt am Main | [BL] 5",
+      "tag": "🇩🇪 Germany, Frankfurt am Main | [BL] 3",
       "server": "O3ZBhK3HTyKNltsS.v.3dns.vip",
       "server_port": 443,
       "uuid": "234a80412b4d44a3a8d8523cbfd58dc4",
@@ -1687,98 +2035,23 @@
     },
     {
       "type": "vmess",
-      "tag": "🇭🇰 Hong Kong | 🌐 | [BL]",
-      "server": "az-1.linkaa.xyz",
-      "server_port": 53617,
-      "uuid": "6E571484-4166-4699-8F58-B34A1823691F",
+      "tag": "🇩🇪 Germany, Frankfurt am Main | [BL] 4",
+      "server": "UYwiPIGzUfZJVADg.v.3dns.vip",
+      "server_port": 443,
+      "uuid": "234a80412b4d44a3a8d8523cbfd58dc4",
       "alter_id": 0,
       "security": "auto",
       "transport": {
         "type": "ws",
-        "path": "/game/resources",
+        "path": "/ws-vmess",
         "headers": {
-          "Host": "az-1.linkaa.xyz"
+          "Host": "UYwiPIGzUfZJVADg.v.3dns.vip"
         }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇭🇰 Hong Kong, Hong Kong | 🌐 | [BL]",
-      "server": "az-1.linkaa.xyz",
-      "server_port": 53617,
-      "uuid": "6E571484-4166-4699-8F58-B34A1823691F",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/game/resources",
-        "headers": {
-          "Host": "az-1.linkaa.xyz"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇮🇩 Indonesia, Jakarta | 🌐 | [BL]",
-      "server": "az-1.linkaa.xyz",
-      "server_port": 55386,
-      "uuid": "6E571484-4166-4699-8F58-B34A1823691F",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/game/resources",
-        "headers": {
-          "Host": "az-1.linkaa.xyz"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇸🇬 Singapore, Singapore (Queenstown Estate) | 🌐 | [BL]",
-      "server": "az-1.linkaa.xyz",
-      "server_port": 53437,
-      "uuid": "6E571484-4166-4699-8F58-B34A1823691F",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/game/resources",
-        "headers": {
-          "Host": "az-1.linkaa.xyz"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇸🇬 Singapore, Singapore (Queenstown Estate) | 🌐 | [BL] 2",
-      "server": "az-1.linkaa.xyz",
-      "server_port": 53437,
-      "uuid": "6E571484-4166-4699-8F58-B34A1823691F",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/game/resources",
-        "headers": {
-          "Host": "az-1.linkaa.xyz"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇸🇬 Singapore, Singapore (Queenstown Estate) | 🌐 | [BL] 3",
-      "server": "mdk.mdmekjll.best",
-      "server_port": 80,
-      "uuid": "6E571484-4166-4699-8F58-B34A1823691F",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/game/resources",
-        "headers": {
-          "Host": "mdk.mdmekjll.best"
-        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "UYwiPIGzUfZJVADg.v.3dns.vip",
+        "insecure": false
       }
     },
     {
@@ -1945,7 +2218,7 @@
     {
       "type": "trojan",
       "tag": "🇫🇷 France, Paris | [BL] 8",
-      "server": "141.193.213.172",
+      "server": "194.147.149.54",
       "server_port": 443,
       "password": "humanity",
       "transport": {
@@ -2213,22 +2486,6 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇱🇹 Lithuania, Šiauliai | [BL] 6",
-      "server": "176.114.95.242",
-      "server_port": 443,
-      "password": "UAKWGor-h0woFsxKSWK92HptcM0g2k2h",
-      "tls": {
-        "enabled": true,
-        "server_name": "lt-1.1984.love",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
           "fingerprint": "firefox"
         }
       }
@@ -2252,11 +2509,7 @@
         "alpn": [
           "http/1.1"
         ],
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        }
+        "insecure": false
       }
     },
     {
@@ -2281,7 +2534,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "android"
         }
       }
     },
@@ -2307,36 +2560,14 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "unsafe"
+          "fingerprint": "chrome"
         }
       }
     },
     {
       "type": "trojan",
       "tag": "🇳🇱 The Netherlands, Haarlem | [BL] 4",
-      "server": "8.47.69.0",
-      "server_port": 443,
-      "password": "humanity",
-      "transport": {
-        "type": "ws",
-        "path": "/assignment",
-        "headers": {
-          "Host": "www.pleadcourt.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "www.pleadcourt.org",
-        "alpn": [
-          "http/1.1"
-        ],
-        "insecure": false
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇳🇱 The Netherlands, Haarlem | [BL] 5",
-      "server": "8.47.69.0",
+      "server": "45.131.4.38",
       "server_port": 443,
       "password": "humanity",
       "transport": {
@@ -2355,14 +2586,66 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "edge"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇳🇱 The Netherlands, Haarlem | [BL] 5",
+      "server": "45.131.4.38",
+      "server_port": 443,
+      "password": "humanity",
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.pleadcourt.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "www.pleadcourt.org",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
         }
       }
     },
     {
       "type": "trojan",
       "tag": "🇳🇱 The Netherlands, Haarlem | [BL] 6",
-      "server": "8.47.69.0",
+      "server": "45.131.4.38",
+      "server_port": 443,
+      "password": "humanity",
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.pleadcourt.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "www.pleadcourt.org",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇳🇱 The Netherlands, Haarlem | [BL] 7",
+      "server": "45.131.4.38",
       "server_port": 443,
       "password": "humanity",
       "transport": {
@@ -2387,31 +2670,8 @@
     },
     {
       "type": "trojan",
-      "tag": "🇳🇱 The Netherlands, Haarlem | [BL] 7",
-      "server": "8.47.69.0",
-      "server_port": 443,
-      "password": "humanity",
-      "transport": {
-        "type": "ws",
-        "path": "/assignment",
-        "headers": {
-          "Host": "www.pleadcourt.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "www.pleadcourt.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "android"
-        }
-      }
-    },
-    {
-      "type": "trojan",
       "tag": "🇳🇱 The Netherlands, Haarlem | [BL] 8",
-      "server": "8.47.69.0",
+      "server": "45.131.4.38",
       "server_port": 443,
       "password": "humanity",
       "transport": {
@@ -2424,6 +2684,9 @@
       "tls": {
         "enabled": true,
         "server_name": "www.pleadcourt.org",
+        "alpn": [
+          "http/1.1"
+        ],
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -2447,6 +2710,9 @@
       "tls": {
         "enabled": true,
         "server_name": "www.pleadcourt.org",
+        "alpn": [
+          "http/1.1"
+        ],
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -2456,19 +2722,319 @@
     },
     {
       "type": "trojan",
-      "tag": "🇺🇸 United States, Ashburn | [BL]",
-      "server": "176.114.95.242",
+      "tag": "🇳🇱 The Netherlands, Haarlem | [BL] 10",
+      "server": "8.47.69.0",
       "server_port": 443,
-      "password": "UAKWGor-h0woFsxKSWK92HptcM0g2k2h",
+      "password": "humanity",
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.pleadcourt.org"
+        }
+      },
       "tls": {
         "enabled": true,
-        "server_name": "us-1.1984.love",
+        "server_name": "www.pleadcourt.org",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇳🇱 The Netherlands, Haarlem | [BL] 11",
+      "server": "8.47.69.0",
+      "server_port": 443,
+      "password": "humanity",
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.pleadcourt.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "www.pleadcourt.org",
+        "alpn": [
+          "http/1.1"
+        ],
         "insecure": false
       }
     },
     {
       "type": "trojan",
-      "tag": "🇺🇸 United States, Ashburn | [BL] 2",
+      "tag": "🇳🇱 The Netherlands, Haarlem | [BL] 12",
+      "server": "8.47.69.0",
+      "server_port": 443,
+      "password": "humanity",
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.pleadcourt.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "www.pleadcourt.org",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇳🇱 The Netherlands, Haarlem | [BL] 13",
+      "server": "8.47.69.0",
+      "server_port": 443,
+      "password": "humanity",
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.pleadcourt.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "www.pleadcourt.org",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇳🇱 The Netherlands, Haarlem | [BL] 14",
+      "server": "8.47.69.0",
+      "server_port": 443,
+      "password": "humanity",
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.pleadcourt.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "www.pleadcourt.org",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇳🇱 The Netherlands, Haarlem | [BL] 15",
+      "server": "8.47.69.0",
+      "server_port": 443,
+      "password": "humanity",
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.pleadcourt.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "www.pleadcourt.org",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "unsafe"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇳🇱 The Netherlands, Haarlem | [BL] 16",
+      "server": "8.47.69.0",
+      "server_port": 443,
+      "password": "humanity",
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.pleadcourt.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "www.pleadcourt.org",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇳🇱 The Netherlands, Haarlem | [BL] 17",
+      "server": "8.47.69.0",
+      "server_port": 443,
+      "password": "humanity",
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.pleadcourt.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "www.pleadcourt.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "android"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇳🇱 The Netherlands, Haarlem | [BL] 18",
+      "server": "8.47.69.0",
+      "server_port": 443,
+      "password": "humanity",
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.pleadcourt.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "www.pleadcourt.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇳🇱 The Netherlands, Haarlem | [BL] 19",
+      "server": "8.47.69.0",
+      "server_port": 443,
+      "password": "humanity",
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.pleadcourt.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "www.pleadcourt.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇳🇱 The Netherlands, Haarlem | [BL] 20",
+      "server": "8.47.69.0",
+      "server_port": 443,
+      "password": "humanity",
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.pleadcourt.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "www.pleadcourt.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇳🇱 The Netherlands, Haarlem | [BL] 21",
+      "server": "8.47.69.0",
+      "server_port": 443,
+      "password": "humanity",
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.pleadcourt.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "www.pleadcourt.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇳🇱 The Netherlands, Haarlem | [BL] 22",
+      "server": "8.47.69.0",
+      "server_port": 443,
+      "password": "humanity",
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.pleadcourt.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "www.pleadcourt.org",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇺🇸 United States, Ashburn | [BL]",
       "server": "176.114.95.242",
       "server_port": 443,
       "password": "UAKWGor-h0woFsxKSWK92HptcM0g2k2h",
@@ -2484,7 +3050,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🇺🇸 United States, Ashburn | [BL] 3",
+      "tag": "🇺🇸 United States, Ashburn | [BL] 2",
       "server": "176.114.95.242",
       "server_port": 443,
       "password": "UAKWGor-h0woFsxKSWK92HptcM0g2k2h",
@@ -2500,7 +3066,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🇺🇸 United States, Ashburn | [BL] 4",
+      "tag": "🇺🇸 United States, Ashburn | [BL] 3",
       "server": "176.114.95.242",
       "server_port": 443,
       "password": "UAKWGor-h0woFsxKSWK92HptcM0g2k2h",
@@ -2516,23 +3082,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🇺🇸 United States, Ashburn | [BL] 5",
-      "server": "176.114.95.242",
-      "server_port": 443,
-      "password": "UAKWGor-h0woFsxKSWK92HptcM0g2k2h",
-      "tls": {
-        "enabled": true,
-        "server_name": "us-1.1984.love",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇺🇸 United States, Ashburn | [BL] 6",
+      "tag": "🇺🇸 United States, Ashburn | [BL] 4",
       "server": "176.114.95.242",
       "server_port": 443,
       "password": "UAKWGor-h0woFsxKSWK92HptcM0g2k2h",
@@ -2547,6 +3097,22 @@
       }
     },
     {
+      "type": "trojan",
+      "tag": "🌐 Anycast-IP | 🇬🇧 🇺🇸 | [BL]",
+      "server": "186.241.105.213",
+      "server_port": 443,
+      "password": "va3E77I9fZCnCVcGKkxBCfz5",
+      "tls": {
+        "enabled": true,
+        "server_name": "vpn.liumr.top",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "手动选择",
       "outbounds": [
@@ -2554,85 +3120,94 @@
         "direct",
         "🇩🇪 Germany, Falkenstein | 🌐 | [BL]",
         "🇩🇪 Germany, Falkenstein | 🌐 | [BL] 2",
+        "🇩🇪 Germany, Falkenstein | 🌐 | [BL] 3",
         "🇳🇱 The Netherlands, Amsterdam | [BL]",
         "🇳🇱 The Netherlands, Amsterdam | [BL] 2",
         "🇳🇱 The Netherlands, Amsterdam | [BL] 3",
         "🇳🇱 The Netherlands, Amsterdam | [BL] 4",
         "🇳🇱 The Netherlands, Amsterdam | [BL] 5",
         "🇳🇱 The Netherlands, Amsterdam | [BL] 6",
-        "🇳🇱 The Netherlands, Amsterdam | [BL] 7",
-        "🇳🇱 The Netherlands, Amsterdam | [BL] 8",
-        "🇳🇱 The Netherlands, Amsterdam | [BL] 9",
-        "🇳🇱 The Netherlands, Amsterdam | [BL] 10",
-        "🇳🇱 The Netherlands, Amsterdam | [BL] 11",
-        "🇳🇱 The Netherlands, Amsterdam | [BL] 12",
-        "🇳🇱 The Netherlands, Amsterdam | [BL] 13",
-        "🇺🇸 United States, Detroit | [BL]",
+        "🌐 Anycast-IP | 🇦🇲 🇮🇶 | [BL]",
+        "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 | [BL]",
         "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 | [BL]",
         "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]",
         "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]",
         "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL] 2",
+        "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL] 3",
+        "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL] 4",
+        "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL] 5",
+        "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL] 6",
         "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇪 🇵🇱 | [BL]",
-        "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇪 🇵🇱 | [BL] 2",
         "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇶 | [BL]",
         "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL]",
+        "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL] 2",
+        "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL] 3",
         "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]",
         "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL] 2",
         "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL] 3",
         "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL] 4",
         "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL] 5",
-        "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL] 6",
-        "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL] 7",
-        "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL] 8",
-        "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL] 9",
         "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 🇺🇸 | [BL]",
-        "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇬🇧 🇵🇱 | [BL]",
-        "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇮🇶 🇵🇱 | [BL]",
-        "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 | [BL]",
+        "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇯🇵 | [BL]",
+        "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇮🇪 🇵🇱 | [BL]",
         "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]",
         "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL] 2",
+        "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇵🇱 | [BL]",
+        "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇵🇱 | [BL] 2",
+        "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇵🇱 | [BL] 3",
         "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇵🇱 🇺🇸 | [BL]",
+        "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇺🇸 | [BL]",
+        "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇮🇪 🇮🇶 | [BL]",
         "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇮🇪 🇵🇱 | [BL]",
         "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇮🇶 🇵🇱 | [BL]",
-        "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇮🇶 🇵🇱 | [BL] 2",
+        "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇮🇶 🇵🇱 🇺🇸 | [BL]",
+        "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇮🇶 🇵🇱 🇺🇸 | [BL] 2",
+        "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇮🇶 🇵🇱 🇺🇸 | [BL] 3",
         "🌐 Anycast-IP | 🇦🇷 🇬🇧 🇮🇪 🇵🇱 | [BL]",
-        "🌐 Anycast-IP | 🇦🇷 🇮🇶 🇵🇱 | [BL]",
-        "🌐 Anycast-IP | 🇦🇷 🇵🇱 🇺🇸 | [BL]",
+        "🌐 Anycast-IP | 🇦🇹 🇨🇦 🇺🇸 | [BL]",
+        "🌐 Anycast-IP | 🇧🇬 🇨🇦 | [BL]",
         "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL] 2",
-        "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇺🇸 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 🇵🇱 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 🇵🇱 | [BL] 2",
-        "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 🇵🇱 | [BL] 3",
+        "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 🇺🇸 | [BL]",
+        "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 | [BL]",
+        "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇵🇱 | [BL]",
+        "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇵🇱 | [BL] 2",
+        "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇺🇸 | [BL]",
         "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 | [BL]",
         "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL]",
         "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL] 2",
         "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL] 3",
         "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 🇺🇸 | [BL]",
+        "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 🇺🇸 | [BL] 2",
+        "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇺🇸 | [BL]",
+        "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇵🇱 | [BL]",
         "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇵🇱 🇺🇸 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇵🇱 🇺🇸 | [BL] 2",
-        "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇵🇱 🇺🇸 | [BL] 3",
-        "🌐 Anycast-IP | 🇨🇦 🇮🇪 🇮🇶 🇵🇱 🇺🇸 | [BL]",
-        "🌐 Anycast-IP | 🇩🇪 🇬🇧 🇮🇪 🇮🇶 🇵🇱 | [BL]",
-        "🌐 Anycast-IP | 🇩🇪 🇬🇧 🇮🇪 🇵🇱 | [BL]",
-        "🌐 Anycast-IP | 🇩🇪 🇬🇧 🇮🇪 🇵🇱 | [BL] 2",
-        "🌐 Anycast-IP | 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]",
-        "🌐 Anycast-IP | 🇩🇪 🇬🇧 🇮🇶 🇵🇱 🇺🇸 | [BL]",
-        "🌐 Anycast-IP | 🇩🇪 🇬🇧 🇵🇱 🇺🇸 | [BL]",
+        "🌐 Anycast-IP | 🇨🇦 🇭🇰 🇸🇬 | [BL]",
+        "🌐 Anycast-IP | 🇨🇦 🇮🇸 | [BL]",
+        "🌐 Anycast-IP | 🇨🇦 🇰🇷 🇺🇸 | [BL]",
+        "🌐 Anycast-IP | 🇨🇦 🇰🇷 🇺🇸 | [BL] 2",
+        "🌐 Anycast-IP | 🇨🇦 🇰🇷 🇺🇸 | [BL] 3",
+        "🌐 Anycast-IP | 🇨🇦 🇱🇹 | [BL]",
+        "🌐 Anycast-IP | 🇨🇦 🇱🇹 | [BL] 2",
+        "🌐 Anycast-IP | 🇨🇦 🇺🇸 | [BL]",
+        "🌐 Anycast-IP | 🇨🇦 🇺🇸 | [BL] 2",
+        "🌐 Anycast-IP | 🇨🇦 🇺🇸 | [BL] 3",
+        "🌐 Anycast-IP | 🇨🇦 🇺🇸 | [BL] 4",
+        "🌐 Anycast-IP | 🇨🇦 🇺🇸 | [BL] 5",
+        "🌐 Anycast-IP | 🇨🇦 🇺🇸 | [BL] 6",
+        "🌐 Anycast-IP | 🇨🇦 🇺🇸 | [BL] 7",
+        "🌐 Anycast-IP | 🇨🇭 🇮🇶 | [BL]",
+        "🌐 Anycast-IP | 🇩🇪 🇬🇧 🇮🇪 🇵🇱 🇺🇸 | [BL]",
+        "🌐 Anycast-IP | 🇩🇪 🇬🇧 🇮🇶 | [BL]",
+        "🌐 Anycast-IP | 🇩🇪 🇬🇧 🇮🇶 🇸🇬 | [BL]",
         "🌐 Anycast-IP | 🇫🇷 | [BL]",
-        "🇨🇳 China, Shenzhen | [BL]",
-        "🇨🇳 China, Shenzhen | [BL] 2",
+        "🌐 Anycast-IP | 🇫🇷 | [BL] 2",
+        "🌐 Anycast-IP | 🇬🇧 🇮🇶 | [BL]",
+        "🌐 Anycast-IP | 🇬🇧 🇵🇱 | [BL]",
+        "🌐 Anycast-IP | 🇰🇷 🇱🇹 | [BL]",
         "🇩🇪 Germany, Frankfurt am Main | [BL]",
         "🇩🇪 Germany, Frankfurt am Main | [BL] 2",
         "🇩🇪 Germany, Frankfurt am Main | [BL] 3",
         "🇩🇪 Germany, Frankfurt am Main | [BL] 4",
-        "🇩🇪 Germany, Frankfurt am Main | [BL] 5",
-        "🇭🇰 Hong Kong | 🌐 | [BL]",
-        "🇭🇰 Hong Kong, Hong Kong | 🌐 | [BL]",
-        "🇮🇩 Indonesia, Jakarta | 🌐 | [BL]",
-        "🇸🇬 Singapore, Singapore (Queenstown Estate) | 🌐 | [BL]",
-        "🇸🇬 Singapore, Singapore (Queenstown Estate) | 🌐 | [BL] 2",
-        "🇸🇬 Singapore, Singapore (Queenstown Estate) | 🌐 | [BL] 3",
         "🇫🇷 France, Paris | [BL]",
         "🇫🇷 France, Paris | [BL] 2",
         "🇫🇷 France, Paris | [BL] 3",
@@ -2654,7 +3229,6 @@
         "🇱🇹 Lithuania, Šiauliai | [BL] 3",
         "🇱🇹 Lithuania, Šiauliai | [BL] 4",
         "🇱🇹 Lithuania, Šiauliai | [BL] 5",
-        "🇱🇹 Lithuania, Šiauliai | [BL] 6",
         "🇳🇱 The Netherlands, Haarlem | [BL]",
         "🇳🇱 The Netherlands, Haarlem | [BL] 2",
         "🇳🇱 The Netherlands, Haarlem | [BL] 3",
@@ -2664,12 +3238,24 @@
         "🇳🇱 The Netherlands, Haarlem | [BL] 7",
         "🇳🇱 The Netherlands, Haarlem | [BL] 8",
         "🇳🇱 The Netherlands, Haarlem | [BL] 9",
+        "🇳🇱 The Netherlands, Haarlem | [BL] 10",
+        "🇳🇱 The Netherlands, Haarlem | [BL] 11",
+        "🇳🇱 The Netherlands, Haarlem | [BL] 12",
+        "🇳🇱 The Netherlands, Haarlem | [BL] 13",
+        "🇳🇱 The Netherlands, Haarlem | [BL] 14",
+        "🇳🇱 The Netherlands, Haarlem | [BL] 15",
+        "🇳🇱 The Netherlands, Haarlem | [BL] 16",
+        "🇳🇱 The Netherlands, Haarlem | [BL] 17",
+        "🇳🇱 The Netherlands, Haarlem | [BL] 18",
+        "🇳🇱 The Netherlands, Haarlem | [BL] 19",
+        "🇳🇱 The Netherlands, Haarlem | [BL] 20",
+        "🇳🇱 The Netherlands, Haarlem | [BL] 21",
+        "🇳🇱 The Netherlands, Haarlem | [BL] 22",
         "🇺🇸 United States, Ashburn | [BL]",
         "🇺🇸 United States, Ashburn | [BL] 2",
         "🇺🇸 United States, Ashburn | [BL] 3",
         "🇺🇸 United States, Ashburn | [BL] 4",
-        "🇺🇸 United States, Ashburn | [BL] 5",
-        "🇺🇸 United States, Ashburn | [BL] 6"
+        "🌐 Anycast-IP | 🇬🇧 🇺🇸 | [BL]"
       ]
     },
     {
@@ -2681,85 +3267,94 @@
       "outbounds": [
         "🇩🇪 Germany, Falkenstein | 🌐 | [BL]",
         "🇩🇪 Germany, Falkenstein | 🌐 | [BL] 2",
+        "🇩🇪 Germany, Falkenstein | 🌐 | [BL] 3",
         "🇳🇱 The Netherlands, Amsterdam | [BL]",
         "🇳🇱 The Netherlands, Amsterdam | [BL] 2",
         "🇳🇱 The Netherlands, Amsterdam | [BL] 3",
         "🇳🇱 The Netherlands, Amsterdam | [BL] 4",
         "🇳🇱 The Netherlands, Amsterdam | [BL] 5",
         "🇳🇱 The Netherlands, Amsterdam | [BL] 6",
-        "🇳🇱 The Netherlands, Amsterdam | [BL] 7",
-        "🇳🇱 The Netherlands, Amsterdam | [BL] 8",
-        "🇳🇱 The Netherlands, Amsterdam | [BL] 9",
-        "🇳🇱 The Netherlands, Amsterdam | [BL] 10",
-        "🇳🇱 The Netherlands, Amsterdam | [BL] 11",
-        "🇳🇱 The Netherlands, Amsterdam | [BL] 12",
-        "🇳🇱 The Netherlands, Amsterdam | [BL] 13",
-        "🇺🇸 United States, Detroit | [BL]",
+        "🌐 Anycast-IP | 🇦🇲 🇮🇶 | [BL]",
+        "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 | [BL]",
         "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 | [BL]",
         "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]",
         "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]",
         "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL] 2",
+        "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL] 3",
+        "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL] 4",
+        "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL] 5",
+        "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL] 6",
         "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇪 🇵🇱 | [BL]",
-        "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇪 🇵🇱 | [BL] 2",
         "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇶 | [BL]",
         "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL]",
+        "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL] 2",
+        "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL] 3",
         "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]",
         "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL] 2",
         "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL] 3",
         "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL] 4",
         "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL] 5",
-        "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL] 6",
-        "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL] 7",
-        "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL] 8",
-        "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL] 9",
         "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 🇺🇸 | [BL]",
-        "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇬🇧 🇵🇱 | [BL]",
-        "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇮🇶 🇵🇱 | [BL]",
-        "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 | [BL]",
+        "🌐 Anycast-IP | 🇦🇷 🇨🇦 🇯🇵 | [BL]",
+        "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇮🇪 🇵🇱 | [BL]",
         "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]",
         "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL] 2",
+        "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇵🇱 | [BL]",
+        "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇵🇱 | [BL] 2",
+        "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇵🇱 | [BL] 3",
         "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇵🇱 🇺🇸 | [BL]",
+        "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇺🇸 | [BL]",
+        "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇮🇪 🇮🇶 | [BL]",
         "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇮🇪 🇵🇱 | [BL]",
         "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇮🇶 🇵🇱 | [BL]",
-        "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇮🇶 🇵🇱 | [BL] 2",
+        "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇮🇶 🇵🇱 🇺🇸 | [BL]",
+        "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇮🇶 🇵🇱 🇺🇸 | [BL] 2",
+        "🌐 Anycast-IP | 🇦🇷 🇩🇪 🇮🇶 🇵🇱 🇺🇸 | [BL] 3",
         "🌐 Anycast-IP | 🇦🇷 🇬🇧 🇮🇪 🇵🇱 | [BL]",
-        "🌐 Anycast-IP | 🇦🇷 🇮🇶 🇵🇱 | [BL]",
-        "🌐 Anycast-IP | 🇦🇷 🇵🇱 🇺🇸 | [BL]",
+        "🌐 Anycast-IP | 🇦🇹 🇨🇦 🇺🇸 | [BL]",
+        "🌐 Anycast-IP | 🇧🇬 🇨🇦 | [BL]",
         "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL] 2",
-        "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇺🇸 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 🇵🇱 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 🇵🇱 | [BL] 2",
-        "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 🇵🇱 | [BL] 3",
+        "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 🇺🇸 | [BL]",
+        "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 | [BL]",
+        "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇵🇱 | [BL]",
+        "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇵🇱 | [BL] 2",
+        "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇺🇸 | [BL]",
         "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 | [BL]",
         "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL]",
         "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL] 2",
         "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL] 3",
         "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 🇺🇸 | [BL]",
+        "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 🇺🇸 | [BL] 2",
+        "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇺🇸 | [BL]",
+        "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇵🇱 | [BL]",
         "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇵🇱 🇺🇸 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇵🇱 🇺🇸 | [BL] 2",
-        "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇵🇱 🇺🇸 | [BL] 3",
-        "🌐 Anycast-IP | 🇨🇦 🇮🇪 🇮🇶 🇵🇱 🇺🇸 | [BL]",
-        "🌐 Anycast-IP | 🇩🇪 🇬🇧 🇮🇪 🇮🇶 🇵🇱 | [BL]",
-        "🌐 Anycast-IP | 🇩🇪 🇬🇧 🇮🇪 🇵🇱 | [BL]",
-        "🌐 Anycast-IP | 🇩🇪 🇬🇧 🇮🇪 🇵🇱 | [BL] 2",
-        "🌐 Anycast-IP | 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]",
-        "🌐 Anycast-IP | 🇩🇪 🇬🇧 🇮🇶 🇵🇱 🇺🇸 | [BL]",
-        "🌐 Anycast-IP | 🇩🇪 🇬🇧 🇵🇱 🇺🇸 | [BL]",
+        "🌐 Anycast-IP | 🇨🇦 🇭🇰 🇸🇬 | [BL]",
+        "🌐 Anycast-IP | 🇨🇦 🇮🇸 | [BL]",
+        "🌐 Anycast-IP | 🇨🇦 🇰🇷 🇺🇸 | [BL]",
+        "🌐 Anycast-IP | 🇨🇦 🇰🇷 🇺🇸 | [BL] 2",
+        "🌐 Anycast-IP | 🇨🇦 🇰🇷 🇺🇸 | [BL] 3",
+        "🌐 Anycast-IP | 🇨🇦 🇱🇹 | [BL]",
+        "🌐 Anycast-IP | 🇨🇦 🇱🇹 | [BL] 2",
+        "🌐 Anycast-IP | 🇨🇦 🇺🇸 | [BL]",
+        "🌐 Anycast-IP | 🇨🇦 🇺🇸 | [BL] 2",
+        "🌐 Anycast-IP | 🇨🇦 🇺🇸 | [BL] 3",
+        "🌐 Anycast-IP | 🇨🇦 🇺🇸 | [BL] 4",
+        "🌐 Anycast-IP | 🇨🇦 🇺🇸 | [BL] 5",
+        "🌐 Anycast-IP | 🇨🇦 🇺🇸 | [BL] 6",
+        "🌐 Anycast-IP | 🇨🇦 🇺🇸 | [BL] 7",
+        "🌐 Anycast-IP | 🇨🇭 🇮🇶 | [BL]",
+        "🌐 Anycast-IP | 🇩🇪 🇬🇧 🇮🇪 🇵🇱 🇺🇸 | [BL]",
+        "🌐 Anycast-IP | 🇩🇪 🇬🇧 🇮🇶 | [BL]",
+        "🌐 Anycast-IP | 🇩🇪 🇬🇧 🇮🇶 🇸🇬 | [BL]",
         "🌐 Anycast-IP | 🇫🇷 | [BL]",
-        "🇨🇳 China, Shenzhen | [BL]",
-        "🇨🇳 China, Shenzhen | [BL] 2",
+        "🌐 Anycast-IP | 🇫🇷 | [BL] 2",
+        "🌐 Anycast-IP | 🇬🇧 🇮🇶 | [BL]",
+        "🌐 Anycast-IP | 🇬🇧 🇵🇱 | [BL]",
+        "🌐 Anycast-IP | 🇰🇷 🇱🇹 | [BL]",
         "🇩🇪 Germany, Frankfurt am Main | [BL]",
         "🇩🇪 Germany, Frankfurt am Main | [BL] 2",
         "🇩🇪 Germany, Frankfurt am Main | [BL] 3",
         "🇩🇪 Germany, Frankfurt am Main | [BL] 4",
-        "🇩🇪 Germany, Frankfurt am Main | [BL] 5",
-        "🇭🇰 Hong Kong | 🌐 | [BL]",
-        "🇭🇰 Hong Kong, Hong Kong | 🌐 | [BL]",
-        "🇮🇩 Indonesia, Jakarta | 🌐 | [BL]",
-        "🇸🇬 Singapore, Singapore (Queenstown Estate) | 🌐 | [BL]",
-        "🇸🇬 Singapore, Singapore (Queenstown Estate) | 🌐 | [BL] 2",
-        "🇸🇬 Singapore, Singapore (Queenstown Estate) | 🌐 | [BL] 3",
         "🇫🇷 France, Paris | [BL]",
         "🇫🇷 France, Paris | [BL] 2",
         "🇫🇷 France, Paris | [BL] 3",
@@ -2781,7 +3376,6 @@
         "🇱🇹 Lithuania, Šiauliai | [BL] 3",
         "🇱🇹 Lithuania, Šiauliai | [BL] 4",
         "🇱🇹 Lithuania, Šiauliai | [BL] 5",
-        "🇱🇹 Lithuania, Šiauliai | [BL] 6",
         "🇳🇱 The Netherlands, Haarlem | [BL]",
         "🇳🇱 The Netherlands, Haarlem | [BL] 2",
         "🇳🇱 The Netherlands, Haarlem | [BL] 3",
@@ -2791,12 +3385,24 @@
         "🇳🇱 The Netherlands, Haarlem | [BL] 7",
         "🇳🇱 The Netherlands, Haarlem | [BL] 8",
         "🇳🇱 The Netherlands, Haarlem | [BL] 9",
+        "🇳🇱 The Netherlands, Haarlem | [BL] 10",
+        "🇳🇱 The Netherlands, Haarlem | [BL] 11",
+        "🇳🇱 The Netherlands, Haarlem | [BL] 12",
+        "🇳🇱 The Netherlands, Haarlem | [BL] 13",
+        "🇳🇱 The Netherlands, Haarlem | [BL] 14",
+        "🇳🇱 The Netherlands, Haarlem | [BL] 15",
+        "🇳🇱 The Netherlands, Haarlem | [BL] 16",
+        "🇳🇱 The Netherlands, Haarlem | [BL] 17",
+        "🇳🇱 The Netherlands, Haarlem | [BL] 18",
+        "🇳🇱 The Netherlands, Haarlem | [BL] 19",
+        "🇳🇱 The Netherlands, Haarlem | [BL] 20",
+        "🇳🇱 The Netherlands, Haarlem | [BL] 21",
+        "🇳🇱 The Netherlands, Haarlem | [BL] 22",
         "🇺🇸 United States, Ashburn | [BL]",
         "🇺🇸 United States, Ashburn | [BL] 2",
         "🇺🇸 United States, Ashburn | [BL] 3",
         "🇺🇸 United States, Ashburn | [BL] 4",
-        "🇺🇸 United States, Ashburn | [BL] 5",
-        "🇺🇸 United States, Ashburn | [BL] 6"
+        "🌐 Anycast-IP | 🇬🇧 🇺🇸 | [BL]"
       ]
     }
   ],
