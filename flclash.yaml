@@ -20,29 +20,10 @@ dns:
     geoip: true
     geoip-code: CN
 proxies:
-- name: 🇫🇮 Finland, Helsinki | [BL]
-  server: 92.242.165.11
-  port: 2083
-  alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  network: ws
-  servername: speedtestmark.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 75b517db-1f97-4bda-a479-863d988c31a0
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
-    path: /vless-ws
-  xudp: true
 - name: 🇩🇪 Germany, Falkenstein | [BL]
   server: 141.193.213.21
   port: 2083
-  client-fingerprint: ios
+  client-fingerprint: firefox
   network: ws
   servername: site.check-looks.space
   tls: true
@@ -52,8 +33,8 @@ proxies:
   ws-opts:
     headers:
       Host: site.check-looks.space
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.71 Safari/537.36
     path: /
   xudp: true
 - name: 🇩🇪 Germany, Falkenstein | 🌐 | [BL]
@@ -69,27 +50,11 @@ proxies:
   ws-opts:
     headers:
       Host: site.check-looks.space
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/50.0.2661.102 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.76 Safari/537.36
     path: /
   xudp: true
 - name: 🇩🇪 Germany, Frankfurt am Main | [BL]
-  server: 194.58.71.117
-  port: 443
-  client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  network: tcp
-  reality-opts:
-    public-key: yr_opKG6DGTppNDXkk-DhGSYJZXbb9o-caexk2FZO38
-    short-id: 8f3c6e2a1b5d4f09
-  servername: tradingview.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1d1eda2e-0bd7-4478-877b-1c5425c6c4dd
-  xudp: true
-- name: 🇩🇪 Germany, Frankfurt am Main | [BL]-01
   server: 216.24.57.15
   port: 443
   alpn:
@@ -104,73 +69,309 @@ proxies:
   ws-opts:
     headers:
       Host: four04-rd37.onrender.com
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-    path: /ws/2ee0d2aa-867e-a77e-9538-2edfc0b242aafp=firefoxfp=chrome
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.84 Safari/537.36
+    path: /ws/2ee0d2aa-867e-a77e-9538-2edfc0b242aafp=firefox
   xudp: true
-- name: 🇩🇪 Germany, Frankfurt am Main | [BL]-02
-  server: 194.58.71.117
+- name: 🇩🇪 Germany, Frankfurt am Main | 🌐 | [BL]
+  server: 195.141.65.98
   port: 443
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  network: tcp
-  reality-opts:
-    public-key: yr_opKG6DGTppNDXkk-DhGSYJZXbb9o-caexk2FZO38
-    short-id: 8f3c6e2a1b5d4f09
-  servername: tradingview.com
+  alpn:
+  - http/1.1
+  client-fingerprint: safari
+  encryption: none
+  network: ws
+  servername: 148-253-210-191.sslip.io
   tls: true
   type: vless
   udp: true
-  uuid: e07a6d05-f665-4811-91f0-9b3dc1094e4d
+  uuid: 53f03acd-fec1-6685-fc8f-03baf9550cb8
+  ws-opts:
+    headers:
+      Host: 148-253-210-191.sslip.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /test-ws
   xudp: true
-- name: 🇨🇭 Switzerland, Zurich | [BL]
-  server: ch2.h1cloud.net
-  port: 25879
+- name: 🇩🇪 Germany, Frankfurt am Main | 🌐 | [BL]-01
+  server: 195.141.65.98
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  network: ws
+  servername: 148-253-210-191.sslip.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53f03acd-fec1-6685-fc8f-03baf9550cb8
+  ws-opts:
+    headers:
+      Host: 148-253-210-191.sslip.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
+        Gecko) Chrome/26.0.1410.64 Safari/537.31
+    path: /test-ws
+  xudp: true
+- name: 🇩🇪 Germany, Frankfurt am Main | 🌐 | [BL]-02
+  server: 195.141.65.98
+  port: 443
+  client-fingerprint: ios
+  network: ws
+  servername: 148-253-210-191.sslip.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53f03acd-fec1-6685-fc8f-03baf9550cb8
+  ws-opts:
+    headers:
+      Host: 148-253-210-191.sslip.io
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /test-ws
+  xudp: true
+- name: 🇱🇻 Latvia, Riga | [BL]
+  server: test.wolf-moose.test-cdn-kkk.com
+  port: 443
   client-fingerprint: qq
   encryption: none
+  flow: xtls-rprx-vision
   network: tcp
   reality-opts:
-    public-key: XuI492LMe1OPIwQH5TQlIo33JRqMM3kfnto62tbx5FU
-    short-id: f1a7a14461a3f389
-  servername: www.bing.com
+    public-key: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw
+    short-id: '50'
+  servername: la.cdn-tech-images.com
   tls: true
   type: vless
   udp: true
-  uuid: 241306b3-9f27-4ed3-9524-6c0792c55856
+  uuid: bbe37c75-d097-4b72-a074-445a56fe3969
   xudp: true
-- name: 🇨🇭 Switzerland, Zurich | [BL]-01
-  server: 179.43.170.84
+- name: 🇱🇻 Latvia, Riga | [BL]-01
+  server: test.wolf-moose.test-cdn-kkk.com
   port: 443
   client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
   network: tcp
   reality-opts:
-    public-key: hyOYRfDSIYyqALQt3N2H0RjK8gbV1JvPTkNACC4PJF8
-    short-id: 8718c58d3d51db59
-  servername: si2.greenzone12.com
+    public-key: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw
+    short-id: '50'
+  servername: la.cdn-tech-images.com
   tls: true
   type: vless
   udp: true
-  uuid: 8007dda2-aed2-4514-8299-6e3edbdb015b
+  uuid: bbe37c75-d097-4b72-a074-445a56fe3969
+  xudp: true
+- name: 🇵🇱 Poland, Warsaw | [BL]
+  server: 191.217.245.227
+  port: 443
+  client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
+    short-id: ''
+  servername: pl.lenvex.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2614a96d-e39f-4cca-a9c7-467a178c2c0a
   xudp: true
 - name: 🇳🇱 The Netherlands, Amsterdam | [BL]
-  server: 94.183.206.48
-  port: 7443
+  server: fr.golangwikito.cfd
+  port: 443
   client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: ebl
-  network: grpc
+  encryption: none
+  flow: xtls-rprx-vision
+  network: tcp
   reality-opts:
-    public-key: unNROkbh95ZZNHzG2RIkgrFftOLldNH0ccmtW63CziE
-    short-id: ''
-  servername: optim.tildacdn.pub
+    public-key: isYQuhKDrgc7IQ7G0LHywFnt57wffrkZ-er18DkVsBA
+    short-id: e6d589857d1cec5e
+  servername: fr.golangwikito.cfd
   tls: true
   type: vless
   udp: true
-  uuid: 12776e55-6230-48b9-b069-1bb8a04b4237
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
+  xudp: true
+- name: 🇳🇱 The Netherlands, Amsterdam | [BL]-01
+  server: fr.golangwikito.cfd
+  port: 443
+  client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: isYQuhKDrgc7IQ7G0LHywFnt57wffrkZ-er18DkVsBA
+    short-id: e6d589857d1cec5e
+  servername: fr.golangwikito.cfd
+  tls: true
+  type: vless
+  udp: true
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
+  xudp: true
+- name: 🇳🇱 The Netherlands, Amsterdam | [BL]-02
+  server: fr.golangwikito.cfd
+  port: 443
+  client-fingerprint: safari
+  encryption: none
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: isYQuhKDrgc7IQ7G0LHywFnt57wffrkZ-er18DkVsBA
+    short-id: e6d589857d1cec5e
+  servername: fr.golangwikito.cfd
+  tls: true
+  type: vless
+  udp: true
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
+  xudp: true
+- name: 🇳🇱 The Netherlands, Amsterdam | [BL]-03
+  server: fr.golangwikito.cfd
+  port: 443
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: isYQuhKDrgc7IQ7G0LHywFnt57wffrkZ-er18DkVsBA
+    short-id: e6d589857d1cec5e
+  servername: fr.golangwikito.cfd
+  tls: true
+  type: vless
+  udp: true
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
+  xudp: true
+- name: 🇳🇱 The Netherlands, Amsterdam | [BL]-04
+  server: fr.golangwikito.cfd
+  port: 443
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: isYQuhKDrgc7IQ7G0LHywFnt57wffrkZ-er18DkVsBA
+    short-id: e6d589857d1cec5e
+  servername: fr.golangwikito.cfd
+  tls: true
+  type: vless
+  udp: true
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
+  xudp: true
+- name: 🇳🇱 The Netherlands, Amsterdam | [BL]-05
+  server: fr.golangwikito.cfd
+  port: 443
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: isYQuhKDrgc7IQ7G0LHywFnt57wffrkZ-er18DkVsBA
+    short-id: e6d589857d1cec5e
+  servername: fr.golangwikito.cfd
+  tls: true
+  type: vless
+  udp: true
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
+  xudp: true
+- name: 🇳🇱 The Netherlands, Amsterdam | [BL]-06
+  server: fr.golangwikito.cfd
+  port: 443
+  client-fingerprint: safari
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: isYQuhKDrgc7IQ7G0LHywFnt57wffrkZ-er18DkVsBA
+    short-id: e6d589857d1cec5e
+  servername: fr.golangwikito.cfd
+  tls: true
+  type: vless
+  udp: true
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
+  xudp: true
+- name: 🇳🇱 The Netherlands, Amsterdam | [BL]-07
+  server: fr.golangwikito.cfd
+  port: 443
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: isYQuhKDrgc7IQ7G0LHywFnt57wffrkZ-er18DkVsBA
+    short-id: e6d589857d1cec5e
+  servername: fr.golangwikito.cfd
+  tls: true
+  type: vless
+  udp: true
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
+  xudp: true
+- name: 🇳🇱 The Netherlands, Amsterdam | [BL]-08
+  server: fr.golangwikito.cfd
+  port: 443
+  client-fingerprint: random
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: isYQuhKDrgc7IQ7G0LHywFnt57wffrkZ-er18DkVsBA
+    short-id: e6d589857d1cec5e
+  servername: fr.golangwikito.cfd
+  tls: true
+  type: vless
+  udp: true
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
+  xudp: true
+- name: 🇹🇷 Turkey, Istanbul | [BL]
+  server: 177.202.96.106
+  port: 443
+  client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: jIq_COD-tIXTvgDn-TslFGtB_a8HVgUOOIlUByv8fkg
+    short-id: 8718c58d3d51db59
+  servername: pl2.spidermanshopping.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e53b3d8c-2782-456b-97bc-6bc232bdbaa8
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]
+  server: grimness-backlogs.cdn-content.com
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  network: ws
+  servername: grimness-backlogs.cdn-content.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0097844e-b939-4d50-93f3-591debdceb55
+  ws-opts:
+    headers:
+      Host: grimness-backlogs.cdn-content.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-01
+  server: grimness-backlogs.cdn-content.com
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  network: ws
+  servername: grimness-backlogs.cdn-content.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 01520a52-6d92-4683-b525-00d5df476dce
+  ws-opts:
+    headers:
+      Host: grimness-backlogs.cdn-content.com
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-02
   server: ghosts-spasm.quick-cdn.net
   port: 443
   alpn:
@@ -185,28 +386,198 @@ proxies:
   ws-opts:
     headers:
       Host: ghosts-spasm.quick-cdn.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.103 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /ws
   xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-01
+- name: 🇺🇸 United States | 🌐 | [BL]-03
+  server: 151.101.129.242
+  port: 443
+  client-fingerprint: firefox
+  encryption: none
+  network: ws
+  servername: adheres-scruple.quick-cdn.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0259b0b9-c954-4de2-988e-a5877b2cd6e5
+  ws-opts:
+    headers:
+      Host: adheres-scruple.quick-cdn.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-04
+  server: 199.232.173.242
+  port: 443
+  alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  network: ws
+  servername: adheres-scruple.quick-cdn.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 056d58b7-2577-4f82-b7a8-2473202419c2
+  ws-opts:
+    headers:
+      Host: adheres-scruple.quick-cdn.net
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/42.0.2311.135 Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-05
   server: 151.101.1.242
   port: 443
+  alpn:
+  - http/1.1
   client-fingerprint: chrome
   network: ws
   servername: minimize-evenness.cdn-content.com
   tls: true
   type: vless
   udp: true
-  uuid: 0d03e44f-f60f-41b6-8ad7-13445af164fd
+  uuid: 11c1c5e2-7be9-464a-8945-abe4b131abd7
   ws-opts:
     headers:
       Host: minimize-evenness.cdn-content.com
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.67 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
     path: /ws
   xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-02
+- name: 🇺🇸 United States | 🌐 | [BL]-06
+  server: 151.101.193.242
+  port: 443
+  client-fingerprint: firefox
+  encryption: none
+  network: ws
+  servername: bounded-crammed.video-streams.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 11e6c528-434f-4b15-83b3-40a46237ea13
+  ws-opts:
+    headers:
+      Host: bounded-crammed.video-streams.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-07
+  server: 151.101.201.242
+  port: 443
+  client-fingerprint: chrome
+  encryption: none
+  network: ws
+  servername: bounded-crammed.video-streams.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 11e6c528-434f-4b15-83b3-40a46237ea13
+  ws-opts:
+    headers:
+      Host: bounded-crammed.video-streams.org
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.87 Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-08
+  server: bounded-crammed.video-streams.org
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  network: ws
+  servername: bounded-crammed.video-streams.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 11e6c528-434f-4b15-83b3-40a46237ea13
+  ws-opts:
+    headers:
+      Host: bounded-crammed.video-streams.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/53.0.2785.143 Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-09
+  server: ghosts-spasm.quick-cdn.net
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  network: ws
+  servername: ghosts-spasm.quick-cdn.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 11e6c528-434f-4b15-83b3-40a46237ea13
+  ws-opts:
+    headers:
+      Host: ghosts-spasm.quick-cdn.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.115 Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-10
+  server: minimize-evenness.cdn-content.com
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  network: ws
+  servername: minimize-evenness.cdn-content.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1220c563-30a8-46bd-9264-052d7ba92e7d
+  ws-opts:
+    headers:
+      Host: minimize-evenness.cdn-content.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-11
+  server: bounded-crammed.video-streams.org
+  port: 443
+  client-fingerprint: chrome
+  network: ws
+  servername: bounded-crammed.video-streams.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 18b91bec-1abf-45c0-bd06-f2c6ed22a125
+  ws-opts:
+    headers:
+      Host: bounded-crammed.video-streams.org
+      User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML,
+        like Gecko) Chrome/5.0.342.1 Safari/533.2
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-12
+  server: 151.101.1.242
+  port: 443
+  client-fingerprint: firefox
+  encryption: none
+  network: ws
+  servername: bounded-crammed.video-streams.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 18dee1c0-77be-4596-88d6-c23bd83fdae6
+  ws-opts:
+    headers:
+      Host: bounded-crammed.video-streams.org
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-13
   server: bounded-crammed.video-streams.org
   port: 443
   alpn:
@@ -222,51 +593,306 @@ proxies:
   ws-opts:
     headers:
       Host: bounded-crammed.video-streams.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.76 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /ws
   xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-03
-  server: piracy-android.video-streams.org
+- name: 🇺🇸 United States | 🌐 | [BL]-14
+  server: adheres-scruple.quick-cdn.net
   port: 443
   alpn:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
   network: ws
-  servername: piracy-android.video-streams.org
+  servername: adheres-scruple.quick-cdn.net
   tls: true
   type: vless
   udp: true
-  uuid: 2497c739-697d-43e4-bef7-ed1a6e8e5c91
+  uuid: 3c8a0eb8-37a3-4e69-8c5b-7ef465095710
   ws-opts:
     headers:
-      Host: piracy-android.video-streams.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/32.0.1700.107 Safari/537.36
+      Host: adheres-scruple.quick-cdn.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
     path: /ws
   xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-04
-  server: piracy-android.video-streams.org
+- name: 🇺🇸 United States | 🌐 | [BL]-15
+  server: ghosts-spasm.quick-cdn.net
   port: 443
   alpn:
   - http/1.1
-  client-fingerprint: qq
+  client-fingerprint: chrome
+  network: ws
+  servername: ghosts-spasm.quick-cdn.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3d5f6543-8d96-4e94-b0dc-0a4bc7c3b363
+  ws-opts:
+    headers:
+      Host: ghosts-spasm.quick-cdn.net
+      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-16
+  server: ghosts-spasm.quick-cdn.net
+  port: 443
+  client-fingerprint: chrome
+  network: ws
+  servername: ghosts-spasm.quick-cdn.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3d5f6543-8d96-4e94-b0dc-0a4bc7c3b363
+  ws-opts:
+    headers:
+      Host: ghosts-spasm.quick-cdn.net
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-17
+  server: 151.101.193.242
+  port: 443
+  client-fingerprint: firefox
   encryption: none
+  network: ws
+  servername: grimness-backlogs.cdn-content.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 476bdb75-0d9b-49f2-a492-4cd68f594d32
+  ws-opts:
+    headers:
+      Host: grimness-backlogs.cdn-content.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.110 Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-18
+  server: bounded-crammed.video-streams.org
+  port: 443
+  client-fingerprint: chrome
+  network: ws
+  servername: bounded-crammed.video-streams.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 476bdb75-0d9b-49f2-a492-4cd68f594d32
+  ws-opts:
+    headers:
+      Host: bounded-crammed.video-streams.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-19
+  server: ghosts-spasm.quick-cdn.net
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  network: ws
+  servername: ghosts-spasm.quick-cdn.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 476bdb75-0d9b-49f2-a492-4cd68f594d32
+  ws-opts:
+    headers:
+      Host: ghosts-spasm.quick-cdn.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.102 Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-20
+  server: ghosts-spasm.quick-cdn.net
+  port: 443
+  client-fingerprint: chrome
+  encryption: none
+  network: ws
+  servername: ghosts-spasm.quick-cdn.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 476bdb75-0d9b-49f2-a492-4cd68f594d32
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.110 Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-21
+  server: grimness-backlogs.cdn-content.com
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  network: ws
+  servername: grimness-backlogs.cdn-content.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 476bdb75-0d9b-49f2-a492-4cd68f594d32
+  ws-opts:
+    headers:
+      Host: grimness-backlogs.cdn-content.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-22
+  server: grimness-backlogs.cdn-content.com
+  port: 443
+  client-fingerprint: chrome
+  network: ws
+  servername: grimness-backlogs.cdn-content.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 484af701-34a8-4957-bf61-0f7bc3891e59
+  ws-opts:
+    headers:
+      Host: grimness-backlogs.cdn-content.com
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-23
+  server: 151.101.129.242
+  port: 443
+  client-fingerprint: firefox
+  encryption: none
+  network: ws
+  servername: ghosts-spasm.quick-cdn.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d76bd7c-d538-432f-a7d8-9be364427a19
+  ws-opts:
+    headers:
+      Host: ghosts-spasm.quick-cdn.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-24
+  server: 151.101.1.242
+  port: 443
+  client-fingerprint: firefox
+  encryption: none
+  network: ws
+  servername: bounded-crammed.video-streams.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5db320bf-0092-4871-9062-83f5cd00cbe4
+  ws-opts:
+    headers:
+      Host: bounded-crammed.video-streams.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-25
+  server: 151.101.129.242
+  port: 443
+  client-fingerprint: firefox
+  encryption: none
+  network: ws
+  servername: bounded-crammed.video-streams.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5db320bf-0092-4871-9062-83f5cd00cbe4
+  ws-opts:
+    headers:
+      Host: bounded-crammed.video-streams.org
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-26
+  server: bounded-crammed.video-streams.org
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  network: ws
+  servername: bounded-crammed.video-streams.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5db320bf-0092-4871-9062-83f5cd00cbe4
+  ws-opts:
+    headers:
+      Host: bounded-crammed.video-streams.org
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-27
+  server: minimize-evenness.cdn-content.com
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  network: ws
+  servername: minimize-evenness.cdn-content.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5fccaf5f-6cc7-46a1-8a41-03c0a4231e6c
+  ws-opts:
+    headers:
+      Host: minimize-evenness.cdn-content.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.71 Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-28
+  server: adheres-scruple.quick-cdn.net
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  network: ws
+  servername: adheres-scruple.quick-cdn.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 62cd6e5a-f41a-462a-8df9-31ab0ef75e46
+  ws-opts:
+    headers:
+      Host: adheres-scruple.quick-cdn.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-29
+  server: 151.101.1.242
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
   network: ws
   servername: piracy-android.video-streams.org
   tls: true
   type: vless
   udp: true
-  uuid: 2497c739-697d-43e4-bef7-ed1a6e8e5c91
+  uuid: 63fcd1af-02c5-4048-bc03-def26ebe949a
   ws-opts:
     headers:
       Host: piracy-android.video-streams.org
-      User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML,
-        like Gecko) Chrome/5.0.342.1 Safari/533.2
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
     path: /ws
   xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-05
+- name: 🇺🇸 United States | 🌐 | [BL]-30
   server: grimness-backlogs.cdn-content.com
   port: 443
   alpn:
@@ -278,74 +904,15 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 254e661b-77ef-454a-8e2d-832bcdfc7470
+  uuid: 68013563-ae18-40bc-9d6b-d9ef0fd5929a
   ws-opts:
     headers:
       Host: grimness-backlogs.cdn-content.com
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
     path: /ws
   xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-06
-  server: minimize-evenness.cdn-content.com
-  port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  network: ws
-  servername: minimize-evenness.cdn-content.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3c8a0eb8-37a3-4e69-8c5b-7ef465095710
-  ws-opts:
-    headers:
-      Host: minimize-evenness.cdn-content.com
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.75 Safari/537.36
-    path: /ws
-  xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-07
-  server: piracy-android.video-streams.org
-  port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  network: ws
-  servername: piracy-android.video-streams.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3c8a0eb8-37a3-4e69-8c5b-7ef465095710
-  ws-opts:
-    headers:
-      Host: piracy-android.video-streams.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /ws
-  xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-08
-  server: piracy-android.video-streams.org
-  port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  network: ws
-  servername: piracy-android.video-streams.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 440fe024-dd04-4581-9657-4a49afa65b81
-  ws-opts:
-    headers:
-      Host: piracy-android.video-streams.org
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /ws
-  xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-09
+- name: 🇺🇸 United States | 🌐 | [BL]-31
   server: adheres-scruple.quick-cdn.net
   port: 443
   alpn:
@@ -357,126 +924,35 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 4f46eb95-a57f-457f-895f-f50e6ad9f164
+  uuid: 72a258a9-281d-41ae-a9d9-2247064923e0
   ws-opts:
     headers:
       Host: adheres-scruple.quick-cdn.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2272.104 Safari/537.36
     path: /ws
   xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-10
-  server: 151.101.193.242
-  port: 443
-  client-fingerprint: firefox
-  network: ws
-  servername: adheres-scruple.quick-cdn.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 51a8d623-0d6d-4018-82f4-84b76d5bd015
-  ws-opts:
-    headers:
-      Host: adheres-scruple.quick-cdn.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /ws
-  xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-11
-  server: minimize-evenness.cdn-content.com
-  port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  network: ws
-  servername: minimize-evenness.cdn-content.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 566e98ad-4a56-4c1d-9dbc-83987079731b
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.101 Safari/537.36
-    path: /ws
-  xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-12
-  server: ghosts-spasm.quick-cdn.net
-  port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  network: ws
-  servername: ghosts-spasm.quick-cdn.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d76bd7c-d538-432f-a7d8-9be364427a19
-  ws-opts:
-    headers:
-      Host: ghosts-spasm.quick-cdn.net
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /ws
-- name: 🇺🇸 United States | 🌐 | [BL]-13
+- name: 🇺🇸 United States | 🌐 | [BL]-32
   server: adheres-scruple.quick-cdn.net
   port: 443
   alpn:
   - http/1.1
-  client-fingerprint: chrome
+  client-fingerprint: qq
+  encryption: none
   network: ws
   servername: adheres-scruple.quick-cdn.net
   tls: true
   type: vless
   udp: true
-  uuid: 5db320bf-0092-4871-9062-83f5cd00cbe4
+  uuid: 72a258a9-281d-41ae-a9d9-2247064923e0
   ws-opts:
     headers:
       Host: adheres-scruple.quick-cdn.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/47.0.2526.106 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
     path: /ws
   xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-14
-  server: piracy-android.video-streams.org
-  port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  network: ws
-  servername: piracy-android.video-streams.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5db320bf-0092-4871-9062-83f5cd00cbe4
-  ws-opts:
-    headers:
-      Host: piracy-android.video-streams.org
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-    path: /ws
-  xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-15
-  server: 151.101.1.242
-  port: 443
-  client-fingerprint: firefox
-  encryption: none
-  network: ws
-  servername: minimize-evenness.cdn-content.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 62cd6e5a-f41a-462a-8df9-31ab0ef75e46
-  ws-opts:
-    headers:
-      Host: minimize-evenness.cdn-content.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/43.0.2357.65 Safari/537.36
-    path: /ws
-  xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-16
+- name: 🇺🇸 United States | 🌐 | [BL]-33
   server: piracy-android.video-streams.org
   port: 443
   client-fingerprint: chrome
@@ -489,96 +965,16 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2272.101 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /ws
   xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-17
-  server: bounded-crammed.video-streams.org
-  port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  network: ws
-  servername: bounded-crammed.video-streams.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7430b11a-3b3e-4806-9a44-638caf36cabb
-  ws-opts:
-    headers:
-      Host: bounded-crammed.video-streams.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /ws
-  xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-18
-  server: adheres-scruple.quick-cdn.net
-  port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  encryption: none
-  network: ws
-  servername: adheres-scruple.quick-cdn.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7443ec9d-4ded-409b-ac14-a20328502c13
-  ws-opts:
-    headers:
-      Host: adheres-scruple.quick-cdn.net
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile
-        Safari/537.36
-    path: /ws
-  xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-19
-  server: adheres-scruple.quick-cdn.net
-  port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: qq
-  encryption: none
-  network: ws
-  servername: adheres-scruple.quick-cdn.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7443ec9d-4ded-409b-ac14-a20328502c13
-  ws-opts:
-    headers:
-      Host: adheres-scruple.quick-cdn.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /ws
-  xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-20
-  server: adheres-scruple.quick-cdn.net
-  port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: safari
-  encryption: none
-  network: ws
-  servername: adheres-scruple.quick-cdn.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7443ec9d-4ded-409b-ac14-a20328502c13
-  ws-opts:
-    headers:
-      Host: adheres-scruple.quick-cdn.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.86 Safari/537.36
-    path: /ws
-  xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-21
+- name: 🇺🇸 United States | 🌐 | [BL]-34
   server: minimize-evenness.cdn-content.com
   port: 443
   alpn:
   - http/1.1
-  client-fingerprint: chrome
+  client-fingerprint: safari
   encryption: none
   network: ws
   servername: minimize-evenness.cdn-content.com
@@ -589,11 +985,29 @@ proxies:
   ws-opts:
     headers:
       Host: minimize-evenness.cdn-content.com
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
     path: /ws
   xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-22
+- name: 🇺🇸 United States | 🌐 | [BL]-35
+  server: 151.101.129.242
+  port: 443
+  client-fingerprint: firefox
+  encryption: none
+  network: ws
+  servername: grimness-backlogs.cdn-content.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7ca746f8-4b6d-48f6-a344-aff7bf836388
+  ws-opts:
+    headers:
+      Host: grimness-backlogs.cdn-content.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-36
   server: grimness-backlogs.cdn-content.com
   port: 443
   alpn:
@@ -609,11 +1023,30 @@ proxies:
   ws-opts:
     headers:
       Host: grimness-backlogs.cdn-content.com
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
     path: /ws
   xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-23
+- name: 🇺🇸 United States | 🌐 | [BL]-37
+  server: minimize-evenness.cdn-content.com
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  network: ws
+  servername: minimize-evenness.cdn-content.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7eeeaa43-4ffd-4223-88a6-484a2be9cb95
+  ws-opts:
+    headers:
+      Host: minimize-evenness.cdn-content.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-38
   server: piracy-android.video-streams.org
   port: 443
   alpn:
@@ -629,11 +1062,11 @@ proxies:
   ws-opts:
     headers:
       Host: piracy-android.video-streams.org
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.112 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
     path: /ws
   xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-24
+- name: 🇺🇸 United States | 🌐 | [BL]-39
   server: piracy-android.video-streams.org
   port: 443
   alpn:
@@ -647,107 +1080,48 @@ proxies:
   ws-opts:
     headers:
       Host: piracy-android.video-streams.org
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.67 Safari/537.36
     path: /ws
   xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-25
-  server: adheres-scruple.quick-cdn.net
+- name: 🇺🇸 United States | 🌐 | [BL]-40
+  server: 151.101.193.242
   port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
+  client-fingerprint: firefox
+  encryption: none
   network: ws
-  servername: adheres-scruple.quick-cdn.net
+  servername: bounded-crammed.video-streams.org
   tls: true
   type: vless
   udp: true
-  uuid: 8a9b898d-5658-4f77-9fe9-5ff5b61fa107
+  uuid: 9819d5c6-bc6e-4e31-8af7-c023ecff6022
   ws-opts:
     headers:
-      Host: adheres-scruple.quick-cdn.net
+      Host: bounded-crammed.video-streams.org
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/67.0.3396.99 Safari/537.36
     path: /ws
   xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-26
-  server: piracy-android.video-streams.org
+- name: 🇺🇸 United States | 🌐 | [BL]-41
+  server: bounded-crammed.video-streams.org
   port: 443
   alpn:
   - http/1.1
   client-fingerprint: chrome
   network: ws
-  servername: piracy-android.video-streams.org
+  servername: bounded-crammed.video-streams.org
   tls: true
   type: vless
   udp: true
-  uuid: 8a9b898d-5658-4f77-9fe9-5ff5b61fa107
+  uuid: 9819d5c6-bc6e-4e31-8af7-c023ecff6022
   ws-opts:
     headers:
-      Host: piracy-android.video-streams.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.87 Safari/537.36
+      Host: bounded-crammed.video-streams.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2272.104 Safari/537.36
     path: /ws
   xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-27
-  server: grimness-backlogs.cdn-content.com
-  port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: safari
-  network: ws
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8fa74247-8816-4caf-b2c8-0dadff14ee3c
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
-        Slackware/Chrome/12.0.742.100 Safari/534.30
-    path: /ws
-  xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-28
-  server: piracy-android.video-streams.org
-  port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  network: ws
-  servername: piracy-android.video-streams.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 909259b0-0a30-4ef5-bfd8-5ffe5d99cb56
-  ws-opts:
-    headers:
-      Host: piracy-android.video-streams.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.81 Safari/537.36
-    path: /ws
-  xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-29
-  server: piracy-android.video-streams.org
-  port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  encryption: none
-  network: ws
-  servername: piracy-android.video-streams.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 909259b0-0a30-4ef5-bfd8-5ffe5d99cb56
-  ws-opts:
-    headers:
-      Host: piracy-android.video-streams.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/39.0.2171.95 Safari/537.36
-    path: /ws
-  xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-30
+- name: 🇺🇸 United States | 🌐 | [BL]-42
   server: grimness-backlogs.cdn-content.com
   port: 443
   alpn:
@@ -762,28 +1136,82 @@ proxies:
   ws-opts:
     headers:
       Host: grimness-backlogs.cdn-content.com
-      User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML,
-        like Gecko) Chrome/5.0.342.1 Safari/533.2
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.94 Safari/537.36
     path: /ws
   xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-31
-  server: 151.101.193.242
+- name: 🇺🇸 United States | 🌐 | [BL]-43
+  server: 151.101.65.242
   port: 443
-  client-fingerprint: chrome
+  client-fingerprint: firefox
+  encryption: none
   network: ws
-  servername: adheres-scruple.quick-cdn.net
+  servername: ghosts-spasm.quick-cdn.net
   tls: true
   type: vless
   udp: true
-  uuid: b0cf4078-96b8-4e11-80a8-0f9352565a16
+  uuid: 9d50fde6-7e89-4dee-9fee-17a77046604c
   ws-opts:
     headers:
-      Host: adheres-scruple.quick-cdn.net
+      Host: ghosts-spasm.quick-cdn.net
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.143 Safari/537.36
+        Gecko) Chrome/51.0.2704.63 Safari/537.36
     path: /ws
   xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-32
+- name: 🇺🇸 United States | 🌐 | [BL]-44
+  server: ghosts-spasm.quick-cdn.net
+  port: 443
+  client-fingerprint: chrome
+  network: ws
+  servername: ghosts-spasm.quick-cdn.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9d50fde6-7e89-4dee-9fee-17a77046604c
+  ws-opts:
+    headers:
+      Host: ghosts-spasm.quick-cdn.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/53.0.2785.143 Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-45
+  server: minimize-evenness.cdn-content.com
+  port: 443
+  client-fingerprint: chrome
+  network: ws
+  servername: minimize-evenness.cdn-content.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a97b4f58-0d47-416f-9ecd-dfdf20f31bf7
+  ws-opts:
+    headers:
+      Host: minimize-evenness.cdn-content.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/45.0.2454.93 Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-46
+  server: ghosts-spasm.quick-cdn.net
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  network: ws
+  servername: ghosts-spasm.quick-cdn.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: ad19e43c-362d-42cb-9c2b-a6955cbc6af0
+  ws-opts:
+    headers:
+      Host: ghosts-spasm.quick-cdn.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-47
   server: 151.101.193.242
   port: 443
   client-fingerprint: firefox
@@ -796,11 +1224,11 @@ proxies:
   ws-opts:
     headers:
       Host: adheres-scruple.quick-cdn.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/65.0.3325.181 Safari/537.36
     path: /ws
   xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-33
+- name: 🇺🇸 United States | 🌐 | [BL]-48
   server: adheres-scruple.quick-cdn.net
   port: 443
   alpn:
@@ -816,11 +1244,11 @@ proxies:
   ws-opts:
     headers:
       Host: adheres-scruple.quick-cdn.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.81 Safari/537.36
     path: /ws
   xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-34
+- name: 🇺🇸 United States | 🌐 | [BL]-49
   server: adheres-scruple.quick-cdn.net
   port: 443
   alpn:
@@ -835,11 +1263,86 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/39.0.2171.95 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
     path: /ws
   xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-35
+- name: 🇺🇸 United States | 🌐 | [BL]-50
+  server: adheres-scruple.quick-cdn.net
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  network: ws
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2aa6d03-4d3e-478d-98aa-2447f09d4cb1
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-51
+  server: piracy-android.video-streams.org
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  network: ws
+  servername: piracy-android.video-streams.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2aa6d03-4d3e-478d-98aa-2447f09d4cb1
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/57.0.2987.133 Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-52
+  server: 151.101.65.242
+  port: 443
+  client-fingerprint: firefox
+  encryption: none
+  network: ws
+  servername: ghosts-spasm.quick-cdn.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7eb28c2-9bd0-4c53-859c-dc0646288b8c
+  ws-opts:
+    headers:
+      Host: ghosts-spasm.quick-cdn.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-53
+  server: ghosts-spasm.quick-cdn.net
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  network: ws
+  servername: ghosts-spasm.quick-cdn.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7eb28c2-9bd0-4c53-859c-dc0646288b8c
+  ws-opts:
+    headers:
+      Host: ghosts-spasm.quick-cdn.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-54
   server: bounded-crammed.video-streams.org
   port: 443
   alpn:
@@ -854,201 +1357,180 @@ proxies:
   ws-opts:
     headers:
       Host: bounded-crammed.video-streams.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /ws
   xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-36
+- name: 🇺🇸 United States | 🌐 | [BL]-55
   server: bounded-crammed.video-streams.org
   port: 443
   alpn:
   - http/1.1
   client-fingerprint: chrome
-  encryption: none
   network: ws
   servername: bounded-crammed.video-streams.org
   tls: true
   type: vless
   udp: true
-  uuid: d51b3246-21fe-47fb-b600-a7b7b9b6182d
+  uuid: c7f0b683-61ea-48c5-93f1-783459ba2124
   ws-opts:
     headers:
       Host: bounded-crammed.video-streams.org
-      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /ws
   xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-37
-  server: bounded-crammed.video-streams.org
-  port: 443
-  client-fingerprint: chrome
-  encryption: none
-  network: ws
-  servername: bounded-crammed.video-streams.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: d51b3246-21fe-47fb-b600-a7b7b9b6182d
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
-        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-    path: /ws
-  xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-38
-  server: bounded-crammed.video-streams.org
-  port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  network: ws
-  tls: true
-  type: vless
-  udp: true
-  uuid: d51b3246-21fe-47fb-b600-a7b7b9b6182d
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /ws
-  xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-39
-  server: ghosts-spasm.quick-cdn.net
-  port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  network: ws
-  servername: ghosts-spasm.quick-cdn.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: d51b3246-21fe-47fb-b600-a7b7b9b6182d
-  ws-opts:
-    headers:
-      Host: ghosts-spasm.quick-cdn.net
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /ws
-  xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-40
-  server: ghosts-spasm.quick-cdn.net
-  port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  network: ws
-  tls: true
-  type: vless
-  udp: true
-  uuid: d51b3246-21fe-47fb-b600-a7b7b9b6182d
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /ws
-  xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-41
-  server: minimize-evenness.cdn-content.com
-  port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  network: ws
-  servername: minimize-evenness.cdn-content.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: daed3ca3-6b04-44e3-bd55-a9995e88d70b
-  ws-opts:
-    headers:
-      Host: minimize-evenness.cdn-content.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /ws
-  xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-42
-  server: minimize-evenness.cdn-content.com
+- name: 🇺🇸 United States | 🌐 | [BL]-56
+  server: grimness-backlogs.cdn-content.com
   port: 443
   alpn:
   - http/1.1
   client-fingerprint: chrome
   network: ws
-  servername: minimize-evenness.cdn-content.com
+  servername: grimness-backlogs.cdn-content.com
   tls: true
   type: vless
   udp: true
-  uuid: e12bb1dc-d315-47e3-9184-cb655afe6421
+  uuid: c7f0b683-61ea-48c5-93f1-783459ba2124
   ws-opts:
     headers:
-      Host: minimize-evenness.cdn-content.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.77 Safari/537.36
+      Host: grimness-backlogs.cdn-content.com
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /ws
   xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-43
-  server: minimize-evenness.cdn-content.com
-  port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  network: ws
-  servername: minimize-evenness.cdn-content.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e836302b-2ab2-4286-b584-c1dcf2c2e6a0
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /ws
-  xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-44
+- name: 🇺🇸 United States | 🌐 | [BL]-57
   server: adheres-scruple.quick-cdn.net
   port: 443
+  alpn:
+  - http/1.1
   client-fingerprint: chrome
   network: ws
   servername: adheres-scruple.quick-cdn.net
   tls: true
   type: vless
   udp: true
-  uuid: e8bec62c-ba78-45e9-a216-44c1a138b88d
+  uuid: c9ff358e-20c4-4979-bc14-acc3daaf1297
   ws-opts:
     headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+      Host: adheres-scruple.quick-cdn.net
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
     path: /ws
   xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-45
-  server: bounded-crammed.video-streams.org
+- name: 🇺🇸 United States | 🌐 | [BL]-58
+  server: piracy-android.video-streams.org
   port: 443
   alpn:
   - http/1.1
   client-fingerprint: chrome
   network: ws
-  servername: bounded-crammed.video-streams.org
+  servername: piracy-android.video-streams.org
   tls: true
   type: vless
   udp: true
-  uuid: eb199167-16d6-45d0-aadb-314cab5a4e72
+  uuid: c9ff358e-20c4-4979-bc14-acc3daaf1297
   ws-opts:
     headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/32.0.1700.107 Safari/537.36
+      Host: piracy-android.video-streams.org
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.80 Safari/537.36
     path: /ws
   xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-46
+- name: 🇺🇸 United States | 🌐 | [BL]-59
+  server: 151.101.129.242
+  port: 443
+  client-fingerprint: chrome
+  network: ws
+  servername: minimize-evenness.cdn-content.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd9e00aa-3581-42e4-a35c-56ae3a521159
+  ws-opts:
+    headers:
+      Host: minimize-evenness.cdn-content.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-60
+  server: grimness-backlogs.cdn-content.com
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  network: ws
+  servername: grimness-backlogs.cdn-content.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d1ae5c78-3b70-40e6-899d-9f3650208368
+  ws-opts:
+    headers:
+      Host: grimness-backlogs.cdn-content.com
+      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-61
+  server: grimness-backlogs.cdn-content.com
+  port: 443
+  client-fingerprint: chrome
+  network: ws
+  servername: grimness-backlogs.cdn-content.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d1ae5c78-3b70-40e6-899d-9f3650208368
+  ws-opts:
+    headers:
+      Host: grimness-backlogs.cdn-content.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-62
+  server: ghosts-spasm.quick-cdn.net
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  network: ws
+  servername: ghosts-spasm.quick-cdn.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: e262a993-a3be-4f36-95ba-81dc1e32d78c
+  ws-opts:
+    headers:
+      Host: ghosts-spasm.quick-cdn.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-63
+  server: adheres-scruple.quick-cdn.net
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  network: ws
+  servername: adheres-scruple.quick-cdn.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4c62709-2791-4033-bbcc-c0a7c90d0f62
+  ws-opts:
+    headers:
+      Host: adheres-scruple.quick-cdn.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-64
   server: ghosts-spasm.quick-cdn.net
   port: 443
   alpn:
@@ -1065,27 +1547,10 @@ proxies:
     headers:
       Host: ghosts-spasm.quick-cdn.net
       User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
     path: /ws
   xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-47
-  server: ghosts-spasm.quick-cdn.net
-  port: 443
-  client-fingerprint: chrome
-  network: ws
-  servername: ghosts-spasm.quick-cdn.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: eb3a2eaf-ab4e-468f-b79c-bebd52f8d872
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.67 Safari/537.36
-    path: /ws
-  xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-48
+- name: 🇺🇸 United States | 🌐 | [BL]-65
   server: grimness-backlogs.cdn-content.com
   port: 443
   client-fingerprint: chrome
@@ -1099,30 +1564,45 @@ proxies:
     headers:
       Host: ''
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
     path: /ws
   xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-49
-  server: piracy-android.video-streams.org
+- name: 🇺🇸 United States | 🌐 | [BL]-66
+  server: 151.101.129.242
   port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: ios
+  client-fingerprint: firefox
   encryption: none
   network: ws
   servername: piracy-android.video-streams.org
   tls: true
   type: vless
   udp: true
-  uuid: f2a7b23e-6ec3-432b-8381-5219d80f606f
+  uuid: ecbc4229-e8d3-4607-8f02-fd592c9a0743
   ws-opts:
     headers:
       Host: piracy-android.video-streams.org
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /ws
   xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-50
+- name: 🇺🇸 United States | 🌐 | [BL]-67
+  server: grimness-backlogs.cdn-content.com
+  port: 443
+  client-fingerprint: chrome
+  network: ws
+  servername: grimness-backlogs.cdn-content.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f1646667-a135-4246-9a9a-de0c53b0dc8d
+  ws-opts:
+    headers:
+      Host: grimness-backlogs.cdn-content.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States | 🌐 | [BL]-68
   server: 151.101.161.242
   port: 443
   alpn:
@@ -1137,178 +1617,89 @@ proxies:
   ws-opts:
     headers:
       Host: bounded-crammed.video-streams.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/65.0.3325.181 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /ws
   xudp: true
-- name: 🇺🇸 United States | 🌐 | [BL]-51
-  server: minimize-evenness.cdn-content.com
+- name: 🇺🇸 United States | 🌐 | [BL]-69
+  server: 151.101.21.242
   port: 443
   alpn:
   - http/1.1
   client-fingerprint: chrome
+  encryption: none
   network: ws
-  servername: minimize-evenness.cdn-content.com
+  servername: bounded-crammed.video-streams.org
   tls: true
   type: vless
   udp: true
-  uuid: fadcfc37-376a-42e6-a5cd-cb65988663d3
+  uuid: f80cfcb4-9bd1-4a0d-a50b-28e3eea107d8
   ws-opts:
     headers:
-      Host: minimize-evenness.cdn-content.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.63 Safari/537.36
+      Host: bounded-crammed.video-streams.org
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
     path: /ws
   xudp: true
-- name: 🇺🇸 United States, Washington D.C. | [BL]
-  server: 5.1.40.4
-  port: 2083
-  alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  network: ws
-  servername: speedtestmark.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 75b517db-1f97-4bda-a479-863d988c31a0
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/69.0.3497.100 Safari/537.36
-    path: /vless-ws
-  xudp: true
-- name: 🇺🇸 United States, Washington D.C. | [BL]-01
-  server: 5.1.40.50
-  port: 2083
-  alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  network: ws
-  servername: speedtestmark.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 75b517db-1f97-4bda-a479-863d988c31a0
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/50.0.2661.102 Safari/537.36
-    path: /vless-ws
-  xudp: true
-- name: 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: ios
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome
-  xudp: true
-- name: 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-01
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: ios
-  encryption: none
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/44.0.2403.157 Safari/537.36
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-  xudp: true
-- name: 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇪 🇵🇱 | [BL]
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: android
-  encryption: none
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI
-  xudp: true
-- name: 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇪 🇵🇱 | [BL]-01
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: edge
-  encryption: none
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-  xudp: true
-- name: 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: edge
-  encryption: none
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI
-  xudp: true
-- name: 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-01
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: ios
-  encryption: none
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.112 Safari/537.36
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI
-  xudp: true
-- name: 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-02
-  server: 43.174.193.1
+- name: 🇺🇸 United States, Buffalo | [BL]
+  server: 104.237.250.97
   port: 443
   client-fingerprint: chrome
+  encryption: none
+  network: tcp
+  reality-opts:
+    public-key: o1Y-KHEnXf3ywzXRFVfNrDx7uAQujlxjsZuiypTcfhQ
+    short-id: '610382'
+  servername: ap-author.led.samsung.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 40c0986a-37b3-4ea4-a0ed-e94f7731d12a
+  xudp: true
+- name: 🇺🇸 United States, Los Angeles | 🌐 | [BL]
+  server: 85.155.179.206
+  port: 443
+  alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  network: tcp
+  servername: us3.shtil.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 86a83d11-d751-4b60-aa4e-1dca5cff7028
+  xudp: true
+- name: 🇺🇸 United States, Los Angeles | 🌐 | [BL]-01
+  server: us3.shtil.io
+  port: 443
+  alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  encryption: none
+  network: tcp
+  servername: us3.shtil.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 86a83d11-d751-4b60-aa4e-1dca5cff7028
+  xudp: true
+- name: 🇺🇸 United States, Los Angeles | 🌐 | [BL]-02
+  server: us3.shtil.io
+  port: 443
+  client-fingerprint: firefox
+  network: tcp
+  servername: us3.shtil.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 86a83d11-d751-4b60-aa4e-1dca5cff7028
+  xudp: true
+- name: 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]
+  server: 43.174.193.1
+  port: 443
+  client-fingerprint: edge
   encryption: none
   network: ws
   servername: ccc.010304.xyz
@@ -1321,9 +1712,9 @@ proxies:
       Host: ccc.010304.xyz
       User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /fp
+    path: /?TELEGRAM----ICV2RAY----?ed=2560fp=chrome
   xudp: true
-- name: 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-03
+- name: 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]
   server: 43.174.193.1
   port: 443
   client-fingerprint: qq
@@ -1338,31 +1729,13 @@ proxies:
     headers:
       Host: ccc.010304.xyz
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.186 Safari/537.36
-    path: /fp
-  xudp: true
-- name: 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-04
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: chrome
-  encryption: none
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/43.0.2357.65 Safari/537.36
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
   xudp: true
-- name: 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-05
+- name: 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-01
   server: 43.174.193.1
   port: 443
-  client-fingerprint: qq
+  client-fingerprint: android
   network: ws
   servername: ccc.010304.xyz
   tls: true
@@ -1372,149 +1745,11 @@ proxies:
   ws-opts:
     headers:
       Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
-    path: /
-  xudp: true
-- name: 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-06
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: safari
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /fp=chromefp=chrome
   xudp: true
-- name: 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-07
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: chrome
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.63 Safari/537.36
-    path: /fp=chromefp=chrome
-  xudp: true
-- name: 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇵🇱 | [BL]
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: safari
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome
-  xudp: true
-- name: 🌐 Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇮🇪 🇮🇶 🇵🇱 | [BL]
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: firefox
-  encryption: none
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.143 Safari/537.36
-    path: /fp
-  xudp: true
-- name: 🌐 Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: chrome
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/53.0.2785.143 Safari/537.36
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-  xudp: true
-- name: 🌐 Anycast-IP | 🇦🇷 🇬🇧 🇵🇱 | [BL]
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: qq
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
-    path: /fp=chromefp=chrome
-  xudp: true
-- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇮🇪 🇵🇱 | [BL]
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: edge
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/43.0.2357.65 Safari/537.36
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome
-  xudp: true
-- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: firefox
-  encryption: none
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/31.0.1650.57 Safari/537.36
-    path: /fp=chrome
-  xudp: true
-- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]-01
+- name: 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]
   server: 43.174.193.1
   port: 443
   client-fingerprint: qq
@@ -1528,103 +1763,32 @@ proxies:
   ws-opts:
     headers:
       Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.81 Safari/537.36
-    path: /fp=chrome
-  xudp: true
-- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]-02
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: safari
-  encryption: none
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.106 Safari/537.36
-    path: /fp=chrome
-  xudp: true
-- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: chrome
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
-    path: /fp
-  xudp: true
-- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-01
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: chrome
-  encryption: none
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
-        Chrome/12.0.742.100 Safari/534.30
-    path: /fp=chrome
-  xudp: true
-- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-02
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: edge
-  encryption: none
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /fp=chrome
-  xudp: true
-- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-03
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: chrome
-  encryption: none
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.101 Safari/537.36
     path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI
+  xudp: true
+- name: 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-01
+  server: 43.174.193.1
+  port: 443
+  client-fingerprint: edge
+  encryption: none
+  network: ws
+  servername: ccc.010304.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 🇺🇸 | [BL]
   server: 43.174.193.1
   port: 443
-  client-fingerprint: qq
+  client-fingerprint: edge
   encryption: none
   network: ws
   servername: ccc.010304.xyz
@@ -1636,240 +1800,13 @@ proxies:
     headers:
       Host: ccc.010304.xyz
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.81 Safari/537.36
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-  xudp: true
-- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 🇵🇱 | [BL]
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: firefox
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /fp=chromefp=chrome
-  xudp: true
-- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇵🇱 🇺🇸 | [BL]
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: edge
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.181 Safari/537.36
-    path: /
-  xudp: true
-- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL]
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: ios
-  encryption: none
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/69.0.3497.100 Safari/537.36
-    path: /fp=chrome
-  xudp: true
-- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL]-01
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: firefox
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2228.0 Safari/537.36
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome
-  xudp: true
-- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL]-02
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: firefox
-  encryption: none
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
-        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-  xudp: true
-- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL]-03
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: edge
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
-        Slackware/Chrome/12.0.742.100 Safari/534.30
-    path: /fp=chromefp=chrome
-  xudp: true
-- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 🇺🇸 | [BL]
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: edge
-  encryption: none
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.186 Safari/537.36
-    path: /?TELEGRAM----ICV2RAY----?ed=2560fp=chrome
-  xudp: true
-- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇵🇱 | [BL]
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: android
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome
-  xudp: true
-- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇵🇱 | [BL]-01
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: ios
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.63 Safari/537.36
-    path: /
-  xudp: true
-- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇵🇱 | [BL]-02
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: chrome
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /fp=chrome
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
+    path: /fp
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇵🇱 🇺🇸 | [BL]
   server: 43.174.193.1
   port: 443
-  client-fingerprint: android
-  encryption: none
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.125 Safari/537.36
-    path: /fp=chrome
-  xudp: true
-- name: 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇵🇱 | [BL]
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: chrome
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /
-  xudp: true
-- name: 🌐 Anycast-IP | 🇨🇦 🇮🇶 🇵🇱 | [BL]
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: qq
-  encryption: none
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI
-  xudp: true
-- name: 🌐 Anycast-IP | 🇩🇪 🇬🇧 🇮🇪 🇮🇶 🇵🇱 | [BL]
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: firefox
-  encryption: none
+  client-fingerprint: safari
   network: ws
   servername: ccc.010304.xyz
   tls: true
@@ -1880,212 +1817,120 @@ proxies:
     headers:
       Host: ccc.010304.xyz
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /fp=chromefp=chrome
   xudp: true
-- name: 🌐 Anycast-IP | 🇩🇪 🇬🇧 🇵🇱 | [BL]
-  server: 43.174.193.1
+- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇺🇸 | [BL]
+  server: 47.245.134.84
   port: 443
-  client-fingerprint: android
-  encryption: none
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /
-  xudp: true
-- name: 🌐 Anycast-IP | 🇩🇪 🇬🇧 🇵🇱 🇺🇸 | [BL]
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: chrome
-  encryption: none
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.125 Safari/537.36
-    path: /
-  xudp: true
-- name: 🌐 Anycast-IP | 🇩🇪 🇮🇪 🇮🇶 🇵🇱 🇺🇸 | [BL]
-  server: 43.174.193.1
-  port: 443
-  client-fingerprint: android
-  encryption: none
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/42.0.2311.90 Safari/537.36
-    path: /fp
-  xudp: true
-- name: 🌐 Anycast-IP | 🇩🇪 🇵🇱 | [BL]
-  server: auto.claudpath.com
-  port: 8443
-  client-fingerprint: chrome
-  encryption: none
-  network: xhttp
-  reality-opts:
-    public-key: ZbhM6UKoxyC9hztiqwBSi9f6wcALENfoNADKENSbIUM
-    short-id: de3eb7d4
-  servername: cdn9-15.cachemesh.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: b7bd69ff-4bc6-565c-89aa-f0fe7fcd8110
-  xhttp-opts:
-    mode: stream-one
-    path: /xhttp
-  xudp: true
-- name: 🌐 Anycast-IP | 🇫🇷 | [BL]
-  server: 199.232.78.160
-  port: 443
-  client-fingerprint: android
-  encryption: none
-  network: ws
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 49e29dba-814a-50b0-b4a9-deffe26ae624
-  ws-opts:
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/44.0.2403.157 Safari/537.36
-    path: /
-  xudp: true
-- name: 🌐 Anycast-IP | 🇫🇷 | [BL]-01
-  server: 199.232.78.160
-  port: 443
-  client-fingerprint: chrome
-  encryption: none
-  network: ws
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 49e29dba-814a-50b0-b4a9-deffe26ae624
-  ws-opts:
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.110 Safari/537.36
-    path: /
-  xudp: true
-- name: 🌐 Anycast-IP | 🇫🇷 | [BL]-02
-  server: 199.232.78.170
-  port: 443
+  alpn:
+  - http/1.1
   client-fingerprint: firefox
   encryption: none
   network: ws
-  servername: ssl.fastly.com
+  servername: xy1ej.stream-node-us.danfeng.qzz.io
   tls: true
   type: vless
   udp: true
-  uuid: 49e29dba-814a-50b0-b4a9-deffe26ae624
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: Appxdn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /
+      Host: xy1ej.stream-node-us.danfeng.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+    path: /danfeng?ed=2560
   xudp: true
-- name: 🌐 Anycast-IP | 🇫🇷 | [BL]-03
-  server: 199.232.78.160
+- name: 🇩🇪 Germany, Frankfurt am Main | [BL]-01
+  server: pMH11GC5OUVBikGm.v.3dns.vip
   port: 443
   alpn:
-  - http/1.1
-  client-fingerprint: qq
+  - ''
+  alterId: '0'
+  cipher: auto
   network: ws
-  servername: ssl.fastly.com
+  servername: pMH11GC5OUVBikGm.v.3dns.vip
+  skip-cert-verify: false
   tls: true
-  type: vless
+  type: vmess
   udp: true
-  uuid: XpnTeam-71
+  uuid: ba7f523686914da1b35c62ae7927a8dd
   ws-opts:
     headers:
-      Host: Appxdn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.101 Safari/537.36
-    path: /
+      Host: pMH11GC5OUVBikGm.v.3dns.vip
+    path: /ws-vmess
   xudp: true
-- name: 🌐 Anycast-IP | 🇫🇷 | [BL]-04
-  server: 199.232.78.160
+- name: 🇩🇪 Germany, Frankfurt am Main | [BL]-02
+  server: wEh2vblW4uUWgvyF.v.3dns.vip
   port: 443
   alpn:
-  - http/1.1
-  client-fingerprint: qq
-  encryption: none
+  - ''
+  alterId: '0'
+  cipher: auto
   network: ws
-  servername: ssl.fastly.com
+  servername: wEh2vblW4uUWgvyF.v.3dns.vip
+  skip-cert-verify: false
   tls: true
-  type: vless
+  type: vmess
   udp: true
-  uuid: XpnTeam-72
+  uuid: ba7f523686914da1b35c62ae7927a8dd
   ws-opts:
     headers:
-      Host: Appxdn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /
+      Host: wEh2vblW4uUWgvyF.v.3dns.vip
+    path: /ws-vmess
   xudp: true
-- name: 🌐 Anycast-IP | 🇫🇷 🇺🇸 | [BL]
-  server: 199.232.78.170
+- name: 🇸🇬 Singapore, Singapore | [BL]
+  server: wjofHsQtEuEywxEq.v.3dns.vip
   port: 443
   alpn:
-  - http/1.1
-  client-fingerprint: safari
-  encryption: none
+  - ''
+  alterId: '0'
+  cipher: auto
   network: ws
-  servername: ssl.fastly.com
+  servername: wjofHsQtEuEywxEq.v.3dns.vip
+  skip-cert-verify: false
   tls: true
-  type: vless
+  type: vmess
   udp: true
-  uuid: XpnTeam-71
+  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
   ws-opts:
     headers:
-      Host: Appxdn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /
+      Host: wjofHsQtEuEywxEq.v.3dns.vip
+    path: /ws-vmess
   xudp: true
-- name: 🌐 Anycast-IP | 🇫🇷 🇺🇸 | [BL]-01
-  server: 199.232.78.160
+- name: 🇸🇬 Singapore, Singapore | [BL]-01
+  server: wjofhsqteueywxeq.v.3dns.vip
   port: 443
   alpn:
-  - http/1.1
-  client-fingerprint: chrome
+  - ''
+  alterId: '0'
+  cipher: auto
   network: ws
-  servername: ssl.fastly.com
+  servername: wjofhsqteueywxeq.v.3dns.vip
+  skip-cert-verify: false
   tls: true
-  type: vless
+  type: vmess
   udp: true
-  uuid: XpnTeam-72
+  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
   ws-opts:
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/45.0.2454.101 Safari/537.36
-    path: /
+    headers: {}
+    path: /ws-vmess
+  xudp: true
+- name: 🇸🇬 Singapore, Singapore (Queenstown Estate) | 🌐 | [BL]
+  server: mdk.mdmekjll.best
+  port: 80
+  alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  network: ws
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
+  ws-opts:
+    headers: {}
+    path: /game/resources
   xudp: true
 - name: 🇺🇸 United States, Niagara Falls | [BL]
   server: 142.171.48.179
@@ -2099,29 +1944,14 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: c20f5c31-488e-44c7-b26a-8be8e0737066
+  uuid: f949f286-b709-4617-8f26-2e0dfdd7ca6a
   ws-opts:
     headers:
       Host: gw.alicdn.com
     path: /
   xudp: true
 - name: 🇫🇷 France, Paris | [BL]
-  server: 141.193.213.172
-  port: 443
-  client-fingerprint: android
-  network: ws
-  password: humanity
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
-    path: /assignment
-- name: 🇫🇷 France, Paris | [BL]-01
-  server: 141.193.213.172
+  server: 45.80.111.7
   port: 443
   client-fingerprint: chrome
   network: ws
@@ -2132,13 +1962,14 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.101 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile
+        Safari/537.36
     path: /assignment
-- name: 🇫🇷 France, Paris | [BL]-02
-  server: 141.193.213.172
+- name: 🇫🇷 France, Paris | [BL]-01
+  server: 45.80.111.7
   port: 443
-  client-fingerprint: edge
+  client-fingerprint: android
   network: ws
   password: humanity
   skip-cert-verify: false
@@ -2148,27 +1979,12 @@ proxies:
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+        like Gecko) Chrome/58.0.3029.81 Safari/537.36
     path: /assignment
-- name: 🇫🇷 France, Paris | [BL]-03
-  server: 141.193.213.172
+- name: 🇫🇷 France, Paris | [BL]-02
+  server: 45.80.111.7
   port: 443
-  client-fingerprint: firefox
-  network: ws
-  password: humanity
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /assignment
-- name: 🇫🇷 France, Paris | [BL]-04
-  server: 141.193.213.172
-  port: 443
-  client-fingerprint: ios
+  client-fingerprint: chrome
   network: ws
   password: humanity
   skip-cert-verify: false
@@ -2178,84 +1994,9 @@ proxies:
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.103 Safari/537.36
+        Gecko) Chrome/45.0.2454.101 Safari/537.36
     path: /assignment
-- name: 🇫🇷 France, Paris | [BL]-05
-  server: 141.193.213.172
-  port: 443
-  client-fingerprint: qq
-  network: ws
-  password: humanity
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /assignment
-- name: 🇫🇷 France, Paris | [BL]-06
-  server: 141.193.213.172
-  port: 443
-  client-fingerprint: safari
-  network: ws
-  password: humanity
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /assignment
-- name: 🇫🇷 France, Paris | [BL]-07
-  server: 141.193.213.172
-  port: 443
-  client-fingerprint: chrome
-  network: ws
-  password: humanity
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /assignment
-- name: 🇫🇷 France, Paris | [BL]-08
-  server: 45.80.111.7
-  port: 443
-  client-fingerprint: android
-  network: ws
-  password: humanity
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
-        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-    path: /assignment
-- name: 🇫🇷 France, Paris | [BL]-09
-  server: 45.80.111.7
-  port: 443
-  client-fingerprint: chrome
-  network: ws
-  password: humanity
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /assignment
-- name: 🇫🇷 France, Paris | [BL]-10
+- name: 🇫🇷 France, Paris | [BL]-03
   server: 45.80.111.7
   port: 443
   client-fingerprint: edge
@@ -2267,10 +2008,10 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.101 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /assignment
-- name: 🇫🇷 France, Paris | [BL]-11
+- name: 🇫🇷 France, Paris | [BL]-04
   server: 45.80.111.7
   port: 443
   client-fingerprint: firefox
@@ -2282,10 +2023,10 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
     path: /assignment
-- name: 🇫🇷 France, Paris | [BL]-12
+- name: 🇫🇷 France, Paris | [BL]-05
   server: 45.80.111.7
   port: 443
   client-fingerprint: ios
@@ -2297,10 +2038,10 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/45.0.2454.85 Safari/537.36
+      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
     path: /assignment
-- name: 🇫🇷 France, Paris | [BL]-13
+- name: 🇫🇷 France, Paris | [BL]-06
   server: 45.80.111.7
   port: 443
   client-fingerprint: qq
@@ -2312,10 +2053,10 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.101 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
     path: /assignment
-- name: 🇫🇷 France, Paris | [BL]-14
+- name: 🇫🇷 France, Paris | [BL]-07
   server: 45.80.111.7
   port: 443
   client-fingerprint: safari
@@ -2327,8 +2068,8 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/69.0.3497.100 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
     path: /assignment
 - name: 🇱🇹 Lithuania, Šiauliai | [BL]
   server: 176.114.95.242
@@ -2351,7 +2092,7 @@ proxies:
 - name: 🇱🇹 Lithuania, Šiauliai | [BL]-02
   server: 176.114.95.242
   port: 443
-  client-fingerprint: qq
+  client-fingerprint: ios
   password: UAKWGor-h0woFsxKSWK92HptcM0g2k2h
   skip-cert-verify: false
   sni: lt-1.1984.love
@@ -2360,13 +2101,22 @@ proxies:
 - name: 🇱🇹 Lithuania, Šiauliai | [BL]-03
   server: 176.114.95.242
   port: 443
-  client-fingerprint: safari
+  client-fingerprint: qq
   password: UAKWGor-h0woFsxKSWK92HptcM0g2k2h
   skip-cert-verify: false
   sni: lt-1.1984.love
   type: trojan
   udp: true
 - name: 🇱🇹 Lithuania, Šiauliai | [BL]-04
+  server: 176.114.95.242
+  port: 443
+  client-fingerprint: safari
+  password: UAKWGor-h0woFsxKSWK92HptcM0g2k2h
+  skip-cert-verify: false
+  sni: lt-1.1984.love
+  type: trojan
+  udp: true
+- name: 🇱🇹 Lithuania, Šiauliai | [BL]-05
   server: 176.114.95.242
   port: 443
   client-fingerprint: firefox
@@ -2380,7 +2130,39 @@ proxies:
   server: 188.42.145.180
   port: 443
   alpn:
+  - http/1.1
+  client-fingerprint: edge
+  network: ws
+  password: humanity
+  skip-cert-verify: false
+  sni: wWw.Volumeroot.cOm.
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /assignment
+- name: 🇳🇱 The Netherlands, Haarlem | [BL]-01
+  server: 188.42.145.180
+  port: 443
+  alpn:
   - v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus
+  client-fingerprint: edge
+  network: ws
+  password: humanity
+  skip-cert-verify: false
+  sni: www.volumeroot.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/36.0.1985.143 Safari/537.36
+    path: /assignment
+- name: 🇳🇱 The Netherlands, Haarlem | [BL]-02
+  server: 188.42.145.180
+  port: 443
   client-fingerprint: chrome
   network: ws
   password: humanity
@@ -2390,10 +2172,42 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.162 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
     path: /assignment
-- name: 🇳🇱 The Netherlands, Haarlem | [BL]-01
+- name: 🇳🇱 The Netherlands, Haarlem | [BL]-03
+  server: 188.42.145.180
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  network: ws
+  password: humanity
+  skip-cert-verify: false
+  sni: www.volumeroot.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /assignment
+- name: 🇳🇱 The Netherlands, Haarlem | [BL]-04
+  server: 194.154.29.72
+  port: 443
+  client-fingerprint: chrome
+  network: ws
+  password: humanity
+  skip-cert-verify: false
+  sni: www.cordweave.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /assignment
+- name: 🇳🇱 The Netherlands, Haarlem | [BL]-05
   server: 45.131.4.38
   port: 443
   alpn:
@@ -2407,10 +2221,27 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/45.0.2454.93 Safari/537.36
     path: /assignment
-- name: 🇳🇱 The Netherlands, Haarlem | [BL]-02
+- name: 🇳🇱 The Netherlands, Haarlem | [BL]-06
+  server: 45.131.4.38
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  network: ws
+  password: humanity
+  skip-cert-verify: false
+  sni: www.pleadcourt.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
+    path: /assignment
+- name: 🇳🇱 The Netherlands, Haarlem | [BL]-07
   server: 45.131.4.38
   port: 443
   alpn:
@@ -2424,10 +2255,10 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /assignment
-- name: 🇳🇱 The Netherlands, Haarlem | [BL]-03
+- name: 🇳🇱 The Netherlands, Haarlem | [BL]-08
   server: 45.131.4.38
   port: 443
   alpn:
@@ -2442,14 +2273,48 @@ proxies:
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
     path: /assignment
-- name: 🇳🇱 The Netherlands, Haarlem | [BL]-04
-  server: 8.47.69.0
+- name: 🇳🇱 The Netherlands, Haarlem | [BL]-09
+  server: 45.131.4.38
   port: 443
   alpn:
   - http/1.1
-  client-fingerprint: android
+  client-fingerprint: ios
+  network: ws
+  password: humanity
+  skip-cert-verify: false
+  sni: www.pleadcourt.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /assignment
+- name: 🇳🇱 The Netherlands, Haarlem | [BL]-10
+  server: 45.131.4.38
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: unsafe
+  network: ws
+  password: humanity
+  skip-cert-verify: false
+  sni: www.pleadcourt.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /assignment
+- name: 🇳🇱 The Netherlands, Haarlem | [BL]-11
+  server: 45.131.4.38
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: qq
   network: ws
   password: humanity
   skip-cert-verify: false
@@ -2461,7 +2326,58 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/40.0.2214.115 Safari/537.36
     path: /assignment
-- name: 🇳🇱 The Netherlands, Haarlem | [BL]-05
+- name: 🇳🇱 The Netherlands, Haarlem | [BL]-12
+  server: 45.131.4.38
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: safari
+  network: ws
+  password: humanity
+  skip-cert-verify: false
+  sni: www.pleadcourt.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+    path: /assignment
+- name: 🇳🇱 The Netherlands, Haarlem | [BL]-13
+  server: 8.47.69.0
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: safari
+  network: ws
+  password: humanity
+  skip-cert-verify: false
+  sni: www.pleadcourt.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+    path: /assignment
+- name: 🇳🇱 The Netherlands, Haarlem | [BL]-14
+  server: 8.47.69.0
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  network: ws
+  password: humanity
+  skip-cert-verify: false
+  sni: www.pleadcourt.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /assignment
+- name: 🇳🇱 The Netherlands, Haarlem | [BL]-15
   server: 8.47.69.0
   port: 443
   alpn:
@@ -2475,10 +2391,10 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.110 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.116 Safari/537.36
     path: /assignment
-- name: 🇳🇱 The Netherlands, Haarlem | [BL]-06
+- name: 🇳🇱 The Netherlands, Haarlem | [BL]-16
   server: 8.47.69.0
   port: 443
   alpn:
@@ -2492,10 +2408,27 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
     path: /assignment
-- name: 🇳🇱 The Netherlands, Haarlem | [BL]-07
+- name: 🇳🇱 The Netherlands, Haarlem | [BL]-17
+  server: 8.47.69.0
+  port: 443
+  alpn:
+  - http/1.1
+  client-fingerprint: qq
+  network: ws
+  password: humanity
+  skip-cert-verify: false
+  sni: www.pleadcourt.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/47.0.2526.106 Safari/537.36
+    path: /assignment
+- name: 🇳🇱 The Netherlands, Haarlem | [BL]-18
   server: 8.47.69.0
   port: 443
   alpn:
@@ -2509,10 +2442,10 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /assignment
-- name: 🇳🇱 The Netherlands, Haarlem | [BL]-08
+- name: 🇳🇱 The Netherlands, Haarlem | [BL]-19
   server: 8.47.69.0
   port: 443
   client-fingerprint: android
@@ -2524,10 +2457,10 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /assignment
-- name: 🇳🇱 The Netherlands, Haarlem | [BL]-09
+- name: 🇳🇱 The Netherlands, Haarlem | [BL]-20
   server: 8.47.69.0
   port: 443
   client-fingerprint: ios
@@ -2542,22 +2475,7 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/60.0.3112.90 Safari/537.36
     path: /assignment
-- name: 🇳🇱 The Netherlands, Haarlem | [BL]-10
-  server: 8.47.69.0
-  port: 443
-  client-fingerprint: qq
-  network: ws
-  password: humanity
-  skip-cert-verify: false
-  sni: www.pleadcourt.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2272.104 Safari/537.36
-    path: /assignment
-- name: 🇳🇱 The Netherlands, Haarlem | [BL]-11
+- name: 🇳🇱 The Netherlands, Haarlem | [BL]-21
   server: 8.47.69.0
   port: 443
   client-fingerprint: safari
@@ -2569,24 +2487,104 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /assignment
+- name: 🇳🇱 The Netherlands, Haarlem | [BL]-22
+  server: 8.47.69.0
+  port: 443
+  client-fingerprint: chrome
+  network: ws
+  password: humanity
+  skip-cert-verify: false
+  sni: www.pleadcourt.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
+    path: /assignment
+- name: 🇳🇱 The Netherlands, Haarlem | [BL]-23
+  server: 91.250.248.151
+  port: 443
+  client-fingerprint: chrome
+  network: ws
+  password: humanity
+  skip-cert-verify: false
+  sni: www.cordweave.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/47.0.2526.106 Safari/537.36
+    path: /assignment
+- name: 🇺🇸 United States, Ashburn | [BL]
+  server: 176.114.95.242
+  port: 443
+  client-fingerprint: chrome
+  network: tcp
+  password: UAKWGor-h0woFsxKSWK92HptcM0g2k2h
+  skip-cert-verify: false
+  sni: us-1.1984.love
+  type: trojan
+  udp: true
+- name: 🇺🇸 United States, Ashburn | [BL]-01
+  server: 176.114.95.242
+  port: 443
+  client-fingerprint: android
+  network: tcp
+  password: UAKWGor-h0woFsxKSWK92HptcM0g2k2h
+  skip-cert-verify: false
+  sni: us-1.1984.love
+  type: trojan
+  udp: true
+- name: 🇺🇸 United States, Ashburn | [BL]-02
+  server: 176.114.95.242
+  port: 443
+  client-fingerprint: edge
+  network: tcp
+  password: UAKWGor-h0woFsxKSWK92HptcM0g2k2h
+  skip-cert-verify: false
+  sni: us-1.1984.love
+  type: trojan
+  udp: true
+- name: 🇺🇸 United States, Ashburn | [BL]-03
+  server: 176.114.95.242
+  port: 443
+  client-fingerprint: safari
+  network: tcp
+  password: UAKWGor-h0woFsxKSWK92HptcM0g2k2h
+  skip-cert-verify: false
+  sni: us-1.1984.love
+  type: trojan
+  udp: true
 proxy-groups:
 - name: 手动选择
   type: select
   proxies:
   - 自动选择
   - DIRECT
-  - 🇫🇮 Finland, Helsinki | [BL]
   - 🇩🇪 Germany, Falkenstein | [BL]
   - 🇩🇪 Germany, Falkenstein | 🌐 | [BL]
   - 🇩🇪 Germany, Frankfurt am Main | [BL]
-  - 🇩🇪 Germany, Frankfurt am Main | [BL]-01
-  - 🇩🇪 Germany, Frankfurt am Main | [BL]-02
-  - 🇨🇭 Switzerland, Zurich | [BL]
-  - 🇨🇭 Switzerland, Zurich | [BL]-01
+  - 🇩🇪 Germany, Frankfurt am Main | 🌐 | [BL]
+  - 🇩🇪 Germany, Frankfurt am Main | 🌐 | [BL]-01
+  - 🇩🇪 Germany, Frankfurt am Main | 🌐 | [BL]-02
+  - 🇱🇻 Latvia, Riga | [BL]
+  - 🇱🇻 Latvia, Riga | [BL]-01
+  - 🇵🇱 Poland, Warsaw | [BL]
   - 🇳🇱 The Netherlands, Amsterdam | [BL]
+  - 🇳🇱 The Netherlands, Amsterdam | [BL]-01
+  - 🇳🇱 The Netherlands, Amsterdam | [BL]-02
+  - 🇳🇱 The Netherlands, Amsterdam | [BL]-03
+  - 🇳🇱 The Netherlands, Amsterdam | [BL]-04
+  - 🇳🇱 The Netherlands, Amsterdam | [BL]-05
+  - 🇳🇱 The Netherlands, Amsterdam | [BL]-06
+  - 🇳🇱 The Netherlands, Amsterdam | [BL]-07
+  - 🇳🇱 The Netherlands, Amsterdam | [BL]-08
+  - 🇹🇷 Turkey, Istanbul | [BL]
   - 🇺🇸 United States | 🌐 | [BL]
   - 🇺🇸 United States | 🌐 | [BL]-01
   - 🇺🇸 United States | 🌐 | [BL]-02
@@ -2639,58 +2637,41 @@ proxy-groups:
   - 🇺🇸 United States | 🌐 | [BL]-49
   - 🇺🇸 United States | 🌐 | [BL]-50
   - 🇺🇸 United States | 🌐 | [BL]-51
-  - 🇺🇸 United States, Washington D.C. | [BL]
-  - 🇺🇸 United States, Washington D.C. | [BL]-01
+  - 🇺🇸 United States | 🌐 | [BL]-52
+  - 🇺🇸 United States | 🌐 | [BL]-53
+  - 🇺🇸 United States | 🌐 | [BL]-54
+  - 🇺🇸 United States | 🌐 | [BL]-55
+  - 🇺🇸 United States | 🌐 | [BL]-56
+  - 🇺🇸 United States | 🌐 | [BL]-57
+  - 🇺🇸 United States | 🌐 | [BL]-58
+  - 🇺🇸 United States | 🌐 | [BL]-59
+  - 🇺🇸 United States | 🌐 | [BL]-60
+  - 🇺🇸 United States | 🌐 | [BL]-61
+  - 🇺🇸 United States | 🌐 | [BL]-62
+  - 🇺🇸 United States | 🌐 | [BL]-63
+  - 🇺🇸 United States | 🌐 | [BL]-64
+  - 🇺🇸 United States | 🌐 | [BL]-65
+  - 🇺🇸 United States | 🌐 | [BL]-66
+  - 🇺🇸 United States | 🌐 | [BL]-67
+  - 🇺🇸 United States | 🌐 | [BL]-68
+  - 🇺🇸 United States | 🌐 | [BL]-69
+  - 🇺🇸 United States, Buffalo | [BL]
+  - 🇺🇸 United States, Los Angeles | 🌐 | [BL]
+  - 🇺🇸 United States, Los Angeles | 🌐 | [BL]-01
+  - 🇺🇸 United States, Los Angeles | 🌐 | [BL]-02
+  - 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]
   - 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]
   - 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-01
-  - 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇪 🇵🇱 | [BL]
-  - 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇪 🇵🇱 | [BL]-01
   - 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]
   - 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-01
-  - 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-02
-  - 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-03
-  - 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-04
-  - 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-05
-  - 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-06
-  - 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-07
-  - 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇵🇱 | [BL]
-  - 🌐 Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇮🇪 🇮🇶 🇵🇱 | [BL]
-  - 🌐 Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]
-  - 🌐 Anycast-IP | 🇦🇷 🇬🇧 🇵🇱 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇮🇪 🇵🇱 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]-01
-  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]-02
-  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-01
-  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-02
-  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-03
   - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 🇺🇸 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 🇵🇱 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇵🇱 🇺🇸 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL]-01
-  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL]-02
-  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL]-03
-  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 🇺🇸 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇵🇱 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇵🇱 | [BL]-01
-  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇵🇱 | [BL]-02
   - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇵🇱 🇺🇸 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇵🇱 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇮🇶 🇵🇱 | [BL]
-  - 🌐 Anycast-IP | 🇩🇪 🇬🇧 🇮🇪 🇮🇶 🇵🇱 | [BL]
-  - 🌐 Anycast-IP | 🇩🇪 🇬🇧 🇵🇱 | [BL]
-  - 🌐 Anycast-IP | 🇩🇪 🇬🇧 🇵🇱 🇺🇸 | [BL]
-  - 🌐 Anycast-IP | 🇩🇪 🇮🇪 🇮🇶 🇵🇱 🇺🇸 | [BL]
-  - 🌐 Anycast-IP | 🇩🇪 🇵🇱 | [BL]
-  - 🌐 Anycast-IP | 🇫🇷 | [BL]
-  - 🌐 Anycast-IP | 🇫🇷 | [BL]-01
-  - 🌐 Anycast-IP | 🇫🇷 | [BL]-02
-  - 🌐 Anycast-IP | 🇫🇷 | [BL]-03
-  - 🌐 Anycast-IP | 🇫🇷 | [BL]-04
-  - 🌐 Anycast-IP | 🇫🇷 🇺🇸 | [BL]
-  - 🌐 Anycast-IP | 🇫🇷 🇺🇸 | [BL]-01
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇺🇸 | [BL]
+  - 🇩🇪 Germany, Frankfurt am Main | [BL]-01
+  - 🇩🇪 Germany, Frankfurt am Main | [BL]-02
+  - 🇸🇬 Singapore, Singapore | [BL]
+  - 🇸🇬 Singapore, Singapore | [BL]-01
+  - 🇸🇬 Singapore, Singapore (Queenstown Estate) | 🌐 | [BL]
   - 🇺🇸 United States, Niagara Falls | [BL]
   - 🇫🇷 France, Paris | [BL]
   - 🇫🇷 France, Paris | [BL]-01
@@ -2700,18 +2681,12 @@ proxy-groups:
   - 🇫🇷 France, Paris | [BL]-05
   - 🇫🇷 France, Paris | [BL]-06
   - 🇫🇷 France, Paris | [BL]-07
-  - 🇫🇷 France, Paris | [BL]-08
-  - 🇫🇷 France, Paris | [BL]-09
-  - 🇫🇷 France, Paris | [BL]-10
-  - 🇫🇷 France, Paris | [BL]-11
-  - 🇫🇷 France, Paris | [BL]-12
-  - 🇫🇷 France, Paris | [BL]-13
-  - 🇫🇷 France, Paris | [BL]-14
   - 🇱🇹 Lithuania, Šiauliai | [BL]
   - 🇱🇹 Lithuania, Šiauliai | [BL]-01
   - 🇱🇹 Lithuania, Šiauliai | [BL]-02
   - 🇱🇹 Lithuania, Šiauliai | [BL]-03
   - 🇱🇹 Lithuania, Šiauliai | [BL]-04
+  - 🇱🇹 Lithuania, Šiauliai | [BL]-05
   - 🇳🇱 The Netherlands, Haarlem | [BL]
   - 🇳🇱 The Netherlands, Haarlem | [BL]-01
   - 🇳🇱 The Netherlands, Haarlem | [BL]-02
@@ -2724,21 +2699,47 @@ proxy-groups:
   - 🇳🇱 The Netherlands, Haarlem | [BL]-09
   - 🇳🇱 The Netherlands, Haarlem | [BL]-10
   - 🇳🇱 The Netherlands, Haarlem | [BL]-11
+  - 🇳🇱 The Netherlands, Haarlem | [BL]-12
+  - 🇳🇱 The Netherlands, Haarlem | [BL]-13
+  - 🇳🇱 The Netherlands, Haarlem | [BL]-14
+  - 🇳🇱 The Netherlands, Haarlem | [BL]-15
+  - 🇳🇱 The Netherlands, Haarlem | [BL]-16
+  - 🇳🇱 The Netherlands, Haarlem | [BL]-17
+  - 🇳🇱 The Netherlands, Haarlem | [BL]-18
+  - 🇳🇱 The Netherlands, Haarlem | [BL]-19
+  - 🇳🇱 The Netherlands, Haarlem | [BL]-20
+  - 🇳🇱 The Netherlands, Haarlem | [BL]-21
+  - 🇳🇱 The Netherlands, Haarlem | [BL]-22
+  - 🇳🇱 The Netherlands, Haarlem | [BL]-23
+  - 🇺🇸 United States, Ashburn | [BL]
+  - 🇺🇸 United States, Ashburn | [BL]-01
+  - 🇺🇸 United States, Ashburn | [BL]-02
+  - 🇺🇸 United States, Ashburn | [BL]-03
 - name: 自动选择
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - 🇫🇮 Finland, Helsinki | [BL]
   - 🇩🇪 Germany, Falkenstein | [BL]
   - 🇩🇪 Germany, Falkenstein | 🌐 | [BL]
   - 🇩🇪 Germany, Frankfurt am Main | [BL]
-  - 🇩🇪 Germany, Frankfurt am Main | [BL]-01
-  - 🇩🇪 Germany, Frankfurt am Main | [BL]-02
-  - 🇨🇭 Switzerland, Zurich | [BL]
-  - 🇨🇭 Switzerland, Zurich | [BL]-01
+  - 🇩🇪 Germany, Frankfurt am Main | 🌐 | [BL]
+  - 🇩🇪 Germany, Frankfurt am Main | 🌐 | [BL]-01
+  - 🇩🇪 Germany, Frankfurt am Main | 🌐 | [BL]-02
+  - 🇱🇻 Latvia, Riga | [BL]
+  - 🇱🇻 Latvia, Riga | [BL]-01
+  - 🇵🇱 Poland, Warsaw | [BL]
   - 🇳🇱 The Netherlands, Amsterdam | [BL]
+  - 🇳🇱 The Netherlands, Amsterdam | [BL]-01
+  - 🇳🇱 The Netherlands, Amsterdam | [BL]-02
+  - 🇳🇱 The Netherlands, Amsterdam | [BL]-03
+  - 🇳🇱 The Netherlands, Amsterdam | [BL]-04
+  - 🇳🇱 The Netherlands, Amsterdam | [BL]-05
+  - 🇳🇱 The Netherlands, Amsterdam | [BL]-06
+  - 🇳🇱 The Netherlands, Amsterdam | [BL]-07
+  - 🇳🇱 The Netherlands, Amsterdam | [BL]-08
+  - 🇹🇷 Turkey, Istanbul | [BL]
   - 🇺🇸 United States | 🌐 | [BL]
   - 🇺🇸 United States | 🌐 | [BL]-01
   - 🇺🇸 United States | 🌐 | [BL]-02
@@ -2791,58 +2792,41 @@ proxy-groups:
   - 🇺🇸 United States | 🌐 | [BL]-49
   - 🇺🇸 United States | 🌐 | [BL]-50
   - 🇺🇸 United States | 🌐 | [BL]-51
-  - 🇺🇸 United States, Washington D.C. | [BL]
-  - 🇺🇸 United States, Washington D.C. | [BL]-01
+  - 🇺🇸 United States | 🌐 | [BL]-52
+  - 🇺🇸 United States | 🌐 | [BL]-53
+  - 🇺🇸 United States | 🌐 | [BL]-54
+  - 🇺🇸 United States | 🌐 | [BL]-55
+  - 🇺🇸 United States | 🌐 | [BL]-56
+  - 🇺🇸 United States | 🌐 | [BL]-57
+  - 🇺🇸 United States | 🌐 | [BL]-58
+  - 🇺🇸 United States | 🌐 | [BL]-59
+  - 🇺🇸 United States | 🌐 | [BL]-60
+  - 🇺🇸 United States | 🌐 | [BL]-61
+  - 🇺🇸 United States | 🌐 | [BL]-62
+  - 🇺🇸 United States | 🌐 | [BL]-63
+  - 🇺🇸 United States | 🌐 | [BL]-64
+  - 🇺🇸 United States | 🌐 | [BL]-65
+  - 🇺🇸 United States | 🌐 | [BL]-66
+  - 🇺🇸 United States | 🌐 | [BL]-67
+  - 🇺🇸 United States | 🌐 | [BL]-68
+  - 🇺🇸 United States | 🌐 | [BL]-69
+  - 🇺🇸 United States, Buffalo | [BL]
+  - 🇺🇸 United States, Los Angeles | 🌐 | [BL]
+  - 🇺🇸 United States, Los Angeles | 🌐 | [BL]-01
+  - 🇺🇸 United States, Los Angeles | 🌐 | [BL]-02
+  - 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]
   - 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]
   - 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-01
-  - 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇪 🇵🇱 | [BL]
-  - 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇪 🇵🇱 | [BL]-01
   - 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]
   - 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-01
-  - 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-02
-  - 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-03
-  - 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-04
-  - 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-05
-  - 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-06
-  - 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 | [BL]-07
-  - 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇵🇱 | [BL]
-  - 🌐 Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇮🇪 🇮🇶 🇵🇱 | [BL]
-  - 🌐 Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]
-  - 🌐 Anycast-IP | 🇦🇷 🇬🇧 🇵🇱 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇮🇪 🇵🇱 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]-01
-  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]-02
-  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-01
-  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-02
-  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]-03
   - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 🇺🇸 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 🇵🇱 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇵🇱 🇺🇸 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL]-01
-  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL]-02
-  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 | [BL]-03
-  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇵🇱 🇺🇸 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇵🇱 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇵🇱 | [BL]-01
-  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇵🇱 | [BL]-02
   - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇵🇱 🇺🇸 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇵🇱 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇮🇶 🇵🇱 | [BL]
-  - 🌐 Anycast-IP | 🇩🇪 🇬🇧 🇮🇪 🇮🇶 🇵🇱 | [BL]
-  - 🌐 Anycast-IP | 🇩🇪 🇬🇧 🇵🇱 | [BL]
-  - 🌐 Anycast-IP | 🇩🇪 🇬🇧 🇵🇱 🇺🇸 | [BL]
-  - 🌐 Anycast-IP | 🇩🇪 🇮🇪 🇮🇶 🇵🇱 🇺🇸 | [BL]
-  - 🌐 Anycast-IP | 🇩🇪 🇵🇱 | [BL]
-  - 🌐 Anycast-IP | 🇫🇷 | [BL]
-  - 🌐 Anycast-IP | 🇫🇷 | [BL]-01
-  - 🌐 Anycast-IP | 🇫🇷 | [BL]-02
-  - 🌐 Anycast-IP | 🇫🇷 | [BL]-03
-  - 🌐 Anycast-IP | 🇫🇷 | [BL]-04
-  - 🌐 Anycast-IP | 🇫🇷 🇺🇸 | [BL]
-  - 🌐 Anycast-IP | 🇫🇷 🇺🇸 | [BL]-01
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇺🇸 | [BL]
+  - 🇩🇪 Germany, Frankfurt am Main | [BL]-01
+  - 🇩🇪 Germany, Frankfurt am Main | [BL]-02
+  - 🇸🇬 Singapore, Singapore | [BL]
+  - 🇸🇬 Singapore, Singapore | [BL]-01
+  - 🇸🇬 Singapore, Singapore (Queenstown Estate) | 🌐 | [BL]
   - 🇺🇸 United States, Niagara Falls | [BL]
   - 🇫🇷 France, Paris | [BL]
   - 🇫🇷 France, Paris | [BL]-01
@@ -2852,18 +2836,12 @@ proxy-groups:
   - 🇫🇷 France, Paris | [BL]-05
   - 🇫🇷 France, Paris | [BL]-06
   - 🇫🇷 France, Paris | [BL]-07
-  - 🇫🇷 France, Paris | [BL]-08
-  - 🇫🇷 France, Paris | [BL]-09
-  - 🇫🇷 France, Paris | [BL]-10
-  - 🇫🇷 France, Paris | [BL]-11
-  - 🇫🇷 France, Paris | [BL]-12
-  - 🇫🇷 France, Paris | [BL]-13
-  - 🇫🇷 France, Paris | [BL]-14
   - 🇱🇹 Lithuania, Šiauliai | [BL]
   - 🇱🇹 Lithuania, Šiauliai | [BL]-01
   - 🇱🇹 Lithuania, Šiauliai | [BL]-02
   - 🇱🇹 Lithuania, Šiauliai | [BL]-03
   - 🇱🇹 Lithuania, Šiauliai | [BL]-04
+  - 🇱🇹 Lithuania, Šiauliai | [BL]-05
   - 🇳🇱 The Netherlands, Haarlem | [BL]
   - 🇳🇱 The Netherlands, Haarlem | [BL]-01
   - 🇳🇱 The Netherlands, Haarlem | [BL]-02
@@ -2876,6 +2854,22 @@ proxy-groups:
   - 🇳🇱 The Netherlands, Haarlem | [BL]-09
   - 🇳🇱 The Netherlands, Haarlem | [BL]-10
   - 🇳🇱 The Netherlands, Haarlem | [BL]-11
+  - 🇳🇱 The Netherlands, Haarlem | [BL]-12
+  - 🇳🇱 The Netherlands, Haarlem | [BL]-13
+  - 🇳🇱 The Netherlands, Haarlem | [BL]-14
+  - 🇳🇱 The Netherlands, Haarlem | [BL]-15
+  - 🇳🇱 The Netherlands, Haarlem | [BL]-16
+  - 🇳🇱 The Netherlands, Haarlem | [BL]-17
+  - 🇳🇱 The Netherlands, Haarlem | [BL]-18
+  - 🇳🇱 The Netherlands, Haarlem | [BL]-19
+  - 🇳🇱 The Netherlands, Haarlem | [BL]-20
+  - 🇳🇱 The Netherlands, Haarlem | [BL]-21
+  - 🇳🇱 The Netherlands, Haarlem | [BL]-22
+  - 🇳🇱 The Netherlands, Haarlem | [BL]-23
+  - 🇺🇸 United States, Ashburn | [BL]
+  - 🇺🇸 United States, Ashburn | [BL]-01
+  - 🇺🇸 United States, Ashburn | [BL]-02
+  - 🇺🇸 United States, Ashburn | [BL]-03
 rules:
 - GEOSITE,private,DIRECT
 - GEOIP,private,DIRECT,no-resolve
