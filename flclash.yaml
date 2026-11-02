@@ -76,8 +76,8 @@ proxies:
   ws-opts:
     headers:
       Host: site.check-looks.space
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.125 Safari/537.36
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/42.0.2311.135 Safari/537.36
     path: /
   xudp: true
 - name: 🇩🇪 Germany, Falkenstein | 🌐 | [BL]
@@ -93,8 +93,8 @@ proxies:
   ws-opts:
     headers:
       Host: site.check-looks.space
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
     path: /
   xudp: true
 - name: 🇩🇪 Germany, Falkenstein | 🌐 | [BL]-01
@@ -110,8 +110,8 @@ proxies:
   ws-opts:
     headers:
       Host: site.check-looks.space
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
     path: /
   xudp: true
 - name: 🇩🇪 Germany, Falkenstein | 🌐 | [BL]-02
@@ -127,8 +127,8 @@ proxies:
   ws-opts:
     headers:
       Host: site.check-looks.space
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
     path: /
   xudp: true
 - name: 🇩🇪 Germany, Falkenstein | 🌐 | [BL]-03
@@ -144,8 +144,8 @@ proxies:
   ws-opts:
     headers:
       Host: site.check-looks.space
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/56.0.2924.87 Safari/537.36
     path: /
   xudp: true
 - name: 🇩🇪 Germany, Falkenstein | 🌐 | [BL]-04
@@ -162,8 +162,8 @@ proxies:
   ws-opts:
     headers:
       Host: site.check-looks.space
-      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
-        Chrome/12.0.742.100 Safari/534.30
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/53.0.2785.143 Safari/537.36
     path: /
   xudp: true
 - name: 🇩🇪 Germany, Falkenstein | 🌐 | [BL]-05
@@ -180,8 +180,8 @@ proxies:
   ws-opts:
     headers:
       Host: site.check-looks.space
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/37.0.2062.120 Safari/537.36
     path: /
   xudp: true
 - name: 🇩🇪 Germany, Falkenstein | 🌐 | [BL]-06
@@ -198,8 +198,8 @@ proxies:
   ws-opts:
     headers:
       Host: site.check-looks.space
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
     path: /
   xudp: true
 - name: 🇩🇪 Germany, Frankfurt am Main | [BL]
@@ -215,8 +215,8 @@ proxies:
   ws-opts:
     headers:
       Host: four04-rd37.onrender.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.115 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/43.0.2357.65 Safari/537.36
     path: /ws/2ee0d2aa-867e-a77e-9538-2edfc0b242aafp=firefoxfp=chrome
   xudp: true
 - name: 🇩🇪 Germany, Frankfurt am Main | [BL]-01
@@ -235,7 +235,7 @@ proxies:
     headers:
       Host: four04-rd37.onrender.com
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
     path: /ws/2ee0d2aa-867e-a77e-9538-2edfc0b242aafp=firefox
   xudp: true
 - name: 🇩🇪 Germany, Frankfurt am Main | [BL]-02
@@ -253,8 +253,8 @@ proxies:
   ws-opts:
     headers:
       Host: four04-rd37.onrender.com
-      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
     path: /ws/2ee0d2aa-867e-a77e-9538-2edfc0b242aafp=firefoxfp=chrome
   xudp: true
 - name: 🇩🇪 Germany, Frankfurt am Main | [BL]-03
@@ -291,8 +291,8 @@ proxies:
   ws-opts:
     headers:
       Host: 148-253-210-191.sslip.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36
     path: /test-ws
   xudp: true
 - name: 🇩🇪 Germany, Frankfurt am Main | 🌐 | [BL]-01
@@ -311,8 +311,8 @@ proxies:
   ws-opts:
     headers:
       Host: 148-253-210-191.sslip.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /test-ws
   xudp: true
 - name: 🇩🇪 Germany, Frankfurt am Main | 🌐 | [BL]-02
@@ -331,8 +331,8 @@ proxies:
   ws-opts:
     headers:
       Host: 148-253-210-191.sslip.io
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
     path: /test-ws
   xudp: true
 - name: 🇩🇪 Germany, Frankfurt am Main | 🌐 | [BL]-03
@@ -351,8 +351,9 @@ proxies:
   ws-opts:
     headers:
       Host: 148-253-210-191.sslip.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/39.0.2171.95 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Build/N2G47H; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile
+        Safari/537.36
     path: /test-ws
   xudp: true
 - name: 🇩🇪 Germany, Frankfurt am Main | 🌐 | [BL]-04
@@ -371,8 +372,8 @@ proxies:
   ws-opts:
     headers:
       Host: 148-253-210-191.sslip.io
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /test-ws
   xudp: true
 - name: 🇩🇪 Germany, Frankfurt am Main | 🌐 | [BL]-05
@@ -391,8 +392,8 @@ proxies:
   ws-opts:
     headers:
       Host: 148-253-210-191.sslip.io
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/50.0.2661.102 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
     path: /test-ws
   xudp: true
 - name: 🇩🇪 Germany, Frankfurt am Main | 🌐 | [BL]-06
@@ -408,8 +409,8 @@ proxies:
   ws-opts:
     headers:
       Host: 148-253-210-191.sslip.io
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
     path: /test-ws
   xudp: true
 - name: 🇩🇪 Germany, Frankfurt am Main | 🌐 | [BL]-07
@@ -425,8 +426,8 @@ proxies:
   ws-opts:
     headers:
       Host: 148-253-210-191.sslip.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
     path: /test-ws
   xudp: true
 - name: 🇩🇪 Germany, Frankfurt am Main | 🌐 | [BL]-08
@@ -442,8 +443,8 @@ proxies:
   ws-opts:
     headers:
       Host: 148-253-210-191.sslip.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2272.104 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /test-ws
   xudp: true
 - name: 🇩🇪 Germany, Frankfurt am Main | 🌐 | [BL]-09
@@ -460,7 +461,7 @@ proxies:
     headers:
       Host: 148-253-210-191.sslip.io
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
     path: /test-ws
   xudp: true
 - name: 🇩🇪 Germany, Frankfurt am Main | 🌐 | [BL]-10
@@ -477,7 +478,7 @@ proxies:
     headers:
       Host: 148-253-210-191.sslip.io
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/53.0.2785.143 Safari/537.36
+        Gecko) Chrome/46.0.2490.86 Safari/537.36
     path: /test-ws
   xudp: true
 - name: 🇩🇪 Germany, Frankfurt am Main (Innenstadt I) | 🌐 | [BL]
@@ -664,8 +665,8 @@ proxies:
   ws-opts:
     headers:
       Host: adheres-scruple.quick-cdn.net
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-01
@@ -682,8 +683,8 @@ proxies:
   ws-opts:
     headers:
       Host: piracy-android.video-streams.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/47.0.2526.106 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-02
@@ -700,8 +701,8 @@ proxies:
   ws-opts:
     headers:
       Host: piracy-android.video-streams.org
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-03
@@ -717,8 +718,8 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2272.101 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/32.0.1700.107 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-04
@@ -739,8 +740,8 @@ proxies:
   ws-opts:
     headers:
       Host: minimize-evenness.cdn-content.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.63 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.80 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-05
@@ -756,8 +757,8 @@ proxies:
   ws-opts:
     headers:
       Host: piracy-android.video-streams.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/45.0.2454.101 Safari/537.36
+      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+        Chrome/12.0.742.100 Safari/534.30
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-06
@@ -773,8 +774,8 @@ proxies:
   ws-opts:
     headers:
       Host: bounded-crammed.video-streams.org
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.116 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-07
@@ -792,8 +793,8 @@ proxies:
   ws-opts:
     headers:
       Host: bounded-crammed.video-streams.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-08
@@ -809,8 +810,8 @@ proxies:
   ws-opts:
     headers:
       Host: bounded-crammed.video-streams.org
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-09
@@ -827,8 +828,8 @@ proxies:
   ws-opts:
     headers:
       Host: bounded-crammed.video-streams.org
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-10
@@ -845,8 +846,8 @@ proxies:
   ws-opts:
     headers:
       Host: bounded-crammed.video-streams.org
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-11
@@ -863,8 +864,8 @@ proxies:
   ws-opts:
     headers:
       Host: bounded-crammed.video-streams.org
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/50.0.2661.102 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-12
@@ -883,8 +884,8 @@ proxies:
   ws-opts:
     headers:
       Host: bounded-crammed.video-streams.org
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.112 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-13
@@ -900,8 +901,8 @@ proxies:
   ws-opts:
     headers:
       Host: bounded-crammed.video-streams.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-14
@@ -919,7 +920,7 @@ proxies:
     headers:
       Host: adheres-scruple.quick-cdn.net
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-15
@@ -938,8 +939,8 @@ proxies:
   ws-opts:
     headers:
       Host: piracy-android.video-streams.org
-      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-16
@@ -956,8 +957,8 @@ proxies:
   ws-opts:
     headers:
       Host: bounded-crammed.video-streams.org
-      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-17
@@ -974,8 +975,8 @@ proxies:
   ws-opts:
     headers:
       Host: bounded-crammed.video-streams.org
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-18
@@ -992,8 +993,8 @@ proxies:
   ws-opts:
     headers:
       Host: ghosts-spasm.quick-cdn.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.103 Safari/537.36
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/44.0.2403.157 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-19
@@ -1009,7 +1010,7 @@ proxies:
   ws-opts:
     headers:
       Host: bounded-crammed.video-streams.org
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /ws
   xudp: true
@@ -1027,7 +1028,7 @@ proxies:
     headers:
       Host: ''
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/39.0.2171.95 Safari/537.36
+        Gecko) Chrome/49.0.2623.110 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-21
@@ -1044,7 +1045,7 @@ proxies:
     headers:
       Host: ghosts-spasm.quick-cdn.net
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.67 Safari/537.36
+        Gecko) Chrome/31.0.1650.57 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-22
@@ -1061,8 +1062,8 @@ proxies:
   ws-opts:
     headers:
       Host: grimness-backlogs.cdn-content.com
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-23
@@ -1080,7 +1081,7 @@ proxies:
     headers:
       Host: grimness-backlogs.cdn-content.com
       User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/52.0.2743.116 Safari/537.36
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-24
@@ -1114,8 +1115,8 @@ proxies:
   ws-opts:
     headers:
       Host: grimness-backlogs.cdn-content.com
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/45.0.2454.93 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-26
@@ -1134,8 +1135,8 @@ proxies:
   ws-opts:
     headers:
       Host: grimness-backlogs.cdn-content.com
-      User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML,
-        like Gecko) Chrome/5.0.342.1 Safari/533.2
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.86 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-27
@@ -1151,8 +1152,8 @@ proxies:
   ws-opts:
     headers:
       Host: adheres-scruple.quick-cdn.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/39.0.2171.95 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-28
@@ -1169,8 +1170,8 @@ proxies:
   ws-opts:
     headers:
       Host: piracy-android.video-streams.org
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.86 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-29
@@ -1189,8 +1190,8 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/45.0.2454.85 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-30
@@ -1208,8 +1209,8 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
-        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-31
@@ -1225,8 +1226,8 @@ proxies:
   ws-opts:
     headers:
       Host: piracy-android.video-streams.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.86 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-32
@@ -1244,8 +1245,8 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.101 Safari/537.36
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
+        Gecko) Chrome/11.0.696.3 Safari/534.24
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-33
@@ -1262,8 +1263,8 @@ proxies:
   ws-opts:
     headers:
       Host: ghosts-spasm.quick-cdn.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2228.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.101 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-34
@@ -1280,8 +1281,8 @@ proxies:
   ws-opts:
     headers:
       Host: minimize-evenness.cdn-content.com
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/53.0.2785.143 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-35
@@ -1298,8 +1299,8 @@ proxies:
   ws-opts:
     headers:
       Host: adheres-scruple.quick-cdn.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.67 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-36
@@ -1316,8 +1317,8 @@ proxies:
   ws-opts:
     headers:
       Host: minimize-evenness.cdn-content.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/57.0.2987.133 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-37
@@ -1335,8 +1336,8 @@ proxies:
   ws-opts:
     headers:
       Host: adheres-scruple.quick-cdn.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-38
@@ -1354,8 +1355,8 @@ proxies:
   ws-opts:
     headers:
       Host: minimize-evenness.cdn-content.com
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-39
@@ -1371,9 +1372,8 @@ proxies:
   ws-opts:
     headers:
       Host: minimize-evenness.cdn-content.com
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Build/N2G47H; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile
-        Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-40
@@ -1392,8 +1392,8 @@ proxies:
   ws-opts:
     headers:
       Host: piracy-android.video-streams.org
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-41
@@ -1410,8 +1410,8 @@ proxies:
   ws-opts:
     headers:
       Host: grimness-backlogs.cdn-content.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.115 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-42
@@ -1430,8 +1430,8 @@ proxies:
   ws-opts:
     headers:
       Host: grimness-backlogs.cdn-content.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-43
@@ -1449,7 +1449,7 @@ proxies:
     headers:
       Host: adheres-scruple.quick-cdn.net
       User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+        like Gecko) Chrome/52.0.2743.116 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-44
@@ -1469,7 +1469,7 @@ proxies:
     headers:
       Host: adheres-scruple.quick-cdn.net
       User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-45
@@ -1485,8 +1485,8 @@ proxies:
   ws-opts:
     headers:
       Host: adheres-scruple.quick-cdn.net
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.106 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-46
@@ -1502,8 +1502,8 @@ proxies:
   ws-opts:
     headers:
       Host: piracy-android.video-streams.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-47
@@ -1520,8 +1520,8 @@ proxies:
   ws-opts:
     headers:
       Host: minimize-evenness.cdn-content.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.109 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-48
@@ -1538,8 +1538,8 @@ proxies:
   ws-opts:
     headers:
       Host: minimize-evenness.cdn-content.com
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
-        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-49
@@ -1557,8 +1557,8 @@ proxies:
   ws-opts:
     headers:
       Host: adheres-scruple.quick-cdn.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.77 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-50
@@ -1577,8 +1577,8 @@ proxies:
   ws-opts:
     headers:
       Host: grimness-backlogs.cdn-content.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.112 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-51
@@ -1595,8 +1595,8 @@ proxies:
   ws-opts:
     headers:
       Host: grimness-backlogs.cdn-content.com
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.87 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-52
@@ -1613,8 +1613,8 @@ proxies:
   ws-opts:
     headers:
       Host: grimness-backlogs.cdn-content.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.67 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-53
@@ -1633,8 +1633,8 @@ proxies:
   ws-opts:
     headers:
       Host: grimness-backlogs.cdn-content.com
-      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.86 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-54
@@ -1652,8 +1652,8 @@ proxies:
   ws-opts:
     headers:
       Host: adheres-scruple.quick-cdn.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-55
@@ -1669,8 +1669,8 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-56
@@ -1687,8 +1687,8 @@ proxies:
   ws-opts:
     headers:
       Host: bounded-crammed.video-streams.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-57
@@ -1705,8 +1705,8 @@ proxies:
   ws-opts:
     headers:
       Host: bounded-crammed.video-streams.org
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/56.0.2924.87 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-58
@@ -1725,8 +1725,8 @@ proxies:
   ws-opts:
     headers:
       Host: bounded-crammed.video-streams.org
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML,
+        like Gecko) Chrome/5.0.342.1 Safari/533.2
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-59
@@ -1745,8 +1745,8 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
-        Gecko) Chrome/26.0.1410.64 Safari/537.31
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.87 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-60
@@ -1762,8 +1762,8 @@ proxies:
   ws-opts:
     headers:
       Host: minimize-evenness.cdn-content.com
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2272.101 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-61
@@ -1780,8 +1780,8 @@ proxies:
   ws-opts:
     headers:
       Host: bounded-crammed.video-streams.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/43.0.2357.65 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/39.0.2171.95 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-62
@@ -1797,8 +1797,8 @@ proxies:
   ws-opts:
     headers:
       Host: bounded-crammed.video-streams.org
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-63
@@ -1815,8 +1815,8 @@ proxies:
   ws-opts:
     headers:
       Host: piracy-android.video-streams.org
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-64
@@ -1833,8 +1833,8 @@ proxies:
   ws-opts:
     headers:
       Host: piracy-android.video-streams.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.84 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-65
@@ -1851,8 +1851,8 @@ proxies:
   ws-opts:
     headers:
       Host: piracy-android.video-streams.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-66
@@ -1869,8 +1869,8 @@ proxies:
   ws-opts:
     headers:
       Host: adheres-scruple.quick-cdn.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/55.0.2883.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-67
@@ -1886,8 +1886,8 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-68
@@ -1904,8 +1904,8 @@ proxies:
   ws-opts:
     headers:
       Host: ghosts-spasm.quick-cdn.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.167 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-69
@@ -1922,8 +1922,8 @@ proxies:
   ws-opts:
     headers:
       Host: ghosts-spasm.quick-cdn.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/56.0.2924.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
+        Gecko) Chrome/11.0.696.3 Safari/534.24
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-70
@@ -1939,8 +1939,8 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-71
@@ -1957,8 +1957,8 @@ proxies:
   ws-opts:
     headers:
       Host: adheres-scruple.quick-cdn.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-72
@@ -1975,8 +1975,8 @@ proxies:
   ws-opts:
     headers:
       Host: ghosts-spasm.quick-cdn.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.94 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-73
@@ -1993,8 +1993,8 @@ proxies:
   ws-opts:
     headers:
       Host: ghosts-spasm.quick-cdn.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-74
@@ -2011,8 +2011,8 @@ proxies:
   ws-opts:
     headers:
       Host: bounded-crammed.video-streams.org
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.101 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.110 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-75
@@ -2030,8 +2030,8 @@ proxies:
   ws-opts:
     headers:
       Host: bounded-crammed.video-streams.org
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.84 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-76
@@ -2048,7 +2048,7 @@ proxies:
     headers:
       Host: bounded-crammed.video-streams.org
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/54.0.2840.99 Safari/537.36
+        Gecko) Chrome/37.0.2062.120 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-77
@@ -2067,8 +2067,8 @@ proxies:
   ws-opts:
     headers:
       Host: ghosts-spasm.quick-cdn.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/45.0.2454.85 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-78
@@ -2084,8 +2084,8 @@ proxies:
   ws-opts:
     headers:
       Host: ghosts-spasm.quick-cdn.net
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-79
@@ -2104,8 +2104,8 @@ proxies:
   ws-opts:
     headers:
       Host: grimness-backlogs.cdn-content.com
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/51.0.2704.103 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-80
@@ -2123,8 +2123,8 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-81
@@ -2140,8 +2140,8 @@ proxies:
   ws-opts:
     headers:
       Host: grimness-backlogs.cdn-content.com
-      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-82
@@ -2157,8 +2157,8 @@ proxies:
   ws-opts:
     headers:
       Host: minimize-evenness.cdn-content.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.101 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-83
@@ -2177,8 +2177,8 @@ proxies:
   ws-opts:
     headers:
       Host: adheres-scruple.quick-cdn.net
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/42.0.2311.135 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-84
@@ -2194,8 +2194,8 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/34.0.1847.131 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-85
@@ -2214,8 +2214,8 @@ proxies:
   ws-opts:
     headers:
       Host: minimize-evenness.cdn-content.com
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.167 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-86
@@ -2233,8 +2233,8 @@ proxies:
   ws-opts:
     headers:
       Host: minimize-evenness.cdn-content.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.77 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-87
@@ -2251,8 +2251,8 @@ proxies:
   ws-opts:
     headers:
       Host: grimness-backlogs.cdn-content.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/47.0.2526.106 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
+        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-88
@@ -2269,8 +2269,8 @@ proxies:
   ws-opts:
     headers:
       Host: grimness-backlogs.cdn-content.com
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-89
@@ -2286,8 +2286,8 @@ proxies:
   ws-opts:
     headers:
       Host: ghosts-spasm.quick-cdn.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/68.0.3440.106 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-90
@@ -2303,8 +2303,8 @@ proxies:
   ws-opts:
     headers:
       Host: grimness-backlogs.cdn-content.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.79 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-91
@@ -2323,8 +2323,8 @@ proxies:
   ws-opts:
     headers:
       Host: adheres-scruple.quick-cdn.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-92
@@ -2342,8 +2342,8 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.111 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-93
@@ -2359,8 +2359,8 @@ proxies:
   ws-opts:
     headers:
       Host: adheres-scruple.quick-cdn.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/39.0.2171.95 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-94
@@ -2376,8 +2376,8 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/43.0.2357.65 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-95
@@ -2394,8 +2394,8 @@ proxies:
   ws-opts:
     headers:
       Host: minimize-evenness.cdn-content.com
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.181 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-96
@@ -2411,8 +2411,8 @@ proxies:
   ws-opts:
     headers:
       Host: adheres-scruple.quick-cdn.net
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-97
@@ -2428,8 +2428,8 @@ proxies:
   ws-opts:
     headers:
       Host: grimness-backlogs.cdn-content.com
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-98
@@ -2446,8 +2446,8 @@ proxies:
   ws-opts:
     headers:
       Host: minimize-evenness.cdn-content.com
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /ws
   xudp: true
 - name: 🇺🇸 United States | 🌐 | [BL]-99
@@ -2463,8 +2463,8 @@ proxies:
   ws-opts:
     headers:
       Host: minimize-evenness.cdn-content.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
     path: /ws
   xudp: true
 - name: 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇮🇶 🇵🇱 | [BL]
@@ -2481,8 +2481,8 @@ proxies:
   ws-opts:
     headers:
       Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/57.0.2987.133 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
     path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇮🇪 🇵🇱 | [BL]
@@ -2499,8 +2499,8 @@ proxies:
   ws-opts:
     headers:
       Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.102 Safari/537.36
     path: /?TELEGRAM----ICV2RAY----?ed=2560fp=chrome
   xudp: true
 - name: 🌐 Anycast-IP | 🇦🇷 🇩🇪 🇬🇧 🇵🇱 | [BL]
@@ -2517,7 +2517,7 @@ proxies:
     headers:
       Host: ccc.010304.xyz
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.101 Safari/537.36
+        Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
     path: /fp=chromefp=chrome
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]
@@ -2534,8 +2534,8 @@ proxies:
   ws-opts:
     headers:
       Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
     path: /fp
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇺🇸 | [BL]
@@ -2555,7 +2555,7 @@ proxies:
     headers:
       Host: xy1ej.stream-node-us.danfeng.qzz.io
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.86 Safari/537.36
+        Gecko) Chrome/47.0.2526.106 Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇵🇱 | [BL]
@@ -2572,8 +2572,8 @@ proxies:
   ws-opts:
     headers:
       Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
     path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇭🇰 🇰🇷 | [BL]
@@ -2592,8 +2592,8 @@ proxies:
   ws-opts:
     headers:
       Host: t5pmr.mail-node.gfw.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇰🇷 | [BL]
@@ -2613,7 +2613,7 @@ proxies:
     headers:
       Host: xy1ej.stream-node-us.danfeng.qzz.io
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+        like Gecko) Chrome/60.0.3112.101 Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇰🇷 🇺🇸 | [BL]
@@ -2632,8 +2632,8 @@ proxies:
   ws-opts:
     headers:
       Host: xy1ej.stream-node-us.danfeng.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇵🇭 🇺🇸 | [BL]
@@ -2652,8 +2652,8 @@ proxies:
   ws-opts:
     headers:
       Host: xy1ej.stream-node-us.danfeng.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - name: 🇸🇬 Singapore, Singapore (Queenstown Estate) | [BL]
