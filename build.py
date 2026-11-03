@@ -106,7 +106,11 @@ def main():
             # >= 1.14, where the legacy {"address": ...} format is
             # removed and the config fails to start): each server needs
             # a "type" and a bare "server" address, no URL scheme.
-            {"type": "udp", "tag": "dns-direct", "server": "223.5.5.5", "detour": "direct"},
+            # NOTE: dns-direct must NOT set "detour": "direct" —
+            # 1.14 refuses to start with "detour to an empty direct
+            # outbound makes no sense". Omitting detour already means
+            # dialing direct via the system network.
+            {"type": "udp", "tag": "dns-direct", "server": "223.5.5.5"},
             {"type": "tls", "tag": "dns-proxy", "server": "1.1.1.1", "detour": "自动选择"},
         ], "rules": [
             # Chinese domains resolve via Alibaba DNS direct, so their
