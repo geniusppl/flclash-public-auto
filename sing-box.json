@@ -3235,34 +3235,6 @@
     },
     {
       "type": "vmess",
-      "tag": "🇨🇳 China, Shenzhen | [BL]",
-      "server": "39.108.113.127",
-      "server_port": 10086,
-      "uuid": "4fc543d5-23ce-4556-ae2b-01685edd4397",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {}
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇳 China, Shenzhen | [BL] 2",
-      "server": "39.108.113.127",
-      "server_port": 10086,
-      "uuid": "fccbad0f-eb6c-4bdd-80ed-145409e2f761",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {}
-      }
-    },
-    {
-      "type": "vmess",
       "tag": "🇺🇸 United States, Los Angeles (Central-Alameda) | [BL]",
       "server": "23.147.56.181",
       "server_port": 52843,
@@ -3413,8 +3385,6 @@
         "🌐 Anycast-IP | 🇸🇬 🇺🇸 | [BL] 2",
         "🌐 Anycast-IP | 🇸🇬 🇺🇸 | [BL] 3",
         "🌐 Anycast-IP | 🇺🇸 | [BL]",
-        "🇨🇳 China, Shenzhen | [BL]",
-        "🇨🇳 China, Shenzhen | [BL] 2",
         "🇺🇸 United States, Los Angeles (Central-Alameda) | [BL]"
       ]
     },
@@ -3562,8 +3532,6 @@
         "🌐 Anycast-IP | 🇸🇬 🇺🇸 | [BL] 2",
         "🌐 Anycast-IP | 🇸🇬 🇺🇸 | [BL] 3",
         "🌐 Anycast-IP | 🇺🇸 | [BL]",
-        "🇨🇳 China, Shenzhen | [BL]",
-        "🇨🇳 China, Shenzhen | [BL] 2",
         "🇺🇸 United States, Los Angeles (Central-Alameda) | [BL]"
       ]
     }

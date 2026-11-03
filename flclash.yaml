@@ -52,8 +52,8 @@ proxies:
   ws-opts:
     headers:
       Host: 52z4vtewuass.game4090taking.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/36.0.1985.143 Safari/537.36
     path: /stream/PANEL_ZEUS/47be357e54da/loc-0
   xudp: true
 - name: 🇩🇪 Germany, Falkenstein | 🌐 | [BL]
@@ -69,8 +69,8 @@ proxies:
   ws-opts:
     headers:
       Host: site.check-looks.space
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
     path: /
   xudp: true
 - name: 🇩🇪 Germany, Falkenstein | 🌐 | [BL]-01
@@ -86,8 +86,8 @@ proxies:
   ws-opts:
     headers:
       Host: site.check-looks.space
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/68.0.3440.106 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
     path: /
   xudp: true
 - name: 🇩🇪 Germany, Falkenstein | 🌐 | [BL]-02
@@ -103,8 +103,8 @@ proxies:
   ws-opts:
     headers:
       Host: site.check-looks.space
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.116 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.181 Safari/537.36
     path: /
   xudp: true
 - name: 🇩🇪 Germany, Falkenstein | 🌐 | [BL]-03
@@ -120,8 +120,8 @@ proxies:
   ws-opts:
     headers:
       Host: site.check-looks.space
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /
   xudp: true
 - name: 🇩🇪 Germany, Falkenstein | 🌐 | [BL]-04
@@ -137,8 +137,8 @@ proxies:
   ws-opts:
     headers:
       Host: site.check-looks.space
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.77 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/42.0.2311.90 Safari/537.36
     path: /
   xudp: true
 - name: 🇩🇪 Germany, Falkenstein | 🌐 | [BL]-05
@@ -154,8 +154,8 @@ proxies:
   ws-opts:
     headers:
       Host: site.check-looks.space
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.75 Safari/537.36
     path: /
   xudp: true
 - name: 🇩🇪 Germany, Falkenstein | 🌐 | [BL]-06
@@ -171,8 +171,8 @@ proxies:
   ws-opts:
     headers:
       Host: site.check-looks.space
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/50.0.2661.102 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /
   xudp: true
 - name: 🇩🇪 Germany, Falkenstein | 🌐 | [BL]-07
@@ -189,8 +189,8 @@ proxies:
   ws-opts:
     headers:
       Host: site.check-looks.space
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
+        Gecko) Chrome/11.0.696.3 Safari/534.24
     path: /
   xudp: true
 - name: 🇩🇪 Germany, Falkenstein | 🌐 | [BL]-08
@@ -207,8 +207,8 @@ proxies:
   ws-opts:
     headers:
       Host: site.check-looks.space
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/59.0.3071.115 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /
   xudp: true
 - name: 🇩🇪 Germany, Falkenstein | 🌐 | [BL]-09
@@ -224,8 +224,8 @@ proxies:
   ws-opts:
     headers:
       Host: site.check-looks.space
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/43.0.2357.65 Safari/537.36
     path: /
   xudp: true
 - name: 🇩🇪 Germany, Falkenstein | 🌐 | [BL]-10
@@ -242,8 +242,8 @@ proxies:
   ws-opts:
     headers:
       Host: site.check-looks.space
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/52.0.2743.116 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.67 Safari/537.36
     path: /
   xudp: true
 - name: 🇩🇪 Germany, Falkenstein | 🌐 | [BL]-11
@@ -260,8 +260,8 @@ proxies:
   ws-opts:
     headers:
       Host: site.check-looks.space
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.67 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /
   xudp: true
 - name: 🇩🇪 Germany, Falkenstein | 🌐 | [BL]-12
@@ -278,8 +278,8 @@ proxies:
   ws-opts:
     headers:
       Host: site.check-looks.space
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
     path: /
   xudp: true
 - name: 🇩🇪 Germany, Frankfurt am Main | [BL]
@@ -575,8 +575,8 @@ proxies:
   ws-opts:
     headers:
       Host: cf-1rm.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/68.0.3440.106 Safari/537.36
     path: /
   xudp: true
 - name: 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 | [BL]
@@ -593,8 +593,8 @@ proxies:
   ws-opts:
     headers:
       Host: cf-1rm.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.84 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
     path: /
   xudp: true
 - name: 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇬🇧 🇵🇱 | [BL]
@@ -611,9 +611,8 @@ proxies:
   ws-opts:
     headers:
       Host: cf-1rm.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile
-        Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
     path: /
   xudp: true
 - name: 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 🇵🇱 🇺🇸 | [BL]
@@ -630,8 +629,8 @@ proxies:
   ws-opts:
     headers:
       Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.111 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
     path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇯🇵 | [BL]
@@ -647,8 +646,8 @@ proxies:
   ws-opts:
     headers:
       Host: vp10.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/52.0.2743.116 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2272.101 Safari/537.36
     path: /
   xudp: true
 - name: 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇯🇵 | [BL]-01
@@ -664,8 +663,8 @@ proxies:
   ws-opts:
     headers:
       Host: vp10.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
     path: /
   xudp: true
 - name: 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇯🇵 🇰🇷 | [BL]
@@ -681,8 +680,8 @@ proxies:
   ws-opts:
     headers:
       Host: vp10.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/65.0.3325.181 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
     path: /
   xudp: true
 - name: 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇯🇵 🇰🇷 | [BL]-01
@@ -698,8 +697,8 @@ proxies:
   ws-opts:
     headers:
       Host: edg-2oo.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/39.0.2171.95 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
     path: /play/avatar?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇯🇵 🇰🇷 | [BL]-02
@@ -715,8 +714,8 @@ proxies:
   ws-opts:
     headers:
       Host: edg-2oo.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
     path: /edu/teacher/torrent?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇯🇵 🇰🇷 | [BL]-03
@@ -732,8 +731,8 @@ proxies:
   ws-opts:
     headers:
       Host: edg-2oo.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
-        Gecko) Chrome/26.0.1410.64 Safari/537.31
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/43.0.2357.65 Safari/537.36
     path: /movie/static/about?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇦🇷 🇩🇪 🇮🇪 🇵🇱 🇺🇸 | [BL]
@@ -750,8 +749,8 @@ proxies:
   ws-opts:
     headers:
       Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
     path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇦🇷 🇩🇪 🇺🇸 | [BL]
@@ -772,8 +771,8 @@ proxies:
   ws-opts:
     headers:
       Host: xy1ej.stream-node-us.danfeng.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.110 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇦🇷 🇮🇪 🇺🇸 | [BL]
@@ -794,8 +793,8 @@ proxies:
   ws-opts:
     headers:
       Host: xy1ej.stream-node-us.danfeng.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.67 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇦🇷 🇯🇵 🇰🇷 | [BL]
@@ -812,8 +811,8 @@ proxies:
   ws-opts:
     headers:
       Host: cf-1rm.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
     path: /
   xudp: true
 - name: 🌐 Anycast-IP | 🇦🇹 🇨🇦 🇮🇪 🇺🇸 | [BL]
@@ -830,8 +829,8 @@ proxies:
   ws-opts:
     headers:
       Host: cf-1rm.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /
   xudp: true
 - name: 🌐 Anycast-IP | 🇦🇹 🇮🇪 | [BL]
@@ -848,8 +847,8 @@ proxies:
   ws-opts:
     headers:
       Host: sdwf-amq.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/55.0.2883.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /?ed=2048
   xudp: true
 - name: 🌐 Anycast-IP | 🇧🇬 🇨🇦 | [BL]
@@ -866,8 +865,8 @@ proxies:
   ws-opts:
     headers:
       Host: cf-1rm.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/55.0.2883.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
     path: /
   xudp: true
 - name: 🌐 Anycast-IP | 🇧🇬 🇨🇦 🇺🇸 | [BL]
@@ -884,8 +883,8 @@ proxies:
   ws-opts:
     headers:
       Host: vp58.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
     path: /TelegramU0001F1E8U0001F1F3 @VPNine1fp=chrome
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 | [BL]
@@ -901,8 +900,8 @@ proxies:
   ws-opts:
     headers:
       Host: edg-2oo.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/57.0.2987.133 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.84 Safari/537.36
     path: /online?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 | [BL]-01
@@ -918,8 +917,8 @@ proxies:
   ws-opts:
     headers:
       Host: edg-2oo.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.102 Safari/537.36
     path: /travel/thread/rank?ed=2560fp=chrome
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 | [BL]-02
@@ -935,8 +934,8 @@ proxies:
   ws-opts:
     headers:
       Host: edg-2oo.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
     path: /zh-cn/go.php/courses?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 | [BL]
@@ -952,8 +951,8 @@ proxies:
   ws-opts:
     headers:
       Host: edg-2oo.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
     path: /outbound?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 🇺🇸 | [BL]
@@ -974,8 +973,8 @@ proxies:
   ws-opts:
     headers:
       Host: xy1ej.stream-node-us.danfeng.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇺🇸 | [BL]
@@ -994,8 +993,8 @@ proxies:
   ws-opts:
     headers:
       Host: xy1ej.stream-node-us.danfeng.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
+        Chrome/v1.0.0 Safari/538.1
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇺🇸 | [BL]-01
@@ -1012,8 +1011,8 @@ proxies:
   ws-opts:
     headers:
       Host: cf-1rm.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.87 Safari/537.36
     path: /
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇺🇸 | [BL]-02
@@ -1030,7 +1029,7 @@ proxies:
     headers:
       Host: edg-2oo.pages.dev
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/52.0.2743.116 Safari/537.36
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
     path: /discount/wiki?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇺🇸 | [BL]-03
@@ -1046,8 +1045,8 @@ proxies:
   ws-opts:
     headers:
       Host: edg-2oo.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
     path: /trade/sort?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇺🇸 | [BL]
@@ -1066,8 +1065,8 @@ proxies:
   ws-opts:
     headers:
       Host: xy1ej.stream-node-us.danfeng.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/34.0.1847.131 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.101 Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇺🇸 | [BL]-01
@@ -1083,8 +1082,8 @@ proxies:
   ws-opts:
     headers:
       Host: edg-2oo.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.80 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /data/detail?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇫🇷 🇮🇪 🇮🇶 | [BL]
@@ -1101,8 +1100,8 @@ proxies:
   ws-opts:
     headers:
       Host: cf-1rm.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇰🇷 🇺🇸 | [BL]
@@ -1117,8 +1116,8 @@ proxies:
   ws-opts:
     headers:
       Host: edg-2oo.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.181 Safari/537.36
     path: ''
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇭🇰 | [BL]
@@ -1134,8 +1133,8 @@ proxies:
   ws-opts:
     headers:
       Host: edg-2oo.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
     path: /star/collection?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇭🇰 🇮🇪 | [BL]
@@ -1153,8 +1152,8 @@ proxies:
   ws-opts:
     headers:
       Host: xy1ej.stream-node-us.danfeng.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/68.0.3440.106 Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇭🇰 🇮🇪 | [BL]-01
@@ -1172,8 +1171,8 @@ proxies:
   ws-opts:
     headers:
       Host: xy1ej.stream-node-us.danfeng.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇭🇰 🇮🇪 | [BL]-02
@@ -1189,8 +1188,8 @@ proxies:
   ws-opts:
     headers:
       Host: edg-2oo.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /home?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇭🇰 🇮🇪 🇸🇬 | [BL]
@@ -1206,8 +1205,8 @@ proxies:
   ws-opts:
     headers:
       Host: vp10.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.102 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
     path: /fp=chrome
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇭🇰 🇮🇪 🇸🇬 | [BL]-01
@@ -1223,8 +1222,8 @@ proxies:
   ws-opts:
     headers:
       Host: edg-2oo.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.67 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /order/members/mall?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇭🇰 🇰🇷 | [BL]
@@ -1240,8 +1239,8 @@ proxies:
   ws-opts:
     headers:
       Host: edg-2oo.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/56.0.2924.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.102 Safari/537.36
     path: /star/collection?ed=2560fp=chrome
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇭🇰 🇵🇭 🇺🇸 | [BL]
@@ -1260,8 +1259,8 @@ proxies:
   ws-opts:
     headers:
       Host: xy1ej.stream-node-us.danfeng.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇭🇰 🇵🇭 🇺🇸 | [BL]-01
@@ -1280,8 +1279,9 @@ proxies:
   ws-opts:
     headers:
       Host: xy1ej.stream-node-us.danfeng.qzz.io
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile
+        Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇭🇰 🇵🇭 🇺🇸 | [BL]-02
@@ -1299,8 +1299,8 @@ proxies:
   ws-opts:
     headers:
       Host: xy1ej.stream-node-us.danfeng.qzz.io
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇭🇰 🇺🇸 | [BL]
@@ -1318,8 +1318,8 @@ proxies:
   ws-opts:
     headers:
       Host: xy1ej.stream-node-us.danfeng.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.63 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇮🇪 🇸🇬 | [BL]
@@ -1336,8 +1336,8 @@ proxies:
   ws-opts:
     headers:
       Host: t5pmr.mail-node.gfw.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇮🇪 🇸🇬 | [BL]-01
@@ -1355,7 +1355,7 @@ proxies:
     headers:
       Host: t5pmr.mail-node.gfw.kdns.fr
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.109 Safari/537.36
+        Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇮🇪 🇸🇬 | [BL]-02
@@ -1372,8 +1372,8 @@ proxies:
   ws-opts:
     headers:
       Host: sdwf-amq.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
     path: /?ed=2048
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇮🇪 🇸🇬 | [BL]-03
@@ -1388,8 +1388,8 @@ proxies:
   ws-opts:
     headers:
       Host: proxy-1cu.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/34.0.1847.131 Safari/537.36
     path: ''
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇮🇪 🇸🇬 | [BL]-04
@@ -1404,8 +1404,8 @@ proxies:
   ws-opts:
     headers:
       Host: proxy-1cu.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/52.0.2743.116 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
     path: ''
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇮🇪 🇸🇬 | [BL]-05
@@ -1421,8 +1421,8 @@ proxies:
   ws-opts:
     headers:
       Host: edg-2oo.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
     path: /app/index?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇮🇪 🇸🇬 | [BL]-06
@@ -1438,8 +1438,8 @@ proxies:
   ws-opts:
     headers:
       Host: edg-2oo.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.101 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
     path: /collect/friends/stars?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇮🇪 🇸🇬 🇺🇸 | [BL]
@@ -1459,7 +1459,7 @@ proxies:
     headers:
       Host: xy1ej.stream-node-us.danfeng.qzz.io
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
     max-early-data: 2560
     path: /danfeng
   xudp: true
@@ -1477,8 +1477,8 @@ proxies:
   ws-opts:
     headers:
       Host: proxy-1cu.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/52.0.2743.116 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇮🇪 🇸🇬 🇺🇸 | [BL]-02
@@ -1495,8 +1495,8 @@ proxies:
   ws-opts:
     headers:
       Host: proxy-1cu.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.102 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
     path: /
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇮🇪 🇸🇬 🇺🇸 | [BL]-03
@@ -1511,8 +1511,8 @@ proxies:
   ws-opts:
     headers:
       Host: proxy-1cu.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
     path: ''
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇮🇪 🇸🇬 🇺🇸 | [BL]-04
@@ -1529,7 +1529,7 @@ proxies:
     headers:
       Host: edg-2oo.pages.dev
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.116 Safari/537.36
+        Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
     path: /buy/members/v?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇮🇪 🇸🇬 🇺🇸 | [BL]-05
@@ -1545,8 +1545,8 @@ proxies:
   ws-opts:
     headers:
       Host: edg-2oo.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/57.0.2987.133 Safari/537.36
     path: /message?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇮🇶 🇮🇹 | [BL]
@@ -1563,8 +1563,8 @@ proxies:
   ws-opts:
     headers:
       Host: cf-1rm.pages.dev
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/57.0.2987.133 Safari/537.36
     path: /
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇮🇶 🇮🇹 | [BL]-01
@@ -1581,8 +1581,8 @@ proxies:
   ws-opts:
     headers:
       Host: cf-1rm.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
     path: /
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇰🇷 | [BL]
@@ -1601,8 +1601,8 @@ proxies:
   ws-opts:
     headers:
       Host: xy1ej.stream-node-us.danfeng.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.102 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇰🇷 | [BL]-01
@@ -1619,8 +1619,8 @@ proxies:
   ws-opts:
     headers:
       Host: xy1ej.stream-node-us.danfeng.qzz.io
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
-        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇰🇷 🇱🇹 | [BL]
@@ -1637,8 +1637,8 @@ proxies:
   ws-opts:
     headers:
       Host: cf-1rm.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.63 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
     path: /
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇰🇷 🇺🇸 | [BL]
@@ -1655,8 +1655,8 @@ proxies:
   ws-opts:
     headers:
       Host: t5pmr.mail-node.gfw.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.84 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇰🇷 🇺🇸 | [BL]-01
@@ -1672,8 +1672,8 @@ proxies:
   ws-opts:
     headers:
       Host: edg-2oo.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
     path: /archives?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇰🇷 🇺🇸 | [BL]-02
@@ -1689,8 +1689,8 @@ proxies:
   ws-opts:
     headers:
       Host: edg-2oo.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/35.0.1916.153 Safari/537.36
     path: /go.php/group?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇰🇷 🇺🇸 | [BL]-03
@@ -1707,8 +1707,8 @@ proxies:
   ws-opts:
     headers:
       Host: edg-2oo.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.71 Safari/537.36
     path: /res/dl/streams?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇱🇹 | [BL]
@@ -1725,8 +1725,8 @@ proxies:
   ws-opts:
     headers:
       Host: cf-1rm.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇱🇹 | [BL]-01
@@ -1743,8 +1743,8 @@ proxies:
   ws-opts:
     headers:
       Host: cf-1rm.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2228.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
     path: /
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇱🇻 | [BL]
@@ -1761,8 +1761,8 @@ proxies:
   ws-opts:
     headers:
       Host: cf-1rm.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
     path: /
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇸🇬 | [BL]
@@ -1779,8 +1779,8 @@ proxies:
   ws-opts:
     headers:
       Host: t5pmr.mail-node.gfw.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.87 Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇸🇬 🇺🇸 | [BL]
@@ -1799,8 +1799,8 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: xy1ej.stream-node-us.danfeng.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.102 Safari/537.36
     max-early-data: 2560
     path: /danfeng
   xudp: true
@@ -1818,8 +1818,8 @@ proxies:
   ws-opts:
     headers:
       Host: t5pmr.mail-node.gfw.kdns.fr
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇸🇬 🇺🇸 | [BL]-02
@@ -1836,8 +1836,8 @@ proxies:
   ws-opts:
     headers:
       Host: t5pmr.mail-node.gfw.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇸🇬 🇺🇸 | [BL]-03
@@ -1855,7 +1855,7 @@ proxies:
     headers:
       Host: t5pmr.mail-node.gfw.kdns.fr
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇺🇸 | [BL]
@@ -1876,8 +1876,8 @@ proxies:
   ws-opts:
     headers:
       Host: xy1ej.stream-node-us.danfeng.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇺🇸 | [BL]-01
@@ -1894,8 +1894,8 @@ proxies:
   ws-opts:
     headers:
       Host: edg-2oo.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
     path: /settings/topics?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇺🇸 | [BL]-02
@@ -1911,8 +1911,8 @@ proxies:
   ws-opts:
     headers:
       Host: edg-2oo.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.86 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /settings/topics?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇺🇸 | [BL]-03
@@ -1928,8 +1928,8 @@ proxies:
   ws-opts:
     headers:
       Host: edg-2oo.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
     path: /html/movies/watch?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇺🇸 | [BL]-04
@@ -1945,8 +1945,8 @@ proxies:
   ws-opts:
     headers:
       Host: edg-2oo.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.77 Safari/537.36
     path: /trade?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇺🇸 | [BL]-05
@@ -1963,8 +1963,8 @@ proxies:
   ws-opts:
     headers:
       Host: edg-2oo.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /article/pages/archive?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇺🇸 | [BL]-06
@@ -1980,8 +1980,8 @@ proxies:
   ws-opts:
     headers:
       Host: edg-2oo.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/67.0.3396.99 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
     path: /account/picture/study?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇺🇸 | [BL]-07
@@ -1997,8 +1997,8 @@ proxies:
   ws-opts:
     headers:
       Host: edg-2oo.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.118 Safari/537.36
     path: /my/ads/online?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇨🇦 🇺🇸 | [BL]-08
@@ -2014,8 +2014,8 @@ proxies:
   ws-opts:
     headers:
       Host: edg-2oo.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+        Slackware/Chrome/12.0.742.100 Safari/534.30
     path: /blogs?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇩🇪 🇬🇧 🇸🇬 | [BL]
@@ -2032,8 +2032,8 @@ proxies:
   ws-opts:
     headers:
       Host: coding.grok2.indevs.in
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
     path: '%2Fproxyip%3DProxyIP.SG.CMLiussss.Net'
   xudp: true
 - name: 🌐 Anycast-IP | 🇩🇪 🇮🇶 🇺🇸 | [BL]
@@ -2052,8 +2052,8 @@ proxies:
   ws-opts:
     headers:
       Host: xy1ej.stream-node-us.danfeng.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2228.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇩🇪 🇺🇸 | [BL]
@@ -2072,8 +2072,8 @@ proxies:
   ws-opts:
     headers:
       Host: xy1ej.stream-node-us.danfeng.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/37.0.2062.120 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
+        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇫🇮 🇬🇧 | [BL]
@@ -2092,8 +2092,8 @@ proxies:
   ws-opts:
     headers:
       Host: nexostore.xnetaro.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
     path: /wss
   xudp: true
 - name: 🌐 Anycast-IP | 🇫🇷 | [BL]
@@ -2112,9 +2112,8 @@ proxies:
   ws-opts:
     headers:
       Host: Appxdn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
-        wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
-        Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
     path: /
   xudp: true
 - name: 🌐 Anycast-IP | 🇫🇷 | [BL]-01
@@ -2133,8 +2132,8 @@ proxies:
   ws-opts:
     headers:
       Host: Appxdn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/52.0.2743.116 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
     path: /
   xudp: true
 - name: 🌐 Anycast-IP | 🇫🇷 | [BL]-02
@@ -2153,8 +2152,8 @@ proxies:
   ws-opts:
     headers:
       Host: Appxdn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/39.0.2171.95 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /
   xudp: true
 - name: 🌐 Anycast-IP | 🇫🇷 | [BL]-03
@@ -2173,8 +2172,8 @@ proxies:
   ws-opts:
     headers:
       Host: Appxdn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
     path: /
   xudp: true
 - name: 🌐 Anycast-IP | 🇫🇷 | [BL]-04
@@ -2193,8 +2192,8 @@ proxies:
   ws-opts:
     headers:
       Host: Appxdn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
     path: /
   xudp: true
 - name: 🌐 Anycast-IP | 🇫🇷 🇺🇸 | [BL]
@@ -2214,7 +2213,7 @@ proxies:
     headers:
       Host: Appxdn.global.ssl.fastly.net
       User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.71 Safari/537.36
+        like Gecko) Chrome/45.0.2454.93 Safari/537.36
     path: /
   xudp: true
 - name: 🌐 Anycast-IP | 🇬🇧 🇺🇸 | [BL]
@@ -2231,8 +2230,8 @@ proxies:
   ws-opts:
     headers:
       Host: cf-1rm.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
     path: /
   xudp: true
 - name: 🌐 Anycast-IP | 🇭🇰 🇮🇪 🇰🇷 🇺🇸 | [BL]
@@ -2250,8 +2249,8 @@ proxies:
   ws-opts:
     headers:
       Host: xy1ej.stream-node-us.danfeng.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.87 Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇭🇰 🇮🇪 🇰🇷 🇺🇸 | [BL]-01
@@ -2269,8 +2268,8 @@ proxies:
   ws-opts:
     headers:
       Host: xy1ej.stream-node-us.danfeng.qzz.io
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇭🇰 🇮🇪 🇵🇭 🇺🇸 | [BL]
@@ -2289,8 +2288,8 @@ proxies:
   ws-opts:
     headers:
       Host: xy1ej.stream-node-us.danfeng.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.86 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.87 Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇭🇰 🇮🇪 🇵🇭 🇺🇸 | [BL]-01
@@ -2309,8 +2308,8 @@ proxies:
   ws-opts:
     headers:
       Host: xy1ej.stream-node-us.danfeng.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇭🇰 🇺🇸 | [BL]
@@ -2328,8 +2327,8 @@ proxies:
   ws-opts:
     headers:
       Host: xy1ej.stream-node-us.danfeng.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇮🇪 🇮🇶 🇳🇱 | [BL]
@@ -2346,8 +2345,8 @@ proxies:
   ws-opts:
     headers:
       Host: vp58.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/52.0.2743.116 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /TelegramU0001F1E8U0001F1F3 @VPNine1fp=chrome
   xudp: true
 - name: 🌐 Anycast-IP | 🇮🇪 🇮🇶 🇳🇱 🇺🇸 | [BL]
@@ -2364,8 +2363,8 @@ proxies:
   ws-opts:
     headers:
       Host: vp58.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/68.0.3440.106 Safari/537.36
     path: /TelegramU0001F1E8U0001F1F3 @VPNine1fp=chrome
   xudp: true
 - name: 🌐 Anycast-IP | 🇮🇪 🇯🇵 🇸🇬 🇺🇸 | [BL]
@@ -2381,8 +2380,8 @@ proxies:
   ws-opts:
     headers:
       Host: sdwf-amq.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/65.0.3325.181 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: '%2F%3Fed%3D2048'
   xudp: true
 - name: 🌐 Anycast-IP | 🇮🇪 🇸🇬 | [BL]
@@ -2401,8 +2400,8 @@ proxies:
   ws-opts:
     headers:
       Host: xy1ej.stream-node-us.danfeng.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.101 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.109 Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇮🇪 🇸🇬 | [BL]-01
@@ -2419,8 +2418,8 @@ proxies:
   ws-opts:
     headers:
       Host: t5pmr.mail-node.gfw.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.101 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇮🇪 🇸🇬 🇺🇸 | [BL]
@@ -2437,8 +2436,8 @@ proxies:
   ws-opts:
     headers:
       Host: t5pmr.mail-node.gfw.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇮🇪 🇺🇸 | [BL]
@@ -2454,8 +2453,8 @@ proxies:
   ws-opts:
     headers:
       Host: t5pmr.mail-node.gfw.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/53.0.2785.143 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇰🇷 🇺🇸 | [BL]
@@ -2472,8 +2471,8 @@ proxies:
   ws-opts:
     headers:
       Host: t5pmr.mail-node.gfw.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
-        Gecko) Chrome/26.0.1410.64 Safari/537.31
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.67 Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇰🇷 🇺🇸 | [BL]-01
@@ -2492,8 +2491,8 @@ proxies:
   ws-opts:
     headers:
       Host: xy1ej.stream-node-us.danfeng.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇰🇷 🇺🇸 | [BL]-02
@@ -2512,8 +2511,8 @@ proxies:
   ws-opts:
     headers:
       Host: xy1ej.stream-node-us.danfeng.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇳🇱 | [BL]
@@ -2545,8 +2544,8 @@ proxies:
   ws-opts:
     headers:
       Host: xy1ej.stream-node-us.danfeng.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2272.104 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.111 Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - name: 🌐 Anycast-IP | 🇸🇬 🇺🇸 | [BL]-01
@@ -2563,8 +2562,8 @@ proxies:
   ws-opts:
     headers:
       Host: xy1ej.stream-node-us.danfeng.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /danfeng
   xudp: true
 - name: 🌐 Anycast-IP | 🇸🇬 🇺🇸 | [BL]-02
@@ -2581,8 +2580,8 @@ proxies:
   ws-opts:
     headers:
       Host: xy1ej.stream-node-us.danfeng.qzz.io
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.112 Safari/537.36
     path: /danfeng
   xudp: true
 - name: 🌐 Anycast-IP | 🇺🇸 | [BL]
@@ -2599,42 +2598,8 @@ proxies:
   ws-opts:
     headers:
       Host: cf-1rm.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /
-  xudp: true
-- name: 🇨🇳 China, Shenzhen | [BL]
-  server: 39.108.113.127
-  port: 10086
-  alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  network: ws
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
-  ws-opts:
-    headers: {}
-    path: /
-  xudp: true
-- name: 🇨🇳 China, Shenzhen | [BL]-01
-  server: 39.108.113.127
-  port: 10086
-  alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  network: ws
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: fccbad0f-eb6c-4bdd-80ed-145409e2f761
-  ws-opts:
-    headers: {}
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
     path: /
   xudp: true
 - name: 🇺🇸 United States, Los Angeles (Central-Alameda) | [BL]
@@ -2802,8 +2767,6 @@ proxy-groups:
   - 🌐 Anycast-IP | 🇸🇬 🇺🇸 | [BL]-01
   - 🌐 Anycast-IP | 🇸🇬 🇺🇸 | [BL]-02
   - 🌐 Anycast-IP | 🇺🇸 | [BL]
-  - 🇨🇳 China, Shenzhen | [BL]
-  - 🇨🇳 China, Shenzhen | [BL]-01
   - 🇺🇸 United States, Los Angeles (Central-Alameda) | [BL]
 - name: 自动选择
   type: url-test
@@ -2956,8 +2919,6 @@ proxy-groups:
   - 🌐 Anycast-IP | 🇸🇬 🇺🇸 | [BL]-01
   - 🌐 Anycast-IP | 🇸🇬 🇺🇸 | [BL]-02
   - 🌐 Anycast-IP | 🇺🇸 | [BL]
-  - 🇨🇳 China, Shenzhen | [BL]
-  - 🇨🇳 China, Shenzhen | [BL]-01
   - 🇺🇸 United States, Los Angeles (Central-Alameda) | [BL]
 rules:
 - GEOSITE,private,DIRECT
