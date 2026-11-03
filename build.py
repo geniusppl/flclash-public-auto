@@ -102,8 +102,12 @@ def main():
     singbox = {
         "log": {"level": "info", "timestamp": True},
         "dns": {"servers": [
-            {"tag": "dns-direct", "address": "223.5.5.5", "detour": "direct"},
-            {"tag": "dns-proxy", "address": "tls://1.1.1.1", "detour": "自动选择"},
+            # sing-box 1.12+ new DNS server format (ZedSecure embeds
+            # >= 1.14, where the legacy {"address": ...} format is
+            # removed and the config fails to start): each server needs
+            # a "type" and a bare "server" address, no URL scheme.
+            {"type": "udp", "tag": "dns-direct", "server": "223.5.5.5", "detour": "direct"},
+            {"type": "tls", "tag": "dns-proxy", "server": "1.1.1.1", "detour": "自动选择"},
         ], "rules": [
             # Chinese domains resolve via Alibaba DNS direct, so their
             # answers (and the IPs they point at) stay domestic.
@@ -121,7 +125,13 @@ def main():
              "url": "https://www.gstatic.com/generate_204",
              "interval": "5m", "tolerance": 50, "outbounds": sb_tags},
         ],
-        "route": {"rule_set": [
+        "route": {
+        # sing-box 1.12+ requires a domain resolver for outbound
+        # server domains (removed in 1.14, the core ZedSecure embeds):
+        # without this, the config fails to start. dns-direct
+        # (223.5.5.5, direct, no proxy) avoids a circular dependency.
+        "default_domain_resolver": "dns-direct",
+        "rule_set": [
             # Same geosite:cn / geoip:cn lists ZedSecure's "中国白名单"
             # preset uses, but fetched as sing-box .srs rule sets so the
             # config does not depend on ZedSecure's missing geo files.
