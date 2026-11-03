@@ -104,6 +104,10 @@ def main():
         "dns": {"servers": [
             {"tag": "dns-direct", "address": "223.5.5.5", "detour": "direct"},
             {"tag": "dns-proxy", "address": "tls://1.1.1.1", "detour": "自动选择"},
+        ], "rules": [
+            # Chinese domains resolve via Alibaba DNS direct, so their
+            # answers (and the IPs they point at) stay domestic.
+            {"rule_set": "geosite-cn", "server": "dns-direct"},
         ], "final": "dns-proxy", "strategy": "ipv4_only"},
         "inbounds": [
             {"type": "mixed", "tag": "mixed-in", "listen": "127.0.0.1", "listen_port": 7890},
@@ -117,13 +121,27 @@ def main():
              "url": "https://www.gstatic.com/generate_204",
              "interval": "5m", "tolerance": 50, "outbounds": sb_tags},
         ],
-        "route": {"rules": [
+        "route": {"rule_set": [
+            # Same geosite:cn / geoip:cn lists ZedSecure's "中国白名单"
+            # preset uses, but fetched as sing-box .srs rule sets so the
+            # config does not depend on ZedSecure's missing geo files.
+            # jsDelivr (already used for this config) is reachable direct
+            # from China, so download_detour is "direct", not a proxy.
+            {"type": "remote", "tag": "geosite-cn", "format": "binary",
+             "url": "https://cdn.jsdelivr.net/gh/SagerNet/sing-geosite@rule-set/geosite-cn.srs",
+             "download_detour": "direct"},
+            {"type": "remote", "tag": "geoip-cn", "format": "binary",
+             "url": "https://cdn.jsdelivr.net/gh/SagerNet/sing-geoip@rule-set/geoip-cn.srs",
+             "download_detour": "direct"},
+        ], "rules": [
             {"action": "sniff"},
             {"protocol": "dns", "action": "hijack-dns"},
             {"domain_keyword": ["douyin", "bytedance", "pstatp", "volces", "volcvideo"],
              "action": "route", "outbound": "direct"},
             {"domain_suffix": ["douyin.com"], "action": "route", "outbound": "direct"},
             {"ip_is_private": True, "action": "route", "outbound": "direct"},
+            {"rule_set": "geosite-cn", "action": "route", "outbound": "direct"},
+            {"rule_set": "geoip-cn", "action": "route", "outbound": "direct"},
         ], "final": "自动选择", "auto_detect_interface": True},
     }
     with open("sing-box.json", "w") as f:
