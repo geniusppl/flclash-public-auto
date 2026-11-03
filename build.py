@@ -6,7 +6,39 @@ and sing-box.json, a full sing-box config whose route rules send Douyin and
 private traffic direct and everything else to the urltest group, so ZedSecure
 does not need a per-app bypass for Douyin.
 """
-import sys, urllib.request, yaml, json
+import sys, urllib.request, urllib.parse, base64, yaml, json
+
+# Mainland-China nodes cannot reach the outside internet, so drop them.
+# Hong Kong / Taiwan / Macau are NOT filtered: they can proxy out.
+_CN_CITIES = ("beijing", "shanghai", "guangzhou", "shenzhen", "chengdu",
+    "hangzhou", "wuhan", "nanjing", "tianjin", "chongqing", "xi'an", "xian",
+    "suzhou", "changsha", "zhengzhou", "qingdao", "dalian", "xiamen",
+    "ningbo", "hefei", "fuzhou", "shenyang", "harbin", "kunming", "jinan",
+    "changchun", "nanchang", "guiyang", "lanzhou", "taiyuan", "shijiazhuang",
+    "haikou", "urumqi", "hohhot")
+
+def is_china(name, server=""):
+    if server and str(server).lower().endswith(".cn"):
+        return True
+    if not name:
+        return False
+    if "🇨🇳" in name:
+        return True
+    n = name.lower()
+    if "china" in n:
+        return True
+    return any(c in n for c in _CN_CITIES)
+
+def link_name(link):
+    if link.startswith("vmess://"):
+        try:
+            payload = link[len("vmess://"):].split("?")[0]
+            payload += "=" * (-len(payload) % 4)
+            return json.loads(base64.urlsafe_b64decode(payload)).get("ps", "")
+        except Exception:
+            return ""
+    frag = link.rsplit("#", 1)[-1] if "#" in link else ""
+    return urllib.parse.unquote(frag)
 
 UPSTREAM = "https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/29.txt"
 CONVERTER = "https://api.asailor.org/sub?target=clash&url=" + urllib.parse.quote(UPSTREAM, safe="") + "&list=true"
@@ -19,6 +51,8 @@ def main():
                "hysteria2://", "hy2://", "tuic://", "socks://")
     links = [line.strip() for line in raw.splitlines()
              if line.strip().startswith(schemes)]
+    links = [l for l in links if not is_china(link_name(l))]
+    print(f"filtered mainland-China share links, kept {len(links)}")
     if len(links) < 10:
         raise SystemExit(f"too few share links: {len(links)}")
     with open("nodes.txt", "w") as f:
@@ -27,6 +61,9 @@ def main():
     with urllib.request.urlopen(CONVERTER, timeout=120) as r:
         data = yaml.safe_load(r.read().decode())
     proxies = data.get("proxies", [])
+    proxies = [p for p in proxies
+               if not is_china(p.get("name", ""), p.get("server", ""))]
+    print(f"filtered mainland-China clash proxies, kept {len(proxies)}")
     if len(proxies) < 10:
         raise SystemExit(f"too few proxies: {len(proxies)}")
     names = [p["name"] for p in proxies]
@@ -56,6 +93,9 @@ def main():
     with urllib.request.urlopen(CONVERTER_SINGBOX, timeout=120) as r:
         sb = json.loads(r.read().decode())
     sb_outbounds = sb.get("outbounds", [])
+    sb_outbounds = [o for o in sb_outbounds
+                    if not is_china(o.get("tag", ""), o.get("server", ""))]
+    print(f"filtered mainland-China sing-box outbounds, kept {len(sb_outbounds)}")
     if len(sb_outbounds) < 10:
         raise SystemExit(f"too few sing-box outbounds: {len(sb_outbounds)}")
     sb_tags = [o["tag"] for o in sb_outbounds]
