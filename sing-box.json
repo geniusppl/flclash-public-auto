@@ -6,13 +6,15 @@
   "dns": {
     "servers": [
       {
+        "type": "udp",
         "tag": "dns-direct",
-        "address": "223.5.5.5",
+        "server": "223.5.5.5",
         "detour": "direct"
       },
       {
+        "type": "tls",
         "tag": "dns-proxy",
-        "address": "tls://1.1.1.1",
+        "server": "1.1.1.1",
         "detour": "自动选择"
       }
     ],
@@ -3543,6 +3545,7 @@
     }
   ],
   "route": {
+    "default_domain_resolver": "dns-direct",
     "rule_set": [
       {
         "type": "remote",
