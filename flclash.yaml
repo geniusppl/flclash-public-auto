@@ -20,84 +20,62 @@ dns:
     geoip: true
     geoip-code: CN
 proxies:
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
-  server: fast.145779.xyz
-  port: 2053
+- name: 🇧🇬 Bulgaria, Sofia | [BL]
+  server: 168.113.128.70
+  port: 20105
+  alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  network: tcp
+  servername: ripelever.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9aff658c-1f80-4c82-9213-48ca26996142
+  xudp: true
+- name: 🇧🇬 Bulgaria, Sofia | [BL]-01
+  server: 168.113.128.70
+  port: 20105
+  alpn:
+  - h2%2Chttp%2F1.1
   client-fingerprint: chrome
-  encryption: none
-  network: ws
-  servername: fast.145779.xyz
+  flow: xtls-rprx-vision
+  network: tcp
+  servername: ripelever.net
   tls: true
   type: vless
   udp: true
-  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
-  ws-opts:
-    headers:
-      Host: fast.145779.xyz
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /ws-tesla
+  uuid: 9aff658c-1f80-4c82-9213-48ca26996142
   xudp: true
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]-01
-  server: fast.145779.xyz
-  port: 2053
-  client-fingerprint: qq
-  encryption: none
-  network: ws
-  servername: fast.145779.xyz
+- name: 🇧🇬 Bulgaria, Sofia | [BL]-02
+  server: 168.113.128.70
+  port: 20105
+  client-fingerprint: safari
+  flow: xtls-rprx-vision
+  network: tcp
+  servername: ripelever.net
   tls: true
   type: vless
   udp: true
-  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
-  ws-opts:
-    headers:
-      Host: fast.145779.xyz
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
-    path: /ws-tesla
+  uuid: 9aff658c-1f80-4c82-9213-48ca26996142
   xudp: true
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]-02
-  server: 172.67.199.126
-  port: 2053
-  client-fingerprint: chrome
-  network: ws
-  servername: fast.145779.xyz
+- name: 🇭🇰 Hong Kong | 🌐 | [BL]
+  server: dddz-3-z.473221.xyz
+  port: 13212
+  client-fingerprint: edge
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: 4VguZbm-S2NkLpi7gLDsQMv2eDXP2LucxsvTiEt98yY
+    short-id: 961f7127a015ba
+  servername: v1-dy.ixigua.com
   tls: true
   type: vless
   udp: true
-  uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
-  ws-opts:
-    headers:
-      Host: fast.145779.xyz
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7
-        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-    path: '%2Fws-tesla'
-  xudp: true
-- name: 🇨🇦 Canada | 🌐 | [BL]
-  server: 5.53.124.191
-  port: 8008
-  encryption: none
-  network: xhttp
-  type: vless
-  udp: true
-  uuid: b48e1596-e835-4547-bdae-31daadf9ea17
-  xhttp-opts:
-    mode: auto
-    path: /
-  xudp: true
-- name: 🇩🇪 Germany, Nuremberg | [BL]
-  server: fast.mo-chephosting.ir
-  port: 53421
-  encryption: none
-  network: xhttp
-  type: vless
-  udp: true
-  uuid: 2dbf38e2-a0bc-4c65-8899-678818878bf4
-  xhttp-opts:
-    host: cafeariel.ir
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
+  uuid: 65ec84f5-0dd4-4582-8b4f-592e50b22116
   xudp: true
 - name: 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]
   server: 104.18.153.10
@@ -112,248 +90,92 @@ proxies:
   ws-opts:
     headers:
       Host: jp3.yohototo.top
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /tyxyws
   xudp: true
-- name: 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]-01
-  server: 104.18.153.10
-  port: 443
-  client-fingerprint: qq
-  network: ws
-  servername: jp3.yohototo.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  ws-opts:
-    headers:
-      Host: jp3.yohototo.top
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /tyxyws
-  xudp: true
-- name: 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]-02
-  server: 104.18.153.10
-  port: 443
-  client-fingerprint: safari
-  network: ws
-  servername: jp3.yohototo.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  ws-opts:
-    headers:
-      Host: jp3.yohototo.top
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/68.0.3440.106 Safari/537.36
-    path: /tyxyws
-  xudp: true
-- name: 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]-03
-  server: 104.21.34.106
-  port: 443
-  client-fingerprint: chrome
-  network: ws
-  servername: jp3.yohototo.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  ws-opts:
-    headers:
-      Host: jp3.yohototo.top
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.87 Safari/537.36
-    path: /tyxyws
-  xudp: true
-- name: 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]-04
-  server: 104.21.34.106
-  port: 443
-  client-fingerprint: qq
-  network: ws
-  servername: jp3.yohototo.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  ws-opts:
-    headers:
-      Host: jp3.yohototo.top
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
-        Safari/537.36
-    path: /tyxyws
-  xudp: true
-- name: 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]-05
-  server: 104.21.34.106
-  port: 443
-  client-fingerprint: safari
-  network: ws
-  servername: jp3.yohototo.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  ws-opts:
-    headers:
-      Host: jp3.yohototo.top
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
-        Safari/537.36
-    path: /tyxyws
-  xudp: true
-- name: 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]-06
-  server: 104.21.70.21
-  port: 443
-  client-fingerprint: chrome
-  network: ws
-  servername: jp3.yohototo.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  ws-opts:
-    headers:
-      Host: jp3.yohototo.top
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /tyxyws
-  xudp: true
-- name: 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]-07
-  server: 104.21.70.21
-  port: 443
-  client-fingerprint: firefox
-  network: ws
-  servername: jp3.yohototo.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  ws-opts:
-    headers:
-      Host: jp3.yohototo.top
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.112 Safari/537.36
-    path: /tyxyws
-  xudp: true
-- name: 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]-08
-  server: 104.21.70.21
-  port: 443
-  client-fingerprint: qq
-  network: ws
-  servername: jp3.yohototo.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  ws-opts:
-    headers:
-      Host: jp3.yohototo.top
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /tyxyws
-  xudp: true
-- name: 🇪🇸 Spain, Madrid (Chamartín) | [BL]
-  server: 230b29t.es8.h1clayd.click
-  port: 443
-  client-fingerprint: chrome
-  encryption: none
+- name: 🇲🇽 Mexico, La Cañada | [BL]
+  server: dddz-1-x.473221.xyz
+  port: 43116
+  client-fingerprint: ios
+  flow: xtls-rprx-vision
   network: tcp
   reality-opts:
-    public-key: JvnTbjxkV9nXKoDRA_tmeY6aeOTnJXSBU3yNp9ZUnH0
-    short-id: 91313fc9f7571857
-  servername: 230b29t.es8.h1clayd.click
+    public-key: rLU2xJNZPFvtHy49MygD-nta6OpJEbjarjAZ5vHwpVE
+    short-id: 29ad689280e2f0ec
+  servername: v1-dy.ixigua.com
   tls: true
   type: vless
   udp: true
-  uuid: 95c2ba1e-a330-4e6b-bd81-bf9c0f647b2f
+  uuid: 65ec84f5-0dd4-4582-8b4f-592e50b22116
   xudp: true
-- name: 🇪🇸 Spain, Madrid (Chamartín) | [BL]-01
-  server: 230b29t.es8.h1clayd.click
-  port: 443
-  client-fingerprint: firefox
+- name: 🇲🇽 Mexico, La Cañada | [BL]-01
+  server: dddz-1-x.473221.xyz
+  port: 43116
+  client-fingerprint: ios
   encryption: none
+  flow: xtls-rprx-vision
   network: tcp
   reality-opts:
-    public-key: JvnTbjxkV9nXKoDRA_tmeY6aeOTnJXSBU3yNp9ZUnH0
-    short-id: 91313fc9f7571857
-  servername: 230b29t.es8.h1clayd.click
+    public-key: rLU2xJNZPFvtHy49MygD-nta6OpJEbjarjAZ5vHwpVE
+    short-id: 29ad689280e2f0ec
+  servername: v1-dy.ixigua.com
   tls: true
   type: vless
   udp: true
-  uuid: 95c2ba1e-a330-4e6b-bd81-bf9c0f647b2f
+  uuid: 65ec84f5-0dd4-4582-8b4f-592e50b22116
   xudp: true
-- name: 🇪🇸 Spain, Madrid (Chamartín) | [BL]-02
-  server: 230b29t.es8.h1clayd.click
-  port: 443
-  client-fingerprint: qq
-  encryption: none
-  network: tcp
-  reality-opts:
-    public-key: JvnTbjxkV9nXKoDRA_tmeY6aeOTnJXSBU3yNp9ZUnH0
-    short-id: 91313fc9f7571857
-  servername: 230b29t.es8.h1clayd.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: 95c2ba1e-a330-4e6b-bd81-bf9c0f647b2f
-  xudp: true
-- name: 🇪🇸 Spain, Madrid (Chamartín) | [BL]-03
-  server: 49930ag.es8.h1clayd.click
-  port: 443
+- name: 🇸🇬 Singapore, Singapore (Outram) | 🌐 | [BL]
+  server: dddz-1-x.473221.xyz
+  port: 43113
   client-fingerprint: chrome
   encryption: none
-  grpc-opts:
-    grpc-service-name: 61c20be08f4f
-  network: grpc
+  flow: xtls-rprx-vision
+  network: tcp
   reality-opts:
-    public-key: H_sPS4IJjHa4Wd7WLAtp_eamROtKBAj-G0UcMBHLHQw
-    short-id: 2437eeeb791b6d80
-  servername: 49930ag.es8.h1clayd.click
+    public-key: EK3prcfF8VKm3CoTXWQguRj67LxGbkPIpKmEUKsMKGs
+    short-id: ff2c978a0b
+  servername: v1-dy.ixigua.com
   tls: true
   type: vless
   udp: true
-  uuid: 95c2ba1e-a330-4e6b-bd81-bf9c0f647b2f
+  uuid: 65ec84f5-0dd4-4582-8b4f-592e50b22116
   xudp: true
-- name: 🇪🇸 Spain, Madrid (Chamartín) | [BL]-04
-  server: 49930ag.es8.h1clayd.click
-  port: 443
+- name: 🇸🇬 Singapore, Singapore (Outram) | 🌐 | [BL]-01
+  server: dddz-1-x.473221.xyz
+  port: 43113
   client-fingerprint: firefox
   encryption: none
-  grpc-opts:
-    grpc-service-name: 61c20be08f4f
-  network: grpc
+  flow: xtls-rprx-vision
+  network: tcp
   reality-opts:
-    public-key: H_sPS4IJjHa4Wd7WLAtp_eamROtKBAj-G0UcMBHLHQw
-    short-id: 2437eeeb791b6d80
-  servername: 49930ag.es8.h1clayd.click
+    public-key: EK3prcfF8VKm3CoTXWQguRj67LxGbkPIpKmEUKsMKGs
+    short-id: ff2c978a0b
+  servername: v1-dy.ixigua.com
   tls: true
   type: vless
   udp: true
-  uuid: 95c2ba1e-a330-4e6b-bd81-bf9c0f647b2f
+  uuid: 65ec84f5-0dd4-4582-8b4f-592e50b22116
   xudp: true
-- name: 🇪🇸 Spain, Madrid (Chamartín) | [BL]-05
-  server: 49930ag.es8.h1clayd.click
-  port: 443
-  client-fingerprint: qq
-  encryption: none
-  grpc-opts:
-    grpc-service-name: 61c20be08f4f
-  network: grpc
+- name: 🇹🇼 Taiwan | 🌐 | [BL]
+  server: dddz-1-x.473221.xyz
+  port: 13239
+  client-fingerprint: edge
+  flow: xtls-rprx-vision
+  network: tcp
   reality-opts:
-    public-key: H_sPS4IJjHa4Wd7WLAtp_eamROtKBAj-G0UcMBHLHQw
-    short-id: 2437eeeb791b6d80
-  servername: 49930ag.es8.h1clayd.click
+    public-key: NJgrmuV1CFhj7PeKJoQfDQVagDcFITkfrM-a7sa_mWw
+    short-id: 8591c4d31f59a60d
+  servername: updates.cdn-apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 95c2ba1e-a330-4e6b-bd81-bf9c0f647b2f
+  uuid: 65ec84f5-0dd4-4582-8b4f-592e50b22116
   xudp: true
 - name: 🇹🇼 Taiwan, Taoyuan | [BL]
   server: 172.67.165.32
   port: 8443
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   network: ws
   servername: n04.jinggai.online
   tls: true
@@ -363,62 +185,11 @@ proxies:
   ws-opts:
     headers:
       Host: n04.jinggai.online
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /nvl-n04-ws/e0577fe8fd7c8823
   xudp: true
 - name: 🇹🇼 Taiwan, Taoyuan | [BL]-01
-  server: 172.67.165.32
-  port: 8443
-  client-fingerprint: qq
-  network: ws
-  servername: n04.jinggai.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
-  ws-opts:
-    headers:
-      Host: n04.jinggai.online
-      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
-        Slackware/Chrome/12.0.742.100 Safari/534.30
-    path: /nvl-n04-ws/e0577fe8fd7c8823
-  xudp: true
-- name: 🇹🇼 Taiwan, Taoyuan | [BL]-02
-  server: 172.67.165.32
-  port: 8443
-  client-fingerprint: safari
-  network: ws
-  servername: n04.jinggai.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
-  ws-opts:
-    headers:
-      Host: n04.jinggai.online
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /nvl-n04-ws/e0577fe8fd7c8823
-  xudp: true
-- name: 🇹🇼 Taiwan, Taoyuan | [BL]-03
-  server: n04.jinggai.online
-  port: 8443
-  client-fingerprint: chrome
-  network: ws
-  servername: n04.jinggai.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
-  ws-opts:
-    headers:
-      Host: n04.jinggai.online
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /nvl-n04-ws/e0577fe8fd7c8823
-  xudp: true
-- name: 🇹🇼 Taiwan, Taoyuan | [BL]-04
   server: n04.jinggai.online
   port: 8443
   client-fingerprint: ios
@@ -435,74 +206,6 @@ proxies:
         like Gecko) Chrome/62.0.3202.89 Safari/537.36
     path: /nvl-n04-ws/e0577fe8fd7c8823
   xudp: true
-- name: 🇹🇼 Taiwan, Taoyuan | [BL]-05
-  server: n04.jinggai.online
-  port: 8443
-  client-fingerprint: qq
-  network: ws
-  servername: n04.jinggai.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
-  ws-opts:
-    headers:
-      Host: n04.jinggai.online
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /nvl-n04-ws/e0577fe8fd7c8823
-  xudp: true
-- name: 🇹🇼 Taiwan, Taoyuan | [BL]-06
-  server: n04.jinggai.online
-  port: 8443
-  client-fingerprint: android
-  network: ws
-  servername: n04.jinggai.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
-  ws-opts:
-    headers:
-      Host: n04.jinggai.online
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: '%2Fnvl-n04-ws%2Fe0577fe8fd7c8823'
-  xudp: true
-- name: 🇹🇼 Taiwan, Taoyuan | [BL]-07
-  server: n04.jinggai.online
-  port: 8443
-  client-fingerprint: chrome
-  network: ws
-  servername: n04.jinggai.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
-  ws-opts:
-    headers:
-      Host: n04.jinggai.online
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    path: '%2Fnvl-n04-ws%2Fe0577fe8fd7c8823'
-  xudp: true
-- name: 🇹🇼 Taiwan, Taoyuan | [BL]-08
-  server: n04.jinggai.online
-  port: 8443
-  client-fingerprint: qq
-  network: ws
-  servername: n04.jinggai.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
-  ws-opts:
-    headers:
-      Host: n04.jinggai.online
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: '%2Fnvl-n04-ws%2Fe0577fe8fd7c8823'
-  xudp: true
 - name: 🇳🇱 The Netherlands, Dedemsvaart | [BL]
   server: 188.114.98.0
   port: 443
@@ -510,18 +213,14 @@ proxies:
   - h3
   - h2
   - http/1.1
-  client-fingerprint: chrome
-  encryption: none
+  client-fingerprint: unsafe
   network: xhttp
   servername: nl29.dr-ping.ir
   tls: true
   type: vless
   udp: true
   uuid: 64c5f924-1c24-44a5-acff-2e3ebcd2f807
-  xhttp-opts:
-    host: nl29.dr-ping.ir
-    mode: auto
-    path: /
+  xhttp-opts: {}
   xudp: true
 - name: 🇳🇱 The Netherlands, Dedemsvaart | [BL]-01
   server: 188.114.98.0
@@ -530,7 +229,7 @@ proxies:
   - h3
   - h2
   - http/1.1
-  client-fingerprint: edge
+  client-fingerprint: chrome
   encryption: none
   network: xhttp
   servername: nl29.dr-ping.ir
@@ -550,7 +249,7 @@ proxies:
   - h3
   - h2
   - http/1.1
-  client-fingerprint: firefox
+  client-fingerprint: edge
   encryption: none
   network: xhttp
   servername: nl29.dr-ping.ir
@@ -570,6 +269,106 @@ proxies:
   - h3
   - h2
   - http/1.1
+  client-fingerprint: firefox
+  encryption: none
+  network: xhttp
+  servername: nl29.dr-ping.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64c5f924-1c24-44a5-acff-2e3ebcd2f807
+  xhttp-opts:
+    host: nl29.dr-ping.ir
+    mode: auto
+    path: /
+  xudp: true
+- name: 🇳🇱 The Netherlands, Dedemsvaart | [BL]-04
+  server: 188.114.98.0
+  port: 443
+  alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: ios
+  encryption: none
+  network: xhttp
+  servername: nl29.dr-ping.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64c5f924-1c24-44a5-acff-2e3ebcd2f807
+  xhttp-opts:
+    host: nl29.dr-ping.ir
+    mode: auto
+    path: /
+  xudp: true
+- name: 🇳🇱 The Netherlands, Dedemsvaart | [BL]-05
+  server: 188.114.98.0
+  port: 443
+  alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: qq
+  encryption: none
+  network: xhttp
+  servername: nl29.dr-ping.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64c5f924-1c24-44a5-acff-2e3ebcd2f807
+  xhttp-opts:
+    host: nl29.dr-ping.ir
+    mode: auto
+    path: /
+  xudp: true
+- name: 🇳🇱 The Netherlands, Dedemsvaart | [BL]-06
+  server: 188.114.98.0
+  port: 443
+  alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: safari
+  encryption: none
+  network: xhttp
+  servername: nl29.dr-ping.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64c5f924-1c24-44a5-acff-2e3ebcd2f807
+  xhttp-opts:
+    host: nl29.dr-ping.ir
+    mode: auto
+    path: /
+  xudp: true
+- name: 🇳🇱 The Netherlands, Dedemsvaart | [BL]-07
+  server: 188.114.98.0
+  port: 443
+  alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: unsafe
+  encryption: none
+  network: xhttp
+  servername: nl29.dr-ping.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64c5f924-1c24-44a5-acff-2e3ebcd2f807
+  xhttp-opts:
+    host: nl29.dr-ping.ir
+    mode: auto
+    path: /
+  xudp: true
+- name: 🇳🇱 The Netherlands, Dedemsvaart | [BL]-08
+  server: 188.114.98.0
+  port: 443
+  alpn:
+  - h3
+  - h2
+  - http/1.1
   client-fingerprint: chrome
   network: xhttp
   servername: nl29.dr-ping.ir
@@ -579,7 +378,7 @@ proxies:
   uuid: 64c5f924-1c24-44a5-acff-2e3ebcd2f807
   xhttp-opts: {}
   xudp: true
-- name: 🇳🇱 The Netherlands, Dedemsvaart | [BL]-04
+- name: 🇳🇱 The Netherlands, Dedemsvaart | [BL]-09
   server: 188.114.98.0
   port: 443
   alpn:
@@ -595,14 +394,14 @@ proxies:
   uuid: 64c5f924-1c24-44a5-acff-2e3ebcd2f807
   xhttp-opts: {}
   xudp: true
-- name: 🇳🇱 The Netherlands, Dedemsvaart | [BL]-05
+- name: 🇳🇱 The Netherlands, Dedemsvaart | [BL]-10
   server: 188.114.98.0
   port: 443
   alpn:
   - h3
   - h2
   - http/1.1
-  client-fingerprint: unsafe
+  client-fingerprint: firefox
   network: xhttp
   servername: nl29.dr-ping.ir
   tls: true
@@ -611,55 +410,58 @@ proxies:
   uuid: 64c5f924-1c24-44a5-acff-2e3ebcd2f807
   xhttp-opts: {}
   xudp: true
-- name: 🇳🇱 The Netherlands, Eygelshoven | [BL]
-  server: base.hosamobenl.co.uk
+- name: 🇳🇱 The Netherlands, Dedemsvaart | [BL]-11
+  server: 188.114.98.0
   port: 443
   alpn:
+  - h3
+  - h2
   - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fingerprint: 8f40a40d49c7e830e78111a9846f43f322ba049cee043259c108f28a66c16b2a
-  network: tcp
-  servername: base.hosamobenl.co.uk
+  client-fingerprint: ios
+  network: xhttp
+  servername: nl29.dr-ping.ir
   tls: true
   type: vless
   udp: true
-  uuid: 667016ca-f02e-4b5f-bfc3-3d8ed81e9bec
+  uuid: 64c5f924-1c24-44a5-acff-2e3ebcd2f807
+  xhttp-opts: {}
   xudp: true
-- name: 🇳🇱 The Netherlands, Eygelshoven | [BL]-01
-  server: base.hosamobenl.co.uk
+- name: 🇳🇱 The Netherlands, Dedemsvaart | [BL]-12
+  server: 188.114.98.0
   port: 443
   alpn:
+  - h3
+  - h2
   - http/1.1
   client-fingerprint: qq
-  encryption: none
-  fingerprint: 8f40a40d49c7e830e78111a9846f43f322ba049cee043259c108f28a66c16b2a
-  network: tcp
-  servername: base.hosamobenl.co.uk
+  network: xhttp
+  servername: nl29.dr-ping.ir
   tls: true
   type: vless
   udp: true
-  uuid: 667016ca-f02e-4b5f-bfc3-3d8ed81e9bec
+  uuid: 64c5f924-1c24-44a5-acff-2e3ebcd2f807
+  xhttp-opts: {}
   xudp: true
-- name: 🇳🇱 The Netherlands, Eygelshoven | [BL]-02
-  server: base.hosamobenl.co.uk
+- name: 🇳🇱 The Netherlands, Dedemsvaart | [BL]-13
+  server: 188.114.98.0
   port: 443
   alpn:
+  - h3
+  - h2
   - http/1.1
   client-fingerprint: safari
-  encryption: none
-  fingerprint: 8f40a40d49c7e830e78111a9846f43f322ba049cee043259c108f28a66c16b2a
-  network: tcp
-  servername: base.hosamobenl.co.uk
+  network: xhttp
+  servername: nl29.dr-ping.ir
   tls: true
   type: vless
   udp: true
-  uuid: 667016ca-f02e-4b5f-bfc3-3d8ed81e9bec
+  uuid: 64c5f924-1c24-44a5-acff-2e3ebcd2f807
+  xhttp-opts: {}
   xudp: true
 - name: 🇬🇧 United Kingdom, Slough | [BL]
   server: www.agahiya.ir
   port: 443
-  client-fingerprint: chrome
+  client-fingerprint: android
   encryption: none
   network: ws
   tls: true
@@ -669,14 +471,14 @@ proxies:
   ws-opts:
     headers:
       Host: soliconf-gghosin4-cell.dormhost.app
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
     path: /jx-y8179aild6rsmj
   xudp: true
 - name: 🇬🇧 United Kingdom, Slough | [BL]-01
   server: www.agahiya.ir
   port: 443
-  client-fingerprint: qq
+  client-fingerprint: safari
   encryption: none
   network: ws
   tls: true
@@ -686,16 +488,17 @@ proxies:
   ws-opts:
     headers:
       Host: soliconf-gghosin4-cell.dormhost.app
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
     path: /jx-y8179aild6rsmj
   xudp: true
 - name: 🇬🇧 United Kingdom, Slough | [BL]-02
   server: www.agahiya.ir
   port: 443
-  client-fingerprint: safari
+  client-fingerprint: edge
   encryption: none
   network: ws
+  servername: soliconf-gghosin4-cell.dormhost.app
   tls: true
   type: vless
   udp: true
@@ -703,17 +506,16 @@ proxies:
   ws-opts:
     headers:
       Host: soliconf-gghosin4-cell.dormhost.app
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /jx-y8179aild6rsmj
   xudp: true
 - name: 🇬🇧 United Kingdom, Slough | [BL]-03
-  server: www.agahiya.ir
+  server: www.farahghanizadeh.ir
   port: 443
   client-fingerprint: chrome
   encryption: none
   network: ws
-  servername: soliconf-gghosin4-cell.dormhost.app
   tls: true
   type: vless
   udp: true
@@ -721,68 +523,14 @@ proxies:
   ws-opts:
     headers:
       Host: soliconf-gghosin4-cell.dormhost.app
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/44.0.2403.157 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /jx-y8179aild6rsmj
   xudp: true
 - name: 🇬🇧 United Kingdom, Slough | [BL]-04
-  server: www.agahiya.ir
-  port: 443
-  client-fingerprint: qq
-  encryption: none
-  network: ws
-  servername: soliconf-gghosin4-cell.dormhost.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57e089a8-0cd1-48d0-b572-105c4804f6b8
-  ws-opts:
-    headers:
-      Host: soliconf-gghosin4-cell.dormhost.app
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /jx-y8179aild6rsmj
-  xudp: true
-- name: 🇬🇧 United Kingdom, Slough | [BL]-05
-  server: www.agahiya.ir
+  server: www.sarzaminaryan.ir
   port: 443
   client-fingerprint: safari
-  encryption: none
-  network: ws
-  servername: soliconf-gghosin4-cell.dormhost.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57e089a8-0cd1-48d0-b572-105c4804f6b8
-  ws-opts:
-    headers:
-      Host: soliconf-gghosin4-cell.dormhost.app
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
-        Safari/537.36
-    path: /jx-y8179aild6rsmj
-  xudp: true
-- name: 🇬🇧 United Kingdom, Slough | [BL]-06
-  server: www.farahghanizadeh.ir
-  port: 443
-  client-fingerprint: chrome
-  encryption: none
-  network: ws
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57e089a8-0cd1-48d0-b572-105c4804f6b8
-  ws-opts:
-    headers:
-      Host: soliconf-gghosin4-cell.dormhost.app
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/44.0.2403.157 Safari/537.36
-    path: /jx-y8179aild6rsmj
-  xudp: true
-- name: 🇬🇧 United Kingdom, Slough | [BL]-07
-  server: www.farahghanizadeh.ir
-  port: 443
-  client-fingerprint: qq
   encryption: none
   network: ws
   tls: true
@@ -796,24 +544,7 @@ proxies:
         Chrome/56.0.2924.87 Safari/537.36
     path: /jx-y8179aild6rsmj
   xudp: true
-- name: 🇬🇧 United Kingdom, Slough | [BL]-08
-  server: www.farahghanizadeh.ir
-  port: 443
-  client-fingerprint: safari
-  encryption: none
-  network: ws
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57e089a8-0cd1-48d0-b572-105c4804f6b8
-  ws-opts:
-    headers:
-      Host: soliconf-gghosin4-cell.dormhost.app
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /jx-y8179aild6rsmj
-  xudp: true
-- name: 🇬🇧 United Kingdom, Slough | [BL]-09
+- name: 🇬🇧 United Kingdom, Slough | [BL]-05
   server: www.sarzaminaryan.ir
   port: 443
   client-fingerprint: chrome
@@ -826,45 +557,11 @@ proxies:
   ws-opts:
     headers:
       Host: soliconf-gghosin4-cell.dormhost.app
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+      User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
+        Chrome/v1.0.0 Safari/538.1
     path: /jx-y8179aild6rsmj
   xudp: true
-- name: 🇬🇧 United Kingdom, Slough | [BL]-10
-  server: www.sarzaminaryan.ir
-  port: 443
-  client-fingerprint: qq
-  encryption: none
-  network: ws
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57e089a8-0cd1-48d0-b572-105c4804f6b8
-  ws-opts:
-    headers:
-      Host: soliconf-gghosin4-cell.dormhost.app
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/44.0.2403.157 Safari/537.36
-    path: /jx-y8179aild6rsmj
-  xudp: true
-- name: 🇬🇧 United Kingdom, Slough | [BL]-11
-  server: www.sarzaminaryan.ir
-  port: 443
-  client-fingerprint: safari
-  encryption: none
-  network: ws
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57e089a8-0cd1-48d0-b572-105c4804f6b8
-  ws-opts:
-    headers:
-      Host: soliconf-gghosin4-cell.dormhost.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2272.104 Safari/537.36
-    path: /jx-y8179aild6rsmj
-  xudp: true
-- name: 🇬🇧 United Kingdom, Slough | [BL]-12
+- name: 🇬🇧 United Kingdom, Slough | [BL]-06
   server: www.sarzaminaryan.ir
   port: 443
   client-fingerprint: chrome
@@ -879,654 +576,172 @@ proxies:
     headers:
       Host: soliconf-gghosin4-cell.dormhost.app
       User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/55.0.2883.87 Safari/537.36
+        Chrome/56.0.2924.87 Safari/537.36
     path: /jx-y8179aild6rsmj
   xudp: true
-- name: 🇬🇧 United Kingdom, Slough | [BL]-13
-  server: www.sarzaminaryan.ir
-  port: 443
-  client-fingerprint: qq
-  encryption: none
-  network: ws
-  servername: soliconf-gghosin4-cell.dormhost.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57e089a8-0cd1-48d0-b572-105c4804f6b8
-  ws-opts:
-    headers:
-      Host: soliconf-gghosin4-cell.dormhost.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /jx-y8179aild6rsmj
-  xudp: true
-- name: 🇬🇧 United Kingdom, Slough | [BL]-14
-  server: www.sarzaminaryan.ir
-  port: 443
-  client-fingerprint: safari
-  encryption: none
-  network: ws
-  servername: soliconf-gghosin4-cell.dormhost.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57e089a8-0cd1-48d0-b572-105c4804f6b8
-  ws-opts:
-    headers:
-      Host: soliconf-gghosin4-cell.dormhost.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /jx-y8179aild6rsmj
-  xudp: true
-- name: 🇺🇸 United States, Charlotte (Oakview Terrace) | 🌐 | [BL]
-  server: 45.143.94.91
-  port: 8443
+- name: 🇺🇸 United States | 🌐 | [BL]
+  server: dddz-1-x.473221.xyz
+  port: 34760
   client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
   network: tcp
   reality-opts:
-    public-key: 3Kgy_0tHtOzEn9_mEylNsBVlAHNngT6S4AuYy5wEOSU
-    short-id: 0c37b64d1935ebc1
-  servername: us1.cloudvienta.com
+    public-key: FKkMWruW5ySd0t091irE_09B9o9AipV8ztZftd4Odwc
+    short-id: ab58b04c4a4407
+  servername: updates.cdn-apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 3837e7a5-d40e-4b85-8700-5f9725a5a2cb
+  uuid: 65ec84f5-0dd4-4582-8b4f-592e50b22116
   xudp: true
-- name: 🇺🇸 United States, Charlotte (Oakview Terrace) | 🌐 | [BL]-01
-  server: 45.143.94.91
-  port: 8443
+- name: 🇺🇸 United States, Buffalo | [BL]
+  server: mao.kipfelmao.de5.net
+  port: 443
+  client-fingerprint: android
+  encryption: none
+  network: ws
+  servername: mao.kipfelmao.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 30610baf-4645-4c7b-9a22-0d0a0a79eab5
+  ws-opts:
+    headers:
+      Host: mao.kipfelmao.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /api/v1/guests/profiles/5de14443985f/
+  xudp: true
+- name: 🇺🇸 United States, Buffalo | [BL]-01
+  server: mao.kipfelmao.de5.net
+  port: 443
+  client-fingerprint: edge
+  encryption: none
+  network: ws
+  servername: mao.kipfelmao.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 30610baf-4645-4c7b-9a22-0d0a0a79eab5
+  ws-opts:
+    headers:
+      Host: mao.kipfelmao.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/53.0.2785.143 Safari/537.36
+    path: /api/v1/guests/profiles/5de14443985f/
+  xudp: true
+- name: 🇺🇸 United States, Buffalo | [BL]-02
+  server: mao.kipfelmao.de5.net
+  port: 443
   client-fingerprint: ios
   encryption: none
-  flow: xtls-rprx-vision
-  network: tcp
-  reality-opts:
-    public-key: 3Kgy_0tHtOzEn9_mEylNsBVlAHNngT6S4AuYy5wEOSU
-    short-id: 0c37b64d1935ebc1
-  servername: us1.cloudvienta.com
+  network: ws
+  servername: mao.kipfelmao.de5.net
   tls: true
   type: vless
   udp: true
-  uuid: 3837e7a5-d40e-4b85-8700-5f9725a5a2cb
+  uuid: 30610baf-4645-4c7b-9a22-0d0a0a79eab5
+  ws-opts:
+    headers:
+      Host: mao.kipfelmao.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/34.0.1847.131 Safari/537.36
+    path: /api/v1/guests/profiles/5de14443985f/
   xudp: true
-- name: 🇺🇸 United States, Charlotte (Oakview Terrace) | 🌐 | [BL]-02
-  server: 45.143.94.91
-  port: 8443
+- name: 🇺🇸 United States, Buffalo | [BL]-03
+  server: mao.kipfelmao.de5.net
+  port: 443
   client-fingerprint: safari
   encryption: none
-  flow: xtls-rprx-vision
-  network: tcp
-  reality-opts:
-    public-key: 3Kgy_0tHtOzEn9_mEylNsBVlAHNngT6S4AuYy5wEOSU
-    short-id: 0c37b64d1935ebc1
-  servername: us1.cloudvienta.com
+  network: ws
+  servername: mao.kipfelmao.de5.net
   tls: true
   type: vless
   udp: true
-  uuid: 3837e7a5-d40e-4b85-8700-5f9725a5a2cb
+  uuid: 30610baf-4645-4c7b-9a22-0d0a0a79eab5
+  ws-opts:
+    headers:
+      Host: mao.kipfelmao.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    path: /api/v1/guests/profiles/5de14443985f/
+  xudp: true
+- name: 🇺🇸 United States, Buffalo | [BL]-04
+  server: mao.kipfelmao.de5.net
+  port: 443
+  client-fingerprint: chrome
+  encryption: none
+  network: ws
+  servername: mao.kipfelmao.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 30610baf-4645-4c7b-9a22-0d0a0a79eab5
+  ws-opts:
+    headers:
+      Host: mao.kipfelmao.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /api/v1/guests/profiles/5de14443985f/
+  xudp: true
+- name: 🇺🇸 United States, Buffalo | [BL]-05
+  server: mao.kipfelmao.de5.net
+  port: 443
+  client-fingerprint: chrome
+  network: ws
+  servername: mao.kipfelmao.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 30610baf-4645-4c7b-9a22-0d0a0a79eab5
+  ws-opts:
+    headers:
+      Host: mao.kipfelmao.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/35.0.1916.153 Safari/537.36
+    path: '%2Fapi%2Fv1%2Fguests%2Fprofiles%2F5de14443985f%2F'
+  xudp: true
+- name: 🇺🇸 United States, Buffalo | [BL]-06
+  server: mao.kipfelmao.de5.net
+  port: 443
+  client-fingerprint: firefox
+  network: ws
+  servername: mao.kipfelmao.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 30610baf-4645-4c7b-9a22-0d0a0a79eab5
+  ws-opts:
+    headers:
+      Host: mao.kipfelmao.de5.net
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    path: '%2Fapi%2Fv1%2Fguests%2Fprofiles%2F5de14443985f%2F'
   xudp: true
 - name: 🇺🇸 United States, North Bergen | [BL]
   server: 104.21.58.37
   port: 2053
-  client-fingerprint: android
-  network: ws
-  servername: fast.145779.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
-  ws-opts:
-    headers:
-      Host: fast.145779.xyz
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
-    path: /ws-tesla
-  xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-01
-  server: 104.21.58.37
-  port: 2053
+  alpn:
+  - http/1.1
   client-fingerprint: chrome
   network: ws
   servername: fast.145779.xyz
   tls: true
   type: vless
   udp: true
-  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
+  uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
   ws-opts:
     headers:
       Host: fast.145779.xyz
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
-    path: /ws-tesla
-  xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-02
-  server: 104.21.58.37
-  port: 2053
-  client-fingerprint: edge
-  network: ws
-  servername: fast.145779.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
-  ws-opts:
-    headers:
-      Host: fast.145779.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /ws-tesla
-  xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-03
-  server: 172.67.199.126
-  port: 2053
-  client-fingerprint: ios
-  network: ws
-  servername: fast.145779.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
-  ws-opts:
-    headers:
-      Host: fast.145779.xyz
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /ws-tesla
-  xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-04
-  server: 172.67.199.126
-  port: 2053
-  client-fingerprint: qq
-  network: ws
-  servername: fast.145779.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
-  ws-opts:
-    headers:
-      Host: fast.145779.xyz
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
-        Gecko) Chrome/11.0.696.3 Safari/534.24
-    path: /ws-tesla
-  xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-05
-  server: 172.67.199.126
-  port: 2053
-  client-fingerprint: safari
-  network: ws
-  servername: fast.145779.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
-  ws-opts:
-    headers:
-      Host: fast.145779.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /ws-tesla
-  xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-06
-  server: 172.67.199.126
-  port: 2053
-  client-fingerprint: ios
-  network: ws
-  servername: fast.145779.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
-  ws-opts:
-    headers:
-      Host: fast.145779.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2272.101 Safari/537.36
-    path: '%2Fws-tesla'
-  xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-07
-  server: 172.67.199.126
-  port: 2053
-  client-fingerprint: qq
-  network: ws
-  servername: fast.145779.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
-  ws-opts:
-    headers:
-      Host: fast.145779.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: '%2Fws-tesla'
-  xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-08
-  server: 172.67.199.126
-  port: 2053
-  client-fingerprint: safari
-  network: ws
-  servername: fast.145779.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
-  ws-opts:
-    headers:
-      Host: fast.145779.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: '%2Fws-tesla'
-  xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-09
-  server: fast.145779.xyz
-  port: 2053
-  client-fingerprint: android
-  network: ws
-  servername: fast.145779.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /ws-tesla
-  xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-10
-  server: fast.145779.xyz
-  port: 2053
-  client-fingerprint: edge
-  network: ws
-  servername: fast.145779.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/56.0.2924.87 Safari/537.36
     path: /ws-tesla
   xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-11
-  server: fast.145779.xyz
-  port: 2053
-  client-fingerprint: firefox
-  network: ws
-  servername: fast.145779.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /ws-tesla
-  xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-12
-  server: fast.145779.xyz
-  port: 2053
-  client-fingerprint: safari
-  encryption: none
-  network: ws
-  servername: fast.145779.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
-  ws-opts:
-    headers:
-      Host: fast.145779.xyz
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-    path: /ws-tesla
-  xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-13
-  server: fast.145779.xyz
-  port: 2053
-  client-fingerprint: chrome
-  network: ws
-  servername: fast.145779.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/31.0.1650.57 Safari/537.36
-    path: '%2Fws-tesla'
-  xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-14
-  server: fast.145779.xyz
-  port: 2053
-  client-fingerprint: firefox
-  network: ws
-  servername: fast.145779.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/53.0.2785.143 Safari/537.36
-    path: '%2Fws-tesla'
-  xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-15
-  server: fast.145779.xyz
-  port: 2053
-  client-fingerprint: qq
-  network: ws
-  servername: fast.145779.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7
-        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-    path: '%2Fws-tesla'
-  xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-16
-  server: fast.145779.xyz
-  port: 2053
-  client-fingerprint: android
-  network: ws
-  servername: fast.145779.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
-  ws-opts:
-    headers:
-      Host: fast.145779.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: '%2Fws-tesla'
-  xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-17
-  server: fast.145779.xyz
-  port: 2053
-  client-fingerprint: chrome
-  network: ws
-  servername: fast.145779.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
-  ws-opts:
-    headers:
-      Host: fast.145779.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/67.0.3396.99 Safari/537.36
-    path: '%2Fws-tesla'
-  xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-18
-  server: fast.145779.xyz
-  port: 2053
-  client-fingerprint: firefox
-  network: ws
-  servername: fast.145779.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
-  ws-opts:
-    headers:
-      Host: fast.145779.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: '%2Fws-tesla'
-  xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-19
-  server: 104.21.58.37
-  port: 2053
-  alpn:
-  - http/1.1
-  client-fingerprint: android
-  network: ws
-  servername: fast.145779.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
-  ws-opts:
-    headers:
-      Host: fast.145779.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.67 Safari/537.36
-    path: /ws-tesla
-  xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-20
-  server: 104.21.58.37
-  port: 2053
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  network: ws
-  servername: fast.145779.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
-  ws-opts:
-    headers:
-      Host: fast.145779.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2228.0 Safari/537.36
-    path: /ws-tesla
-  xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-21
-  server: 104.21.58.37
-  port: 2053
-  alpn:
-  - http/1.1
-  client-fingerprint: qq
-  network: ws
-  servername: fast.145779.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
-  ws-opts:
-    headers:
-      Host: fast.145779.xyz
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
-    path: /ws-tesla
-  xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-22
-  server: 104.21.58.37
-  port: 2053
-  client-fingerprint: chrome
-  network: ws
-  servername: fast.145779.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
-  ws-opts:
-    headers:
-      Host: fast.145779.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.84 Safari/537.36
-    path: /ws-tesla
-  xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-23
-  server: 104.21.58.37
-  port: 2053
-  client-fingerprint: firefox
-  network: ws
-  servername: fast.145779.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
-  ws-opts:
-    headers:
-      Host: fast.145779.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /ws-tesla
-  xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-24
-  server: 104.21.58.37
-  port: 2053
-  client-fingerprint: qq
-  network: ws
-  servername: fast.145779.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
-  ws-opts:
-    headers:
-      Host: fast.145779.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/68.0.3440.106 Safari/537.36
-    path: /ws-tesla
-  xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-25
-  server: 104.21.58.37
-  port: 2053
-  client-fingerprint: chrome
-  network: ws
-  servername: fast.145779.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
-  ws-opts:
-    headers:
-      Host: fast.145779.xyz
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-    path: '%2Fws-tesla'
-  xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-26
-  server: 104.21.58.37
-  port: 2053
-  client-fingerprint: firefox
-  network: ws
-  servername: fast.145779.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
-  ws-opts:
-    headers:
-      Host: fast.145779.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.125 Safari/537.36
-    path: '%2Fws-tesla'
-  xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-27
-  server: 104.21.58.37
-  port: 2053
-  client-fingerprint: qq
-  network: ws
-  servername: fast.145779.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
-  ws-opts:
-    headers:
-      Host: fast.145779.xyz
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: '%2Fws-tesla'
-  xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-28
+- name: 🇺🇸 United States, North Bergen | [BL]-01
   server: 172.67.199.126
   port: 2053
-  alpn:
-  - http/1.1
   client-fingerprint: edge
-  network: ws
-  servername: fast.145779.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
-  ws-opts:
-    headers:
-      Host: fast.145779.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.116 Safari/537.36
-    path: /ws-tesla
-  xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-29
-  server: 172.67.199.126
-  port: 2053
-  alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  network: ws
-  servername: fast.145779.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
-  ws-opts:
-    headers:
-      Host: fast.145779.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/43.0.2357.65 Safari/537.36
-    path: /ws-tesla
-  xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-30
-  server: 172.67.199.126
-  port: 2053
-  alpn:
-  - http/1.1
-  client-fingerprint: ios
-  network: ws
-  servername: fast.145779.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
-  ws-opts:
-    headers:
-      Host: fast.145779.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.81 Safari/537.36
-    path: /ws-tesla
-  xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-31
-  server: 172.67.199.126
-  port: 2053
-  client-fingerprint: chrome
-  network: ws
-  servername: fast.145779.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
-  ws-opts:
-    headers:
-      Host: fast.145779.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/47.0.2526.106 Safari/537.36
-    path: /ws-tesla
-  xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-32
-  server: 172.67.199.126
-  port: 2053
-  client-fingerprint: ios
   network: ws
   servername: fast.145779.xyz
   tls: true
@@ -1540,10 +755,12 @@ proxies:
         like Gecko) Chrome/60.0.3112.90 Safari/537.36
     path: /ws-tesla
   xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-33
+- name: 🇺🇸 United States, North Bergen | [BL]-02
   server: 172.67.199.126
   port: 2053
-  client-fingerprint: qq
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
   network: ws
   servername: fast.145779.xyz
   tls: true
@@ -1553,12 +770,12 @@ proxies:
   ws-opts:
     headers:
       Host: fast.145779.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/50.0.2661.94 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
     path: /ws-tesla
   xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-34
-  server: 172.67.199.126
+- name: 🇺🇸 United States, North Bergen | [BL]-03
+  server: fast.145779.xyz
   port: 2053
   client-fingerprint: android
   network: ws
@@ -1569,171 +786,10 @@ proxies:
   uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
   ws-opts:
     headers:
-      Host: fast.145779.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/31.0.1650.57 Safari/537.36
-    path: '%2Fws-tesla'
-  xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-35
-  server: 172.67.199.126
-  port: 2053
-  client-fingerprint: edge
-  network: ws
-  servername: fast.145779.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
-  ws-opts:
-    headers:
-      Host: fast.145779.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.111 Safari/537.36
-    path: '%2Fws-tesla'
-  xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-36
-  server: fast.145779.xyz
-  port: 2053
-  client-fingerprint: chrome
-  encryption: none
-  network: ws
-  servername: fast.145779.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
-  ws-opts:
-    headers:
-      Host: fast.145779.xyz
+      Host: ''
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
     path: /ws-tesla
-  xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-37
-  server: fast.145779.xyz
-  port: 2053
-  client-fingerprint: ios
-  encryption: none
-  network: ws
-  servername: fast.145779.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
-  ws-opts:
-    headers:
-      Host: fast.145779.xyz
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /ws-tesla
-  xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-38
-  server: fast.145779.xyz
-  port: 2053
-  client-fingerprint: safari
-  encryption: none
-  network: ws
-  servername: fast.145779.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
-  ws-opts:
-    headers:
-      Host: fast.145779.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.186 Safari/537.36
-    path: /ws-tesla
-  xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-39
-  server: fast.145779.xyz
-  port: 2053
-  client-fingerprint: chrome
-  network: ws
-  servername: fast.145779.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.106 Safari/537.36
-    path: /ws-tesla
-  xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-40
-  server: fast.145779.xyz
-  port: 2053
-  client-fingerprint: edge
-  network: ws
-  servername: fast.145779.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.110 Safari/537.36
-    path: /ws-tesla
-  xudp: true
-- name: 🇺🇸 United States, North Bergen | [BL]-41
-  server: fast.145779.xyz
-  port: 2053
-  client-fingerprint: safari
-  network: ws
-  servername: fast.145779.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile
-        Safari/537.36
-    path: /ws-tesla
-  xudp: true
-- name: 🌐 Anycast-IP | 🇯🇵 🇿🇿 | [BL]
-  server: 104.24.0.1
-  port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  network: ws
-  servername: jp3.yohototo.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  ws-opts:
-    headers:
-      Host: jp3.yohototo.top
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
-    path: /tyxyws
-  xudp: true
-- name: 🌐 Anycast-IP | 🇯🇵 🇿🇿 | [BL]-01
-  server: 104.24.0.1
-  port: 443
-  alpn:
-  - http/1.1
-  client-fingerprint: qq
-  network: ws
-  servername: jp3.yohototo.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  ws-opts:
-    headers:
-      Host: jp3.yohototo.top
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /tyxyws
   xudp: true
 - name: 🇭🇰 Hong Kong, Hong Kong | [BL]
   server: 104.25.134.76
@@ -1794,6 +850,46 @@ proxies:
     path: /ws
   xudp: true
 - name: 🇺🇸 United States, Chicago | [BL]-01
+  server: 104.17.136.198
+  port: 443
+  alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  network: ws
+  servername: vmess.lbw666.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States, Chicago | [BL]-02
+  server: 172.64.229.21
+  port: 443
+  alpn:
+  - http/1.1
+  alterId: '0'
+  cipher: auto
+  network: ws
+  servername: vmess.lbw666.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    max-early-data: 2048
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States, Chicago | [BL]-03
   server: 172.66.203.67
   port: 443
   alpn:
@@ -1814,8 +910,48 @@ proxies:
     max-early-data: 2048
     path: /ws
   xudp: true
-- name: 🇺🇸 United States, Chicago | [BL]-02
+- name: 🇺🇸 United States, Chicago | [BL]-04
   server: cf.877771.xyz
+  port: 443
+  alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  network: ws
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    max-early-data: 2048
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States, Chicago | [BL]-05
+  server: cf.0sm.com
+  port: 443
+  alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  network: ws
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    max-early-data: 2048
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States, Chicago | [BL]-06
+  server: cf.0sm.com
   port: 443
   alpn:
   - ''
@@ -1835,8 +971,8 @@ proxies:
     max-early-data: 2048
     path: /ws
   xudp: true
-- name: 🇺🇸 United States, Chicago | [BL]-03
-  server: cf.0sm.com
+- name: 🇺🇸 United States, Chicago | [BL]-07
+  server: cf.090227.xyz
   port: 443
   alpn:
   - ''
@@ -1844,6 +980,142 @@ proxies:
   cipher: auto
   network: ws
   servername: vmess.lbw666.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States, Chicago | [BL]-08
+  server: cf.090227.xyz
+  port: 443
+  alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  network: ws
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    max-early-data: 2048
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States, Chicago | [BL]-09
+  server: 104.21.7.133
+  port: 443
+  alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  network: ws
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States, Chicago | [BL]-10
+  server: 172.64.229.21
+  port: 443
+  alpn:
+  - 'null'
+  alterId: '0'
+  cipher: auto
+  network: ws
+  servername: vmess.lbw666.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    max-early-data: 2048
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States, Chicago | [BL]-11
+  server: 172.64.229.21
+  port: 443
+  alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  network: ws
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    max-early-data: 2048
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States, Chicago | [BL]-12
+  server: 172.66.203.67
+  port: 443
+  alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  network: ws
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    max-early-data: 2048
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States, Chicago | [BL]-13
+  server: cf.877771.xyz
+  port: 443
+  alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  network: ws
+  servername: vmess.lbw666.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States, Chicago | [BL]-14
+  server: cf.090227.xyz
+  port: 443
+  alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  network: ws
   skip-cert-verify: false
   tls: true
   type: vmess
@@ -1864,7 +1136,6 @@ proxies:
   alterId: '0'
   cipher: auto
   network: ws
-  servername: vmess.lbw666.dpdns.org
   skip-cert-verify: false
   tls: true
   type: vmess
@@ -1876,6 +1147,46 @@ proxies:
     path: /ws
   xudp: true
 - name: 🇺🇸 United States, Chicago | 🌐 | [BL]-01
+  server: 104.27.0.1
+  port: 443
+  alpn:
+  - http/1.1
+  alterId: '0'
+  cipher: auto
+  network: ws
+  servername: vmess.lbw666.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States, Chicago | 🌐 | [BL]-02
+  server: 104.21.7.133
+  port: 443
+  alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  network: ws
+  servername: vmess.lbw666.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    max-early-data: 2048
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States, Chicago | 🌐 | [BL]-03
   server: 172.64.229.21
   port: 443
   alpn:
@@ -1894,45 +1205,8 @@ proxies:
       Host: vmess.lbw666.dpdns.org
     path: /ws
   xudp: true
-- name: 🇺🇸 United States, Chicago | 🌐 | [BL]-02
-  server: 172.66.0.1
-  port: 443
-  alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  network: ws
-  servername: vmess.lbw666.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  ws-opts:
-    headers: {}
-    path: /ws
-  xudp: true
-- name: 🇺🇸 United States, Chicago | 🌐 | [BL]-03
-  server: 172.66.203.67
-  port: 443
-  alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  network: ws
-  servername: vmess.lbw666.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  ws-opts:
-    headers:
-      Host: vmess.lbw666.dpdns.org
-    path: /ws
-  xudp: true
 - name: 🇺🇸 United States, Chicago | 🌐 | [BL]-04
-  server: cf.090227.xyz
+  server: 172.64.229.21
   port: 443
   alpn:
   - ''
@@ -1951,25 +1225,7 @@ proxies:
     path: /ws
   xudp: true
 - name: 🇺🇸 United States, Chicago | 🌐 | [BL]-05
-  server: cf.0sm.com
-  port: 443
-  alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  network: ws
-  servername: vmess.lbw666.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  ws-opts:
-    headers: {}
-    path: /ws
-  xudp: true
-- name: 🇺🇸 United States, Chicago | 🌐 | [BL]-06
-  server: 104.27.0.1
+  server: 172.66.0.1
   port: 443
   alpn:
   - ''
@@ -1984,6 +1240,24 @@ proxies:
   ws-opts:
     headers:
       Host: vmess.lbw666.dpdns.org
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States, Chicago | 🌐 | [BL]-06
+  server: 172.66.0.1
+  port: 443
+  alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  network: ws
+  servername: vmess.lbw666.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers: {}
     path: /ws
   xudp: true
 - name: 🇺🇸 United States, Chicago | 🌐 | [BL]-07
@@ -2013,14 +1287,14 @@ proxies:
   alterId: '0'
   cipher: auto
   network: ws
-  servername: vmess.lbw666.dpdns.org
   skip-cert-verify: false
   tls: true
   type: vmess
   udp: true
   uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
   ws-opts:
-    headers: {}
+    headers:
+      Host: vmess.lbw666.dpdns.org
     path: /ws
   xudp: true
 - name: 🇺🇸 United States, Chicago | 🌐 | [BL]-09
@@ -2043,6 +1317,265 @@ proxies:
     path: /ws
   xudp: true
 - name: 🇺🇸 United States, Chicago | 🌐 | [BL]-10
+  server: cf.877771.xyz
+  port: 443
+  alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  network: ws
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States, Chicago | 🌐 | [BL]-11
+  server: cf.877771.xyz
+  port: 443
+  alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  network: ws
+  servername: vmess.lbw666.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers: {}
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States, Chicago | 🌐 | [BL]-12
+  server: 104.27.0.1
+  port: 443
+  alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  network: ws
+  servername: vmess.lbw666.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States, Chicago | 🌐 | [BL]-13
+  server: 104.17.136.198
+  port: 443
+  alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  network: ws
+  servername: vmess.lbw666.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States, Chicago | 🌐 | [BL]-14
+  server: 172.64.229.21
+  port: 443
+  alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  network: ws
+  servername: vmess.lbw666.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers: {}
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States, Chicago | 🌐 | [BL]-15
+  server: 172.64.229.21
+  port: 443
+  alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  network: ws
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States, Chicago | 🌐 | [BL]-16
+  server: 172.64.229.21
+  port: 443
+  alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  network: ws
+  servername: vmess.lbw666.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States, Chicago | 🌐 | [BL]-17
+  server: 172.64.229.21
+  port: 443
+  alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  network: ws
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States, Chicago | 🌐 | [BL]-18
+  server: 172.66.203.67
+  port: 443
+  alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  network: ws
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States, Chicago | 🌐 | [BL]-19
+  server: 172.66.203.67
+  port: 443
+  alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  network: ws
+  servername: vmess.lbw666.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States, Chicago | 🌐 | [BL]-20
+  server: 172.66.203.67
+  port: 443
+  alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  network: ws
+  servername: vmess.lbw666.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States, Chicago | 🌐 | [BL]-21
+  server: 172.66.203.67
+  port: 443
+  alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  network: ws
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States, Chicago | 🌐 | [BL]-22
+  server: 172.66.203.67
+  port: 443
+  alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  network: ws
+  servername: vmess.lbw666.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States, Chicago | 🌐 | [BL]-23
+  server: cf.877771.xyz
+  port: 443
+  alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  network: ws
+  servername: vmess.lbw666.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States, Chicago | 🌐 | [BL]-24
   server: cf.0sm.com
   port: 443
   alpn:
@@ -2061,379 +1594,198 @@ proxies:
       Host: vmess.lbw666.dpdns.org
     path: /ws
   xudp: true
-- name: 🌐 Anycast-IP | 🇯🇵 | [BL]
-  server: 104.17.0.1
-  port: 2083
+- name: 🇺🇸 United States, Chicago | 🌐 | [BL]-25
+  server: cf.0sm.com
+  port: 443
   alpn:
   - ''
   alterId: '0'
   cipher: auto
   network: ws
-  servername: or3.sfacg.uk
   skip-cert-verify: false
   tls: true
   type: vmess
   udp: true
-  uuid: ac251237-576f-40c8-a543-554960c958b1
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States, Chicago | 🌐 | [BL]-26
+  server: cf.0sm.com
+  port: 443
+  alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  network: ws
+  servername: vmess.lbw666.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States, Chicago | 🌐 | [BL]-27
+  server: cf.0sm.com
+  port: 443
+  alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  network: ws
+  servername: vmess.lbw666.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States, Chicago | 🌐 | [BL]-28
+  server: cf.0sm.com
+  port: 443
+  alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  network: ws
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
+  xudp: true
+- name: 🇺🇸 United States, Minkler | [BL]
+  server: Rib9JXAYoqjGN2KW.v.3dns.vip
+  port: 443
+  alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  network: ws
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9b31490d-190e-4ef1-af0a-7ccab3e7c3b5
+  ws-opts:
+    headers:
+      Host: Rib9JXAYoqjGN2KW.v.3dns.vip
+    path: /ws-vmess
+  xudp: true
+- name: 🇺🇸 United States, Minkler | [BL]-01
+  server: rib9jxayoqjgn2kw.v.3dns.vip
+  port: 443
+  alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  network: ws
+  servername: rib9jxayoqjgn2kw.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9b31490d-190e-4ef1-af0a-7ccab3e7c3b5
   ws-opts:
     headers: {}
-    path: /or3
+    path: /ws-vmess
   xudp: true
-- name: 🌐 Anycast-IP | 🇯🇵 | [BL]-01
-  server: 104.21.0.1
-  port: 2083
+- name: 🇺🇸 United States, Minkler | [BL]-02
+  server: rib9jxayoqjgn2kw.v.3dns.vip
+  port: 443
   alpn:
   - ''
   alterId: '0'
   cipher: auto
   network: ws
-  servername: or3.sfacg.uk
+  servername: rib9jxayoqjgn2kw.v.3dns.vip
   skip-cert-verify: false
   tls: true
   type: vmess
   udp: true
-  uuid: ac251237-576f-40c8-a543-554960c958b1
+  uuid: 9b31490d-190e-4ef1-af0a-7ccab3e7c3b5
+  ws-opts:
+    headers:
+      Host: rib9jxayoqjgn2kw.v.3dns.vip
+    path: /ws-vmess
+  xudp: true
+- name: 🇺🇸 United States, Minkler | [BL]-03
+  server: rib9jxayoqjgn2kw.v.3dns.vip
+  port: 443
+  alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  network: ws
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9b31490d-190e-4ef1-af0a-7ccab3e7c3b5
   ws-opts:
     headers: {}
-    path: /or3
+    path: /ws-vmess
   xudp: true
-- name: 🌐 Anycast-IP | 🇯🇵 | [BL]-02
-  server: 104.21.50.177
-  port: 2083
-  alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
+- name: 🇫🇮 Finland, Helsinki | [BL]
+  server: 104.16.186.130
+  port: 2053
+  client-fingerprint: chrome
   network: ws
-  servername: or3.sfacg.uk
+  password: gHQP0D7D15
   skip-cert-verify: false
-  tls: true
-  type: vmess
+  sni: marvdasht.phonecomparisonblog.org
+  type: trojan
   udp: true
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers: {}
-    path: /or3
-  xudp: true
-- name: 🌐 Anycast-IP | 🇯🇵 | [BL]-03
-  server: cdn.sfacg.uk
-  port: 2083
-  alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  network: ws
-  servername: or3.sfacg.uk
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: ac251237-576f-40c8-a543-554960c958b1
   ws-opts:
     headers:
-      Host: or3.sfacg.uk
-    path: /or3
-  xudp: true
-- name: 🌐 Anycast-IP | 🇯🇵 | [BL]-04
-  server: 104.21.0.1
-  port: 2083
-  alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.67 Safari/537.36
+    path: /
+- name: 🇫🇮 Finland, Helsinki | [BL]-01
+  server: 104.16.186.130
+  port: 2053
+  client-fingerprint: ios
   network: ws
-  servername: or3.sfacg.uk
+  password: gHQP0D7D15
   skip-cert-verify: false
-  tls: true
-  type: vmess
+  sni: marvdasht.phonecomparisonblog.org
+  type: trojan
   udp: true
-  uuid: ac251237-576f-40c8-a543-554960c958b1
   ws-opts:
     headers:
-      Host: or3.sfacg.uk
-    path: /or3
-  xudp: true
-- name: 🌐 Anycast-IP | 🇯🇵 | [BL]-05
-  server: 104.21.0.1
-  port: 2083
-  alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.101 Safari/537.36
+    path: /
+- name: 🇫🇮 Finland, Helsinki | [BL]-02
+  server: 104.16.186.130
+  port: 2053
+  client-fingerprint: safari
   network: ws
+  password: gHQP0D7D15
   skip-cert-verify: false
-  tls: true
-  type: vmess
+  sni: marvdasht.phonecomparisonblog.org
+  type: trojan
   udp: true
-  uuid: ac251237-576f-40c8-a543-554960c958b1
   ws-opts:
     headers:
-      Host: or3.sfacg.uk
-    path: /or3
-  xudp: true
-- name: 🌐 Anycast-IP | 🇯🇵 | [BL]-06
-  server: 104.21.50.177
-  port: 2083
-  alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  network: ws
-  servername: or3.sfacg.uk
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: or3.sfacg.uk
-    path: /or3
-  xudp: true
-- name: 🌐 Anycast-IP | 🇯🇵 | [BL]-07
-  server: 104.17.0.1
-  port: 2083
-  alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  network: ws
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: or3.sfacg.uk
-    path: /or3
-  xudp: true
-- name: 🌐 Anycast-IP | 🇯🇵 | [BL]-08
-  server: 162.159.130.234
-  port: 2083
-  alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  network: ws
-  servername: cdn.sfacg.uk
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: or3.sfacg.uk
-    path: /or3
-  xudp: true
-- name: 🌐 Anycast-IP | 🇯🇵 | [BL]-09
-  server: 162.159.135.234
-  port: 2083
-  alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  network: ws
-  servername: or3.sfacg.uk
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: or3.sfacg.uk
-    path: /or3
-  xudp: true
-- name: 🌐 Anycast-IP | 🇯🇵 | [BL]-10
-  server: 162.159.135.234
-  port: 2083
-  alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  network: ws
-  servername: cdn.sfacg.uk
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: or3.sfacg.uk
-    path: /or3
-  xudp: true
-- name: 🌐 Anycast-IP | 🇯🇵 | [BL]-11
-  server: 162.159.135.234
-  port: 2083
-  alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  network: ws
-  servername: cdn.sfacg.uk
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: or3.sfacg.uk
-    path: /or3
-  xudp: true
-- name: 🌐 Anycast-IP | 🇯🇵 | [BL]-12
-  server: cdn.sfacg.uk
-  port: 2083
-  alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  network: ws
-  servername: or3.sfacg.uk
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: or3.sfacg.uk
-    path: /or3
-  xudp: true
-- name: 🌐 Anycast-IP | 🇯🇵 | [BL]-13
-  server: cdn.sfacg.uk
-  port: 2083
-  alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  network: ws
-  servername: cdn.sfacg.uk
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: or3.sfacg.uk
-    path: /or3
-  xudp: true
-- name: 🌐 Anycast-IP | 🇯🇵 | [BL]-14
-  server: cdn.sfacg.uk
-  port: 2083
-  alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  network: ws
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: or3.sfacg.uk
-    path: /or3
-  xudp: true
-- name: 🌐 Anycast-IP | 🇯🇵 | [BL]-15
-  server: or3.sfacg.uk
-  port: 2083
-  alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  network: ws
-  servername: cdn.sfacg.uk
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: or3.sfacg.uk
-    path: /or3
-  xudp: true
-- name: 🌐 Anycast-IP | 🇯🇵 | [BL]-16
-  server: or3.sfacg.uk
-  port: 2083
-  alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  network: ws
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: or3.sfacg.uk
-    path: /or3
-  xudp: true
-- name: 🌐 Anycast-IP | 🇯🇵 | [BL]-17
-  server: or3.sfacg.uk
-  port: 2083
-  alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  network: ws
-  servername: or3.sfacg.uk
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: or3.sfacg.uk
-    path: /or3
-  xudp: true
-- name: 🌐 Anycast-IP | 🇯🇵 | [BL]-18
-  server: cdn.sfacg.uk
-  port: 2083
-  alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  network: ws
-  servername: cdn.sfacg.uk
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: or3.sfacg.uk
-    path: /or3
-  xudp: true
-- name: 🌐 Anycast-IP | 🇯🇵 | [BL]-19
-  server: or3.sfacg.uk
-  port: 2083
-  alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  network: ws
-  servername: or3.sfacg.uk
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers: {}
-    path: /or3
-  xudp: true
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]-03
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /
+- name: 🇫🇮 Finland, Helsinki | [BL]-03
   server: 104.16.186.130
   port: 2053
   client-fingerprint: android
@@ -2445,13 +1797,122 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
     path: /
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]-04
-  server: 104.16.186.130
+- name: 🇫🇮 Finland, Helsinki | [BL]-04
+  server: 104.18.0.1
   port: 2053
-  client-fingerprint: unsafe
+  alpn:
+  - http/1.1
+  client-fingerprint: ios
+  network: ws
+  password: gHQP0D7D15
+  skip-cert-verify: false
+  sni: marvdasht.phonecomparisonblog.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/51.0.2704.103 Safari/537.36
+    path: /
+- name: 🇫🇮 Finland, Helsinki | [BL]-05
+  server: 104.18.0.1
+  port: 2053
+  client-fingerprint: chrome
+  network: ws
+  password: gHQP0D7D15
+  skip-cert-verify: false
+  sni: marvdasht.phonecomparisonblog.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /
+- name: 🇫🇮 Finland, Helsinki | [BL]-06
+  server: 104.18.0.1
+  port: 2053
+  client-fingerprint: chrome
+  network: ws
+  password: gHQP0D7D15
+  skip-cert-verify: false
+  sni: marvdasht.phonecomparisonblog.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: ''
+- name: 🇫🇮 Finland, Helsinki | [BL]-07
+  server: 104.24.0.1
+  port: 2053
+  alpn:
+  - http/1.1
+  client-fingerprint: safari
+  network: ws
+  password: gHQP0D7D15
+  skip-cert-verify: false
+  sni: marvdasht.phonecomparisonblog.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.110 Safari/537.36
+    path: /
+- name: 🇫🇮 Finland, Helsinki | [BL]-08
+  server: 104.24.0.1
+  port: 2053
+  client-fingerprint: chrome
+  network: ws
+  password: gHQP0D7D15
+  skip-cert-verify: false
+  sni: marvdasht.phonecomparisonblog.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /
+- name: 🇫🇮 Finland, Helsinki | [BL]-09
+  server: 104.24.0.1
+  port: 2053
+  client-fingerprint: ios
+  network: ws
+  password: gHQP0D7D15
+  skip-cert-verify: false
+  sni: marvdasht.phonecomparisonblog.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
+    path: /
+- name: 🇫🇮 Finland, Helsinki | [BL]-10
+  server: 104.24.0.1
+  port: 2053
+  client-fingerprint: qq
+  network: ws
+  password: gHQP0D7D15
+  skip-cert-verify: false
+  sni: marvdasht.phonecomparisonblog.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /
+- name: 🇫🇮 Finland, Helsinki | [BL]-11
+  server: 104.24.0.1
+  port: 2053
+  client-fingerprint: safari
   network: ws
   password: gHQP0D7D15
   skip-cert-verify: false
@@ -2463,8 +1924,8 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/42.0.2311.90 Safari/537.36
     path: /
-- name: 🇫🇮 Finland, Helsinki | [BL]
-  server: 172.66.0.1
+- name: 🇫🇮 Finland, Helsinki | [BL]-12
+  server: 104.24.0.1
   port: 2053
   alpn:
   - http/1.1
@@ -2478,14 +1939,12 @@ proxies:
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
     path: /
-- name: 🇫🇮 Finland, Helsinki | [BL]-01
-  server: 172.66.0.1
+- name: 🇫🇮 Finland, Helsinki | [BL]-13
+  server: 104.24.0.1
   port: 2053
-  alpn:
-  - http/1.1
-  client-fingerprint: ios
+  client-fingerprint: chrome
   network: ws
   password: gHQP0D7D15
   skip-cert-verify: false
@@ -2494,13 +1953,13 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/69.0.3497.100 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
+        Gecko) Chrome/26.0.1410.64 Safari/537.31
     path: /
-- name: 🇫🇮 Finland, Helsinki | [BL]-02
-  server: 172.67.118.45
+- name: 🇫🇮 Finland, Helsinki | [BL]-14
+  server: 104.25.239.113
   port: 2053
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   network: ws
   password: gHQP0D7D15
   skip-cert-verify: false
@@ -2511,9 +1970,24 @@ proxies:
     headers:
       User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-- name: 🇫🇮 Finland, Helsinki | [BL]-03
-  server: 172.67.118.45
+    path: /
+- name: 🇫🇮 Finland, Helsinki | [BL]-15
+  server: 104.25.239.113
+  port: 2053
+  client-fingerprint: chrome
+  network: ws
+  password: gHQP0D7D15
+  skip-cert-verify: false
+  sni: marvdasht.phonecomparisonblog.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /
+- name: 🇫🇮 Finland, Helsinki | [BL]-16
+  server: 104.25.239.113
   port: 2053
   client-fingerprint: ios
   network: ws
@@ -2524,53 +1998,281 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.71 Safari/537.36
+    path: /
+- name: 🇫🇮 Finland, Helsinki | [BL]-17
+  server: 104.25.239.113
+  port: 2053
+  client-fingerprint: safari
+  network: ws
+  password: gHQP0D7D15
+  skip-cert-verify: false
+  sni: marvdasht.phonecomparisonblog.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2272.101 Safari/537.36
+    path: /
+- name: 🇫🇮 Finland, Helsinki | [BL]-18
+  server: 104.25.239.113
+  port: 2053
+  client-fingerprint: chrome
+  network: ws
+  password: gHQP0D7D15
+  skip-cert-verify: false
+  sni: marvdasht.phonecomparisonblog.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /
+- name: 🇫🇮 Finland, Helsinki | [BL]-19
+  server: 172.66.0.1
+  port: 2053
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  network: ws
+  password: gHQP0D7D15
+  skip-cert-verify: false
+  sni: marvdasht.phonecomparisonblog.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    path: /
+- name: 🇫🇮 Finland, Helsinki | [BL]-20
+  server: 172.66.0.1
+  port: 2053
+  alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  network: ws
+  password: gHQP0D7D15
+  skip-cert-verify: false
+  sni: marvdasht.phonecomparisonblog.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/44.0.2403.157 Safari/537.36
+    path: /
+- name: 🇫🇮 Finland, Helsinki | [BL]-21
+  server: 172.66.0.1
+  port: 2053
+  alpn:
+  - http/1.1
+  client-fingerprint: safari
+  network: ws
+  password: gHQP0D7D15
+  skip-cert-verify: false
+  sni: marvdasht.phonecomparisonblog.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /
+- name: 🇫🇮 Finland, Helsinki | [BL]-22
+  server: 172.66.0.1
+  port: 2053
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  network: ws
+  password: gHQP0D7D15
+  skip-cert-verify: false
+  sni: marvdasht.phonecomparisonblog.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.109 Safari/537.36
+    path: /
+- name: 🇫🇮 Finland, Helsinki | [BL]-23
+  server: 172.66.0.1
+  port: 2053
+  client-fingerprint: chrome
+  network: ws
+  password: gHQP0D7D15
+  skip-cert-verify: false
+  sni: marvdasht.phonecomparisonblog.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2272.101 Safari/537.36
+    path: /
+- name: 🇫🇮 Finland, Helsinki | [BL]-24
+  server: 172.66.0.1
+  port: 2053
+  client-fingerprint: qq
+  network: ws
+  password: gHQP0D7D15
+  skip-cert-verify: false
+  sni: marvdasht.phonecomparisonblog.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /
+- name: 🇫🇮 Finland, Helsinki | [BL]-25
+  server: 172.67.118.45
+  port: 2053
+  client-fingerprint: firefox
+  network: ws
+  password: gHQP0D7D15
+  skip-cert-verify: false
+  sni: marvdasht.phonecomparisonblog.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/52.0.2743.116 Safari/537.36
     path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+- name: 🇫🇮 Finland, Helsinki | [BL]-26
+  server: 172.67.118.45
+  port: 2053
+  client-fingerprint: chrome
+  network: ws
+  password: gHQP0D7D15
+  skip-cert-verify: false
+  sni: marvdasht.phonecomparisonblog.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+- name: 🇫🇮 Finland, Helsinki | [BL]-27
+  server: 188.114.96.3
+  port: 2053
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  network: ws
+  password: gHQP0D7D15
+  skip-cert-verify: false
+  sni: marvdasht.phonecomparisonblog.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+    path: /
+- name: 🇫🇮 Finland, Helsinki | [BL]-28
+  server: 188.114.96.3
+  port: 2053
+  alpn:
+  - http/1.1
+  client-fingerprint: ios
+  network: ws
+  password: gHQP0D7D15
+  skip-cert-verify: false
+  sni: marvdasht.phonecomparisonblog.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /
+- name: 🇫🇮 Finland, Helsinki | [BL]-29
+  server: 188.114.96.3
+  port: 2053
+  client-fingerprint: ios
+  network: ws
+  password: gHQP0D7D15
+  skip-cert-verify: false
+  sni: marvdasht.phonecomparisonblog.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML,
+        like Gecko) Chrome/5.0.342.1 Safari/533.2
+    path: /
+- name: 🇫🇮 Finland, Helsinki | [BL]-30
+  server: 188.114.96.3
+  port: 2053
+  client-fingerprint: safari
+  network: ws
+  password: gHQP0D7D15
+  skip-cert-verify: false
+  sni: marvdasht.phonecomparisonblog.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.87 Safari/537.36
+    path: /
+- name: 🇯🇵 Japan, Inzai (Otsuka) | [BL]
+  server: 150.230.217.160
+  port: 27777
+  client-fingerprint: chrome
+  password: e79bb958-2a79-4eea-87a3-7e73d0059ebf
+  skip-cert-verify: false
+  sni: ol1.ssn571.top
+  type: trojan
+  udp: true
+- name: 🇯🇵 Japan, Inzai (Otsuka) | [BL]-01
+  server: 151.145.71.43
+  port: 27777
+  client-fingerprint: chrome
+  password: e79bb958-2a79-4eea-87a3-7e73d0059ebf
+  skip-cert-verify: false
+  sni: ol2.ssn571.top
+  type: trojan
+  udp: true
 proxy-groups:
 - name: 手动选择
   type: select
   proxies:
   - 自动选择
   - DIRECT
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]-01
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]-02
-  - 🇨🇦 Canada | 🌐 | [BL]
-  - 🇩🇪 Germany, Nuremberg | [BL]
+  - 🇧🇬 Bulgaria, Sofia | [BL]
+  - 🇧🇬 Bulgaria, Sofia | [BL]-01
+  - 🇧🇬 Bulgaria, Sofia | [BL]-02
+  - 🇭🇰 Hong Kong | 🌐 | [BL]
   - 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]
-  - 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]-01
-  - 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]-02
-  - 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]-03
-  - 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]-04
-  - 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]-05
-  - 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]-06
-  - 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]-07
-  - 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]-08
-  - 🇪🇸 Spain, Madrid (Chamartín) | [BL]
-  - 🇪🇸 Spain, Madrid (Chamartín) | [BL]-01
-  - 🇪🇸 Spain, Madrid (Chamartín) | [BL]-02
-  - 🇪🇸 Spain, Madrid (Chamartín) | [BL]-03
-  - 🇪🇸 Spain, Madrid (Chamartín) | [BL]-04
-  - 🇪🇸 Spain, Madrid (Chamartín) | [BL]-05
+  - 🇲🇽 Mexico, La Cañada | [BL]
+  - 🇲🇽 Mexico, La Cañada | [BL]-01
+  - 🇸🇬 Singapore, Singapore (Outram) | 🌐 | [BL]
+  - 🇸🇬 Singapore, Singapore (Outram) | 🌐 | [BL]-01
+  - 🇹🇼 Taiwan | 🌐 | [BL]
   - 🇹🇼 Taiwan, Taoyuan | [BL]
   - 🇹🇼 Taiwan, Taoyuan | [BL]-01
-  - 🇹🇼 Taiwan, Taoyuan | [BL]-02
-  - 🇹🇼 Taiwan, Taoyuan | [BL]-03
-  - 🇹🇼 Taiwan, Taoyuan | [BL]-04
-  - 🇹🇼 Taiwan, Taoyuan | [BL]-05
-  - 🇹🇼 Taiwan, Taoyuan | [BL]-06
-  - 🇹🇼 Taiwan, Taoyuan | [BL]-07
-  - 🇹🇼 Taiwan, Taoyuan | [BL]-08
   - 🇳🇱 The Netherlands, Dedemsvaart | [BL]
   - 🇳🇱 The Netherlands, Dedemsvaart | [BL]-01
   - 🇳🇱 The Netherlands, Dedemsvaart | [BL]-02
   - 🇳🇱 The Netherlands, Dedemsvaart | [BL]-03
   - 🇳🇱 The Netherlands, Dedemsvaart | [BL]-04
   - 🇳🇱 The Netherlands, Dedemsvaart | [BL]-05
-  - 🇳🇱 The Netherlands, Eygelshoven | [BL]
-  - 🇳🇱 The Netherlands, Eygelshoven | [BL]-01
-  - 🇳🇱 The Netherlands, Eygelshoven | [BL]-02
+  - 🇳🇱 The Netherlands, Dedemsvaart | [BL]-06
+  - 🇳🇱 The Netherlands, Dedemsvaart | [BL]-07
+  - 🇳🇱 The Netherlands, Dedemsvaart | [BL]-08
+  - 🇳🇱 The Netherlands, Dedemsvaart | [BL]-09
+  - 🇳🇱 The Netherlands, Dedemsvaart | [BL]-10
+  - 🇳🇱 The Netherlands, Dedemsvaart | [BL]-11
+  - 🇳🇱 The Netherlands, Dedemsvaart | [BL]-12
+  - 🇳🇱 The Netherlands, Dedemsvaart | [BL]-13
   - 🇬🇧 United Kingdom, Slough | [BL]
   - 🇬🇧 United Kingdom, Slough | [BL]-01
   - 🇬🇧 United Kingdom, Slough | [BL]-02
@@ -2578,67 +2280,35 @@ proxy-groups:
   - 🇬🇧 United Kingdom, Slough | [BL]-04
   - 🇬🇧 United Kingdom, Slough | [BL]-05
   - 🇬🇧 United Kingdom, Slough | [BL]-06
-  - 🇬🇧 United Kingdom, Slough | [BL]-07
-  - 🇬🇧 United Kingdom, Slough | [BL]-08
-  - 🇬🇧 United Kingdom, Slough | [BL]-09
-  - 🇬🇧 United Kingdom, Slough | [BL]-10
-  - 🇬🇧 United Kingdom, Slough | [BL]-11
-  - 🇬🇧 United Kingdom, Slough | [BL]-12
-  - 🇬🇧 United Kingdom, Slough | [BL]-13
-  - 🇬🇧 United Kingdom, Slough | [BL]-14
-  - 🇺🇸 United States, Charlotte (Oakview Terrace) | 🌐 | [BL]
-  - 🇺🇸 United States, Charlotte (Oakview Terrace) | 🌐 | [BL]-01
-  - 🇺🇸 United States, Charlotte (Oakview Terrace) | 🌐 | [BL]-02
+  - 🇺🇸 United States | 🌐 | [BL]
+  - 🇺🇸 United States, Buffalo | [BL]
+  - 🇺🇸 United States, Buffalo | [BL]-01
+  - 🇺🇸 United States, Buffalo | [BL]-02
+  - 🇺🇸 United States, Buffalo | [BL]-03
+  - 🇺🇸 United States, Buffalo | [BL]-04
+  - 🇺🇸 United States, Buffalo | [BL]-05
+  - 🇺🇸 United States, Buffalo | [BL]-06
   - 🇺🇸 United States, North Bergen | [BL]
   - 🇺🇸 United States, North Bergen | [BL]-01
   - 🇺🇸 United States, North Bergen | [BL]-02
   - 🇺🇸 United States, North Bergen | [BL]-03
-  - 🇺🇸 United States, North Bergen | [BL]-04
-  - 🇺🇸 United States, North Bergen | [BL]-05
-  - 🇺🇸 United States, North Bergen | [BL]-06
-  - 🇺🇸 United States, North Bergen | [BL]-07
-  - 🇺🇸 United States, North Bergen | [BL]-08
-  - 🇺🇸 United States, North Bergen | [BL]-09
-  - 🇺🇸 United States, North Bergen | [BL]-10
-  - 🇺🇸 United States, North Bergen | [BL]-11
-  - 🇺🇸 United States, North Bergen | [BL]-12
-  - 🇺🇸 United States, North Bergen | [BL]-13
-  - 🇺🇸 United States, North Bergen | [BL]-14
-  - 🇺🇸 United States, North Bergen | [BL]-15
-  - 🇺🇸 United States, North Bergen | [BL]-16
-  - 🇺🇸 United States, North Bergen | [BL]-17
-  - 🇺🇸 United States, North Bergen | [BL]-18
-  - 🇺🇸 United States, North Bergen | [BL]-19
-  - 🇺🇸 United States, North Bergen | [BL]-20
-  - 🇺🇸 United States, North Bergen | [BL]-21
-  - 🇺🇸 United States, North Bergen | [BL]-22
-  - 🇺🇸 United States, North Bergen | [BL]-23
-  - 🇺🇸 United States, North Bergen | [BL]-24
-  - 🇺🇸 United States, North Bergen | [BL]-25
-  - 🇺🇸 United States, North Bergen | [BL]-26
-  - 🇺🇸 United States, North Bergen | [BL]-27
-  - 🇺🇸 United States, North Bergen | [BL]-28
-  - 🇺🇸 United States, North Bergen | [BL]-29
-  - 🇺🇸 United States, North Bergen | [BL]-30
-  - 🇺🇸 United States, North Bergen | [BL]-31
-  - 🇺🇸 United States, North Bergen | [BL]-32
-  - 🇺🇸 United States, North Bergen | [BL]-33
-  - 🇺🇸 United States, North Bergen | [BL]-34
-  - 🇺🇸 United States, North Bergen | [BL]-35
-  - 🇺🇸 United States, North Bergen | [BL]-36
-  - 🇺🇸 United States, North Bergen | [BL]-37
-  - 🇺🇸 United States, North Bergen | [BL]-38
-  - 🇺🇸 United States, North Bergen | [BL]-39
-  - 🇺🇸 United States, North Bergen | [BL]-40
-  - 🇺🇸 United States, North Bergen | [BL]-41
-  - 🌐 Anycast-IP | 🇯🇵 🇿🇿 | [BL]
-  - 🌐 Anycast-IP | 🇯🇵 🇿🇿 | [BL]-01
   - 🇭🇰 Hong Kong, Hong Kong | [BL]
   - 🇯🇵 Japan, Osaka (Shiromi) | 🌐 | [BL]
   - 🇺🇸 United States, Chicago | [BL]
   - 🇺🇸 United States, Chicago | [BL]-01
   - 🇺🇸 United States, Chicago | [BL]-02
   - 🇺🇸 United States, Chicago | [BL]-03
+  - 🇺🇸 United States, Chicago | [BL]-04
+  - 🇺🇸 United States, Chicago | [BL]-05
+  - 🇺🇸 United States, Chicago | [BL]-06
+  - 🇺🇸 United States, Chicago | [BL]-07
+  - 🇺🇸 United States, Chicago | [BL]-08
+  - 🇺🇸 United States, Chicago | [BL]-09
+  - 🇺🇸 United States, Chicago | [BL]-10
+  - 🇺🇸 United States, Chicago | [BL]-11
+  - 🇺🇸 United States, Chicago | [BL]-12
+  - 🇺🇸 United States, Chicago | [BL]-13
+  - 🇺🇸 United States, Chicago | [BL]-14
   - 🇺🇸 United States, Chicago | 🌐 | [BL]
   - 🇺🇸 United States, Chicago | 🌐 | [BL]-01
   - 🇺🇸 United States, Chicago | 🌐 | [BL]-02
@@ -2650,76 +2320,93 @@ proxy-groups:
   - 🇺🇸 United States, Chicago | 🌐 | [BL]-08
   - 🇺🇸 United States, Chicago | 🌐 | [BL]-09
   - 🇺🇸 United States, Chicago | 🌐 | [BL]-10
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]-01
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]-02
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]-03
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]-04
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]-05
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]-06
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]-07
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]-08
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]-09
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]-10
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]-11
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]-12
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]-13
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]-14
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]-15
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]-16
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]-17
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]-18
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]-19
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]-03
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]-04
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]-11
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]-12
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]-13
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]-14
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]-15
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]-16
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]-17
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]-18
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]-19
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]-20
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]-21
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]-22
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]-23
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]-24
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]-25
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]-26
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]-27
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]-28
+  - 🇺🇸 United States, Minkler | [BL]
+  - 🇺🇸 United States, Minkler | [BL]-01
+  - 🇺🇸 United States, Minkler | [BL]-02
+  - 🇺🇸 United States, Minkler | [BL]-03
   - 🇫🇮 Finland, Helsinki | [BL]
   - 🇫🇮 Finland, Helsinki | [BL]-01
   - 🇫🇮 Finland, Helsinki | [BL]-02
   - 🇫🇮 Finland, Helsinki | [BL]-03
+  - 🇫🇮 Finland, Helsinki | [BL]-04
+  - 🇫🇮 Finland, Helsinki | [BL]-05
+  - 🇫🇮 Finland, Helsinki | [BL]-06
+  - 🇫🇮 Finland, Helsinki | [BL]-07
+  - 🇫🇮 Finland, Helsinki | [BL]-08
+  - 🇫🇮 Finland, Helsinki | [BL]-09
+  - 🇫🇮 Finland, Helsinki | [BL]-10
+  - 🇫🇮 Finland, Helsinki | [BL]-11
+  - 🇫🇮 Finland, Helsinki | [BL]-12
+  - 🇫🇮 Finland, Helsinki | [BL]-13
+  - 🇫🇮 Finland, Helsinki | [BL]-14
+  - 🇫🇮 Finland, Helsinki | [BL]-15
+  - 🇫🇮 Finland, Helsinki | [BL]-16
+  - 🇫🇮 Finland, Helsinki | [BL]-17
+  - 🇫🇮 Finland, Helsinki | [BL]-18
+  - 🇫🇮 Finland, Helsinki | [BL]-19
+  - 🇫🇮 Finland, Helsinki | [BL]-20
+  - 🇫🇮 Finland, Helsinki | [BL]-21
+  - 🇫🇮 Finland, Helsinki | [BL]-22
+  - 🇫🇮 Finland, Helsinki | [BL]-23
+  - 🇫🇮 Finland, Helsinki | [BL]-24
+  - 🇫🇮 Finland, Helsinki | [BL]-25
+  - 🇫🇮 Finland, Helsinki | [BL]-26
+  - 🇫🇮 Finland, Helsinki | [BL]-27
+  - 🇫🇮 Finland, Helsinki | [BL]-28
+  - 🇫🇮 Finland, Helsinki | [BL]-29
+  - 🇫🇮 Finland, Helsinki | [BL]-30
+  - 🇯🇵 Japan, Inzai (Otsuka) | [BL]
+  - 🇯🇵 Japan, Inzai (Otsuka) | [BL]-01
 - name: 自动选择
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]-01
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]-02
-  - 🇨🇦 Canada | 🌐 | [BL]
-  - 🇩🇪 Germany, Nuremberg | [BL]
+  - 🇧🇬 Bulgaria, Sofia | [BL]
+  - 🇧🇬 Bulgaria, Sofia | [BL]-01
+  - 🇧🇬 Bulgaria, Sofia | [BL]-02
+  - 🇭🇰 Hong Kong | 🌐 | [BL]
   - 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]
-  - 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]-01
-  - 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]-02
-  - 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]-03
-  - 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]-04
-  - 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]-05
-  - 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]-06
-  - 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]-07
-  - 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]-08
-  - 🇪🇸 Spain, Madrid (Chamartín) | [BL]
-  - 🇪🇸 Spain, Madrid (Chamartín) | [BL]-01
-  - 🇪🇸 Spain, Madrid (Chamartín) | [BL]-02
-  - 🇪🇸 Spain, Madrid (Chamartín) | [BL]-03
-  - 🇪🇸 Spain, Madrid (Chamartín) | [BL]-04
-  - 🇪🇸 Spain, Madrid (Chamartín) | [BL]-05
+  - 🇲🇽 Mexico, La Cañada | [BL]
+  - 🇲🇽 Mexico, La Cañada | [BL]-01
+  - 🇸🇬 Singapore, Singapore (Outram) | 🌐 | [BL]
+  - 🇸🇬 Singapore, Singapore (Outram) | 🌐 | [BL]-01
+  - 🇹🇼 Taiwan | 🌐 | [BL]
   - 🇹🇼 Taiwan, Taoyuan | [BL]
   - 🇹🇼 Taiwan, Taoyuan | [BL]-01
-  - 🇹🇼 Taiwan, Taoyuan | [BL]-02
-  - 🇹🇼 Taiwan, Taoyuan | [BL]-03
-  - 🇹🇼 Taiwan, Taoyuan | [BL]-04
-  - 🇹🇼 Taiwan, Taoyuan | [BL]-05
-  - 🇹🇼 Taiwan, Taoyuan | [BL]-06
-  - 🇹🇼 Taiwan, Taoyuan | [BL]-07
-  - 🇹🇼 Taiwan, Taoyuan | [BL]-08
   - 🇳🇱 The Netherlands, Dedemsvaart | [BL]
   - 🇳🇱 The Netherlands, Dedemsvaart | [BL]-01
   - 🇳🇱 The Netherlands, Dedemsvaart | [BL]-02
   - 🇳🇱 The Netherlands, Dedemsvaart | [BL]-03
   - 🇳🇱 The Netherlands, Dedemsvaart | [BL]-04
   - 🇳🇱 The Netherlands, Dedemsvaart | [BL]-05
-  - 🇳🇱 The Netherlands, Eygelshoven | [BL]
-  - 🇳🇱 The Netherlands, Eygelshoven | [BL]-01
-  - 🇳🇱 The Netherlands, Eygelshoven | [BL]-02
+  - 🇳🇱 The Netherlands, Dedemsvaart | [BL]-06
+  - 🇳🇱 The Netherlands, Dedemsvaart | [BL]-07
+  - 🇳🇱 The Netherlands, Dedemsvaart | [BL]-08
+  - 🇳🇱 The Netherlands, Dedemsvaart | [BL]-09
+  - 🇳🇱 The Netherlands, Dedemsvaart | [BL]-10
+  - 🇳🇱 The Netherlands, Dedemsvaart | [BL]-11
+  - 🇳🇱 The Netherlands, Dedemsvaart | [BL]-12
+  - 🇳🇱 The Netherlands, Dedemsvaart | [BL]-13
   - 🇬🇧 United Kingdom, Slough | [BL]
   - 🇬🇧 United Kingdom, Slough | [BL]-01
   - 🇬🇧 United Kingdom, Slough | [BL]-02
@@ -2727,67 +2414,35 @@ proxy-groups:
   - 🇬🇧 United Kingdom, Slough | [BL]-04
   - 🇬🇧 United Kingdom, Slough | [BL]-05
   - 🇬🇧 United Kingdom, Slough | [BL]-06
-  - 🇬🇧 United Kingdom, Slough | [BL]-07
-  - 🇬🇧 United Kingdom, Slough | [BL]-08
-  - 🇬🇧 United Kingdom, Slough | [BL]-09
-  - 🇬🇧 United Kingdom, Slough | [BL]-10
-  - 🇬🇧 United Kingdom, Slough | [BL]-11
-  - 🇬🇧 United Kingdom, Slough | [BL]-12
-  - 🇬🇧 United Kingdom, Slough | [BL]-13
-  - 🇬🇧 United Kingdom, Slough | [BL]-14
-  - 🇺🇸 United States, Charlotte (Oakview Terrace) | 🌐 | [BL]
-  - 🇺🇸 United States, Charlotte (Oakview Terrace) | 🌐 | [BL]-01
-  - 🇺🇸 United States, Charlotte (Oakview Terrace) | 🌐 | [BL]-02
+  - 🇺🇸 United States | 🌐 | [BL]
+  - 🇺🇸 United States, Buffalo | [BL]
+  - 🇺🇸 United States, Buffalo | [BL]-01
+  - 🇺🇸 United States, Buffalo | [BL]-02
+  - 🇺🇸 United States, Buffalo | [BL]-03
+  - 🇺🇸 United States, Buffalo | [BL]-04
+  - 🇺🇸 United States, Buffalo | [BL]-05
+  - 🇺🇸 United States, Buffalo | [BL]-06
   - 🇺🇸 United States, North Bergen | [BL]
   - 🇺🇸 United States, North Bergen | [BL]-01
   - 🇺🇸 United States, North Bergen | [BL]-02
   - 🇺🇸 United States, North Bergen | [BL]-03
-  - 🇺🇸 United States, North Bergen | [BL]-04
-  - 🇺🇸 United States, North Bergen | [BL]-05
-  - 🇺🇸 United States, North Bergen | [BL]-06
-  - 🇺🇸 United States, North Bergen | [BL]-07
-  - 🇺🇸 United States, North Bergen | [BL]-08
-  - 🇺🇸 United States, North Bergen | [BL]-09
-  - 🇺🇸 United States, North Bergen | [BL]-10
-  - 🇺🇸 United States, North Bergen | [BL]-11
-  - 🇺🇸 United States, North Bergen | [BL]-12
-  - 🇺🇸 United States, North Bergen | [BL]-13
-  - 🇺🇸 United States, North Bergen | [BL]-14
-  - 🇺🇸 United States, North Bergen | [BL]-15
-  - 🇺🇸 United States, North Bergen | [BL]-16
-  - 🇺🇸 United States, North Bergen | [BL]-17
-  - 🇺🇸 United States, North Bergen | [BL]-18
-  - 🇺🇸 United States, North Bergen | [BL]-19
-  - 🇺🇸 United States, North Bergen | [BL]-20
-  - 🇺🇸 United States, North Bergen | [BL]-21
-  - 🇺🇸 United States, North Bergen | [BL]-22
-  - 🇺🇸 United States, North Bergen | [BL]-23
-  - 🇺🇸 United States, North Bergen | [BL]-24
-  - 🇺🇸 United States, North Bergen | [BL]-25
-  - 🇺🇸 United States, North Bergen | [BL]-26
-  - 🇺🇸 United States, North Bergen | [BL]-27
-  - 🇺🇸 United States, North Bergen | [BL]-28
-  - 🇺🇸 United States, North Bergen | [BL]-29
-  - 🇺🇸 United States, North Bergen | [BL]-30
-  - 🇺🇸 United States, North Bergen | [BL]-31
-  - 🇺🇸 United States, North Bergen | [BL]-32
-  - 🇺🇸 United States, North Bergen | [BL]-33
-  - 🇺🇸 United States, North Bergen | [BL]-34
-  - 🇺🇸 United States, North Bergen | [BL]-35
-  - 🇺🇸 United States, North Bergen | [BL]-36
-  - 🇺🇸 United States, North Bergen | [BL]-37
-  - 🇺🇸 United States, North Bergen | [BL]-38
-  - 🇺🇸 United States, North Bergen | [BL]-39
-  - 🇺🇸 United States, North Bergen | [BL]-40
-  - 🇺🇸 United States, North Bergen | [BL]-41
-  - 🌐 Anycast-IP | 🇯🇵 🇿🇿 | [BL]
-  - 🌐 Anycast-IP | 🇯🇵 🇿🇿 | [BL]-01
   - 🇭🇰 Hong Kong, Hong Kong | [BL]
   - 🇯🇵 Japan, Osaka (Shiromi) | 🌐 | [BL]
   - 🇺🇸 United States, Chicago | [BL]
   - 🇺🇸 United States, Chicago | [BL]-01
   - 🇺🇸 United States, Chicago | [BL]-02
   - 🇺🇸 United States, Chicago | [BL]-03
+  - 🇺🇸 United States, Chicago | [BL]-04
+  - 🇺🇸 United States, Chicago | [BL]-05
+  - 🇺🇸 United States, Chicago | [BL]-06
+  - 🇺🇸 United States, Chicago | [BL]-07
+  - 🇺🇸 United States, Chicago | [BL]-08
+  - 🇺🇸 United States, Chicago | [BL]-09
+  - 🇺🇸 United States, Chicago | [BL]-10
+  - 🇺🇸 United States, Chicago | [BL]-11
+  - 🇺🇸 United States, Chicago | [BL]-12
+  - 🇺🇸 United States, Chicago | [BL]-13
+  - 🇺🇸 United States, Chicago | [BL]-14
   - 🇺🇸 United States, Chicago | 🌐 | [BL]
   - 🇺🇸 United States, Chicago | 🌐 | [BL]-01
   - 🇺🇸 United States, Chicago | 🌐 | [BL]-02
@@ -2799,32 +2454,61 @@ proxy-groups:
   - 🇺🇸 United States, Chicago | 🌐 | [BL]-08
   - 🇺🇸 United States, Chicago | 🌐 | [BL]-09
   - 🇺🇸 United States, Chicago | 🌐 | [BL]-10
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]-01
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]-02
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]-03
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]-04
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]-05
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]-06
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]-07
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]-08
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]-09
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]-10
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]-11
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]-12
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]-13
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]-14
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]-15
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]-16
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]-17
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]-18
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]-19
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]-03
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]-04
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]-11
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]-12
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]-13
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]-14
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]-15
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]-16
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]-17
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]-18
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]-19
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]-20
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]-21
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]-22
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]-23
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]-24
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]-25
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]-26
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]-27
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]-28
+  - 🇺🇸 United States, Minkler | [BL]
+  - 🇺🇸 United States, Minkler | [BL]-01
+  - 🇺🇸 United States, Minkler | [BL]-02
+  - 🇺🇸 United States, Minkler | [BL]-03
   - 🇫🇮 Finland, Helsinki | [BL]
   - 🇫🇮 Finland, Helsinki | [BL]-01
   - 🇫🇮 Finland, Helsinki | [BL]-02
   - 🇫🇮 Finland, Helsinki | [BL]-03
+  - 🇫🇮 Finland, Helsinki | [BL]-04
+  - 🇫🇮 Finland, Helsinki | [BL]-05
+  - 🇫🇮 Finland, Helsinki | [BL]-06
+  - 🇫🇮 Finland, Helsinki | [BL]-07
+  - 🇫🇮 Finland, Helsinki | [BL]-08
+  - 🇫🇮 Finland, Helsinki | [BL]-09
+  - 🇫🇮 Finland, Helsinki | [BL]-10
+  - 🇫🇮 Finland, Helsinki | [BL]-11
+  - 🇫🇮 Finland, Helsinki | [BL]-12
+  - 🇫🇮 Finland, Helsinki | [BL]-13
+  - 🇫🇮 Finland, Helsinki | [BL]-14
+  - 🇫🇮 Finland, Helsinki | [BL]-15
+  - 🇫🇮 Finland, Helsinki | [BL]-16
+  - 🇫🇮 Finland, Helsinki | [BL]-17
+  - 🇫🇮 Finland, Helsinki | [BL]-18
+  - 🇫🇮 Finland, Helsinki | [BL]-19
+  - 🇫🇮 Finland, Helsinki | [BL]-20
+  - 🇫🇮 Finland, Helsinki | [BL]-21
+  - 🇫🇮 Finland, Helsinki | [BL]-22
+  - 🇫🇮 Finland, Helsinki | [BL]-23
+  - 🇫🇮 Finland, Helsinki | [BL]-24
+  - 🇫🇮 Finland, Helsinki | [BL]-25
+  - 🇫🇮 Finland, Helsinki | [BL]-26
+  - 🇫🇮 Finland, Helsinki | [BL]-27
+  - 🇫🇮 Finland, Helsinki | [BL]-28
+  - 🇫🇮 Finland, Helsinki | [BL]-29
+  - 🇫🇮 Finland, Helsinki | [BL]-30
+  - 🇯🇵 Japan, Inzai (Otsuka) | [BL]
+  - 🇯🇵 Japan, Inzai (Otsuka) | [BL]-01
 rules:
 - GEOSITE,private,DIRECT
 - GEOIP,private,DIRECT,no-resolve
