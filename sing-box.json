@@ -51,257 +51,20 @@
     },
     {
       "type": "vless",
-      "tag": "🇧🇬 Bulgaria, Sofia | [BL]",
-      "server": "168.113.128.70",
-      "server_port": 20105,
-      "uuid": "9aff658c-1f80-4c82-9213-48ca26996142",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "ripelever.net",
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ],
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇧🇬 Bulgaria, Sofia | [BL] 2",
-      "server": "168.113.128.70",
-      "server_port": 20105,
-      "uuid": "9aff658c-1f80-4c82-9213-48ca26996142",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "ripelever.net",
-        "alpn": [
-          "h2%2Chttp%2F1.1"
-        ],
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇧🇬 Bulgaria, Sofia | [BL] 3",
-      "server": "168.113.128.70",
-      "server_port": 20105,
-      "uuid": "9aff658c-1f80-4c82-9213-48ca26996142",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "ripelever.net",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇭🇰 Hong Kong | 🌐 | [BL]",
-      "server": "dddz-3-z.473221.xyz",
-      "server_port": 13212,
-      "uuid": "65ec84f5-0dd4-4582-8b4f-592e50b22116",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "v1-dy.ixigua.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "4VguZbm-S2NkLpi7gLDsQMv2eDXP2LucxsvTiEt98yY",
-          "short_id": "961f7127a015ba"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]",
-      "server": "104.18.153.10",
+      "tag": "🇮🇳 India, Navi Mumbai (Rabale) | [BL]",
+      "server": "fxhub.ir",
       "server_port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "uuid": "bc4a4b66-c3fc-4f91-938e-4d93698c0d43",
       "transport": {
         "type": "ws",
-        "path": "/tyxyws",
+        "path": "/jx-ge7wex6ki2ixyk",
         "headers": {
-          "Host": "jp3.yohototo.top"
+          "Host": "soli-gghosin4-cell.dormhost.app"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇲🇽 Mexico, La Cañada | [BL]",
-      "server": "dddz-1-x.473221.xyz",
-      "server_port": 43116,
-      "uuid": "65ec84f5-0dd4-4582-8b4f-592e50b22116",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "v1-dy.ixigua.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "rLU2xJNZPFvtHy49MygD-nta6OpJEbjarjAZ5vHwpVE",
-          "short_id": "29ad689280e2f0ec"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇲🇽 Mexico, La Cañada | [BL] 2",
-      "server": "dddz-1-x.473221.xyz",
-      "server_port": 43116,
-      "uuid": "65ec84f5-0dd4-4582-8b4f-592e50b22116",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "v1-dy.ixigua.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "rLU2xJNZPFvtHy49MygD-nta6OpJEbjarjAZ5vHwpVE",
-          "short_id": "29ad689280e2f0ec"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇬 Singapore, Singapore (Outram) | 🌐 | [BL]",
-      "server": "dddz-1-x.473221.xyz",
-      "server_port": 43113,
-      "uuid": "65ec84f5-0dd4-4582-8b4f-592e50b22116",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "v1-dy.ixigua.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "EK3prcfF8VKm3CoTXWQguRj67LxGbkPIpKmEUKsMKGs",
-          "short_id": "ff2c978a0b"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇬 Singapore, Singapore (Outram) | 🌐 | [BL] 2",
-      "server": "dddz-1-x.473221.xyz",
-      "server_port": 43113,
-      "uuid": "65ec84f5-0dd4-4582-8b4f-592e50b22116",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "v1-dy.ixigua.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "EK3prcfF8VKm3CoTXWQguRj67LxGbkPIpKmEUKsMKGs",
-          "short_id": "ff2c978a0b"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇼 Taiwan | 🌐 | [BL]",
-      "server": "dddz-1-x.473221.xyz",
-      "server_port": 13239,
-      "uuid": "65ec84f5-0dd4-4582-8b4f-592e50b22116",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "updates.cdn-apple.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "NJgrmuV1CFhj7PeKJoQfDQVagDcFITkfrM-a7sa_mWw",
-          "short_id": "8591c4d31f59a60d"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇼 Taiwan, Taoyuan | [BL]",
-      "server": "172.67.165.32",
-      "server_port": 8443,
-      "uuid": "91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a",
-      "transport": {
-        "type": "ws",
-        "path": "/nvl-n04-ws/e0577fe8fd7c8823",
-        "headers": {
-          "Host": "n04.jinggai.online"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "n04.jinggai.online",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇼 Taiwan, Taoyuan | [BL] 2",
-      "server": "n04.jinggai.online",
-      "server_port": 8443,
-      "uuid": "91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a",
-      "transport": {
-        "type": "ws",
-        "path": "/nvl-n04-ws/e0577fe8fd7c8823",
-        "headers": {
-          "Host": "n04.jinggai.online"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "n04.jinggai.online",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        }
+        "insecure": false
       }
     },
     {
@@ -322,7 +85,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "android"
+          "fingerprint": "chrome"
         }
       }
     },
@@ -344,7 +107,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "qq"
         }
       }
     },
@@ -363,17 +126,62 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "soliconf-gghosin4-cell.dormhost.app",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "edge"
+          "fingerprint": "safari"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇬🇧 United Kingdom, Slough | [BL] 4",
+      "server": "www.agahiya.ir",
+      "server_port": 443,
+      "uuid": "57e089a8-0cd1-48d0-b572-105c4804f6b8",
+      "transport": {
+        "type": "ws",
+        "path": "/jx-y8179aild6rsmj",
+        "headers": {
+          "Host": "soliconf-gghosin4-cell.dormhost.app"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "soliconf-gghosin4-cell.dormhost.app",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 United Kingdom, Slough | [BL] 5",
+      "server": "www.agahiya.ir",
+      "server_port": 443,
+      "uuid": "57e089a8-0cd1-48d0-b572-105c4804f6b8",
+      "transport": {
+        "type": "ws",
+        "path": "/jx-y8179aild6rsmj",
+        "headers": {
+          "Host": "soliconf-gghosin4-cell.dormhost.app"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "soliconf-gghosin4-cell.dormhost.app",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 United Kingdom, Slough | [BL] 6",
       "server": "www.farahghanizadeh.ir",
       "server_port": 443,
       "uuid": "57e089a8-0cd1-48d0-b572-105c4804f6b8",
@@ -386,51 +194,12 @@
       },
       "tls": {
         "enabled": true,
+        "server_name": "soliconf-gghosin4-cell.dormhost.app",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇬🇧 United Kingdom, Slough | [BL] 5",
-      "server": "www.sarzaminaryan.ir",
-      "server_port": 443,
-      "uuid": "57e089a8-0cd1-48d0-b572-105c4804f6b8",
-      "transport": {
-        "type": "ws",
-        "path": "/jx-y8179aild6rsmj",
-        "headers": {
-          "Host": "soliconf-gghosin4-cell.dormhost.app"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇬🇧 United Kingdom, Slough | [BL] 6",
-      "server": "www.sarzaminaryan.ir",
-      "server_port": 443,
-      "uuid": "57e089a8-0cd1-48d0-b572-105c4804f6b8",
-      "transport": {
-        "type": "ws",
-        "path": "/jx-y8179aild6rsmj",
-        "headers": {
-          "Host": "soliconf-gghosin4-cell.dormhost.app"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": false
       }
     },
     {
@@ -448,75 +217,6 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "soliconf-gghosin4-cell.dormhost.app",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States | 🌐 | [BL]",
-      "server": "dddz-1-x.473221.xyz",
-      "server_port": 34760,
-      "uuid": "65ec84f5-0dd4-4582-8b4f-592e50b22116",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "updates.cdn-apple.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "FKkMWruW5ySd0t091irE_09B9o9AipV8ztZftd4Odwc",
-          "short_id": "ab58b04c4a4407"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States, Buffalo | [BL]",
-      "server": "mao.kipfelmao.de5.net",
-      "server_port": 443,
-      "uuid": "30610baf-4645-4c7b-9a22-0d0a0a79eab5",
-      "transport": {
-        "type": "ws",
-        "path": "/api/v1/guests/profiles/5de14443985f/",
-        "headers": {
-          "Host": "mao.kipfelmao.de5.net"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "mao.kipfelmao.de5.net",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "android"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States, Buffalo | [BL] 2",
-      "server": "mao.kipfelmao.de5.net",
-      "server_port": 443,
-      "uuid": "30610baf-4645-4c7b-9a22-0d0a0a79eab5",
-      "transport": {
-        "type": "ws",
-        "path": "/api/v1/guests/profiles/5de14443985f/",
-        "headers": {
-          "Host": "mao.kipfelmao.de5.net"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "mao.kipfelmao.de5.net",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -526,112 +226,19 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 United States, Buffalo | [BL] 3",
-      "server": "mao.kipfelmao.de5.net",
+      "tag": "🇬🇧 United Kingdom, Slough | [BL] 8",
+      "server": "www.sarzaminaryan.ir",
       "server_port": 443,
-      "uuid": "30610baf-4645-4c7b-9a22-0d0a0a79eab5",
+      "uuid": "57e089a8-0cd1-48d0-b572-105c4804f6b8",
       "transport": {
         "type": "ws",
-        "path": "/api/v1/guests/profiles/5de14443985f/",
+        "path": "/jx-y8179aild6rsmj",
         "headers": {
-          "Host": "mao.kipfelmao.de5.net"
+          "Host": "soliconf-gghosin4-cell.dormhost.app"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "mao.kipfelmao.de5.net",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States, Buffalo | [BL] 4",
-      "server": "mao.kipfelmao.de5.net",
-      "server_port": 443,
-      "uuid": "30610baf-4645-4c7b-9a22-0d0a0a79eab5",
-      "transport": {
-        "type": "ws",
-        "path": "/api/v1/guests/profiles/5de14443985f/",
-        "headers": {
-          "Host": "mao.kipfelmao.de5.net"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "mao.kipfelmao.de5.net",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States, Buffalo | [BL] 5",
-      "server": "mao.kipfelmao.de5.net",
-      "server_port": 443,
-      "uuid": "30610baf-4645-4c7b-9a22-0d0a0a79eab5",
-      "transport": {
-        "type": "ws",
-        "path": "/api/v1/guests/profiles/5de14443985f/",
-        "headers": {
-          "Host": "mao.kipfelmao.de5.net"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "mao.kipfelmao.de5.net",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States, Buffalo | [BL] 6",
-      "server": "mao.kipfelmao.de5.net",
-      "server_port": 443,
-      "uuid": "30610baf-4645-4c7b-9a22-0d0a0a79eab5",
-      "transport": {
-        "type": "ws",
-        "path": "%2Fapi%2Fv1%2Fguests%2Fprofiles%2F5de14443985f%2F",
-        "headers": {
-          "Host": "mao.kipfelmao.de5.net"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "mao.kipfelmao.de5.net",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States, Buffalo | [BL] 7",
-      "server": "mao.kipfelmao.de5.net",
-      "server_port": 443,
-      "uuid": "30610baf-4645-4c7b-9a22-0d0a0a79eab5",
-      "transport": {
-        "type": "ws",
-        "path": "%2Fapi%2Fv1%2Fguests%2Fprofiles%2F5de14443985f%2F",
-        "headers": {
-          "Host": "mao.kipfelmao.de5.net"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "mao.kipfelmao.de5.net",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -641,7 +248,833 @@
     },
     {
       "type": "vless",
+      "tag": "🇬🇧 United Kingdom, Slough | [BL] 9",
+      "server": "www.sarzaminaryan.ir",
+      "server_port": 443,
+      "uuid": "57e089a8-0cd1-48d0-b572-105c4804f6b8",
+      "transport": {
+        "type": "ws",
+        "path": "/jx-y8179aild6rsmj",
+        "headers": {
+          "Host": "soliconf-gghosin4-cell.dormhost.app"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 United Kingdom, Slough | [BL] 10",
+      "server": "www.sarzaminaryan.ir",
+      "server_port": 443,
+      "uuid": "57e089a8-0cd1-48d0-b572-105c4804f6b8",
+      "transport": {
+        "type": "ws",
+        "path": "/jx-y8179aild6rsmj",
+        "headers": {
+          "Host": "soliconf-gghosin4-cell.dormhost.app"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "soliconf-gghosin4-cell.dormhost.app",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇺🇸 United States, North Bergen | [BL]",
+      "server": "104.21.58.37",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "android"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 2",
+      "server": "104.21.58.37",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 3",
+      "server": "104.21.58.37",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 4",
+      "server": "104.21.58.37",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 5",
+      "server": "104.21.58.37",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 6",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 7",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 8",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 9",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 10",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 11",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 12",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "android"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 13",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 14",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 15",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 16",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 17",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 18",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 19",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "android"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 20",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 21",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 22",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 23",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 24",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 25",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 26",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 27",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 28",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 29",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "android"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 30",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 31",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 32",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 33",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 34",
+      "server": "104.21.58.37",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "android"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 35",
       "server": "104.21.58.37",
       "server_port": 2053,
       "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
@@ -667,7 +1100,347 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 2",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 36",
+      "server": "104.21.58.37",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 37",
+      "server": "104.21.58.37",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "android"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 38",
+      "server": "104.21.58.37",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 39",
+      "server": "104.21.58.37",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 40",
+      "server": "104.21.58.37",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 41",
+      "server": "104.21.58.37",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 42",
+      "server": "104.21.58.37",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 43",
+      "server": "104.21.58.37",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 44",
+      "server": "104.21.58.37",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 45",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "android"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 46",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 47",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 48",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 49",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 50",
       "server": "172.67.199.126",
       "server_port": 2053,
       "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
@@ -690,7 +1463,53 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 3",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 51",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "android"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 52",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 53",
       "server": "172.67.199.126",
       "server_port": 2053,
       "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
@@ -716,7 +1535,298 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 4",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 54",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "android"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 55",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 56",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 57",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 58",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 59",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 60",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 61",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 62",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 63",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 64",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 65",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 66",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 67",
       "server": "fast.145779.xyz",
       "server_port": 2053,
       "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
@@ -738,23 +1848,135 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇭🇰 Hong Kong, Hong Kong | [BL]",
-      "server": "104.25.134.76",
-      "server_port": 443,
-      "uuid": "c8b455ad-fff1-43e9-9af9-d97585c4534a",
-      "alter_id": 0,
-      "security": "auto",
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 68",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
       "transport": {
         "type": "ws",
-        "path": "/ryinsocksv2board",
+        "path": "/ws-tesla",
         "headers": {
-          "Host": "hk-v2ray.ryin.vip"
+          "Host": "fast.145779.xyz"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "hk-v2ray.ryin.vip",
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 69",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 70",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "android"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 71",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇭🇰 Hong Kong | 🌐 | [BL]",
+      "server": "vipccc.cc",
+      "server_port": 443,
+      "uuid": "5bead32f-a987-4f57-b1a8-6698778facda",
+      "alter_id": 0,
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/ray_proxy",
+        "headers": {
+          "Host": "vipccc.cc"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇭🇰 Hong Kong | 🌐 | [BL] 2",
+      "server": "vipccc.cc",
+      "server_port": 443,
+      "uuid": "5bead32f-a987-4f57-b1a8-6698778facda",
+      "alter_id": 0,
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/ray_proxy",
+        "headers": {
+          "Host": "vipccc.cc"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "vipccc.cc",
         "insecure": false
       }
     },
@@ -781,519 +2003,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | [BL]",
-      "server": "104.21.7.133",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws?ed=2048",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | [BL] 2",
-      "server": "104.17.136.198",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vmess.lbw666.dpdns.org",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | [BL] 3",
-      "server": "172.64.229.21",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws?ed=2048",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vmess.lbw666.dpdns.org",
-        "alpn": [
-          "http/1.1"
-        ],
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | [BL] 4",
-      "server": "172.66.203.67",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws?ed=2048",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vmess.lbw666.dpdns.org",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | [BL] 5",
-      "server": "cf.877771.xyz",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws?ed=2048",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | [BL] 6",
-      "server": "cf.0sm.com",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws?ed=2048",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | [BL] 7",
-      "server": "cf.0sm.com",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws?ed=2048",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vmess.lbw666.dpdns.org",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | [BL] 8",
-      "server": "cf.090227.xyz",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vmess.lbw666.dpdns.org",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | [BL] 9",
-      "server": "cf.090227.xyz",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws?ed=2048",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | [BL] 10",
-      "server": "104.21.7.133",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | [BL] 11",
-      "server": "172.64.229.21",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws?ed=2048",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vmess.lbw666.dpdns.org",
-        "alpn": [
-          "null"
-        ],
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | [BL] 12",
-      "server": "172.64.229.21",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws?ed=2048",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | [BL] 13",
-      "server": "172.66.203.67",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws?ed=2048",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | [BL] 14",
-      "server": "cf.877771.xyz",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vmess.lbw666.dpdns.org",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | [BL] 15",
-      "server": "cf.090227.xyz",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws?ed=2048",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
       "tag": "🇺🇸 United States, Chicago | 🌐 | [BL]",
-      "server": "104.17.136.198",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 2",
-      "server": "104.27.0.1",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vmess.lbw666.dpdns.org",
-        "alpn": [
-          "http/1.1"
-        ],
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 3",
-      "server": "104.21.7.133",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws?ed=2048",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vmess.lbw666.dpdns.org",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 4",
-      "server": "172.64.229.21",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vmess.lbw666.dpdns.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 5",
-      "server": "172.64.229.21",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vmess.lbw666.dpdns.org",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 6",
-      "server": "172.66.0.1",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 7",
-      "server": "172.66.0.1",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {}
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vmess.lbw666.dpdns.org",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 8",
-      "server": "172.66.0.1",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vmess.lbw666.dpdns.org",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 9",
-      "server": "172.66.203.67",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 10",
       "server": "cf.0sm.com",
       "server_port": 443,
       "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
@@ -1309,478 +2019,6 @@
       "tls": {
         "enabled": true,
         "server_name": "vmess.lbw666.dpdns.org",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 11",
-      "server": "cf.877771.xyz",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 12",
-      "server": "cf.877771.xyz",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "cf.877771.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vmess.lbw666.dpdns.org",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 13",
-      "server": "104.27.0.1",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vmess.lbw666.dpdns.org",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 14",
-      "server": "104.17.136.198",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vmess.lbw666.dpdns.org",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 15",
-      "server": "172.64.229.21",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {}
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vmess.lbw666.dpdns.org",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 16",
-      "server": "172.64.229.21",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 17",
-      "server": "172.64.229.21",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vmess.lbw666.dpdns.org",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 18",
-      "server": "172.64.229.21",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 19",
-      "server": "172.66.203.67",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 20",
-      "server": "172.66.203.67",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vmess.lbw666.dpdns.org",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 21",
-      "server": "172.66.203.67",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vmess.lbw666.dpdns.org",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 22",
-      "server": "172.66.203.67",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 23",
-      "server": "172.66.203.67",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vmess.lbw666.dpdns.org",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 24",
-      "server": "cf.877771.xyz",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vmess.lbw666.dpdns.org",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 25",
-      "server": "cf.0sm.com",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vmess.lbw666.dpdns.org",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 26",
-      "server": "cf.0sm.com",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 27",
-      "server": "cf.0sm.com",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vmess.lbw666.dpdns.org",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 28",
-      "server": "cf.0sm.com",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vmess.lbw666.dpdns.org",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 29",
-      "server": "cf.0sm.com",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Minkler | [BL]",
-      "server": "Rib9JXAYoqjGN2KW.v.3dns.vip",
-      "server_port": 443,
-      "uuid": "9b31490d-190e-4ef1-af0a-7ccab3e7c3b5",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws-vmess",
-        "headers": {
-          "Host": "Rib9JXAYoqjGN2KW.v.3dns.vip"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Minkler | [BL] 2",
-      "server": "rib9jxayoqjgn2kw.v.3dns.vip",
-      "server_port": 443,
-      "uuid": "9b31490d-190e-4ef1-af0a-7ccab3e7c3b5",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws-vmess",
-        "headers": {
-          "Host": "rib9jxayoqjgn2kw.v.3dns.vip"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "rib9jxayoqjgn2kw.v.3dns.vip",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Minkler | [BL] 3",
-      "server": "rib9jxayoqjgn2kw.v.3dns.vip",
-      "server_port": 443,
-      "uuid": "9b31490d-190e-4ef1-af0a-7ccab3e7c3b5",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws-vmess",
-        "headers": {
-          "Host": "rib9jxayoqjgn2kw.v.3dns.vip"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "rib9jxayoqjgn2kw.v.3dns.vip",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Minkler | [BL] 4",
-      "server": "rib9jxayoqjgn2kw.v.3dns.vip",
-      "server_port": 443,
-      "uuid": "9b31490d-190e-4ef1-af0a-7ccab3e7c3b5",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws-vmess",
-        "headers": {
-          "Host": "rib9jxayoqjgn2kw.v.3dns.vip"
-        }
-      },
-      "tls": {
-        "enabled": true,
         "insecure": false
       }
     },
@@ -1868,7 +2106,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "android"
+          "fingerprint": "unsafe"
         }
       }
     },
@@ -1891,11 +2129,7 @@
         "alpn": [
           "http/1.1"
         ],
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        }
+        "insecure": false
       }
     },
     {
@@ -1914,12 +2148,87 @@
       "tls": {
         "enabled": true,
         "server_name": "marvdasht.phonecomparisonblog.org",
-        "insecure": false
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
       }
     },
     {
       "type": "trojan",
       "tag": "🇫🇮 Finland, Helsinki | [BL] 7",
+      "server": "104.18.0.1",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 8",
+      "server": "104.18.0.1",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 9",
+      "server": "104.18.0.1",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 10",
       "server": "104.18.0.1",
       "server_port": 2053,
       "password": "gHQP0D7D15",
@@ -1942,34 +2251,8 @@
     },
     {
       "type": "trojan",
-      "tag": "🇫🇮 Finland, Helsinki | [BL] 8",
-      "server": "104.24.0.1",
-      "server_port": 2053,
-      "password": "gHQP0D7D15",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "marvdasht.phonecomparisonblog.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "marvdasht.phonecomparisonblog.org",
-        "alpn": [
-          "http/1.1"
-        ],
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇫🇮 Finland, Helsinki | [BL] 9",
-      "server": "104.24.0.1",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 11",
+      "server": "104.18.0.1",
       "server_port": 2053,
       "password": "gHQP0D7D15",
       "transport": {
@@ -1986,52 +2269,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇫🇮 Finland, Helsinki | [BL] 10",
-      "server": "104.24.0.1",
-      "server_port": 2053,
-      "password": "gHQP0D7D15",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "marvdasht.phonecomparisonblog.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "marvdasht.phonecomparisonblog.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇫🇮 Finland, Helsinki | [BL] 11",
-      "server": "104.24.0.1",
-      "server_port": 2053,
-      "password": "gHQP0D7D15",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "marvdasht.phonecomparisonblog.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "marvdasht.phonecomparisonblog.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
         }
       }
     },
@@ -2051,10 +2288,13 @@
       "tls": {
         "enabled": true,
         "server_name": "marvdasht.phonecomparisonblog.org",
+        "alpn": [
+          "http/1.1"
+        ],
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "ios"
         }
       }
     },
@@ -2080,7 +2320,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "safari"
         }
       }
     },
@@ -2106,26 +2346,7 @@
     {
       "type": "trojan",
       "tag": "🇫🇮 Finland, Helsinki | [BL] 15",
-      "server": "104.25.239.113",
-      "server_port": 2053,
-      "password": "gHQP0D7D15",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "marvdasht.phonecomparisonblog.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "marvdasht.phonecomparisonblog.org",
-        "insecure": false
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇫🇮 Finland, Helsinki | [BL] 16",
-      "server": "104.25.239.113",
+      "server": "104.24.0.1",
       "server_port": 2053,
       "password": "gHQP0D7D15",
       "transport": {
@@ -2147,8 +2368,31 @@
     },
     {
       "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 16",
+      "server": "104.24.0.1",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "trojan",
       "tag": "🇫🇮 Finland, Helsinki | [BL] 17",
-      "server": "104.25.239.113",
+      "server": "104.24.0.1",
       "server_port": 2053,
       "password": "gHQP0D7D15",
       "transport": {
@@ -2171,7 +2415,7 @@
     {
       "type": "trojan",
       "tag": "🇫🇮 Finland, Helsinki | [BL] 18",
-      "server": "104.25.239.113",
+      "server": "104.24.0.1",
       "server_port": 2053,
       "password": "gHQP0D7D15",
       "transport": {
@@ -2194,48 +2438,7 @@
     {
       "type": "trojan",
       "tag": "🇫🇮 Finland, Helsinki | [BL] 19",
-      "server": "104.25.239.113",
-      "server_port": 2053,
-      "password": "gHQP0D7D15",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "marvdasht.phonecomparisonblog.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "marvdasht.phonecomparisonblog.org",
-        "insecure": false
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇫🇮 Finland, Helsinki | [BL] 20",
-      "server": "172.66.0.1",
-      "server_port": 2053,
-      "password": "gHQP0D7D15",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "marvdasht.phonecomparisonblog.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "marvdasht.phonecomparisonblog.org",
-        "alpn": [
-          "http/1.1"
-        ],
-        "insecure": false
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇫🇮 Finland, Helsinki | [BL] 21",
-      "server": "172.66.0.1",
+      "server": "104.24.0.1",
       "server_port": 2053,
       "password": "gHQP0D7D15",
       "transport": {
@@ -2260,8 +2463,8 @@
     },
     {
       "type": "trojan",
-      "tag": "🇫🇮 Finland, Helsinki | [BL] 22",
-      "server": "172.66.0.1",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 20",
+      "server": "104.24.0.1",
       "server_port": 2053,
       "password": "gHQP0D7D15",
       "transport": {
@@ -2274,9 +2477,94 @@
       "tls": {
         "enabled": true,
         "server_name": "marvdasht.phonecomparisonblog.org",
-        "alpn": [
-          "http/1.1"
-        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 21",
+      "server": "104.25.239.113",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 22",
+      "server": "104.25.239.113",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 23",
+      "server": "104.25.239.113",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 24",
+      "server": "104.25.239.113",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -2286,7 +2574,221 @@
     },
     {
       "type": "trojan",
-      "tag": "🇫🇮 Finland, Helsinki | [BL] 23",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 25",
+      "server": "104.25.239.113",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 26",
+      "server": "104.25.239.113",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 27",
+      "server": "104.25.239.113",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 28",
+      "server": "104.27.0.1",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 29",
+      "server": "104.27.0.1",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 30",
+      "server": "104.27.0.1",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 31",
+      "server": "104.27.0.1",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 32",
+      "server": "172.66.0.1",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 33",
+      "server": "172.66.0.1",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 34",
       "server": "172.66.0.1",
       "server_port": 2053,
       "password": "gHQP0D7D15",
@@ -2312,7 +2814,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🇫🇮 Finland, Helsinki | [BL] 24",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 35",
       "server": "172.66.0.1",
       "server_port": 2053,
       "password": "gHQP0D7D15",
@@ -2335,7 +2837,30 @@
     },
     {
       "type": "trojan",
-      "tag": "🇫🇮 Finland, Helsinki | [BL] 25",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 36",
+      "server": "172.66.0.1",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "android"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 37",
       "server": "172.66.0.1",
       "server_port": 2053,
       "password": "gHQP0D7D15",
@@ -2358,7 +2883,53 @@
     },
     {
       "type": "trojan",
-      "tag": "🇫🇮 Finland, Helsinki | [BL] 26",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 38",
+      "server": "172.67.118.45",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 39",
+      "server": "172.67.118.45",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 40",
       "server": "172.67.118.45",
       "server_port": 2053,
       "password": "gHQP0D7D15",
@@ -2381,7 +2952,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🇫🇮 Finland, Helsinki | [BL] 27",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 41",
       "server": "172.67.118.45",
       "server_port": 2053,
       "password": "gHQP0D7D15",
@@ -2395,50 +2966,6 @@
       "tls": {
         "enabled": true,
         "server_name": "marvdasht.phonecomparisonblog.org",
-        "insecure": false
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇫🇮 Finland, Helsinki | [BL] 28",
-      "server": "188.114.96.3",
-      "server_port": 2053,
-      "password": "gHQP0D7D15",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "marvdasht.phonecomparisonblog.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "marvdasht.phonecomparisonblog.org",
-        "alpn": [
-          "http/1.1"
-        ],
-        "insecure": false
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇫🇮 Finland, Helsinki | [BL] 29",
-      "server": "188.114.96.3",
-      "server_port": 2053,
-      "password": "gHQP0D7D15",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "marvdasht.phonecomparisonblog.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "marvdasht.phonecomparisonblog.org",
-        "alpn": [
-          "http/1.1"
-        ],
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -2448,8 +2975,8 @@
     },
     {
       "type": "trojan",
-      "tag": "🇫🇮 Finland, Helsinki | [BL] 30",
-      "server": "188.114.96.3",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 42",
+      "server": "172.67.118.45",
       "server_port": 2053,
       "password": "gHQP0D7D15",
       "transport": {
@@ -2465,13 +2992,78 @@
         "insecure": false,
         "utls": {
           "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 43",
+      "server": "188.114.96.3",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 44",
+      "server": "188.114.96.3",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
           "fingerprint": "ios"
         }
       }
     },
     {
       "type": "trojan",
-      "tag": "🇫🇮 Finland, Helsinki | [BL] 31",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 45",
+      "server": "188.114.96.3",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 46",
       "server": "188.114.96.3",
       "server_port": 2053,
       "password": "gHQP0D7D15",
@@ -2494,26 +3086,117 @@
     },
     {
       "type": "trojan",
-      "tag": "🇯🇵 Japan, Inzai (Otsuka) | [BL]",
-      "server": "150.230.217.160",
-      "server_port": 27777,
-      "password": "e79bb958-2a79-4eea-87a3-7e73d0059ebf",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 47",
+      "server": "188.114.96.3",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
       "tls": {
         "enabled": true,
-        "server_name": "ol1.ssn571.top",
-        "insecure": false
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "android"
+        }
       }
     },
     {
       "type": "trojan",
-      "tag": "🇯🇵 Japan, Inzai (Otsuka) | [BL] 2",
-      "server": "151.145.71.43",
-      "server_port": 27777,
-      "password": "e79bb958-2a79-4eea-87a3-7e73d0059ebf",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 48",
+      "server": "188.114.96.3",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
       "tls": {
         "enabled": true,
-        "server_name": "ol2.ssn571.top",
-        "insecure": false
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 49",
+      "server": "188.114.96.3",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 50",
+      "server": "188.114.96.3",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 51",
+      "server": "188.114.96.3",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
@@ -2522,18 +3205,7 @@
       "outbounds": [
         "自动选择",
         "direct",
-        "🇧🇬 Bulgaria, Sofia | [BL]",
-        "🇧🇬 Bulgaria, Sofia | [BL] 2",
-        "🇧🇬 Bulgaria, Sofia | [BL] 3",
-        "🇭🇰 Hong Kong | 🌐 | [BL]",
-        "🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]",
-        "🇲🇽 Mexico, La Cañada | [BL]",
-        "🇲🇽 Mexico, La Cañada | [BL] 2",
-        "🇸🇬 Singapore, Singapore (Outram) | 🌐 | [BL]",
-        "🇸🇬 Singapore, Singapore (Outram) | 🌐 | [BL] 2",
-        "🇹🇼 Taiwan | 🌐 | [BL]",
-        "🇹🇼 Taiwan, Taoyuan | [BL]",
-        "🇹🇼 Taiwan, Taoyuan | [BL] 2",
+        "🇮🇳 India, Navi Mumbai (Rabale) | [BL]",
         "🇬🇧 United Kingdom, Slough | [BL]",
         "🇬🇧 United Kingdom, Slough | [BL] 2",
         "🇬🇧 United Kingdom, Slough | [BL] 3",
@@ -2541,68 +3213,84 @@
         "🇬🇧 United Kingdom, Slough | [BL] 5",
         "🇬🇧 United Kingdom, Slough | [BL] 6",
         "🇬🇧 United Kingdom, Slough | [BL] 7",
-        "🇺🇸 United States | 🌐 | [BL]",
-        "🇺🇸 United States, Buffalo | [BL]",
-        "🇺🇸 United States, Buffalo | [BL] 2",
-        "🇺🇸 United States, Buffalo | [BL] 3",
-        "🇺🇸 United States, Buffalo | [BL] 4",
-        "🇺🇸 United States, Buffalo | [BL] 5",
-        "🇺🇸 United States, Buffalo | [BL] 6",
-        "🇺🇸 United States, Buffalo | [BL] 7",
+        "🇬🇧 United Kingdom, Slough | [BL] 8",
+        "🇬🇧 United Kingdom, Slough | [BL] 9",
+        "🇬🇧 United Kingdom, Slough | [BL] 10",
         "🇺🇸 United States, North Bergen | [BL]",
         "🇺🇸 United States, North Bergen | [BL] 2",
         "🇺🇸 United States, North Bergen | [BL] 3",
         "🇺🇸 United States, North Bergen | [BL] 4",
-        "🇭🇰 Hong Kong, Hong Kong | [BL]",
+        "🇺🇸 United States, North Bergen | [BL] 5",
+        "🇺🇸 United States, North Bergen | [BL] 6",
+        "🇺🇸 United States, North Bergen | [BL] 7",
+        "🇺🇸 United States, North Bergen | [BL] 8",
+        "🇺🇸 United States, North Bergen | [BL] 9",
+        "🇺🇸 United States, North Bergen | [BL] 10",
+        "🇺🇸 United States, North Bergen | [BL] 11",
+        "🇺🇸 United States, North Bergen | [BL] 12",
+        "🇺🇸 United States, North Bergen | [BL] 13",
+        "🇺🇸 United States, North Bergen | [BL] 14",
+        "🇺🇸 United States, North Bergen | [BL] 15",
+        "🇺🇸 United States, North Bergen | [BL] 16",
+        "🇺🇸 United States, North Bergen | [BL] 17",
+        "🇺🇸 United States, North Bergen | [BL] 18",
+        "🇺🇸 United States, North Bergen | [BL] 19",
+        "🇺🇸 United States, North Bergen | [BL] 20",
+        "🇺🇸 United States, North Bergen | [BL] 21",
+        "🇺🇸 United States, North Bergen | [BL] 22",
+        "🇺🇸 United States, North Bergen | [BL] 23",
+        "🇺🇸 United States, North Bergen | [BL] 24",
+        "🇺🇸 United States, North Bergen | [BL] 25",
+        "🇺🇸 United States, North Bergen | [BL] 26",
+        "🇺🇸 United States, North Bergen | [BL] 27",
+        "🇺🇸 United States, North Bergen | [BL] 28",
+        "🇺🇸 United States, North Bergen | [BL] 29",
+        "🇺🇸 United States, North Bergen | [BL] 30",
+        "🇺🇸 United States, North Bergen | [BL] 31",
+        "🇺🇸 United States, North Bergen | [BL] 32",
+        "🇺🇸 United States, North Bergen | [BL] 33",
+        "🇺🇸 United States, North Bergen | [BL] 34",
+        "🇺🇸 United States, North Bergen | [BL] 35",
+        "🇺🇸 United States, North Bergen | [BL] 36",
+        "🇺🇸 United States, North Bergen | [BL] 37",
+        "🇺🇸 United States, North Bergen | [BL] 38",
+        "🇺🇸 United States, North Bergen | [BL] 39",
+        "🇺🇸 United States, North Bergen | [BL] 40",
+        "🇺🇸 United States, North Bergen | [BL] 41",
+        "🇺🇸 United States, North Bergen | [BL] 42",
+        "🇺🇸 United States, North Bergen | [BL] 43",
+        "🇺🇸 United States, North Bergen | [BL] 44",
+        "🇺🇸 United States, North Bergen | [BL] 45",
+        "🇺🇸 United States, North Bergen | [BL] 46",
+        "🇺🇸 United States, North Bergen | [BL] 47",
+        "🇺🇸 United States, North Bergen | [BL] 48",
+        "🇺🇸 United States, North Bergen | [BL] 49",
+        "🇺🇸 United States, North Bergen | [BL] 50",
+        "🇺🇸 United States, North Bergen | [BL] 51",
+        "🇺🇸 United States, North Bergen | [BL] 52",
+        "🇺🇸 United States, North Bergen | [BL] 53",
+        "🇺🇸 United States, North Bergen | [BL] 54",
+        "🇺🇸 United States, North Bergen | [BL] 55",
+        "🇺🇸 United States, North Bergen | [BL] 56",
+        "🇺🇸 United States, North Bergen | [BL] 57",
+        "🇺🇸 United States, North Bergen | [BL] 58",
+        "🇺🇸 United States, North Bergen | [BL] 59",
+        "🇺🇸 United States, North Bergen | [BL] 60",
+        "🇺🇸 United States, North Bergen | [BL] 61",
+        "🇺🇸 United States, North Bergen | [BL] 62",
+        "🇺🇸 United States, North Bergen | [BL] 63",
+        "🇺🇸 United States, North Bergen | [BL] 64",
+        "🇺🇸 United States, North Bergen | [BL] 65",
+        "🇺🇸 United States, North Bergen | [BL] 66",
+        "🇺🇸 United States, North Bergen | [BL] 67",
+        "🇺🇸 United States, North Bergen | [BL] 68",
+        "🇺🇸 United States, North Bergen | [BL] 69",
+        "🇺🇸 United States, North Bergen | [BL] 70",
+        "🇺🇸 United States, North Bergen | [BL] 71",
+        "🇭🇰 Hong Kong | 🌐 | [BL]",
+        "🇭🇰 Hong Kong | 🌐 | [BL] 2",
         "🇯🇵 Japan, Osaka (Shiromi) | 🌐 | [BL]",
-        "🇺🇸 United States, Chicago | [BL]",
-        "🇺🇸 United States, Chicago | [BL] 2",
-        "🇺🇸 United States, Chicago | [BL] 3",
-        "🇺🇸 United States, Chicago | [BL] 4",
-        "🇺🇸 United States, Chicago | [BL] 5",
-        "🇺🇸 United States, Chicago | [BL] 6",
-        "🇺🇸 United States, Chicago | [BL] 7",
-        "🇺🇸 United States, Chicago | [BL] 8",
-        "🇺🇸 United States, Chicago | [BL] 9",
-        "🇺🇸 United States, Chicago | [BL] 10",
-        "🇺🇸 United States, Chicago | [BL] 11",
-        "🇺🇸 United States, Chicago | [BL] 12",
-        "🇺🇸 United States, Chicago | [BL] 13",
-        "🇺🇸 United States, Chicago | [BL] 14",
-        "🇺🇸 United States, Chicago | [BL] 15",
         "🇺🇸 United States, Chicago | 🌐 | [BL]",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 2",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 3",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 4",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 5",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 6",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 7",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 8",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 9",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 10",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 11",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 12",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 13",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 14",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 15",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 16",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 17",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 18",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 19",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 20",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 21",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 22",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 23",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 24",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 25",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 26",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 27",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 28",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 29",
-        "🇺🇸 United States, Minkler | [BL]",
-        "🇺🇸 United States, Minkler | [BL] 2",
-        "🇺🇸 United States, Minkler | [BL] 3",
-        "🇺🇸 United States, Minkler | [BL] 4",
         "🇫🇮 Finland, Helsinki | [BL]",
         "🇫🇮 Finland, Helsinki | [BL] 2",
         "🇫🇮 Finland, Helsinki | [BL] 3",
@@ -2634,8 +3322,26 @@
         "🇫🇮 Finland, Helsinki | [BL] 29",
         "🇫🇮 Finland, Helsinki | [BL] 30",
         "🇫🇮 Finland, Helsinki | [BL] 31",
-        "🇯🇵 Japan, Inzai (Otsuka) | [BL]",
-        "🇯🇵 Japan, Inzai (Otsuka) | [BL] 2"
+        "🇫🇮 Finland, Helsinki | [BL] 32",
+        "🇫🇮 Finland, Helsinki | [BL] 33",
+        "🇫🇮 Finland, Helsinki | [BL] 34",
+        "🇫🇮 Finland, Helsinki | [BL] 35",
+        "🇫🇮 Finland, Helsinki | [BL] 36",
+        "🇫🇮 Finland, Helsinki | [BL] 37",
+        "🇫🇮 Finland, Helsinki | [BL] 38",
+        "🇫🇮 Finland, Helsinki | [BL] 39",
+        "🇫🇮 Finland, Helsinki | [BL] 40",
+        "🇫🇮 Finland, Helsinki | [BL] 41",
+        "🇫🇮 Finland, Helsinki | [BL] 42",
+        "🇫🇮 Finland, Helsinki | [BL] 43",
+        "🇫🇮 Finland, Helsinki | [BL] 44",
+        "🇫🇮 Finland, Helsinki | [BL] 45",
+        "🇫🇮 Finland, Helsinki | [BL] 46",
+        "🇫🇮 Finland, Helsinki | [BL] 47",
+        "🇫🇮 Finland, Helsinki | [BL] 48",
+        "🇫🇮 Finland, Helsinki | [BL] 49",
+        "🇫🇮 Finland, Helsinki | [BL] 50",
+        "🇫🇮 Finland, Helsinki | [BL] 51"
       ]
     },
     {
@@ -2645,18 +3351,7 @@
       "interval": "5m",
       "tolerance": 50,
       "outbounds": [
-        "🇧🇬 Bulgaria, Sofia | [BL]",
-        "🇧🇬 Bulgaria, Sofia | [BL] 2",
-        "🇧🇬 Bulgaria, Sofia | [BL] 3",
-        "🇭🇰 Hong Kong | 🌐 | [BL]",
-        "🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]",
-        "🇲🇽 Mexico, La Cañada | [BL]",
-        "🇲🇽 Mexico, La Cañada | [BL] 2",
-        "🇸🇬 Singapore, Singapore (Outram) | 🌐 | [BL]",
-        "🇸🇬 Singapore, Singapore (Outram) | 🌐 | [BL] 2",
-        "🇹🇼 Taiwan | 🌐 | [BL]",
-        "🇹🇼 Taiwan, Taoyuan | [BL]",
-        "🇹🇼 Taiwan, Taoyuan | [BL] 2",
+        "🇮🇳 India, Navi Mumbai (Rabale) | [BL]",
         "🇬🇧 United Kingdom, Slough | [BL]",
         "🇬🇧 United Kingdom, Slough | [BL] 2",
         "🇬🇧 United Kingdom, Slough | [BL] 3",
@@ -2664,68 +3359,84 @@
         "🇬🇧 United Kingdom, Slough | [BL] 5",
         "🇬🇧 United Kingdom, Slough | [BL] 6",
         "🇬🇧 United Kingdom, Slough | [BL] 7",
-        "🇺🇸 United States | 🌐 | [BL]",
-        "🇺🇸 United States, Buffalo | [BL]",
-        "🇺🇸 United States, Buffalo | [BL] 2",
-        "🇺🇸 United States, Buffalo | [BL] 3",
-        "🇺🇸 United States, Buffalo | [BL] 4",
-        "🇺🇸 United States, Buffalo | [BL] 5",
-        "🇺🇸 United States, Buffalo | [BL] 6",
-        "🇺🇸 United States, Buffalo | [BL] 7",
+        "🇬🇧 United Kingdom, Slough | [BL] 8",
+        "🇬🇧 United Kingdom, Slough | [BL] 9",
+        "🇬🇧 United Kingdom, Slough | [BL] 10",
         "🇺🇸 United States, North Bergen | [BL]",
         "🇺🇸 United States, North Bergen | [BL] 2",
         "🇺🇸 United States, North Bergen | [BL] 3",
         "🇺🇸 United States, North Bergen | [BL] 4",
-        "🇭🇰 Hong Kong, Hong Kong | [BL]",
+        "🇺🇸 United States, North Bergen | [BL] 5",
+        "🇺🇸 United States, North Bergen | [BL] 6",
+        "🇺🇸 United States, North Bergen | [BL] 7",
+        "🇺🇸 United States, North Bergen | [BL] 8",
+        "🇺🇸 United States, North Bergen | [BL] 9",
+        "🇺🇸 United States, North Bergen | [BL] 10",
+        "🇺🇸 United States, North Bergen | [BL] 11",
+        "🇺🇸 United States, North Bergen | [BL] 12",
+        "🇺🇸 United States, North Bergen | [BL] 13",
+        "🇺🇸 United States, North Bergen | [BL] 14",
+        "🇺🇸 United States, North Bergen | [BL] 15",
+        "🇺🇸 United States, North Bergen | [BL] 16",
+        "🇺🇸 United States, North Bergen | [BL] 17",
+        "🇺🇸 United States, North Bergen | [BL] 18",
+        "🇺🇸 United States, North Bergen | [BL] 19",
+        "🇺🇸 United States, North Bergen | [BL] 20",
+        "🇺🇸 United States, North Bergen | [BL] 21",
+        "🇺🇸 United States, North Bergen | [BL] 22",
+        "🇺🇸 United States, North Bergen | [BL] 23",
+        "🇺🇸 United States, North Bergen | [BL] 24",
+        "🇺🇸 United States, North Bergen | [BL] 25",
+        "🇺🇸 United States, North Bergen | [BL] 26",
+        "🇺🇸 United States, North Bergen | [BL] 27",
+        "🇺🇸 United States, North Bergen | [BL] 28",
+        "🇺🇸 United States, North Bergen | [BL] 29",
+        "🇺🇸 United States, North Bergen | [BL] 30",
+        "🇺🇸 United States, North Bergen | [BL] 31",
+        "🇺🇸 United States, North Bergen | [BL] 32",
+        "🇺🇸 United States, North Bergen | [BL] 33",
+        "🇺🇸 United States, North Bergen | [BL] 34",
+        "🇺🇸 United States, North Bergen | [BL] 35",
+        "🇺🇸 United States, North Bergen | [BL] 36",
+        "🇺🇸 United States, North Bergen | [BL] 37",
+        "🇺🇸 United States, North Bergen | [BL] 38",
+        "🇺🇸 United States, North Bergen | [BL] 39",
+        "🇺🇸 United States, North Bergen | [BL] 40",
+        "🇺🇸 United States, North Bergen | [BL] 41",
+        "🇺🇸 United States, North Bergen | [BL] 42",
+        "🇺🇸 United States, North Bergen | [BL] 43",
+        "🇺🇸 United States, North Bergen | [BL] 44",
+        "🇺🇸 United States, North Bergen | [BL] 45",
+        "🇺🇸 United States, North Bergen | [BL] 46",
+        "🇺🇸 United States, North Bergen | [BL] 47",
+        "🇺🇸 United States, North Bergen | [BL] 48",
+        "🇺🇸 United States, North Bergen | [BL] 49",
+        "🇺🇸 United States, North Bergen | [BL] 50",
+        "🇺🇸 United States, North Bergen | [BL] 51",
+        "🇺🇸 United States, North Bergen | [BL] 52",
+        "🇺🇸 United States, North Bergen | [BL] 53",
+        "🇺🇸 United States, North Bergen | [BL] 54",
+        "🇺🇸 United States, North Bergen | [BL] 55",
+        "🇺🇸 United States, North Bergen | [BL] 56",
+        "🇺🇸 United States, North Bergen | [BL] 57",
+        "🇺🇸 United States, North Bergen | [BL] 58",
+        "🇺🇸 United States, North Bergen | [BL] 59",
+        "🇺🇸 United States, North Bergen | [BL] 60",
+        "🇺🇸 United States, North Bergen | [BL] 61",
+        "🇺🇸 United States, North Bergen | [BL] 62",
+        "🇺🇸 United States, North Bergen | [BL] 63",
+        "🇺🇸 United States, North Bergen | [BL] 64",
+        "🇺🇸 United States, North Bergen | [BL] 65",
+        "🇺🇸 United States, North Bergen | [BL] 66",
+        "🇺🇸 United States, North Bergen | [BL] 67",
+        "🇺🇸 United States, North Bergen | [BL] 68",
+        "🇺🇸 United States, North Bergen | [BL] 69",
+        "🇺🇸 United States, North Bergen | [BL] 70",
+        "🇺🇸 United States, North Bergen | [BL] 71",
+        "🇭🇰 Hong Kong | 🌐 | [BL]",
+        "🇭🇰 Hong Kong | 🌐 | [BL] 2",
         "🇯🇵 Japan, Osaka (Shiromi) | 🌐 | [BL]",
-        "🇺🇸 United States, Chicago | [BL]",
-        "🇺🇸 United States, Chicago | [BL] 2",
-        "🇺🇸 United States, Chicago | [BL] 3",
-        "🇺🇸 United States, Chicago | [BL] 4",
-        "🇺🇸 United States, Chicago | [BL] 5",
-        "🇺🇸 United States, Chicago | [BL] 6",
-        "🇺🇸 United States, Chicago | [BL] 7",
-        "🇺🇸 United States, Chicago | [BL] 8",
-        "🇺🇸 United States, Chicago | [BL] 9",
-        "🇺🇸 United States, Chicago | [BL] 10",
-        "🇺🇸 United States, Chicago | [BL] 11",
-        "🇺🇸 United States, Chicago | [BL] 12",
-        "🇺🇸 United States, Chicago | [BL] 13",
-        "🇺🇸 United States, Chicago | [BL] 14",
-        "🇺🇸 United States, Chicago | [BL] 15",
         "🇺🇸 United States, Chicago | 🌐 | [BL]",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 2",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 3",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 4",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 5",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 6",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 7",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 8",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 9",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 10",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 11",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 12",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 13",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 14",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 15",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 16",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 17",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 18",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 19",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 20",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 21",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 22",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 23",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 24",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 25",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 26",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 27",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 28",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 29",
-        "🇺🇸 United States, Minkler | [BL]",
-        "🇺🇸 United States, Minkler | [BL] 2",
-        "🇺🇸 United States, Minkler | [BL] 3",
-        "🇺🇸 United States, Minkler | [BL] 4",
         "🇫🇮 Finland, Helsinki | [BL]",
         "🇫🇮 Finland, Helsinki | [BL] 2",
         "🇫🇮 Finland, Helsinki | [BL] 3",
@@ -2757,8 +3468,26 @@
         "🇫🇮 Finland, Helsinki | [BL] 29",
         "🇫🇮 Finland, Helsinki | [BL] 30",
         "🇫🇮 Finland, Helsinki | [BL] 31",
-        "🇯🇵 Japan, Inzai (Otsuka) | [BL]",
-        "🇯🇵 Japan, Inzai (Otsuka) | [BL] 2"
+        "🇫🇮 Finland, Helsinki | [BL] 32",
+        "🇫🇮 Finland, Helsinki | [BL] 33",
+        "🇫🇮 Finland, Helsinki | [BL] 34",
+        "🇫🇮 Finland, Helsinki | [BL] 35",
+        "🇫🇮 Finland, Helsinki | [BL] 36",
+        "🇫🇮 Finland, Helsinki | [BL] 37",
+        "🇫🇮 Finland, Helsinki | [BL] 38",
+        "🇫🇮 Finland, Helsinki | [BL] 39",
+        "🇫🇮 Finland, Helsinki | [BL] 40",
+        "🇫🇮 Finland, Helsinki | [BL] 41",
+        "🇫🇮 Finland, Helsinki | [BL] 42",
+        "🇫🇮 Finland, Helsinki | [BL] 43",
+        "🇫🇮 Finland, Helsinki | [BL] 44",
+        "🇫🇮 Finland, Helsinki | [BL] 45",
+        "🇫🇮 Finland, Helsinki | [BL] 46",
+        "🇫🇮 Finland, Helsinki | [BL] 47",
+        "🇫🇮 Finland, Helsinki | [BL] 48",
+        "🇫🇮 Finland, Helsinki | [BL] 49",
+        "🇫🇮 Finland, Helsinki | [BL] 50",
+        "🇫🇮 Finland, Helsinki | [BL] 51"
       ]
     }
   ],
