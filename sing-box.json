@@ -51,134 +51,46 @@
     },
     {
       "type": "vless",
-      "tag": "🇧🇬 Bulgaria, Sofia | [BL]",
-      "server": "168.113.128.70",
-      "server_port": 20105,
-      "uuid": "9aff658c-1f80-4c82-9213-48ca26996142",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇩🇪 Germany, Nuremberg | [BL]",
+      "server": "d1.ge3.fluxora.ir",
+      "server_port": 2436,
+      "uuid": "e22111d5-d287-488a-b70d-34d006420edb",
       "tls": {
         "enabled": true,
-        "server_name": "ripelever.net",
-        "alpn": [
-          "h2%2Chttp%2F1.1"
-        ],
+        "server_name": "play.google.com",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 Canada, Toronto | [BL]",
-      "server": "shin-ra.ccwu.cc",
-      "server_port": 443,
-      "uuid": "817b61c8-9bf0-4365-8a52-e43dfad274a6",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "shin-ra.ccwu.cc"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "shin-ra.ccwu.cc",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇭🇰 Hong Kong | 🌐 | [BL]",
-      "server": "dddz-3-z.473221.xyz",
-      "server_port": 13212,
-      "uuid": "65ec84f5-0dd4-4582-8b4f-592e50b22116",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "v1-dy.ixigua.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "ios"
         },
         "reality": {
           "enabled": true,
-          "public_key": "4VguZbm-S2NkLpi7gLDsQMv2eDXP2LucxsvTiEt98yY",
-          "short_id": "961f7127a015ba"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇭🇰 Hong Kong | 🌐 | [BL] 2",
-      "server": "dddz-3-z.473221.xyz",
-      "server_port": 13212,
-      "uuid": "65ec84f5-0dd4-4582-8b4f-592e50b22116",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "v1-dy.ixigua.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "4VguZbm-S2NkLpi7gLDsQMv2eDXP2LucxsvTiEt98yY",
-          "short_id": "961f7127a015ba"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇭🇰 Hong Kong | 🌐 | [BL] 3",
-      "server": "dddz-3-z.473221.xyz",
-      "server_port": 13212,
-      "uuid": "65ec84f5-0dd4-4582-8b4f-592e50b22116",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "v1-dy.ixigua.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "4VguZbm-S2NkLpi7gLDsQMv2eDXP2LucxsvTiEt98yY",
-          "short_id": "961f7127a015ba"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇭🇰 Hong Kong | 🌐 | [BL] 4",
-      "server": "dddz-3-z.473221.xyz",
-      "server_port": 13212,
-      "uuid": "65ec84f5-0dd4-4582-8b4f-592e50b22116",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "v1-dy.ixigua.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "4VguZbm-S2NkLpi7gLDsQMv2eDXP2LucxsvTiEt98yY",
-          "short_id": "961f7127a015ba"
+          "public_key": "zmqcaHqIZJfKGwM61QT19F8dP8BZzZrTKSu5BoAW6gA",
+          "short_id": "ae913a7486be9be9"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇮🇳 India, Navi Mumbai (Rabale) | [BL]",
+      "server": "fxhub.ir",
+      "server_port": 443,
+      "uuid": "bc4a4b66-c3fc-4f91-938e-4d93698c0d43",
+      "transport": {
+        "type": "ws",
+        "path": "/jx-ge7wex6ki2ixyk",
+        "headers": {
+          "Host": "soli-gghosin4-cell.dormhost.app"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇳 India, Navi Mumbai (Rabale) | [BL] 2",
       "server": "mahdroo.ir",
       "server_port": 443,
       "uuid": "bc4a4b66-c3fc-4f91-938e-4d93698c0d43",
@@ -194,476 +106,139 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "edge"
+          "fingerprint": "chrome"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇯🇵 Japan | 🌐 | [BL]",
-      "server": "dddz-1-x.473221.xyz",
-      "server_port": 34761,
-      "uuid": "65ec84f5-0dd4-4582-8b4f-592e50b22116",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇮🇳 India, Navi Mumbai (Rabale) | [BL] 3",
+      "server": "mahdroo.ir",
+      "server_port": 443,
+      "uuid": "bc4a4b66-c3fc-4f91-938e-4d93698c0d43",
+      "transport": {
+        "type": "ws",
+        "path": "/jx-ge7wex6ki2ixyk",
+        "headers": {
+          "Host": "soli-gghosin4-cell.dormhost.app"
+        }
+      },
       "tls": {
         "enabled": true,
-        "server_name": "v1-dy.ixigua.com",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "h1l2o1aPlR4WewN4YxtTYugJucyxhjvOHbfEHCHPEiU",
-          "short_id": "867357bc81a4"
+          "fingerprint": "qq"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇯🇵 Japan | 🌐 | [BL] 2",
-      "server": "dddz-1-x.473221.xyz",
-      "server_port": 34761,
-      "uuid": "65ec84f5-0dd4-4582-8b4f-592e50b22116",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇮🇳 India, Navi Mumbai (Rabale) | [BL] 4",
+      "server": "mahdroo.ir",
+      "server_port": 443,
+      "uuid": "bc4a4b66-c3fc-4f91-938e-4d93698c0d43",
+      "transport": {
+        "type": "ws",
+        "path": "/jx-ge7wex6ki2ixyk",
+        "headers": {
+          "Host": "soli-gghosin4-cell.dormhost.app"
+        }
+      },
       "tls": {
         "enabled": true,
-        "server_name": "v1-dy.ixigua.com",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "h1l2o1aPlR4WewN4YxtTYugJucyxhjvOHbfEHCHPEiU",
-          "short_id": "867357bc81a4"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇯🇵 Japan, Koto-ku | [BL]",
-      "server": "dddz-1-x.473221.xyz",
-      "server_port": 34761,
-      "uuid": "65ec84f5-0dd4-4582-8b4f-592e50b22116",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]",
+      "server": "104.19.48.107",
+      "server_port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "transport": {
+        "type": "ws",
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      },
       "tls": {
         "enabled": true,
-        "server_name": "v1-dy.ixigua.com",
+        "server_name": "jp3.yohototo.top",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "edge"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "h1l2o1aPlR4WewN4YxtTYugJucyxhjvOHbfEHCHPEiU",
-          "short_id": "867357bc81a4"
+          "fingerprint": "chrome"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇸🇬 Singapore, Singapore (Outram) | 🌐 | [BL]",
-      "server": "dddz-1-x.473221.xyz",
-      "server_port": 43113,
-      "uuid": "65ec84f5-0dd4-4582-8b4f-592e50b22116",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "v1-dy.ixigua.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "EK3prcfF8VKm3CoTXWQguRj67LxGbkPIpKmEUKsMKGs",
-          "short_id": "ff2c978a0b"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇬 Singapore, Singapore (Outram) | 🌐 | [BL] 2",
-      "server": "dddz-1-x.473221.xyz",
-      "server_port": 43113,
-      "uuid": "65ec84f5-0dd4-4582-8b4f-592e50b22116",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "v1-dy.ixigua.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "EK3prcfF8VKm3CoTXWQguRj67LxGbkPIpKmEUKsMKGs",
-          "short_id": "ff2c978a0b"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 The Netherlands | 🌐 | [BL]",
-      "server": "104.18.151.231",
-      "server_port": 443,
-      "uuid": "eaf76557-2219-4799-8171-d7020adfefd0",
+      "server": "sg01.cf.sh-cloudflare.sbs",
+      "server_port": 8443,
+      "uuid": "a8d9c86f-cddb-4fa5-96f7-f68eb48b3cb3",
       "transport": {
         "type": "ws",
-        "path": "/ws",
+        "path": "/shanhai/sg01",
         "headers": {
-          "Host": "delicate-hall-bf16.vpndkah.workers.dev"
+          "Host": "sg01.cdn00.top"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "delicate-hall-bf16.vpndkah.workers.dev",
+        "server_name": "sg01.cdn00.top",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇼 Taiwan, Taoyuan | [BL]",
+      "server": "172.67.165.32",
+      "server_port": 8443,
+      "uuid": "91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a",
+      "transport": {
+        "type": "ws",
+        "path": "/nvl-n04-ws/e0577fe8fd7c8823",
+        "headers": {
+          "Host": "n04.jinggai.online"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "n04.jinggai.online",
         "insecure": false
       }
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 The Netherlands | 🌐 | [BL] 2",
-      "server": "104.18.151.231",
-      "server_port": 443,
-      "uuid": "eaf76557-2219-4799-8171-d7020adfefd0",
+      "tag": "🇹🇼 Taiwan, Taoyuan | [BL] 2",
+      "server": "n04.jinggai.online",
+      "server_port": 8443,
+      "uuid": "91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a",
       "transport": {
         "type": "ws",
-        "path": "/ws",
+        "path": "/nvl-n04-ws/e0577fe8fd7c8823",
         "headers": {
-          "Host": "hidden-star-98c5.tebohi79684008.workers.dev"
+          "Host": "n04.jinggai.online"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "hidden-star-98c5.tebohi79684008.workers.dev",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 The Netherlands | 🌐 | [BL] 3",
-      "server": "104.18.151.231",
-      "server_port": 443,
-      "uuid": "eaf76557-2219-4799-8171-d7020adfefd0",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "jolly-silence-83b2.kidat76098.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "jolly-silence-83b2.kidat76098.workers.dev",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 The Netherlands | 🌐 | [BL] 4",
-      "server": "104.18.151.231",
-      "server_port": 443,
-      "uuid": "eaf76557-2219-4799-8171-d7020adfefd0",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "muddy-star-d195.aboumansour10313.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "muddy-star-d195.aboumansour10313.workers.dev",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 The Netherlands | 🌐 | [BL] 5",
-      "server": "104.18.151.231",
-      "server_port": 443,
-      "uuid": "eaf76557-2219-4799-8171-d7020adfefd0",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "workers.jijew83195.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "workers.jijew83195.workers.dev",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 The Netherlands | 🌐 | [BL] 6",
-      "server": "104.18.151.231",
-      "server_port": 443,
-      "uuid": "eaf76557-2219-4799-8171-d7020adfefd0",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "workers.retaxay188.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "workers.retaxay188.workers.dev",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 The Netherlands | 🌐 | [BL] 7",
-      "server": "104.18.151.231",
-      "server_port": 443,
-      "uuid": "eaf76557-2219-4799-8171-d7020adfefd0",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "damp-pine-ea85.wimaren917.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "damp-pine-ea85.wimaren917.workers.dev",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 The Netherlands | 🌐 | [BL] 8",
-      "server": "104.18.151.231",
-      "server_port": 443,
-      "uuid": "eaf76557-2219-4799-8171-d7020adfefd0",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "damp-pine-ea85.wimaren917.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "damp-pine-ea85.wimaren917.workers.dev",
+        "server_name": "n04.jinggai.online",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 The Netherlands | 🌐 | [BL] 9",
-      "server": "104.18.151.231",
-      "server_port": 443,
-      "uuid": "eaf76557-2219-4799-8171-d7020adfefd0",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "delicate-hall-bf16.vpndkah.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "delicate-hall-bf16.vpndkah.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 The Netherlands | 🌐 | [BL] 10",
-      "server": "104.18.151.231",
-      "server_port": 443,
-      "uuid": "eaf76557-2219-4799-8171-d7020adfefd0",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "hidden-star-98c5.tebohi79684008.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "hidden-star-98c5.tebohi79684008.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 The Netherlands | 🌐 | [BL] 11",
-      "server": "104.18.151.231",
-      "server_port": 443,
-      "uuid": "eaf76557-2219-4799-8171-d7020adfefd0",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "jolly-silence-83b2.kidat76098.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "jolly-silence-83b2.kidat76098.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 The Netherlands | 🌐 | [BL] 12",
-      "server": "104.18.151.231",
-      "server_port": 443,
-      "uuid": "eaf76557-2219-4799-8171-d7020adfefd0",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "muddy-star-d195.aboumansour10313.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "muddy-star-d195.aboumansour10313.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 The Netherlands | 🌐 | [BL] 13",
-      "server": "104.18.151.231",
-      "server_port": 443,
-      "uuid": "eaf76557-2219-4799-8171-d7020adfefd0",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "workers.jijew83195.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "workers.jijew83195.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 The Netherlands | 🌐 | [BL] 14",
-      "server": "104.18.151.231",
-      "server_port": 443,
-      "uuid": "eaf76557-2219-4799-8171-d7020adfefd0",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "damp-pine-ea85.wimaren917.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 The Netherlands | 🌐 | [BL] 15",
-      "server": "104.18.151.231",
-      "server_port": 443,
-      "uuid": "eaf76557-2219-4799-8171-d7020adfefd0",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "muddy-star-d195.aboumansour10313.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 The Netherlands | 🌐 | [BL] 16",
-      "server": "104.18.151.231",
-      "server_port": 443,
-      "uuid": "eaf76557-2219-4799-8171-d7020adfefd0",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "shiny-base-4d9a.mifolan4697928.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 The Netherlands | 🌐 | [BL] 17",
-      "server": "104.18.151.231",
-      "server_port": 443,
-      "uuid": "eaf76557-2219-4799-8171-d7020adfefd0",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "workers.retaxay188.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "edge"
         }
       }
     },
@@ -685,7 +260,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "edge"
+          "fingerprint": "chrome"
         }
       }
     },
@@ -707,7 +282,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "edge"
         }
       }
     },
@@ -726,7 +301,386 @@
       },
       "tls": {
         "enabled": true,
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 United Kingdom, Slough | [BL] 4",
+      "server": "www.agahiya.ir",
+      "server_port": 443,
+      "uuid": "57e089a8-0cd1-48d0-b572-105c4804f6b8",
+      "transport": {
+        "type": "ws",
+        "path": "/jx-y8179aild6rsmj",
+        "headers": {
+          "Host": "soliconf-gghosin4-cell.dormhost.app"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 United Kingdom, Slough | [BL] 5",
+      "server": "www.agahiya.ir",
+      "server_port": 443,
+      "uuid": "57e089a8-0cd1-48d0-b572-105c4804f6b8",
+      "transport": {
+        "type": "ws",
+        "path": "/jx-y8179aild6rsmj",
+        "headers": {
+          "Host": "soliconf-gghosin4-cell.dormhost.app"
+        }
+      },
+      "tls": {
+        "enabled": true,
         "server_name": "soliconf-gghosin4-cell.dormhost.app",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 United Kingdom, Slough | [BL] 6",
+      "server": "www.agahiya.ir",
+      "server_port": 443,
+      "uuid": "57e089a8-0cd1-48d0-b572-105c4804f6b8",
+      "transport": {
+        "type": "ws",
+        "path": "/jx-y8179aild6rsmj",
+        "headers": {
+          "Host": "soliconf-gghosin4-cell.dormhost.app"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "soliconf-gghosin4-cell.dormhost.app",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 United Kingdom, Slough | [BL] 7",
+      "server": "www.agahiya.ir",
+      "server_port": 443,
+      "uuid": "57e089a8-0cd1-48d0-b572-105c4804f6b8",
+      "transport": {
+        "type": "ws",
+        "path": "/jx-y8179aild6rsmj",
+        "headers": {
+          "Host": "soliconf-gghosin4-cell.dormhost.app"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "soliconf-gghosin4-cell.dormhost.app",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 United Kingdom, Slough | [BL] 8",
+      "server": "www.agahiya.ir",
+      "server_port": 443,
+      "uuid": "57e089a8-0cd1-48d0-b572-105c4804f6b8",
+      "transport": {
+        "type": "ws",
+        "path": "/jx-y8179aild6rsmj",
+        "headers": {
+          "Host": "soliconf-gghosin4-cell.dormhost.app"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "soliconf-gghosin4-cell.dormhost.app",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 United Kingdom, Slough | [BL] 9",
+      "server": "www.agahiya.ir",
+      "server_port": 443,
+      "uuid": "57e089a8-0cd1-48d0-b572-105c4804f6b8",
+      "transport": {
+        "type": "ws",
+        "path": "/jx-y8179aild6rsmj",
+        "headers": {
+          "Host": "soliconf-gghosin4-cell.dormhost.app"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "soliconf-gghosin4-cell.dormhost.app",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 United Kingdom, Slough | [BL] 10",
+      "server": "www.agahiya.ir",
+      "server_port": 443,
+      "uuid": "57e089a8-0cd1-48d0-b572-105c4804f6b8",
+      "transport": {
+        "type": "ws",
+        "path": "/jx-y8179aild6rsmj",
+        "headers": {
+          "Host": "soliconf-gghosin4-cell.dormhost.app"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "soliconf-gghosin4-cell.dormhost.app",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 United Kingdom, Slough | [BL] 11",
+      "server": "www.farahghanizadeh.ir",
+      "server_port": 443,
+      "uuid": "57e089a8-0cd1-48d0-b572-105c4804f6b8",
+      "transport": {
+        "type": "ws",
+        "path": "/jx-y8179aild6rsmj",
+        "headers": {
+          "Host": "soliconf-gghosin4-cell.dormhost.app"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 United Kingdom, Slough | [BL] 12",
+      "server": "www.farahghanizadeh.ir",
+      "server_port": 443,
+      "uuid": "57e089a8-0cd1-48d0-b572-105c4804f6b8",
+      "transport": {
+        "type": "ws",
+        "path": "/jx-y8179aild6rsmj",
+        "headers": {
+          "Host": "soliconf-gghosin4-cell.dormhost.app"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 United Kingdom, Slough | [BL] 13",
+      "server": "www.farahghanizadeh.ir",
+      "server_port": 443,
+      "uuid": "57e089a8-0cd1-48d0-b572-105c4804f6b8",
+      "transport": {
+        "type": "ws",
+        "path": "/jx-y8179aild6rsmj",
+        "headers": {
+          "Host": "soliconf-gghosin4-cell.dormhost.app"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 United Kingdom, Slough | [BL] 14",
+      "server": "www.farahghanizadeh.ir",
+      "server_port": 443,
+      "uuid": "57e089a8-0cd1-48d0-b572-105c4804f6b8",
+      "transport": {
+        "type": "ws",
+        "path": "/jx-y8179aild6rsmj",
+        "headers": {
+          "Host": "soliconf-gghosin4-cell.dormhost.app"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 United Kingdom, Slough | [BL] 15",
+      "server": "www.farahghanizadeh.ir",
+      "server_port": 443,
+      "uuid": "57e089a8-0cd1-48d0-b572-105c4804f6b8",
+      "transport": {
+        "type": "ws",
+        "path": "/jx-y8179aild6rsmj",
+        "headers": {
+          "Host": "soliconf-gghosin4-cell.dormhost.app"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 United Kingdom, Slough | [BL] 16",
+      "server": "www.farahghanizadeh.ir",
+      "server_port": 443,
+      "uuid": "57e089a8-0cd1-48d0-b572-105c4804f6b8",
+      "transport": {
+        "type": "ws",
+        "path": "/jx-y8179aild6rsmj",
+        "headers": {
+          "Host": "soliconf-gghosin4-cell.dormhost.app"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "soliconf-gghosin4-cell.dormhost.app",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 United Kingdom, Slough | [BL] 17",
+      "server": "www.farahghanizadeh.ir",
+      "server_port": 443,
+      "uuid": "57e089a8-0cd1-48d0-b572-105c4804f6b8",
+      "transport": {
+        "type": "ws",
+        "path": "/jx-y8179aild6rsmj",
+        "headers": {
+          "Host": "soliconf-gghosin4-cell.dormhost.app"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "soliconf-gghosin4-cell.dormhost.app",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 United Kingdom, Slough | [BL] 18",
+      "server": "www.farahghanizadeh.ir",
+      "server_port": 443,
+      "uuid": "57e089a8-0cd1-48d0-b572-105c4804f6b8",
+      "transport": {
+        "type": "ws",
+        "path": "/jx-y8179aild6rsmj",
+        "headers": {
+          "Host": "soliconf-gghosin4-cell.dormhost.app"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "soliconf-gghosin4-cell.dormhost.app",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 United Kingdom, Slough | [BL] 19",
+      "server": "www.farahghanizadeh.ir",
+      "server_port": 443,
+      "uuid": "57e089a8-0cd1-48d0-b572-105c4804f6b8",
+      "transport": {
+        "type": "ws",
+        "path": "/jx-y8179aild6rsmj",
+        "headers": {
+          "Host": "soliconf-gghosin4-cell.dormhost.app"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "soliconf-gghosin4-cell.dormhost.app",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 United Kingdom, Slough | [BL] 20",
+      "server": "www.sarzaminaryan.ir",
+      "server_port": 443,
+      "uuid": "57e089a8-0cd1-48d0-b572-105c4804f6b8",
+      "transport": {
+        "type": "ws",
+        "path": "/jx-y8179aild6rsmj",
+        "headers": {
+          "Host": "soliconf-gghosin4-cell.dormhost.app"
+        }
+      },
+      "tls": {
+        "enabled": true,
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -736,8 +690,8 @@
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 United Kingdom, Slough | [BL] 4",
-      "server": "www.farahghanizadeh.ir",
+      "tag": "🇬🇧 United Kingdom, Slough | [BL] 21",
+      "server": "www.sarzaminaryan.ir",
       "server_port": 443,
       "uuid": "57e089a8-0cd1-48d0-b572-105c4804f6b8",
       "transport": {
@@ -752,14 +706,14 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 United Kingdom, Slough | [BL] 5",
-      "server": "www.farahghanizadeh.ir",
+      "tag": "🇬🇧 United Kingdom, Slough | [BL] 22",
+      "server": "www.sarzaminaryan.ir",
       "server_port": 443,
       "uuid": "57e089a8-0cd1-48d0-b572-105c4804f6b8",
       "transport": {
@@ -780,8 +734,8 @@
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 United Kingdom, Slough | [BL] 6",
-      "server": "www.farahghanizadeh.ir",
+      "tag": "🇬🇧 United Kingdom, Slough | [BL] 23",
+      "server": "www.sarzaminaryan.ir",
       "server_port": 443,
       "uuid": "57e089a8-0cd1-48d0-b572-105c4804f6b8",
       "transport": {
@@ -796,14 +750,32 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "qq"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 United Kingdom, Slough | [BL] 7",
-      "server": "www.farahghanizadeh.ir",
+      "tag": "🇬🇧 United Kingdom, Slough | [BL] 24",
+      "server": "www.sarzaminaryan.ir",
+      "server_port": 443,
+      "uuid": "57e089a8-0cd1-48d0-b572-105c4804f6b8",
+      "transport": {
+        "type": "ws",
+        "path": "/jx-y8179aild6rsmj",
+        "headers": {
+          "Host": "soliconf-gghosin4-cell.dormhost.app"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 United Kingdom, Slough | [BL] 25",
+      "server": "www.sarzaminaryan.ir",
       "server_port": 443,
       "uuid": "57e089a8-0cd1-48d0-b572-105c4804f6b8",
       "transport": {
@@ -819,13 +791,13 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "qq"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 United Kingdom, Slough | [BL] 8",
+      "tag": "🇬🇧 United Kingdom, Slough | [BL] 26",
       "server": "www.sarzaminaryan.ir",
       "server_port": 443,
       "uuid": "57e089a8-0cd1-48d0-b572-105c4804f6b8",
@@ -838,6 +810,7 @@
       },
       "tls": {
         "enabled": true,
+        "server_name": "soliconf-gghosin4-cell.dormhost.app",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -847,199 +820,26 @@
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 United Kingdom, Slough | [BL] 9",
-      "server": "www.sarzaminaryan.ir",
+      "tag": "🇺🇸 United States, Detroit | [BL]",
+      "server": "185.242.113.75",
       "server_port": 443,
-      "uuid": "57e089a8-0cd1-48d0-b572-105c4804f6b8",
+      "uuid": "18615aac-72e2-451b-b7c8-b492e63cf65a",
       "transport": {
         "type": "ws",
-        "path": "/jx-y8179aild6rsmj",
+        "path": "/jx-8c3iiq92bemzqp",
         "headers": {
-          "Host": "soliconf-gghosin4-cell.dormhost.app"
+          "Host": "jyfrj1cims.dev.onappjet.com"
         }
       },
       "tls": {
         "enabled": true,
         "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States | 🌐 | [BL]",
-      "server": "dddz-1-x.473221.xyz",
-      "server_port": 34760,
-      "uuid": "65ec84f5-0dd4-4582-8b4f-592e50b22116",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "updates.cdn-apple.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "FKkMWruW5ySd0t091irE_09B9o9AipV8ztZftd4Odwc",
-          "short_id": "ab58b04c4a4407"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States | 🌐 | [BL] 2",
-      "server": "dddz-1-x.473221.xyz",
-      "server_port": 34760,
-      "uuid": "65ec84f5-0dd4-4582-8b4f-592e50b22116",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "updates.cdn-apple.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "FKkMWruW5ySd0t091irE_09B9o9AipV8ztZftd4Odwc",
-          "short_id": "ab58b04c4a4407"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States | 🌐 | [BL] 3",
-      "server": "dddz-1-x.473221.xyz",
-      "server_port": 34760,
-      "uuid": "65ec84f5-0dd4-4582-8b4f-592e50b22116",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "updates.cdn-apple.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "FKkMWruW5ySd0t091irE_09B9o9AipV8ztZftd4Odwc",
-          "short_id": "ab58b04c4a4407"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States | 🌐 | [BL] 4",
-      "server": "dddz-1-x.473221.xyz",
-      "server_port": 34760,
-      "uuid": "65ec84f5-0dd4-4582-8b4f-592e50b22116",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "updates.cdn-apple.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "FKkMWruW5ySd0t091irE_09B9o9AipV8ztZftd4Odwc",
-          "short_id": "ab58b04c4a4407"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States | 🌐 | [BL] 5",
-      "server": "dddz-1-x.473221.xyz",
-      "server_port": 34760,
-      "uuid": "65ec84f5-0dd4-4582-8b4f-592e50b22116",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "updates.cdn-apple.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "FKkMWruW5ySd0t091irE_09B9o9AipV8ztZftd4Odwc",
-          "short_id": "ab58b04c4a4407"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States, Buffalo | [BL]",
-      "server": "dddz-1-x.473221.xyz",
-      "server_port": 34759,
-      "uuid": "65ec84f5-0dd4-4582-8b4f-592e50b22116",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "v1-dy.ixigua.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "H0AETHQQIsu1c7ZHZ5RUgNaLYIVdMI6gJlMaBLBeX3o",
-          "short_id": "5e0eb283246c6911"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States, Buffalo | [BL] 2",
-      "server": "dddz-1-x.473221.xyz",
-      "server_port": 34765,
-      "uuid": "65ec84f5-0dd4-4582-8b4f-592e50b22116",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "v1-dy.ixigua.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "S8xknZ30d97EhFyjtqKPa0P49qeZEK0L2-_qaFdG_RY",
-          "short_id": "bc1cebd9a1a41b3d"
-        }
       }
     },
     {
       "type": "vless",
       "tag": "🇺🇸 United States, North Bergen | [BL]",
-      "server": "fast.145779.xyz",
-      "server_port": 2053,
-      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
-      "transport": {
-        "type": "ws",
-        "path": "/ws-tesla",
-        "headers": {
-          "Host": "fast.145779.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fast.145779.xyz",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 2",
-      "server": "fast.145779.xyz",
+      "server": "104.21.58.37",
       "server_port": 2053,
       "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
       "transport": {
@@ -1055,7 +855,30 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "android"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 2",
+      "server": "104.21.58.37",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -1064,7 +887,7 @@
       "tag": "🇺🇸 United States, North Bergen | [BL] 3",
       "server": "104.21.58.37",
       "server_port": 2053,
-      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
       "transport": {
         "type": "ws",
         "path": "/ws-tesla",
@@ -1075,9 +898,29 @@
       "tls": {
         "enabled": true,
         "server_name": "fast.145779.xyz",
-        "alpn": [
-          "http/1.1"
-        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 4",
+      "server": "104.21.58.37",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -1087,33 +930,10 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 4",
-      "server": "104.21.58.37",
-      "server_port": 2053,
-      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
-      "transport": {
-        "type": "ws",
-        "path": "/ws-tesla",
-        "headers": {
-          "Host": "fast.145779.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fast.145779.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇺🇸 United States, North Bergen | [BL] 5",
       "server": "172.67.199.126",
       "server_port": 2053,
-      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
       "transport": {
         "type": "ws",
         "path": "/ws-tesla",
@@ -1124,13 +944,10 @@
       "tls": {
         "enabled": true,
         "server_name": "fast.145779.xyz",
-        "alpn": [
-          "http/1.1"
-        ],
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "ios"
         }
       }
     },
@@ -1139,7 +956,7 @@
       "tag": "🇺🇸 United States, North Bergen | [BL] 6",
       "server": "172.67.199.126",
       "server_port": 2053,
-      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
       "transport": {
         "type": "ws",
         "path": "/ws-tesla",
@@ -1150,9 +967,6 @@
       "tls": {
         "enabled": true,
         "server_name": "fast.145779.xyz",
-        "alpn": [
-          "http/1.1"
-        ],
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -1165,10 +979,10 @@
       "tag": "🇺🇸 United States, North Bergen | [BL] 7",
       "server": "172.67.199.126",
       "server_port": 2053,
-      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
       "transport": {
         "type": "ws",
-        "path": "/ws-tesla",
+        "path": "%2Fws-tesla",
         "headers": {
           "Host": "fast.145779.xyz"
         }
@@ -1179,7 +993,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "android"
         }
       }
     },
@@ -1188,7 +1002,30 @@
       "tag": "🇺🇸 United States, North Bergen | [BL] 8",
       "server": "172.67.199.126",
       "server_port": 2053,
-      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 9",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
       "transport": {
         "type": "ws",
         "path": "/ws-tesla",
@@ -1202,16 +1039,16 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "ios"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 9",
-      "server": "172.67.199.126",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 10",
+      "server": "fast.145779.xyz",
       "server_port": 2053,
-      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
       "transport": {
         "type": "ws",
         "path": "/ws-tesla",
@@ -1231,10 +1068,10 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 10",
-      "server": "172.67.199.126",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 11",
+      "server": "fast.145779.xyz",
       "server_port": 2053,
-      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
       "transport": {
         "type": "ws",
         "path": "/ws-tesla",
@@ -1245,65 +1082,15 @@
       "tls": {
         "enabled": true,
         "server_name": "fast.145779.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 11",
-      "server": "172.67.199.126",
-      "server_port": 2053,
-      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
-      "transport": {
-        "type": "ws",
-        "path": "%2Fws-tesla",
-        "headers": {
-          "Host": "fast.145779.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fast.145779.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
+        "insecure": false
       }
     },
     {
       "type": "vless",
       "tag": "🇺🇸 United States, North Bergen | [BL] 12",
-      "server": "172.67.199.126",
-      "server_port": 2053,
-      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
-      "transport": {
-        "type": "ws",
-        "path": "%2Fws-tesla",
-        "headers": {
-          "Host": "fast.145779.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fast.145779.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 13",
       "server": "fast.145779.xyz",
       "server_port": 2053,
-      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
       "transport": {
         "type": "ws",
         "path": "/ws-tesla",
@@ -1314,858 +1101,6 @@
       "tls": {
         "enabled": true,
         "server_name": "fast.145779.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 14",
-      "server": "fast.145779.xyz",
-      "server_port": 2053,
-      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
-      "transport": {
-        "type": "ws",
-        "path": "/ws-tesla",
-        "headers": {
-          "Host": "fast.145779.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fast.145779.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 15",
-      "server": "fast.145779.xyz",
-      "server_port": 2053,
-      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
-      "transport": {
-        "type": "ws",
-        "path": "/ws-tesla",
-        "headers": {
-          "Host": "fast.145779.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fast.145779.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇫🇮 | [BL]",
-      "server": "www.buydomains.com",
-      "server_port": 443,
-      "uuid": "4d945644-69ab-47e0-98b3-d43a6313135d",
-      "transport": {
-        "type": "ws",
-        "path": "/vl/SaXqikbSPA3ImtmZKAFin?ed=2560",
-        "headers": {
-          "Host": "mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]",
-      "server": "kclx.eu.org",
-      "server_port": 443,
-      "uuid": "0575005f-0ba9-4d6d-85e0-4a6a8cbafc1b",
-      "transport": {
-        "type": "ws",
-        "path": "/154.16.10.34-8080",
-        "headers": {
-          "Host": "kclx.eu.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "kclx.eu.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 2",
-      "server": "kclx.eu.org",
-      "server_port": 443,
-      "uuid": "0575005f-0ba9-4d6d-85e0-4a6a8cbafc1b",
-      "transport": {
-        "type": "ws",
-        "path": "/154.16.10.34-8080",
-        "headers": {
-          "Host": "kclx.eu.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "kclx.eu.org",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 3",
-      "server": "kclx.eu.org",
-      "server_port": 443,
-      "uuid": "0575005f-0ba9-4d6d-85e0-4a6a8cbafc1b",
-      "transport": {
-        "type": "ws",
-        "path": "%2F154.16.10.34-8080",
-        "headers": {
-          "Host": "kclx.eu.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "kclx.eu.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 4",
-      "server": "kclx.eu.org",
-      "server_port": 443,
-      "uuid": "0575005f-0ba9-4d6d-85e0-4a6a8cbafc1b",
-      "transport": {
-        "type": "ws",
-        "path": "/154.16.10.34-8080",
-        "headers": {
-          "Host": "kclx.eu.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "kclx.eu.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 5",
-      "server": "14f7f5f0.mrbl69black.pages.dev",
-      "server_port": 443,
-      "uuid": "0d5a2112-789f-4755-88e6-61a1a8f8067b",
-      "transport": {
-        "type": "ws",
-        "path": "/I0IHonn0TGa2xaOO?ed=2560",
-        "headers": {
-          "Host": "14f7f5f0.mrbl69black.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "14F7F5f0.mRBL69BlaCK.paGES.DeV",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 6",
-      "server": "172.67.78.150",
-      "server_port": 2083,
-      "uuid": "24916ad0-847d-4522-9e17-f4347dee57fd",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560fp=random",
-        "headers": {
-          "Host": "kv.074167.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "kv.074167.xyz",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 7",
-      "server": "cfnode-11ivy8.pages.dev",
-      "server_port": 443,
-      "uuid": "2ea2719c-23e1-4cde-b192-c8652d55d9e5",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "cfnode-11ivy8.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "cfnode-11ivy8.pages.dev",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 8",
-      "server": "104.18.0.1",
-      "server_port": 443,
-      "uuid": "3ccba794-1c6d-48a8-acf2-f5caf0e69d86",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "all.speedtest03.ccwu.cc"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "all.speedtest03.ccwu.cc",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 9",
-      "server": "104.21.71.249",
-      "server_port": 443,
-      "uuid": "3de5a94c-aadc-4e40-ba1a-7d4b6545f8a3",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "oooyo.bi8bo.cyou"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "oooyo.bi8bo.cyou",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 10",
-      "server": "172.67.172.155",
-      "server_port": 443,
-      "uuid": "3de5a94c-aadc-4e40-ba1a-7d4b6545f8a3",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "oooyo.bi8bo.cyou"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "oooyo.bi8bo.cyou",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 11",
-      "server": "cf.090227.xyz",
-      "server_port": 443,
-      "uuid": "3de5a94c-aadc-4e40-ba1a-7d4b6545f8a3",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "oooyo.bi8bo.cyou"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "oooyo.bi8bo.cyou",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 12",
-      "server": "proxy-34l.pages.dev",
-      "server_port": 2087,
-      "uuid": "40af9131-d540-448a-bc56-5bba147a1dc3",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "proxy-34l.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "proxy-34l.pages.dev",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 13",
-      "server": "proxy-34l.pages.dev",
-      "server_port": 2087,
-      "uuid": "40af9131-d540-448a-bc56-5bba147a1dc3",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "proxy-34l.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "proxy-34l.pages.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 14",
-      "server": "proxy-34l.pages.dev",
-      "server_port": 2087,
-      "uuid": "40af9131-d540-448a-bc56-5bba147a1dc3",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "proxy-34l.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "proxy-34l.pages.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 15",
-      "server": "188.114.96.3",
-      "server_port": 443,
-      "uuid": "5b716e51-489e-4e97-b5c8-dd10803eff93",
-      "transport": {
-        "type": "ws",
-        "path": "Telegram channel : @VPNine1",
-        "headers": {
-          "Host": "snc9ne2f7zclhn5uzth7hcfgsrnympmmrnej7w2uzdjtsyt2fssssssssssssss.n0xp4ed8mc.workers.Dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "snc9ne2f7zclhn5uzth7hcfgsrnympmmrnej7w2uzdjtsyt2fssssssssssssss.n0xp4ed8mc.workers.Dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 16",
-      "server": "188.114.97.3",
-      "server_port": 443,
-      "uuid": "72f10005-8849-4072-b081-db3258c1350f",
-      "transport": {
-        "type": "ws",
-        "path": "telegram channel : @pandavpntc",
-        "headers": {
-          "Host": "xa6jgykbpcfy6na3tt4zeefsquy2x5kank9hmzdqieofbqkbv3kukzmdfsssaaa.b5mq1ob64b.workers.Dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "xa6jgykbpcfy6na3tt4zeefsquy2x5kank9hmzdqieofbqkbv3kukzmdfsssaaa.b5mq1ob64b.workers.Dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 17",
-      "server": "188.114.97.3",
-      "server_port": 443,
-      "uuid": "72f10005-8849-4072-b081-db3258c1350f",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "xa6jgykbpcfy6na3tt4zeefsquy2x5kank9hmzdqieofbqkbv3kukzmdfsssaaa.b5mq1ob64b.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 18",
-      "server": "104.26.15.138",
-      "server_port": 2053,
-      "uuid": "7b102311-43fd-4e8f-877e-8090623c101d",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "vp21.cc.cd"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vp21.cc.cd",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 19",
-      "server": "104.18.40.171",
-      "server_port": 443,
-      "uuid": "8895be79-9817-4011-b81a-14a35a3d328e",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "wallweb-boi.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "wallweb-boi.pages.dev",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 20",
-      "server": "104.18.40.171",
-      "server_port": 443,
-      "uuid": "8895be79-9817-4011-b81a-14a35a3d328e",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "wallweb-boi.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "wallweb-boi.pages.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 21",
-      "server": "104.18.40.171",
-      "server_port": 443,
-      "uuid": "8895be79-9817-4011-b81a-14a35a3d328e",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "wallweb-boi.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 22",
-      "server": "epam.com",
-      "server_port": 443,
-      "uuid": "8895be79-9817-4011-b81a-14a35a3d328e",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "wallweb-boi.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "wallweb-boi.pages.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 23",
-      "server": "epam.com",
-      "server_port": 443,
-      "uuid": "8895be79-9817-4011-b81a-14a35a3d328e",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "wallweb-boi.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 24",
-      "server": "edge-relay-c9db.edge-edge-relay-be8e.workers.dev",
-      "server_port": 443,
-      "uuid": "8a540f3b-04c7-4e22-924a-51a0b6fad164",
-      "transport": {
-        "type": "ws",
-        "path": "/admin/proxyip=undefined",
-        "headers": {
-          "Host": "edge-relay-c9db.edge-edge-relay-be8e.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "edge-relay-c9db.edge-edge-relay-be8e.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 25",
-      "server": "172.67.73.213",
-      "server_port": 443,
-      "uuid": "8d42d29a-ed53-4684-a9ff-6b33826149de",
-      "transport": {
-        "type": "ws",
-        "path": "/aioproxybot/94.23.144.99-2053",
-        "headers": {
-          "Host": "aio.eth0.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "aio.eth0.dpdns.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 26",
-      "server": "104.18.1.1",
-      "server_port": 2083,
-      "uuid": "a1de0630-5786-48a0-84f6-dc6f2de10d6d",
-      "transport": {
-        "type": "ws",
-        "path": "/socks5=888:888",
-        "headers": {
-          "Host": "vlsovip.1d.mom"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vlsovip.1d.mom",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 27",
-      "server": "104.18.1.1",
-      "server_port": 2083,
-      "uuid": "a1de0630-5786-48a0-84f6-dc6f2de10d6d",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "vlsovip.1d.mom"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vlsovip.1d.mom",
-        "alpn": [
-          "http/1.1"
-        ],
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 28",
-      "server": "104.18.1.1",
-      "server_port": 2083,
-      "uuid": "a1de0630-5786-48a0-84f6-dc6f2de10d6d",
-      "transport": {
-        "type": "ws",
-        "path": "/socks5=888:888@hkip.1d.mom:1080",
-        "headers": {
-          "Host": "vlsovip.1d.mom"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vlsovip.1d.mom",
-        "alpn": [
-          "http/1.1"
-        ],
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 29",
-      "server": "epam.com",
-      "server_port": 443,
-      "uuid": "af51de90-852d-4eb6-a0c3-9ecca170385e",
-      "transport": {
-        "type": "ws",
-        "path": "/fp=chrome",
-        "headers": {
-          "Host": "wallweb-av6.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "wallweb-av6.pages.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 30",
-      "server": "epam.com",
-      "server_port": 443,
-      "uuid": "af51de90-852d-4eb6-a0c3-9ecca170385e",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "wallweb-av6.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "wallweb-av6.pages.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 31",
-      "server": "epam.com",
-      "server_port": 443,
-      "uuid": "af51de90-852d-4eb6-a0c3-9ecca170385e",
-      "transport": {
-        "type": "ws",
-        "path": "/fp=chrome",
-        "headers": {
-          "Host": "wallweb-av6.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "wallweb-av6.pages.dev",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 32",
-      "server": "172.67.74.177",
-      "server_port": 2083,
-      "uuid": "bba95b1f-f48c-454b-897b-a6c6bc307df1",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "edge.yzkvm.top"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "edge.yzkvm.top",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 33",
-      "server": "188.114.97.6",
-      "server_port": 443,
-      "uuid": "bba95b1f-f48c-454b-897b-a6c6bc307df1",
-      "transport": {
-        "type": "ws",
-        "path": "/fp=chrome",
-        "headers": {
-          "Host": "edge.yzkvm.top"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "edge.yzkvm.top",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 34",
-      "server": "172.67.141.182",
-      "server_port": 443,
-      "uuid": "ce440dcf-e570-4a50-af37-bf588ee8a988",
-      "transport": {
-        "type": "ws",
-        "path": "/vl/KSPdmco70dfoXFS292o2Nv6yPt?ed=2560#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET",
-        "headers": {
-          "Host": "6qwoom7kdrcoan3ui4ra5dy.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "6qwoom7kdrcoan3ui4ra5dy.pages.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 35",
-      "server": "188.114.97.3",
-      "server_port": 443,
-      "uuid": "e7727c1e-c5a7-4810-b31a-2eeb22f95d6d",
-      "transport": {
-        "type": "ws",
-        "path": "telegram channel : @pandavpntc",
-        "headers": {
-          "Host": "kjjwrmfezmelh9amswcvmuscxxuuqdzzgw9khj7cfgcp59yju9edrihsssssss6.oh7mn.workers.Dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "kjjwrmfezmelh9amswcvmuscxxuuqdzzgw9khj7cfgcp59yju9edrihsssssss6.oh7mn.workers.Dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 36",
-      "server": "188.114.97.3",
-      "server_port": 443,
-      "uuid": "e7727c1e-c5a7-4810-b31a-2eeb22f95d6d",
-      "transport": {
-        "type": "ws",
-        "path": "telegram channel : @pandavpntc",
-        "headers": {
-          "Host": "kjjwrmfezmelh9amswcvmuscxxuuqdzzgw9khj7cfgcp59yju9edrihsssssss6.oh7mn.workers.Dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "kjjwrmfezmelh9amswcvmuscxxuuqdzzgw9khj7cfgcp59yju9edrihsssssss6.oh7mn.workers.Dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -2175,20 +1110,66 @@
     },
     {
       "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 37",
-      "server": "188.114.97.3",
-      "server_port": 443,
-      "uuid": "e7727c1e-c5a7-4810-b31a-2eeb22f95d6d",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 13",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
       "transport": {
         "type": "ws",
-        "path": "telegram channel : @pandavpntc",
+        "path": "/ws-tesla",
         "headers": {
-          "Host": "kjjwrmfezmelh9amswcvmuscxxuuqdzzgw9khj7cfgcp59yju9edrihsssssss6.oh7mn.workers.Dev"
+          "Host": "fast.145779.xyz"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "kjjwrmfezmelh9amswcvmuscxxuuqdzzgw9khj7cfgcp59yju9edrihsssssss6.oh7mn.workers.Dev",
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 14",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 15",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -2198,20 +1179,20 @@
     },
     {
       "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 🇯🇵 | [BL]",
-      "server": "162.159.228.255",
-      "server_port": 443,
-      "uuid": "b135a1e0-ebdb-4d46-b3fa-bd1e78580244",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 16",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
       "transport": {
         "type": "ws",
-        "path": "/@Marisa_kristi",
+        "path": "/ws-tesla",
         "headers": {
-          "Host": "wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev"
+          "Host": "fast.145779.xyz"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev",
+        "server_name": "fast.145779.xyz",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -2221,427 +1202,20 @@
     },
     {
       "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 🇸🇪 | [BL]",
-      "server": "104.18.0.1",
-      "server_port": 443,
-      "uuid": "3ccba794-1c6d-48a8-acf2-f5caf0e69d86",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 17",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "%2Fws-tesla",
         "headers": {
-          "Host": "all.speedtest03.ccwu.cc"
+          "Host": "fast.145779.xyz"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "all.speedtest03.ccwu.cc",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 🇺🇸 | [BL]",
-      "server": "172.67.174.10",
-      "server_port": 443,
-      "uuid": "2bcfbfba-b446-4ad5-93ad-72af9e008f61",
-      "transport": {
-        "type": "ws",
-        "path": "/44.209.52.7-443",
-        "headers": {
-          "Host": "blackshadow.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "blackshadow.dpdns.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇷 🇮🇪 | [BL]",
-      "server": "104.20.45.141",
-      "server_port": 443,
-      "uuid": "50414e45-4c5f-5a45-5553-7e7818beb9aa",
-      "transport": {
-        "type": "ws",
-        "path": "/stream/PANEL_ZEUS/7e7818beb9aafp=unsafe",
-        "headers": {
-          "Host": "razk50e1uvss.amirhoseyn-meshki.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "razk50e1uvss.amirhoseyn-meshki.workers.dev",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇷 🇮🇶 🇺🇸 | [BL]",
-      "server": "104.20.45.141",
-      "server_port": 443,
-      "uuid": "50414e45-4c5f-5a45-5553-7e7818beb9aa",
-      "transport": {
-        "type": "ws",
-        "path": "/stream/PANEL_ZEUS/7e7818beb9aa",
-        "headers": {
-          "Host": "razk50e1uvss.amirhoseyn-meshki.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "razk50e1uvss.amirhoseyn-meshki.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇷 🇮🇶 🇺🇸 | [BL] 2",
-      "server": "104.16.222.106",
-      "server_port": 443,
-      "uuid": "50414e45-4c5f-5a45-5553-cacd03f0143e",
-      "transport": {
-        "type": "ws",
-        "path": "/stream/PANEL_ZEUS/cacd03f0143e",
-        "headers": {
-          "Host": "yazxg0egut9s.ezaccess113f260.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "yazxg0egut9s.ezaccess113f260.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇷 🇰🇷 🇺🇸 | [BL]",
-      "server": "104.16.222.106",
-      "server_port": 443,
-      "uuid": "50414e45-4c5f-5a45-5553-cacd03f0143e",
-      "transport": {
-        "type": "ws",
-        "path": "/stream/PANEL_ZEUS/cacd03f0143e",
-        "headers": {
-          "Host": "yazxg0egut9s.ezaccess113f260.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "yazxg0egut9s.ezaccess113f260.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇬🇧 🇸🇪 | [BL]",
-      "server": "104.17.167.185",
-      "server_port": 2083,
-      "uuid": "7b102311-43fd-4e8f-877e-8090623c101d",
-      "transport": {
-        "type": "ws",
-        "path": "/fp=chrome",
-        "headers": {
-          "Host": "vp21.cc.cd"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vp21.cc.cd",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇬🇧 🇸🇪 🇺🇸 | [BL]",
-      "server": "ip13.shabkhosh.sbs",
-      "server_port": 443,
-      "uuid": "bf20cf5a-30c1-4022-9bcb-ba798ad51531",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "wallweb7.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "wallweb7.pages.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇬🇧 🇸🇪 🇺🇸 | [BL] 2",
-      "server": "ip13.shabkhosh.sbs",
-      "server_port": 443,
-      "uuid": "bf20cf5a-30c1-4022-9bcb-ba798ad51531",
-      "transport": {
-        "type": "ws",
-        "path": "/fp=chrome",
-        "headers": {
-          "Host": "wallweb7.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "wallweb7.pages.dev",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇯🇵 | [BL]",
-      "server": "proxyip.jp.cmliussss.net",
-      "server_port": 443,
-      "uuid": "7b102311-43fd-4e8f-877e-8090623c101d",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "vp10.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vp10.pages.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇸🇪 | [BL]",
-      "server": "saas.sin.fan",
-      "server_port": 2087,
-      "uuid": "5d7b401c-78fa-4254-872e-6d42bf7e75ec",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "vp2.1145678.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vp2.1145678.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "android"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇸🇪 | [BL] 2",
-      "server": "www.speedtest.net",
-      "server_port": 443,
-      "uuid": "85550ebf-fd43-42dd-9801-bda528fea2fc",
-      "transport": {
-        "type": "ws",
-        "path": "/fp=chrome",
-        "headers": {
-          "Host": "wallweb5.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "wallweb5.pages.dev",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇸🇪 🇺🇸 | [BL]",
-      "server": "saas.sin.fan",
-      "server_port": 443,
-      "uuid": "5d7b401c-78fa-4254-872e-6d42bf7e75ec",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "vp18.1145678.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vp18.1145678.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇸🇪 🇺🇸 | [BL] 2",
-      "server": "ip13.shabkhosh.sbs",
-      "server_port": 443,
-      "uuid": "bf20cf5a-30c1-4022-9bcb-ba798ad51531",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "wallweb7.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "wallweb7.pages.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇸🇪 🇺🇸 | [BL] 3",
-      "server": "188.114.98.0",
-      "server_port": 443,
-      "uuid": "d4733e5a-5850-4523-942e-f28f82ebf4a9",
-      "transport": {
-        "type": "ws",
-        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560",
-        "headers": {
-          "Host": "party-5cn.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "party-5cn.pages.dev",
-        "alpn": [
-          "http/1.1"
-        ],
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇸🇪 🇺🇸 | [BL] 4",
-      "server": "188.114.98.0",
-      "server_port": 443,
-      "uuid": "d4733e5a-5850-4523-942e-f28f82ebf4a9",
-      "transport": {
-        "type": "ws",
-        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome",
-        "headers": {
-          "Host": "party-5cn.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "party-5cn.pages.dev",
-        "alpn": [
-          "http/1.1"
-        ],
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇸🇪 🇺🇸 | [BL] 5",
-      "server": "www.speedtest.net",
-      "server_port": 443,
-      "uuid": "ec23f217-23a1-4f62-b98d-ba56070de89c",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "wallweb4.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "wallweb4.pages.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇩🇪 🇸🇪 | [BL]",
-      "server": "188.114.98.0",
-      "server_port": 443,
-      "uuid": "50414e45-4c5f-5a45-5553-52108a2d5224",
-      "transport": {
-        "type": "ws",
-        "path": "/api/ws",
-        "headers": {
-          "Host": "web-app-nr6wpa.app-tp57xz.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "web-app-nr6wpa.app-tp57xz.workers.dev",
-        "alpn": [
-          "http/1.1"
-        ],
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇫🇷 🇮🇶 | [BL]",
-      "server": "104.16.222.106",
-      "server_port": 443,
-      "uuid": "50414e45-4c5f-5a45-5553-cacd03f0143e",
-      "transport": {
-        "type": "ws",
-        "path": "/stream/PANEL_ZEUS/cacd03f0143e",
-        "headers": {
-          "Host": "yazxg0egut9s.ezaccess113f260.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "yazxg0egut9s.ezaccess113f260.workers.dev",
+        "server_name": "fast.145779.xyz",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -2651,43 +1225,115 @@
     },
     {
       "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇬🇧 🇮🇪 | [BL]",
-      "server": "5.157.30.3",
-      "server_port": 8443,
-      "uuid": "5d7b401c-78fa-4254-872e-6d42bf7e75ec",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 18",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
       "transport": {
         "type": "ws",
-        "path": "/docs",
+        "path": "%2Fws-tesla",
         "headers": {
-          "Host": "vp6.1145678.xyz"
+          "Host": "fast.145779.xyz"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "vp6.1145678.xyz",
+        "server_name": "fast.145779.xyz",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "safari"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇬🇧 🇯🇵 🇰🇷 | [BL]",
-      "server": "152.69.199.75",
-      "server_port": 443,
-      "uuid": "40af9131-d540-448a-bc56-5bba147a1dc3",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 19",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "%2Fws-tesla",
         "headers": {
-          "Host": "proxy-1cu.pages.dev"
+          "Host": "fast.145779.xyz"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "proxy-1cu.pages.dev",
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 20",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 21",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 22",
+      "server": "104.21.58.37",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "alpn": [
+          "http/1.1"
+        ],
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -2697,20 +1343,23 @@
     },
     {
       "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇬🇧 🇸🇪 🇸🇬 | [BL]",
-      "server": "104.17.3.81",
-      "server_port": 443,
-      "uuid": "fc60147e-76b8-4bc5-b691-90b2da79e3d2",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 23",
+      "server": "104.21.58.37",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
       "transport": {
         "type": "ws",
-        "path": "/138.2.74.219-28616",
+        "path": "/ws-tesla",
         "headers": {
-          "Host": "nautica-cff.kloningstrife002.workers.dev"
+          "Host": "fast.145779.xyz"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "nautica-cff.kloningstrife002.workers.dev",
+        "server_name": "fast.145779.xyz",
+        "alpn": [
+          "http/1.1"
+        ],
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -2720,45 +1369,637 @@
     },
     {
       "type": "vless",
-      "tag": "🌐 Anycast-IP | 🇸🇪 🇺🇸 | [BL]",
-      "server": "188.114.98.0",
-      "server_port": 443,
-      "uuid": "d4733e5a-5850-4523-942e-f28f82ebf4a9",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 24",
+      "server": "104.21.58.37",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
       "transport": {
         "type": "ws",
-        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome",
+        "path": "/ws-tesla",
         "headers": {
-          "Host": "party-5cn.pages.dev"
+          "Host": "fast.145779.xyz"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "party-5cn.pages.dev",
+        "server_name": "fast.145779.xyz",
         "alpn": [
           "http/1.1"
         ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 25",
+      "server": "104.21.58.37",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 26",
+      "server": "104.21.58.37",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "android"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 27",
+      "server": "104.21.58.37",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 28",
+      "server": "104.21.58.37",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 29",
+      "server": "104.21.58.37",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 30",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "android"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 31",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 32",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 33",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 34",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 35",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 36",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 37",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "android"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 38",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 39",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 40",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 41",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 42",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 43",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
         "insecure": false
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇭🇰 Hong Kong, Hong Kong | [BL]",
-      "server": "104.25.134.76",
-      "server_port": 443,
-      "uuid": "c8b455ad-fff1-43e9-9af9-d97585c4534a",
-      "alter_id": 0,
-      "security": "auto",
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 44",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
       "transport": {
         "type": "ws",
-        "path": "/ryinsocksv2board",
+        "path": "/ws-tesla",
         "headers": {
-          "Host": "hk-v2ray.ryin.vip"
+          "Host": "fast.145779.xyz"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "hk-v2ray.ryin.vip",
-        "insecure": false
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 45",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "android"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 46",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 47",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 48",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "android"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 49",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, San Jose | [BL]",
+      "server": "whitepanel-ui-production-84c0.up.railway.app",
+      "server_port": 443,
+      "uuid": "b05c5bfc-0f53-474a-8a43-8d30af8bccd2",
+      "transport": {
+        "type": "ws",
+        "path": "/ws/b05c5bfc-0f53-474a-8a43-8d30af8bccd2",
+        "headers": {
+          "Host": "whitepanel-ui-production-84c0.up.railway.app"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "whitepanel-ui-production-84c0.up.railway.app",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
@@ -2778,12 +2019,140 @@
       },
       "tls": {
         "enabled": true,
+        "server_name": "v2ray.ryin.vip",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇯🇵 Japan, Osaka (Shiromi) | 🌐 | [BL] 2",
+      "server": "162.159.128.17",
+      "server_port": 443,
+      "uuid": "c8b455ad-fff1-43e9-9af9-d97585c4534a",
+      "alter_id": 0,
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/ryinsocksv2board",
+        "headers": {
+          "Host": "v2ray.ryin.vip"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 United States, Chicago | [BL]",
+      "server": "104.27.0.1",
+      "server_port": 443,
+      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
+      "alter_id": 0,
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/ws",
+        "headers": {
+          "Host": "vmess.lbw666.dpdns.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "vmess.lbw666.dpdns.org",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 United States, Chicago | [BL] 2",
+      "server": "172.66.0.1",
+      "server_port": 443,
+      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
+      "alter_id": 0,
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/ws",
+        "headers": {}
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "vmess.lbw666.dpdns.org",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 United States, Chicago | [BL] 3",
+      "server": "cf.0sm.com",
+      "server_port": 443,
+      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
+      "alter_id": 0,
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/ws?ed=2048",
+        "headers": {
+          "Host": "vmess.lbw666.dpdns.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
         "insecure": false
       }
     },
     {
       "type": "vmess",
       "tag": "🇺🇸 United States, Chicago | 🌐 | [BL]",
+      "server": "104.27.0.1",
+      "server_port": 443,
+      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
+      "alter_id": 0,
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/ws",
+        "headers": {}
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "vmess.lbw666.dpdns.org",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 2",
+      "server": "cf.877771.xyz",
+      "server_port": 443,
+      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
+      "alter_id": 0,
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/ws",
+        "headers": {
+          "Host": "cf.877771.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "vmess.lbw666.dpdns.org",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 3",
       "server": "104.17.136.198",
       "server_port": 443,
       "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
@@ -2804,29 +2173,122 @@
     },
     {
       "type": "vmess",
-      "tag": "🇺🇸 United States, Piscataway | 🌐 | [BL]",
-      "server": "162.159.128.17",
+      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 4",
+      "server": "172.64.229.21",
       "server_port": 443,
-      "uuid": "c8b455ad-fff1-43e9-9af9-d97585c4534a",
+      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
       "alter_id": 0,
       "security": "auto",
       "transport": {
         "type": "ws",
-        "path": "/ryinsocksv2board",
+        "path": "/ws",
         "headers": {
-          "Host": "ny-v2ray.ryin.vip"
+          "Host": "vmess.lbw666.dpdns.org"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "ny-v2ray.ryin.vip",
+        "server_name": "vmess.lbw666.dpdns.org",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 5",
+      "server": "cf.0sm.com",
+      "server_port": 443,
+      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
+      "alter_id": 0,
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/ws",
+        "headers": {
+          "Host": "vmess.lbw666.dpdns.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "vmess.lbw666.dpdns.org",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 6",
+      "server": "cf.0sm.com",
+      "server_port": 443,
+      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
+      "alter_id": 0,
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/ws",
+        "headers": {
+          "Host": "vmess.lbw666.dpdns.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
         "insecure": false
       }
     },
     {
       "type": "trojan",
       "tag": "🇫🇮 Finland, Helsinki | [BL]",
-      "server": "104.25.239.113",
+      "server": "104.18.0.1",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 2",
+      "server": "104.18.0.1",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 3",
+      "server": "104.18.0.1",
       "server_port": 2053,
       "password": "gHQP0D7D15",
       "transport": {
@@ -2848,156 +2310,607 @@
     },
     {
       "type": "trojan",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇫🇮 | [BL] 2",
-      "server": "russia.com",
-      "server_port": 443,
-      "password": "bpb-trojan",
-      "transport": {
-        "type": "ws",
-        "path": "/tr?ed=2560",
-        "headers": {
-          "Host": "kargar001.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "kargar001.pages.dev",
-        "alpn": [
-          "h3"
-        ],
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "randomized"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 38",
-      "server": "172.64.80.1",
-      "server_port": 443,
-      "password": "bpb-trojan",
-      "transport": {
-        "type": "ws",
-        "path": "/tr?ed=2560",
-        "headers": {
-          "Host": "vless.herogoing.top"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vless.herogoing.top",
-        "insecure": false
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 39",
-      "server": "singapore.com",
-      "server_port": 443,
-      "password": "bpb-trojan",
-      "transport": {
-        "type": "ws",
-        "path": "/tr?ed=2560",
-        "headers": {
-          "Host": "kargar001.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "kargar001.pages.dev",
-        "alpn": [
-          "h3"
-        ],
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "randomized"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 40",
-      "server": "www.wto.org",
-      "server_port": 8443,
-      "password": "ec1fa47d-4eac-4b3f-8cae-4a2982d43e2f",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 4",
+      "server": "104.18.0.1",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "jiangjc.pages.dev"
+          "Host": "marvdasht.phonecomparisonblog.org"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "jiangjc.pages.dev",
-        "insecure": false
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
       }
     },
     {
       "type": "trojan",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 🇺🇸 | [BL] 2",
-      "server": "www.wto.org",
-      "server_port": 8443,
-      "password": "ec1fa47d-4eac-4b3f-8cae-4a2982d43e2f",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 5",
+      "server": "104.18.0.1",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "jiangjc.pages.dev"
+          "Host": "marvdasht.phonecomparisonblog.org"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "jiangjc.pages.dev",
-        "insecure": false
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇷 | [BL]",
-      "server": "104.24.210.142",
-      "server_port": 443,
-      "password": "50414e45-4c5f-5a45-5553-ccc0e8cd3a83",
-      "transport": {
-        "type": "ws",
-        "path": "/stream/PANEL_ZEUS/ccc0e8cd3a83",
-        "headers": {
-          "Host": "fgzb39ezu86s.ycz7syeeu3is.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fgzb39ezu86s.ycz7syeeu3is.workers.dev",
+        "server_name": "marvdasht.phonecomparisonblog.org",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "unsafe"
+          "fingerprint": "safari"
         }
       }
     },
     {
       "type": "trojan",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇸🇪 | [BL] 3",
-      "server": "104.19.173.68",
-      "server_port": 443,
-      "password": "d0298536-d670-4045-bbb1-ddd5ea68683e",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 6",
+      "server": "104.18.0.1",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
       "transport": {
         "type": "ws",
-        "path": "/azadnet-5vk.pages.dev/?ed=2560&PROT_TYPE=trojan",
+        "path": "/",
         "headers": {
-          "Host": "azadnet-5vk.pages.dev"
+          "Host": "marvdasht.phonecomparisonblog.org"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "azadnet-5vk.pages.dev",
+        "server_name": "marvdasht.phonecomparisonblog.org",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 7",
+      "server": "104.18.0.1",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 8",
+      "server": "104.24.0.1",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 9",
+      "server": "104.24.0.1",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 10",
+      "server": "104.24.0.1",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 11",
+      "server": "104.24.0.1",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 12",
+      "server": "104.24.0.1",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 13",
+      "server": "104.24.0.1",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 14",
+      "server": "104.24.0.1",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 15",
+      "server": "104.25.239.113",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 16",
+      "server": "104.25.239.113",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 17",
+      "server": "104.25.239.113",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 18",
+      "server": "104.27.0.1",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 19",
+      "server": "104.27.0.1",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 20",
+      "server": "104.27.0.1",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 21",
+      "server": "104.27.0.1",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 22",
+      "server": "172.66.0.1",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 23",
+      "server": "172.66.0.1",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 24",
+      "server": "172.66.0.1",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 25",
+      "server": "172.66.0.1",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 26",
+      "server": "172.66.0.1",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 27",
+      "server": "172.67.118.45",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 Finland, Helsinki | [BL] 28",
+      "server": "172.67.118.45",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🌐 Anycast-IP | 🇨🇦 🇸🇪 🇺🇸 | [BL]",
+      "server": "188.114.98.0",
+      "server_port": 443,
+      "password": "883e3cc8-9613-4f2d-8c42-0dd3d429db55",
+      "transport": {
+        "type": "ws",
+        "path": "/categories/community/",
+        "headers": {
+          "Host": "ltf8.jueson.de5.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ltf8.jueson.de5.net",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "unsafe"
         }
       }
     },
@@ -3007,35 +2920,15 @@
       "outbounds": [
         "自动选择",
         "direct",
-        "🇧🇬 Bulgaria, Sofia | [BL]",
-        "🇨🇦 Canada, Toronto | [BL]",
-        "🇭🇰 Hong Kong | 🌐 | [BL]",
-        "🇭🇰 Hong Kong | 🌐 | [BL] 2",
-        "🇭🇰 Hong Kong | 🌐 | [BL] 3",
-        "🇭🇰 Hong Kong | 🌐 | [BL] 4",
+        "🇩🇪 Germany, Nuremberg | [BL]",
         "🇮🇳 India, Navi Mumbai (Rabale) | [BL]",
-        "🇯🇵 Japan | 🌐 | [BL]",
-        "🇯🇵 Japan | 🌐 | [BL] 2",
-        "🇯🇵 Japan, Koto-ku | [BL]",
+        "🇮🇳 India, Navi Mumbai (Rabale) | [BL] 2",
+        "🇮🇳 India, Navi Mumbai (Rabale) | [BL] 3",
+        "🇮🇳 India, Navi Mumbai (Rabale) | [BL] 4",
+        "🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]",
         "🇸🇬 Singapore, Singapore (Outram) | 🌐 | [BL]",
-        "🇸🇬 Singapore, Singapore (Outram) | 🌐 | [BL] 2",
-        "🇳🇱 The Netherlands | 🌐 | [BL]",
-        "🇳🇱 The Netherlands | 🌐 | [BL] 2",
-        "🇳🇱 The Netherlands | 🌐 | [BL] 3",
-        "🇳🇱 The Netherlands | 🌐 | [BL] 4",
-        "🇳🇱 The Netherlands | 🌐 | [BL] 5",
-        "🇳🇱 The Netherlands | 🌐 | [BL] 6",
-        "🇳🇱 The Netherlands | 🌐 | [BL] 7",
-        "🇳🇱 The Netherlands | 🌐 | [BL] 8",
-        "🇳🇱 The Netherlands | 🌐 | [BL] 9",
-        "🇳🇱 The Netherlands | 🌐 | [BL] 10",
-        "🇳🇱 The Netherlands | 🌐 | [BL] 11",
-        "🇳🇱 The Netherlands | 🌐 | [BL] 12",
-        "🇳🇱 The Netherlands | 🌐 | [BL] 13",
-        "🇳🇱 The Netherlands | 🌐 | [BL] 14",
-        "🇳🇱 The Netherlands | 🌐 | [BL] 15",
-        "🇳🇱 The Netherlands | 🌐 | [BL] 16",
-        "🇳🇱 The Netherlands | 🌐 | [BL] 17",
+        "🇹🇼 Taiwan, Taoyuan | [BL]",
+        "🇹🇼 Taiwan, Taoyuan | [BL] 2",
         "🇬🇧 United Kingdom, Slough | [BL]",
         "🇬🇧 United Kingdom, Slough | [BL] 2",
         "🇬🇧 United Kingdom, Slough | [BL] 3",
@@ -3045,13 +2938,24 @@
         "🇬🇧 United Kingdom, Slough | [BL] 7",
         "🇬🇧 United Kingdom, Slough | [BL] 8",
         "🇬🇧 United Kingdom, Slough | [BL] 9",
-        "🇺🇸 United States | 🌐 | [BL]",
-        "🇺🇸 United States | 🌐 | [BL] 2",
-        "🇺🇸 United States | 🌐 | [BL] 3",
-        "🇺🇸 United States | 🌐 | [BL] 4",
-        "🇺🇸 United States | 🌐 | [BL] 5",
-        "🇺🇸 United States, Buffalo | [BL]",
-        "🇺🇸 United States, Buffalo | [BL] 2",
+        "🇬🇧 United Kingdom, Slough | [BL] 10",
+        "🇬🇧 United Kingdom, Slough | [BL] 11",
+        "🇬🇧 United Kingdom, Slough | [BL] 12",
+        "🇬🇧 United Kingdom, Slough | [BL] 13",
+        "🇬🇧 United Kingdom, Slough | [BL] 14",
+        "🇬🇧 United Kingdom, Slough | [BL] 15",
+        "🇬🇧 United Kingdom, Slough | [BL] 16",
+        "🇬🇧 United Kingdom, Slough | [BL] 17",
+        "🇬🇧 United Kingdom, Slough | [BL] 18",
+        "🇬🇧 United Kingdom, Slough | [BL] 19",
+        "🇬🇧 United Kingdom, Slough | [BL] 20",
+        "🇬🇧 United Kingdom, Slough | [BL] 21",
+        "🇬🇧 United Kingdom, Slough | [BL] 22",
+        "🇬🇧 United Kingdom, Slough | [BL] 23",
+        "🇬🇧 United Kingdom, Slough | [BL] 24",
+        "🇬🇧 United Kingdom, Slough | [BL] 25",
+        "🇬🇧 United Kingdom, Slough | [BL] 26",
+        "🇺🇸 United States, Detroit | [BL]",
         "🇺🇸 United States, North Bergen | [BL]",
         "🇺🇸 United States, North Bergen | [BL] 2",
         "🇺🇸 United States, North Bergen | [BL] 3",
@@ -3067,80 +2971,81 @@
         "🇺🇸 United States, North Bergen | [BL] 13",
         "🇺🇸 United States, North Bergen | [BL] 14",
         "🇺🇸 United States, North Bergen | [BL] 15",
-        "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇫🇮 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 2",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 3",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 4",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 5",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 6",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 7",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 8",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 9",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 10",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 11",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 12",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 13",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 14",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 15",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 16",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 17",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 18",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 19",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 20",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 21",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 22",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 23",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 24",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 25",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 26",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 27",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 28",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 29",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 30",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 31",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 32",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 33",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 34",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 35",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 36",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 37",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 🇯🇵 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 🇸🇪 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 🇺🇸 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇷 🇮🇪 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇷 🇮🇶 🇺🇸 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇷 🇮🇶 🇺🇸 | [BL] 2",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇷 🇰🇷 🇺🇸 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇬🇧 🇸🇪 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇬🇧 🇸🇪 🇺🇸 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇬🇧 🇸🇪 🇺🇸 | [BL] 2",
-        "🌐 Anycast-IP | 🇨🇦 🇯🇵 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇸🇪 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇸🇪 | [BL] 2",
-        "🌐 Anycast-IP | 🇨🇦 🇸🇪 🇺🇸 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇸🇪 🇺🇸 | [BL] 2",
-        "🌐 Anycast-IP | 🇨🇦 🇸🇪 🇺🇸 | [BL] 3",
-        "🌐 Anycast-IP | 🇨🇦 🇸🇪 🇺🇸 | [BL] 4",
-        "🌐 Anycast-IP | 🇨🇦 🇸🇪 🇺🇸 | [BL] 5",
-        "🌐 Anycast-IP | 🇩🇪 🇸🇪 | [BL]",
-        "🌐 Anycast-IP | 🇫🇷 🇮🇶 | [BL]",
-        "🌐 Anycast-IP | 🇬🇧 🇮🇪 | [BL]",
-        "🌐 Anycast-IP | 🇬🇧 🇯🇵 🇰🇷 | [BL]",
-        "🌐 Anycast-IP | 🇬🇧 🇸🇪 🇸🇬 | [BL]",
-        "🌐 Anycast-IP | 🇸🇪 🇺🇸 | [BL]",
-        "🇭🇰 Hong Kong, Hong Kong | [BL]",
+        "🇺🇸 United States, North Bergen | [BL] 16",
+        "🇺🇸 United States, North Bergen | [BL] 17",
+        "🇺🇸 United States, North Bergen | [BL] 18",
+        "🇺🇸 United States, North Bergen | [BL] 19",
+        "🇺🇸 United States, North Bergen | [BL] 20",
+        "🇺🇸 United States, North Bergen | [BL] 21",
+        "🇺🇸 United States, North Bergen | [BL] 22",
+        "🇺🇸 United States, North Bergen | [BL] 23",
+        "🇺🇸 United States, North Bergen | [BL] 24",
+        "🇺🇸 United States, North Bergen | [BL] 25",
+        "🇺🇸 United States, North Bergen | [BL] 26",
+        "🇺🇸 United States, North Bergen | [BL] 27",
+        "🇺🇸 United States, North Bergen | [BL] 28",
+        "🇺🇸 United States, North Bergen | [BL] 29",
+        "🇺🇸 United States, North Bergen | [BL] 30",
+        "🇺🇸 United States, North Bergen | [BL] 31",
+        "🇺🇸 United States, North Bergen | [BL] 32",
+        "🇺🇸 United States, North Bergen | [BL] 33",
+        "🇺🇸 United States, North Bergen | [BL] 34",
+        "🇺🇸 United States, North Bergen | [BL] 35",
+        "🇺🇸 United States, North Bergen | [BL] 36",
+        "🇺🇸 United States, North Bergen | [BL] 37",
+        "🇺🇸 United States, North Bergen | [BL] 38",
+        "🇺🇸 United States, North Bergen | [BL] 39",
+        "🇺🇸 United States, North Bergen | [BL] 40",
+        "🇺🇸 United States, North Bergen | [BL] 41",
+        "🇺🇸 United States, North Bergen | [BL] 42",
+        "🇺🇸 United States, North Bergen | [BL] 43",
+        "🇺🇸 United States, North Bergen | [BL] 44",
+        "🇺🇸 United States, North Bergen | [BL] 45",
+        "🇺🇸 United States, North Bergen | [BL] 46",
+        "🇺🇸 United States, North Bergen | [BL] 47",
+        "🇺🇸 United States, North Bergen | [BL] 48",
+        "🇺🇸 United States, North Bergen | [BL] 49",
+        "🇺🇸 United States, San Jose | [BL]",
         "🇯🇵 Japan, Osaka (Shiromi) | 🌐 | [BL]",
+        "🇯🇵 Japan, Osaka (Shiromi) | 🌐 | [BL] 2",
+        "🇺🇸 United States, Chicago | [BL]",
+        "🇺🇸 United States, Chicago | [BL] 2",
+        "🇺🇸 United States, Chicago | [BL] 3",
         "🇺🇸 United States, Chicago | 🌐 | [BL]",
-        "🇺🇸 United States, Piscataway | 🌐 | [BL]",
+        "🇺🇸 United States, Chicago | 🌐 | [BL] 2",
+        "🇺🇸 United States, Chicago | 🌐 | [BL] 3",
+        "🇺🇸 United States, Chicago | 🌐 | [BL] 4",
+        "🇺🇸 United States, Chicago | 🌐 | [BL] 5",
+        "🇺🇸 United States, Chicago | 🌐 | [BL] 6",
         "🇫🇮 Finland, Helsinki | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇫🇮 | [BL] 2",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 38",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 39",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 40",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 🇺🇸 | [BL] 2",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇷 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇸🇪 | [BL] 3"
+        "🇫🇮 Finland, Helsinki | [BL] 2",
+        "🇫🇮 Finland, Helsinki | [BL] 3",
+        "🇫🇮 Finland, Helsinki | [BL] 4",
+        "🇫🇮 Finland, Helsinki | [BL] 5",
+        "🇫🇮 Finland, Helsinki | [BL] 6",
+        "🇫🇮 Finland, Helsinki | [BL] 7",
+        "🇫🇮 Finland, Helsinki | [BL] 8",
+        "🇫🇮 Finland, Helsinki | [BL] 9",
+        "🇫🇮 Finland, Helsinki | [BL] 10",
+        "🇫🇮 Finland, Helsinki | [BL] 11",
+        "🇫🇮 Finland, Helsinki | [BL] 12",
+        "🇫🇮 Finland, Helsinki | [BL] 13",
+        "🇫🇮 Finland, Helsinki | [BL] 14",
+        "🇫🇮 Finland, Helsinki | [BL] 15",
+        "🇫🇮 Finland, Helsinki | [BL] 16",
+        "🇫🇮 Finland, Helsinki | [BL] 17",
+        "🇫🇮 Finland, Helsinki | [BL] 18",
+        "🇫🇮 Finland, Helsinki | [BL] 19",
+        "🇫🇮 Finland, Helsinki | [BL] 20",
+        "🇫🇮 Finland, Helsinki | [BL] 21",
+        "🇫🇮 Finland, Helsinki | [BL] 22",
+        "🇫🇮 Finland, Helsinki | [BL] 23",
+        "🇫🇮 Finland, Helsinki | [BL] 24",
+        "🇫🇮 Finland, Helsinki | [BL] 25",
+        "🇫🇮 Finland, Helsinki | [BL] 26",
+        "🇫🇮 Finland, Helsinki | [BL] 27",
+        "🇫🇮 Finland, Helsinki | [BL] 28",
+        "🌐 Anycast-IP | 🇨🇦 🇸🇪 🇺🇸 | [BL]"
       ]
     },
     {
@@ -3150,35 +3055,15 @@
       "interval": "5m",
       "tolerance": 50,
       "outbounds": [
-        "🇧🇬 Bulgaria, Sofia | [BL]",
-        "🇨🇦 Canada, Toronto | [BL]",
-        "🇭🇰 Hong Kong | 🌐 | [BL]",
-        "🇭🇰 Hong Kong | 🌐 | [BL] 2",
-        "🇭🇰 Hong Kong | 🌐 | [BL] 3",
-        "🇭🇰 Hong Kong | 🌐 | [BL] 4",
+        "🇩🇪 Germany, Nuremberg | [BL]",
         "🇮🇳 India, Navi Mumbai (Rabale) | [BL]",
-        "🇯🇵 Japan | 🌐 | [BL]",
-        "🇯🇵 Japan | 🌐 | [BL] 2",
-        "🇯🇵 Japan, Koto-ku | [BL]",
+        "🇮🇳 India, Navi Mumbai (Rabale) | [BL] 2",
+        "🇮🇳 India, Navi Mumbai (Rabale) | [BL] 3",
+        "🇮🇳 India, Navi Mumbai (Rabale) | [BL] 4",
+        "🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]",
         "🇸🇬 Singapore, Singapore (Outram) | 🌐 | [BL]",
-        "🇸🇬 Singapore, Singapore (Outram) | 🌐 | [BL] 2",
-        "🇳🇱 The Netherlands | 🌐 | [BL]",
-        "🇳🇱 The Netherlands | 🌐 | [BL] 2",
-        "🇳🇱 The Netherlands | 🌐 | [BL] 3",
-        "🇳🇱 The Netherlands | 🌐 | [BL] 4",
-        "🇳🇱 The Netherlands | 🌐 | [BL] 5",
-        "🇳🇱 The Netherlands | 🌐 | [BL] 6",
-        "🇳🇱 The Netherlands | 🌐 | [BL] 7",
-        "🇳🇱 The Netherlands | 🌐 | [BL] 8",
-        "🇳🇱 The Netherlands | 🌐 | [BL] 9",
-        "🇳🇱 The Netherlands | 🌐 | [BL] 10",
-        "🇳🇱 The Netherlands | 🌐 | [BL] 11",
-        "🇳🇱 The Netherlands | 🌐 | [BL] 12",
-        "🇳🇱 The Netherlands | 🌐 | [BL] 13",
-        "🇳🇱 The Netherlands | 🌐 | [BL] 14",
-        "🇳🇱 The Netherlands | 🌐 | [BL] 15",
-        "🇳🇱 The Netherlands | 🌐 | [BL] 16",
-        "🇳🇱 The Netherlands | 🌐 | [BL] 17",
+        "🇹🇼 Taiwan, Taoyuan | [BL]",
+        "🇹🇼 Taiwan, Taoyuan | [BL] 2",
         "🇬🇧 United Kingdom, Slough | [BL]",
         "🇬🇧 United Kingdom, Slough | [BL] 2",
         "🇬🇧 United Kingdom, Slough | [BL] 3",
@@ -3188,13 +3073,24 @@
         "🇬🇧 United Kingdom, Slough | [BL] 7",
         "🇬🇧 United Kingdom, Slough | [BL] 8",
         "🇬🇧 United Kingdom, Slough | [BL] 9",
-        "🇺🇸 United States | 🌐 | [BL]",
-        "🇺🇸 United States | 🌐 | [BL] 2",
-        "🇺🇸 United States | 🌐 | [BL] 3",
-        "🇺🇸 United States | 🌐 | [BL] 4",
-        "🇺🇸 United States | 🌐 | [BL] 5",
-        "🇺🇸 United States, Buffalo | [BL]",
-        "🇺🇸 United States, Buffalo | [BL] 2",
+        "🇬🇧 United Kingdom, Slough | [BL] 10",
+        "🇬🇧 United Kingdom, Slough | [BL] 11",
+        "🇬🇧 United Kingdom, Slough | [BL] 12",
+        "🇬🇧 United Kingdom, Slough | [BL] 13",
+        "🇬🇧 United Kingdom, Slough | [BL] 14",
+        "🇬🇧 United Kingdom, Slough | [BL] 15",
+        "🇬🇧 United Kingdom, Slough | [BL] 16",
+        "🇬🇧 United Kingdom, Slough | [BL] 17",
+        "🇬🇧 United Kingdom, Slough | [BL] 18",
+        "🇬🇧 United Kingdom, Slough | [BL] 19",
+        "🇬🇧 United Kingdom, Slough | [BL] 20",
+        "🇬🇧 United Kingdom, Slough | [BL] 21",
+        "🇬🇧 United Kingdom, Slough | [BL] 22",
+        "🇬🇧 United Kingdom, Slough | [BL] 23",
+        "🇬🇧 United Kingdom, Slough | [BL] 24",
+        "🇬🇧 United Kingdom, Slough | [BL] 25",
+        "🇬🇧 United Kingdom, Slough | [BL] 26",
+        "🇺🇸 United States, Detroit | [BL]",
         "🇺🇸 United States, North Bergen | [BL]",
         "🇺🇸 United States, North Bergen | [BL] 2",
         "🇺🇸 United States, North Bergen | [BL] 3",
@@ -3210,80 +3106,81 @@
         "🇺🇸 United States, North Bergen | [BL] 13",
         "🇺🇸 United States, North Bergen | [BL] 14",
         "🇺🇸 United States, North Bergen | [BL] 15",
-        "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇫🇮 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 2",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 3",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 4",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 5",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 6",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 7",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 8",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 9",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 10",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 11",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 12",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 13",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 14",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 15",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 16",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 17",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 18",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 19",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 20",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 21",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 22",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 23",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 24",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 25",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 26",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 27",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 28",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 29",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 30",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 31",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 32",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 33",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 34",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 35",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 36",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 37",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 🇯🇵 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 🇸🇪 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 🇺🇸 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇷 🇮🇪 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇷 🇮🇶 🇺🇸 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇷 🇮🇶 🇺🇸 | [BL] 2",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇷 🇰🇷 🇺🇸 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇬🇧 🇸🇪 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇬🇧 🇸🇪 🇺🇸 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇬🇧 🇸🇪 🇺🇸 | [BL] 2",
-        "🌐 Anycast-IP | 🇨🇦 🇯🇵 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇸🇪 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇸🇪 | [BL] 2",
-        "🌐 Anycast-IP | 🇨🇦 🇸🇪 🇺🇸 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇸🇪 🇺🇸 | [BL] 2",
-        "🌐 Anycast-IP | 🇨🇦 🇸🇪 🇺🇸 | [BL] 3",
-        "🌐 Anycast-IP | 🇨🇦 🇸🇪 🇺🇸 | [BL] 4",
-        "🌐 Anycast-IP | 🇨🇦 🇸🇪 🇺🇸 | [BL] 5",
-        "🌐 Anycast-IP | 🇩🇪 🇸🇪 | [BL]",
-        "🌐 Anycast-IP | 🇫🇷 🇮🇶 | [BL]",
-        "🌐 Anycast-IP | 🇬🇧 🇮🇪 | [BL]",
-        "🌐 Anycast-IP | 🇬🇧 🇯🇵 🇰🇷 | [BL]",
-        "🌐 Anycast-IP | 🇬🇧 🇸🇪 🇸🇬 | [BL]",
-        "🌐 Anycast-IP | 🇸🇪 🇺🇸 | [BL]",
-        "🇭🇰 Hong Kong, Hong Kong | [BL]",
+        "🇺🇸 United States, North Bergen | [BL] 16",
+        "🇺🇸 United States, North Bergen | [BL] 17",
+        "🇺🇸 United States, North Bergen | [BL] 18",
+        "🇺🇸 United States, North Bergen | [BL] 19",
+        "🇺🇸 United States, North Bergen | [BL] 20",
+        "🇺🇸 United States, North Bergen | [BL] 21",
+        "🇺🇸 United States, North Bergen | [BL] 22",
+        "🇺🇸 United States, North Bergen | [BL] 23",
+        "🇺🇸 United States, North Bergen | [BL] 24",
+        "🇺🇸 United States, North Bergen | [BL] 25",
+        "🇺🇸 United States, North Bergen | [BL] 26",
+        "🇺🇸 United States, North Bergen | [BL] 27",
+        "🇺🇸 United States, North Bergen | [BL] 28",
+        "🇺🇸 United States, North Bergen | [BL] 29",
+        "🇺🇸 United States, North Bergen | [BL] 30",
+        "🇺🇸 United States, North Bergen | [BL] 31",
+        "🇺🇸 United States, North Bergen | [BL] 32",
+        "🇺🇸 United States, North Bergen | [BL] 33",
+        "🇺🇸 United States, North Bergen | [BL] 34",
+        "🇺🇸 United States, North Bergen | [BL] 35",
+        "🇺🇸 United States, North Bergen | [BL] 36",
+        "🇺🇸 United States, North Bergen | [BL] 37",
+        "🇺🇸 United States, North Bergen | [BL] 38",
+        "🇺🇸 United States, North Bergen | [BL] 39",
+        "🇺🇸 United States, North Bergen | [BL] 40",
+        "🇺🇸 United States, North Bergen | [BL] 41",
+        "🇺🇸 United States, North Bergen | [BL] 42",
+        "🇺🇸 United States, North Bergen | [BL] 43",
+        "🇺🇸 United States, North Bergen | [BL] 44",
+        "🇺🇸 United States, North Bergen | [BL] 45",
+        "🇺🇸 United States, North Bergen | [BL] 46",
+        "🇺🇸 United States, North Bergen | [BL] 47",
+        "🇺🇸 United States, North Bergen | [BL] 48",
+        "🇺🇸 United States, North Bergen | [BL] 49",
+        "🇺🇸 United States, San Jose | [BL]",
         "🇯🇵 Japan, Osaka (Shiromi) | 🌐 | [BL]",
+        "🇯🇵 Japan, Osaka (Shiromi) | 🌐 | [BL] 2",
+        "🇺🇸 United States, Chicago | [BL]",
+        "🇺🇸 United States, Chicago | [BL] 2",
+        "🇺🇸 United States, Chicago | [BL] 3",
         "🇺🇸 United States, Chicago | 🌐 | [BL]",
-        "🇺🇸 United States, Piscataway | 🌐 | [BL]",
+        "🇺🇸 United States, Chicago | 🌐 | [BL] 2",
+        "🇺🇸 United States, Chicago | 🌐 | [BL] 3",
+        "🇺🇸 United States, Chicago | 🌐 | [BL] 4",
+        "🇺🇸 United States, Chicago | 🌐 | [BL] 5",
+        "🇺🇸 United States, Chicago | 🌐 | [BL] 6",
         "🇫🇮 Finland, Helsinki | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇩🇪 🇫🇮 | [BL] 2",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 38",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 39",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL] 40",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 🇺🇸 | [BL] 2",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇷 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇸🇪 | [BL] 3"
+        "🇫🇮 Finland, Helsinki | [BL] 2",
+        "🇫🇮 Finland, Helsinki | [BL] 3",
+        "🇫🇮 Finland, Helsinki | [BL] 4",
+        "🇫🇮 Finland, Helsinki | [BL] 5",
+        "🇫🇮 Finland, Helsinki | [BL] 6",
+        "🇫🇮 Finland, Helsinki | [BL] 7",
+        "🇫🇮 Finland, Helsinki | [BL] 8",
+        "🇫🇮 Finland, Helsinki | [BL] 9",
+        "🇫🇮 Finland, Helsinki | [BL] 10",
+        "🇫🇮 Finland, Helsinki | [BL] 11",
+        "🇫🇮 Finland, Helsinki | [BL] 12",
+        "🇫🇮 Finland, Helsinki | [BL] 13",
+        "🇫🇮 Finland, Helsinki | [BL] 14",
+        "🇫🇮 Finland, Helsinki | [BL] 15",
+        "🇫🇮 Finland, Helsinki | [BL] 16",
+        "🇫🇮 Finland, Helsinki | [BL] 17",
+        "🇫🇮 Finland, Helsinki | [BL] 18",
+        "🇫🇮 Finland, Helsinki | [BL] 19",
+        "🇫🇮 Finland, Helsinki | [BL] 20",
+        "🇫🇮 Finland, Helsinki | [BL] 21",
+        "🇫🇮 Finland, Helsinki | [BL] 22",
+        "🇫🇮 Finland, Helsinki | [BL] 23",
+        "🇫🇮 Finland, Helsinki | [BL] 24",
+        "🇫🇮 Finland, Helsinki | [BL] 25",
+        "🇫🇮 Finland, Helsinki | [BL] 26",
+        "🇫🇮 Finland, Helsinki | [BL] 27",
+        "🇫🇮 Finland, Helsinki | [BL] 28",
+        "🌐 Anycast-IP | 🇨🇦 🇸🇪 🇺🇸 | [BL]"
       ]
     }
   ],
