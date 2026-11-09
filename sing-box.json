@@ -51,161 +51,21 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 Germany | 🌐 | [BL]",
-      "server": "104.17.70.206",
-      "server_port": 8443,
-      "uuid": "1beed393-7c4d-4432-beee-f1026b72d0cf",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "free.sahanwickramasinghe.com"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "free.sahanwickramasinghe.com",
-        "alpn": [
-          "http/1.1"
-        ],
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 Germany, Frankfurt am Main (Innenstadt I) | 🌐 | [BL]",
-      "server": "5.129.197.49",
+      "tag": "🇩🇪 Germany, Frankfurt am Main | [BL]",
+      "server": "renderer-bridge-2-133.mirra.now",
       "server_port": 443,
-      "uuid": "4cabcd59-a405-4c00-96f5-03507e1e28fa",
+      "uuid": "27653b37-603c-4c90-b1f5-25c4d23f8932",
       "transport": {
         "type": "grpc",
-        "service_name": "glush.de3.v1"
+        "service_name": "VideoRenderer"
       },
       "tls": {
         "enabled": true,
-        "server_name": "orviko.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇯🇵 Japan | 🌐 | [BL]",
-      "server": "jp01.cf.sh-cloudflare.sbs",
-      "server_port": 2096,
-      "uuid": "a8d9c86f-cddb-4fa5-96f7-f68eb48b3cb3",
-      "transport": {
-        "type": "ws",
-        "path": "/shanhai/jp01",
-        "headers": {
-          "Host": "jp01.cdn00.top"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "jp01.cdn00.top",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]",
-      "server": "104.17.50.53",
-      "server_port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "transport": {
-        "type": "ws",
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
+        "server_name": "renderer-bridge-2-133.mirra.now",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "ios"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL] 2",
-      "server": "104.19.12.94",
-      "server_port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "transport": {
-        "type": "ws",
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇰🇿 Kazakhstan, Almaty | [BL]",
-      "server": "90.156.230.179",
-      "server_port": 443,
-      "uuid": "dc95c1dd-2cd3-414c-8cf1-71ae86dad666",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "kz-cdn-prsv-forum.keno.su",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Au1rmQdDRjlEJk17IfLQv5PBUEEosMWNhAlrWZj6mnY",
-          "short_id": "14324280"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇱🇹 Lithuania, Vilnius | [BL]",
-      "server": "germany3.banovano.space",
-      "server_port": 2053,
-      "uuid": "53555197-bf0a-49e6-bea1-211fcfc1d962",
-      "transport": {
-        "type": "grpc",
-        "service_name": "/"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "germany3.banovano.space",
-        "alpn": [
-          "h2"
-        ],
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
         }
       }
     },
@@ -234,51 +94,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇬 Singapore, Singapore (Outram) | 🌐 | [BL] 2",
-      "server": "sg01.cf.sh-cloudflare.sbs",
-      "server_port": 8443,
-      "uuid": "a8d9c86f-cddb-4fa5-96f7-f68eb48b3cb3",
-      "transport": {
-        "type": "ws",
-        "path": "/shanhai/sg01",
-        "headers": {
-          "Host": "sg01.cdn00.top"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "sg01.cdn00.top",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇪🇸 Spain, Madrid (Chamartín) | [BL]",
-      "server": "230b29t.es8.h1clayd.click",
-      "server_port": 443,
-      "uuid": "95c2ba1e-a330-4e6b-bd81-bf9c0f647b2f",
-      "tls": {
-        "enabled": true,
-        "server_name": "230b29t.es8.h1clayd.click",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JvnTbjxkV9nXKoDRA_tmeY6aeOTnJXSBU3yNp9ZUnH0",
-          "short_id": "91313fc9f7571857"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇪🇸 Spain, Madrid (Chamartín) | [BL] 2",
       "server": "49930ag.es8.h1clayd.click",
       "server_port": 443,
       "uuid": "95c2ba1e-a330-4e6b-bd81-bf9c0f647b2f",
@@ -292,56 +108,12 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "ios"
         },
         "reality": {
           "enabled": true,
           "public_key": "H_sPS4IJjHa4Wd7WLAtp_eamROtKBAj-G0UcMBHLHQw",
           "short_id": "2437eeeb791b6d80"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 Switzerland, Zurich | [BL]",
-      "server": "537df6t.ch5.h1clayd.click",
-      "server_port": 443,
-      "uuid": "54066259-28a1-47dc-b0f7-e7715f27918e",
-      "tls": {
-        "enabled": true,
-        "server_name": "537df6t.ch5.h1clayd.click",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "LHkKUZNBp93VjTHD9fpoj44-4WB-TQbDpa5A929nSwE",
-          "short_id": "e368a430524df0fa"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇼 Taiwan, Taoyuan | [BL]",
-      "server": "172.67.165.32",
-      "server_port": 8443,
-      "uuid": "91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a",
-      "transport": {
-        "type": "ws",
-        "path": "/nvl-n04-ws/e0577fe8fd7c8823",
-        "headers": {
-          "Host": "n04.jinggai.online"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "n04.jinggai.online",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
         }
       }
     },
@@ -380,7 +152,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "ios"
         },
         "reality": {
           "enabled": true,
@@ -414,7 +186,7 @@
     {
       "type": "vless",
       "tag": "🇳🇱 The Netherlands, Amsterdam | [BL] 4",
-      "server": "fr.golangwikito.cfd",
+      "server": "31.56.186.24",
       "server_port": 443,
       "uuid": "f8d52ece-fad4-478d-875d-df6eed3befa7",
       "flow": "xtls-rprx-vision",
@@ -446,7 +218,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -468,7 +240,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -490,7 +262,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -512,7 +284,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "edge"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -534,7 +306,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "safari"
         },
         "reality": {
           "enabled": true,
@@ -556,7 +328,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "edge"
         },
         "reality": {
           "enabled": true,
@@ -578,7 +350,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "ios"
         },
         "reality": {
           "enabled": true,
@@ -600,7 +372,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
@@ -622,7 +394,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "edge"
+          "fingerprint": "safari"
         },
         "reality": {
           "enabled": true,
@@ -644,7 +416,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -666,7 +438,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "edge"
         },
         "reality": {
           "enabled": true,
@@ -688,6 +460,28 @@
         "insecure": false,
         "utls": {
           "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "isYQuhKDrgc7IQ7G0LHywFnt57wffrkZ-er18DkVsBA",
+          "short_id": "e6d589857d1cec5e"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱 The Netherlands, Amsterdam | [BL] 17",
+      "server": "fr.golangwikito.cfd",
+      "server_port": 443,
+      "uuid": "f8d52ece-fad4-478d-875d-df6eed3befa7",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fr.golangwikito.cfd",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
           "fingerprint": "random"
         },
         "reality": {
@@ -699,7 +493,74 @@
     },
     {
       "type": "vless",
+      "tag": "🇳🇱 The Netherlands, Amsterdam | [BL] 18",
+      "server": "fr.golangwikito.cfd",
+      "server_port": 443,
+      "uuid": "f8d52ece-fad4-478d-875d-df6eed3befa7",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fr.golangwikito.cfd",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "isYQuhKDrgc7IQ7G0LHywFnt57wffrkZ-er18DkVsBA",
+          "short_id": "e6d589857d1cec5e"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇷 Turkey, Bursa | [BL]",
+      "server": "tr.0a0.uk",
+      "server_port": 443,
+      "uuid": "4a414062-e1b2-496a-bf50-d447e786f3f4",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "U-2PKc5vWQ8drgWUeoxL58r4v_GNpmuvxarkDRat9R0",
+          "short_id": "2eec85de34f4cc39"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇺🇸 United States, Buffalo | [BL]",
+      "server": "mao.kipfelmao.de5.net",
+      "server_port": 443,
+      "uuid": "30610baf-4645-4c7b-9a22-0d0a0a79eab5",
+      "transport": {
+        "type": "ws",
+        "path": "/api/v1/guests/profiles/5de14443985f/",
+        "headers": {
+          "Host": "mao.kipfelmao.de5.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "mao.kipfelmao.de5.net",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, Buffalo | [BL] 2",
       "server": "mao.kipfelmao.de5.net",
       "server_port": 443,
       "uuid": "30610baf-4645-4c7b-9a22-0d0a0a79eab5",
@@ -716,7 +577,30 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "edge"
+          "fingerprint": "android"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, Buffalo | [BL] 3",
+      "server": "mao.kipfelmao.de5.net",
+      "server_port": 443,
+      "uuid": "30610baf-4645-4c7b-9a22-0d0a0a79eab5",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fapi%2Fv1%2Fguests%2Fprofiles%2F5de14443985f%2F",
+        "headers": {
+          "Host": "mao.kipfelmao.de5.net"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "mao.kipfelmao.de5.net",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
         }
       }
     },
@@ -785,14 +669,14 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "edge"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇺🇸 United States, North Bergen | [BL] 4",
-      "server": "172.67.199.126",
+      "server": "104.21.58.37",
       "server_port": 2053,
       "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
       "transport": {
@@ -815,53 +699,7 @@
     {
       "type": "vless",
       "tag": "🇺🇸 United States, North Bergen | [BL] 5",
-      "server": "172.67.199.126",
-      "server_port": 2053,
-      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
-      "transport": {
-        "type": "ws",
-        "path": "%2Fws-tesla",
-        "headers": {
-          "Host": "fast.145779.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fast.145779.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 6",
-      "server": "172.67.199.126",
-      "server_port": 2053,
-      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
-      "transport": {
-        "type": "ws",
-        "path": "%2Fws-tesla",
-        "headers": {
-          "Host": "fast.145779.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fast.145779.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 7",
-      "server": "fast.145779.xyz",
+      "server": "104.21.58.37",
       "server_port": 2053,
       "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
       "transport": {
@@ -883,27 +721,8 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 8",
-      "server": "fast.145779.xyz",
-      "server_port": 2053,
-      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
-      "transport": {
-        "type": "ws",
-        "path": "/ws-tesla",
-        "headers": {
-          "Host": "fast.145779.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fast.145779.xyz",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 9",
-      "server": "fast.145779.xyz",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 6",
+      "server": "104.21.58.37",
       "server_port": 2053,
       "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
       "transport": {
@@ -919,14 +738,83 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "edge"
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 7",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 8",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 9",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇺🇸 United States, North Bergen | [BL] 10",
-      "server": "fast.145779.xyz",
+      "server": "172.67.199.126",
       "server_port": 2053,
       "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
       "transport": {
@@ -949,30 +837,7 @@
     {
       "type": "vless",
       "tag": "🇺🇸 United States, North Bergen | [BL] 11",
-      "server": "fast.145779.xyz",
-      "server_port": 2053,
-      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
-      "transport": {
-        "type": "ws",
-        "path": "/ws-tesla",
-        "headers": {
-          "Host": "fast.145779.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fast.145779.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 12",
-      "server": "fast.145779.xyz",
+      "server": "172.67.199.126",
       "server_port": 2053,
       "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
       "transport": {
@@ -994,13 +859,13 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 13",
-      "server": "fast.145779.xyz",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 12",
+      "server": "172.67.199.126",
       "server_port": 2053,
       "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
       "transport": {
         "type": "ws",
-        "path": "/ws-tesla",
+        "path": "%2Fws-tesla",
         "headers": {
           "Host": "fast.145779.xyz"
         }
@@ -1011,14 +876,14 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "android"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 14",
-      "server": "fast.145779.xyz",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 13",
+      "server": "172.67.199.126",
       "server_port": 2053,
       "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
       "transport": {
@@ -1040,8 +905,31 @@
     },
     {
       "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 14",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇺🇸 United States, North Bergen | [BL] 15",
-      "server": "fast.145779.xyz",
+      "server": "172.67.199.126",
       "server_port": 2053,
       "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
       "transport": {
@@ -1069,7 +957,7 @@
       "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
       "transport": {
         "type": "ws",
-        "path": "%2Fws-tesla",
+        "path": "/ws-tesla",
         "headers": {
           "Host": "fast.145779.xyz"
         }
@@ -1080,7 +968,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "edge"
+          "fingerprint": "ios"
         }
       }
     },
@@ -1092,7 +980,7 @@
       "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
       "transport": {
         "type": "ws",
-        "path": "%2Fws-tesla",
+        "path": "/ws-tesla",
         "headers": {
           "Host": "fast.145779.xyz"
         }
@@ -1103,7 +991,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "safari"
         }
       }
     },
@@ -1115,6 +1003,278 @@
       "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
       "transport": {
         "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 19",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "android"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 20",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 21",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 22",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 23",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 24",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 25",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 26",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 27",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 28",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 29",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 30",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
         "path": "%2Fws-tesla",
         "headers": {
           "Host": "fast.145779.xyz"
@@ -1132,7 +1292,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 19",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 31",
       "server": "fast.145779.xyz",
       "server_port": 2053,
       "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
@@ -1155,13 +1315,13 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 20",
-      "server": "104.21.58.37",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 32",
+      "server": "fast.145779.xyz",
       "server_port": 2053,
-      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
       "transport": {
         "type": "ws",
-        "path": "/ws-tesla",
+        "path": "%2Fws-tesla",
         "headers": {
           "Host": "fast.145779.xyz"
         }
@@ -1169,234 +1329,6 @@
       "tls": {
         "enabled": true,
         "server_name": "fast.145779.xyz",
-        "alpn": [
-          "http/1.1"
-        ],
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "android"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 21",
-      "server": "104.21.58.37",
-      "server_port": 2053,
-      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
-      "transport": {
-        "type": "ws",
-        "path": "/ws-tesla",
-        "headers": {
-          "Host": "fast.145779.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fast.145779.xyz",
-        "alpn": [
-          "http/1.1"
-        ],
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 22",
-      "server": "104.21.58.37",
-      "server_port": 2053,
-      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
-      "transport": {
-        "type": "ws",
-        "path": "/ws-tesla",
-        "headers": {
-          "Host": "fast.145779.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fast.145779.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 23",
-      "server": "104.21.58.37",
-      "server_port": 2053,
-      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
-      "transport": {
-        "type": "ws",
-        "path": "/ws-tesla",
-        "headers": {
-          "Host": "fast.145779.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fast.145779.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 24",
-      "server": "104.21.58.37",
-      "server_port": 2053,
-      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
-      "transport": {
-        "type": "ws",
-        "path": "/ws-tesla",
-        "headers": {
-          "Host": "fast.145779.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fast.145779.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 25",
-      "server": "172.67.199.126",
-      "server_port": 2053,
-      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
-      "transport": {
-        "type": "ws",
-        "path": "/ws-tesla",
-        "headers": {
-          "Host": "fast.145779.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fast.145779.xyz",
-        "alpn": [
-          "http/1.1"
-        ],
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "android"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 26",
-      "server": "172.67.199.126",
-      "server_port": 2053,
-      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
-      "transport": {
-        "type": "ws",
-        "path": "/ws-tesla",
-        "headers": {
-          "Host": "fast.145779.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fast.145779.xyz",
-        "alpn": [
-          "http/1.1"
-        ],
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 27",
-      "server": "172.67.199.126",
-      "server_port": 2053,
-      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
-      "transport": {
-        "type": "ws",
-        "path": "/ws-tesla",
-        "headers": {
-          "Host": "fast.145779.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fast.145779.xyz",
-        "alpn": [
-          "http/1.1"
-        ],
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 28",
-      "server": "172.67.199.126",
-      "server_port": 2053,
-      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
-      "transport": {
-        "type": "ws",
-        "path": "/ws-tesla",
-        "headers": {
-          "Host": "fast.145779.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fast.145779.xyz",
-        "alpn": [
-          "http/1.1"
-        ],
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 29",
-      "server": "172.67.199.126",
-      "server_port": 2053,
-      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
-      "transport": {
-        "type": "ws",
-        "path": "/ws-tesla",
-        "headers": {
-          "Host": "fast.145779.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fast.145779.xyz",
-        "alpn": [
-          "http/1.1"
-        ],
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -1406,79 +1338,10 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 30",
-      "server": "172.67.199.126",
-      "server_port": 2053,
-      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
-      "transport": {
-        "type": "ws",
-        "path": "/ws-tesla",
-        "headers": {
-          "Host": "fast.145779.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fast.145779.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 31",
-      "server": "172.67.199.126",
-      "server_port": 2053,
-      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
-      "transport": {
-        "type": "ws",
-        "path": "%2Fws-tesla",
-        "headers": {
-          "Host": "fast.145779.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fast.145779.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 32",
-      "server": "172.67.199.126",
-      "server_port": 2053,
-      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
-      "transport": {
-        "type": "ws",
-        "path": "%2Fws-tesla",
-        "headers": {
-          "Host": "fast.145779.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fast.145779.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇺🇸 United States, North Bergen | [BL] 33",
-      "server": "172.67.199.126",
+      "server": "fast.145779.xyz",
       "server_port": 2053,
-      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
       "transport": {
         "type": "ws",
         "path": "%2Fws-tesla",
@@ -1492,7 +1355,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "android"
         }
       }
     },
@@ -1501,6 +1364,297 @@
       "tag": "🇺🇸 United States, North Bergen | [BL] 34",
       "server": "fast.145779.xyz",
       "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 35",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 36",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 37",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 38",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 39",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 40",
+      "server": "104.21.58.37",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "android"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 41",
+      "server": "104.21.58.37",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 42",
+      "server": "104.21.58.37",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 43",
+      "server": "104.21.58.37",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 44",
+      "server": "104.21.58.37",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 45",
+      "server": "104.21.58.37",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "android"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 46",
+      "server": "104.21.58.37",
+      "server_port": 2053,
       "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
       "transport": {
         "type": "ws",
@@ -1521,7 +1675,600 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 35",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 47",
+      "server": "104.21.58.37",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 48",
+      "server": "104.21.58.37",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 49",
+      "server": "104.21.58.37",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 50",
+      "server": "104.21.58.37",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 51",
+      "server": "104.21.58.37",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 52",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "android"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 53",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 54",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 55",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 56",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 57",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 58",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 59",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 60",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 61",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "android"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 62",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 63",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "alpn": [
+          "http/1.1"
+        ],
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 64",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "android"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 65",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 66",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 67",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 68",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 69",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 70",
+      "server": "172.67.199.126",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "%2Fws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 71",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 72",
       "server": "fast.145779.xyz",
       "server_port": 2053,
       "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
@@ -1544,7 +2291,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 36",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 73",
       "server": "fast.145779.xyz",
       "server_port": 2053,
       "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
@@ -1563,7 +2310,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 37",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 74",
       "server": "fast.145779.xyz",
       "server_port": 2053,
       "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
@@ -1582,7 +2329,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 38",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 75",
       "server": "fast.145779.xyz",
       "server_port": 2053,
       "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
@@ -1605,7 +2352,30 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 39",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 76",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 77",
       "server": "fast.145779.xyz",
       "server_port": 2053,
       "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
@@ -1628,7 +2398,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 40",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 78",
       "server": "fast.145779.xyz",
       "server_port": 2053,
       "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
@@ -1651,7 +2421,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 41",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 79",
       "server": "fast.145779.xyz",
       "server_port": 2053,
       "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
@@ -1674,7 +2444,53 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 United States, North Bergen | [BL] 42",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 80",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 81",
+      "server": "fast.145779.xyz",
+      "server_port": 2053,
+      "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "android"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States, North Bergen | [BL] 82",
       "server": "fast.145779.xyz",
       "server_port": 2053,
       "uuid": "e3149c82-00f6-4227-b2c0-b78f1dd81279",
@@ -1693,20 +2509,6 @@
           "enabled": true,
           "fingerprint": "chrome"
         }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇩🇪 Germany, Düsseldorf | 🌐 | [BL]",
-      "server": "de.zhou-yufan.com",
-      "server_port": 443,
-      "uuid": "f38e591d-d13a-4c30-9763-6be3ad65f3ec",
-      "alter_id": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "de.zhou-yufan.com",
-        "insecure": false
       }
     },
     {
@@ -1753,6 +2555,46 @@
     {
       "type": "vmess",
       "tag": "🇺🇸 United States, Chicago | [BL]",
+      "server": "104.21.7.133",
+      "server_port": 443,
+      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
+      "alter_id": 0,
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/ws?ed=2048",
+        "headers": {
+          "Host": "vmess.lbw666.dpdns.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 United States, Chicago | [BL] 2",
+      "server": "cf.877771.xyz",
+      "server_port": 443,
+      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
+      "alter_id": 0,
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/ws?ed=2048",
+        "headers": {
+          "Host": "vmess.lbw666.dpdns.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 United States, Chicago | [BL] 3",
       "server": "172.66.203.67",
       "server_port": 443,
       "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
@@ -1767,21 +2609,20 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "vmess.lbw666.dpdns.org",
         "insecure": false
       }
     },
     {
       "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | [BL] 2",
-      "server": "172.64.229.21",
+      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL]",
+      "server": "104.17.136.198",
       "server_port": 443,
       "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
       "alter_id": 0,
       "security": "auto",
       "transport": {
         "type": "ws",
-        "path": "/ws?ed=2048",
+        "path": "/ws",
         "headers": {
           "Host": "vmess.lbw666.dpdns.org"
         }
@@ -1790,70 +2631,13 @@
         "enabled": true,
         "server_name": "vmess.lbw666.dpdns.org",
         "alpn": [
-          "null"
+          "http/1.1"
         ],
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | [BL] 3",
-      "server": "cf.877771.xyz",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vmess.lbw666.dpdns.org",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | [BL] 4",
-      "server": "cf.877771.xyz",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vmess.lbw666.dpdns.org",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL]",
-      "server": "104.27.0.1",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {}
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vmess.lbw666.dpdns.org",
-        "insecure": false
       }
     },
     {
@@ -1873,38 +2657,12 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "vmess.lbw666.dpdns.org",
         "insecure": false
       }
     },
     {
       "type": "vmess",
       "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 3",
-      "server": "172.64.229.21",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vmess.lbw666.dpdns.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 4",
       "server": "172.66.0.1",
       "server_port": 443,
       "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
@@ -1925,8 +2683,8 @@
     },
     {
       "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 5",
-      "server": "cf.090227.xyz",
+      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 4",
+      "server": "172.66.203.67",
       "server_port": 443,
       "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
       "alter_id": 0,
@@ -1940,6 +2698,26 @@
       },
       "tls": {
         "enabled": true,
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 5",
+      "server": "172.66.203.67",
+      "server_port": 443,
+      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
+      "alter_id": 0,
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/ws?ed=2048",
+        "headers": {
+          "Host": "vmess.lbw666.dpdns.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
         "server_name": "vmess.lbw666.dpdns.org",
         "insecure": false
       }
@@ -1947,7 +2725,7 @@
     {
       "type": "vmess",
       "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 6",
-      "server": "cf.877771.xyz",
+      "server": "172.66.203.67",
       "server_port": 443,
       "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
       "alter_id": 0,
@@ -1967,6 +2745,26 @@
     {
       "type": "vmess",
       "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 7",
+      "server": "cf.0sm.com",
+      "server_port": 443,
+      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
+      "alter_id": 0,
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/ws?ed=2048",
+        "headers": {
+          "Host": "vmess.lbw666.dpdns.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 8",
       "server": "cf.877771.xyz",
       "server_port": 443,
       "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
@@ -1987,28 +2785,8 @@
     },
     {
       "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 8",
-      "server": "104.21.7.133",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
       "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 9",
-      "server": "104.21.7.133",
+      "server": "104.27.0.1",
       "server_port": 443,
       "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
       "alter_id": 0,
@@ -2029,7 +2807,7 @@
     {
       "type": "vmess",
       "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 10",
-      "server": "104.21.7.133",
+      "server": "104.17.136.198",
       "server_port": 443,
       "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
       "alter_id": 0,
@@ -2069,46 +2847,6 @@
     {
       "type": "vmess",
       "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 12",
-      "server": "104.17.136.198",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 13",
-      "server": "104.17.136.198",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 14",
       "server": "172.64.229.21",
       "server_port": 443,
       "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
@@ -2129,68 +2867,48 @@
     },
     {
       "type": "vmess",
+      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 13",
+      "server": "172.66.203.67",
+      "server_port": 443,
+      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
+      "alter_id": 0,
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/ws",
+        "headers": {
+          "Host": "vmess.lbw666.dpdns.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 14",
+      "server": "172.66.203.67",
+      "server_port": 443,
+      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
+      "alter_id": 0,
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/ws",
+        "headers": {
+          "Host": "vmess.lbw666.dpdns.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "vmess.lbw666.dpdns.org",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
       "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 15",
-      "server": "172.66.203.67",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 16",
-      "server": "172.66.203.67",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vmess.lbw666.dpdns.org",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 17",
-      "server": "172.66.203.67",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 18",
       "server": "cf.0sm.com",
       "server_port": 443,
       "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
@@ -2206,265 +2924,6 @@
       "tls": {
         "enabled": true,
         "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 19",
-      "server": "cf.0sm.com",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vmess.lbw666.dpdns.org",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 20",
-      "server": "cf.090227.xyz",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vmess.lbw666.dpdns.org",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Chicago | 🌐 | [BL] 21",
-      "server": "cf.090227.xyz",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Minkler | [BL]",
-      "server": "Rib9JXAYoqjGN2KW.v.3dns.vip",
-      "server_port": 443,
-      "uuid": "9b31490d-190e-4ef1-af0a-7ccab3e7c3b5",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws-vmess",
-        "headers": {
-          "Host": "Rib9JXAYoqjGN2KW.v.3dns.vip"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Minkler | [BL] 2",
-      "server": "rib9jxayoqjgn2kw.v.3dns.vip",
-      "server_port": 443,
-      "uuid": "9b31490d-190e-4ef1-af0a-7ccab3e7c3b5",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws-vmess",
-        "headers": {
-          "Host": "rib9jxayoqjgn2kw.v.3dns.vip"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Minkler | [BL] 3",
-      "server": "rib9jxayoqjgn2kw.v.3dns.vip",
-      "server_port": 443,
-      "uuid": "9b31490d-190e-4ef1-af0a-7ccab3e7c3b5",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws-vmess",
-        "headers": {
-          "Host": "rib9jxayoqjgn2kw.v.3dns.vip"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "rib9jxayoqjgn2kw.v.3dns.vip",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Minkler | [BL] 4",
-      "server": "rib9jxayoqjgn2kw.v.3dns.vip",
-      "server_port": 443,
-      "uuid": "9b31490d-190e-4ef1-af0a-7ccab3e7c3b5",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws-vmess",
-        "headers": {
-          "Host": "rib9jxayoqjgn2kw.v.3dns.vip"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "rib9jxayoqjgn2kw.v.3dns.vip",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, Piscataway | 🌐 | [BL]",
-      "server": "162.159.128.17",
-      "server_port": 443,
-      "uuid": "c8b455ad-fff1-43e9-9af9-d97585c4534a",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ryinsocksv2board",
-        "headers": {
-          "Host": "ny-v2ray.ryin.vip"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ny-v2ray.ryin.vip",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States, St Louis (Downtown) | [BL]",
-      "server": "172.64.155.209",
-      "server_port": 8443,
-      "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/lMnsZUN4/",
-        "headers": {
-          "Host": "v2ray1.dozapp.xyz"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "v2ray1.dozapp.xyz",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🌐 Anycast-IP | 🇯🇵 | [BL]",
-      "server": "or3.sfacg.uk",
-      "server_port": 2083,
-      "uuid": "ac251237-576f-40c8-a543-554960c958b1",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/or3",
-        "headers": {
-          "Host": "or3.sfacg.uk"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn.sfacg.uk",
-        "insecure": false
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]",
-      "server": "4okhrijuyjytflnvowhl3zfw5wsgi34o.pages.dev",
-      "server_port": 443,
-      "password": "Nd2bFutZK2ma29bYqC@z",
-      "transport": {
-        "type": "ws",
-        "path": "/tr/2W6ONoBA1CTMk80znuAVgQ9dvWey2KD8?ed=2560",
-        "headers": {
-          "Host": "4okhrijuyjytflnvowhl3zfw5wsgi34o.pages.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "4oKhrijUyjyTFlnvoWhL3ZFW5wSGI34O.PAGeS.DeV",
-        "alpn": [
-          "http/1.1"
-        ],
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🌐 Anycast-IP | 🇨🇦 🇸🇪 🇺🇸 | [BL]",
-      "server": "188.114.98.0",
-      "server_port": 443,
-      "password": "883e3cc8-9613-4f2d-8c42-0dd3d429db55",
-      "transport": {
-        "type": "ws",
-        "path": "/categories/community/",
-        "headers": {
-          "Host": "ltf8.jueson.de5.net"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ltf8.jueson.de5.net",
-        "alpn": [
-          "http/1.1"
-        ],
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "unsafe"
-        }
       }
     },
     {
@@ -2473,19 +2932,9 @@
       "outbounds": [
         "自动选择",
         "direct",
-        "🇩🇪 Germany | 🌐 | [BL]",
-        "🇩🇪 Germany, Frankfurt am Main (Innenstadt I) | 🌐 | [BL]",
-        "🇯🇵 Japan | 🌐 | [BL]",
-        "🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]",
-        "🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL] 2",
-        "🇰🇿 Kazakhstan, Almaty | [BL]",
-        "🇱🇹 Lithuania, Vilnius | [BL]",
+        "🇩🇪 Germany, Frankfurt am Main | [BL]",
         "🇸🇬 Singapore, Singapore (Outram) | 🌐 | [BL]",
-        "🇸🇬 Singapore, Singapore (Outram) | 🌐 | [BL] 2",
         "🇪🇸 Spain, Madrid (Chamartín) | [BL]",
-        "🇪🇸 Spain, Madrid (Chamartín) | [BL] 2",
-        "🇨🇭 Switzerland, Zurich | [BL]",
-        "🇹🇼 Taiwan, Taoyuan | [BL]",
         "🇳🇱 The Netherlands, Amsterdam | [BL]",
         "🇳🇱 The Netherlands, Amsterdam | [BL] 2",
         "🇳🇱 The Netherlands, Amsterdam | [BL] 3",
@@ -2502,7 +2951,12 @@
         "🇳🇱 The Netherlands, Amsterdam | [BL] 14",
         "🇳🇱 The Netherlands, Amsterdam | [BL] 15",
         "🇳🇱 The Netherlands, Amsterdam | [BL] 16",
+        "🇳🇱 The Netherlands, Amsterdam | [BL] 17",
+        "🇳🇱 The Netherlands, Amsterdam | [BL] 18",
+        "🇹🇷 Turkey, Bursa | [BL]",
         "🇺🇸 United States, Buffalo | [BL]",
+        "🇺🇸 United States, Buffalo | [BL] 2",
+        "🇺🇸 United States, Buffalo | [BL] 3",
         "🇺🇸 United States, North Bergen | [BL]",
         "🇺🇸 United States, North Bergen | [BL] 2",
         "🇺🇸 United States, North Bergen | [BL] 3",
@@ -2545,13 +2999,51 @@
         "🇺🇸 United States, North Bergen | [BL] 40",
         "🇺🇸 United States, North Bergen | [BL] 41",
         "🇺🇸 United States, North Bergen | [BL] 42",
-        "🇩🇪 Germany, Düsseldorf | 🌐 | [BL]",
+        "🇺🇸 United States, North Bergen | [BL] 43",
+        "🇺🇸 United States, North Bergen | [BL] 44",
+        "🇺🇸 United States, North Bergen | [BL] 45",
+        "🇺🇸 United States, North Bergen | [BL] 46",
+        "🇺🇸 United States, North Bergen | [BL] 47",
+        "🇺🇸 United States, North Bergen | [BL] 48",
+        "🇺🇸 United States, North Bergen | [BL] 49",
+        "🇺🇸 United States, North Bergen | [BL] 50",
+        "🇺🇸 United States, North Bergen | [BL] 51",
+        "🇺🇸 United States, North Bergen | [BL] 52",
+        "🇺🇸 United States, North Bergen | [BL] 53",
+        "🇺🇸 United States, North Bergen | [BL] 54",
+        "🇺🇸 United States, North Bergen | [BL] 55",
+        "🇺🇸 United States, North Bergen | [BL] 56",
+        "🇺🇸 United States, North Bergen | [BL] 57",
+        "🇺🇸 United States, North Bergen | [BL] 58",
+        "🇺🇸 United States, North Bergen | [BL] 59",
+        "🇺🇸 United States, North Bergen | [BL] 60",
+        "🇺🇸 United States, North Bergen | [BL] 61",
+        "🇺🇸 United States, North Bergen | [BL] 62",
+        "🇺🇸 United States, North Bergen | [BL] 63",
+        "🇺🇸 United States, North Bergen | [BL] 64",
+        "🇺🇸 United States, North Bergen | [BL] 65",
+        "🇺🇸 United States, North Bergen | [BL] 66",
+        "🇺🇸 United States, North Bergen | [BL] 67",
+        "🇺🇸 United States, North Bergen | [BL] 68",
+        "🇺🇸 United States, North Bergen | [BL] 69",
+        "🇺🇸 United States, North Bergen | [BL] 70",
+        "🇺🇸 United States, North Bergen | [BL] 71",
+        "🇺🇸 United States, North Bergen | [BL] 72",
+        "🇺🇸 United States, North Bergen | [BL] 73",
+        "🇺🇸 United States, North Bergen | [BL] 74",
+        "🇺🇸 United States, North Bergen | [BL] 75",
+        "🇺🇸 United States, North Bergen | [BL] 76",
+        "🇺🇸 United States, North Bergen | [BL] 77",
+        "🇺🇸 United States, North Bergen | [BL] 78",
+        "🇺🇸 United States, North Bergen | [BL] 79",
+        "🇺🇸 United States, North Bergen | [BL] 80",
+        "🇺🇸 United States, North Bergen | [BL] 81",
+        "🇺🇸 United States, North Bergen | [BL] 82",
         "🇯🇵 Japan, Osaka (Shiromi) | 🌐 | [BL]",
         "🇯🇵 Japan, Osaka (Shiromi) | 🌐 | [BL] 2",
         "🇺🇸 United States, Chicago | [BL]",
         "🇺🇸 United States, Chicago | [BL] 2",
         "🇺🇸 United States, Chicago | [BL] 3",
-        "🇺🇸 United States, Chicago | [BL] 4",
         "🇺🇸 United States, Chicago | 🌐 | [BL]",
         "🇺🇸 United States, Chicago | 🌐 | [BL] 2",
         "🇺🇸 United States, Chicago | 🌐 | [BL] 3",
@@ -2566,22 +3058,7 @@
         "🇺🇸 United States, Chicago | 🌐 | [BL] 12",
         "🇺🇸 United States, Chicago | 🌐 | [BL] 13",
         "🇺🇸 United States, Chicago | 🌐 | [BL] 14",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 15",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 16",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 17",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 18",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 19",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 20",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 21",
-        "🇺🇸 United States, Minkler | [BL]",
-        "🇺🇸 United States, Minkler | [BL] 2",
-        "🇺🇸 United States, Minkler | [BL] 3",
-        "🇺🇸 United States, Minkler | [BL] 4",
-        "🇺🇸 United States, Piscataway | 🌐 | [BL]",
-        "🇺🇸 United States, St Louis (Downtown) | [BL]",
-        "🌐 Anycast-IP | 🇯🇵 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇸🇪 🇺🇸 | [BL]"
+        "🇺🇸 United States, Chicago | 🌐 | [BL] 15"
       ]
     },
     {
@@ -2591,19 +3068,9 @@
       "interval": "5m",
       "tolerance": 50,
       "outbounds": [
-        "🇩🇪 Germany | 🌐 | [BL]",
-        "🇩🇪 Germany, Frankfurt am Main (Innenstadt I) | 🌐 | [BL]",
-        "🇯🇵 Japan | 🌐 | [BL]",
-        "🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]",
-        "🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL] 2",
-        "🇰🇿 Kazakhstan, Almaty | [BL]",
-        "🇱🇹 Lithuania, Vilnius | [BL]",
+        "🇩🇪 Germany, Frankfurt am Main | [BL]",
         "🇸🇬 Singapore, Singapore (Outram) | 🌐 | [BL]",
-        "🇸🇬 Singapore, Singapore (Outram) | 🌐 | [BL] 2",
         "🇪🇸 Spain, Madrid (Chamartín) | [BL]",
-        "🇪🇸 Spain, Madrid (Chamartín) | [BL] 2",
-        "🇨🇭 Switzerland, Zurich | [BL]",
-        "🇹🇼 Taiwan, Taoyuan | [BL]",
         "🇳🇱 The Netherlands, Amsterdam | [BL]",
         "🇳🇱 The Netherlands, Amsterdam | [BL] 2",
         "🇳🇱 The Netherlands, Amsterdam | [BL] 3",
@@ -2620,7 +3087,12 @@
         "🇳🇱 The Netherlands, Amsterdam | [BL] 14",
         "🇳🇱 The Netherlands, Amsterdam | [BL] 15",
         "🇳🇱 The Netherlands, Amsterdam | [BL] 16",
+        "🇳🇱 The Netherlands, Amsterdam | [BL] 17",
+        "🇳🇱 The Netherlands, Amsterdam | [BL] 18",
+        "🇹🇷 Turkey, Bursa | [BL]",
         "🇺🇸 United States, Buffalo | [BL]",
+        "🇺🇸 United States, Buffalo | [BL] 2",
+        "🇺🇸 United States, Buffalo | [BL] 3",
         "🇺🇸 United States, North Bergen | [BL]",
         "🇺🇸 United States, North Bergen | [BL] 2",
         "🇺🇸 United States, North Bergen | [BL] 3",
@@ -2663,13 +3135,51 @@
         "🇺🇸 United States, North Bergen | [BL] 40",
         "🇺🇸 United States, North Bergen | [BL] 41",
         "🇺🇸 United States, North Bergen | [BL] 42",
-        "🇩🇪 Germany, Düsseldorf | 🌐 | [BL]",
+        "🇺🇸 United States, North Bergen | [BL] 43",
+        "🇺🇸 United States, North Bergen | [BL] 44",
+        "🇺🇸 United States, North Bergen | [BL] 45",
+        "🇺🇸 United States, North Bergen | [BL] 46",
+        "🇺🇸 United States, North Bergen | [BL] 47",
+        "🇺🇸 United States, North Bergen | [BL] 48",
+        "🇺🇸 United States, North Bergen | [BL] 49",
+        "🇺🇸 United States, North Bergen | [BL] 50",
+        "🇺🇸 United States, North Bergen | [BL] 51",
+        "🇺🇸 United States, North Bergen | [BL] 52",
+        "🇺🇸 United States, North Bergen | [BL] 53",
+        "🇺🇸 United States, North Bergen | [BL] 54",
+        "🇺🇸 United States, North Bergen | [BL] 55",
+        "🇺🇸 United States, North Bergen | [BL] 56",
+        "🇺🇸 United States, North Bergen | [BL] 57",
+        "🇺🇸 United States, North Bergen | [BL] 58",
+        "🇺🇸 United States, North Bergen | [BL] 59",
+        "🇺🇸 United States, North Bergen | [BL] 60",
+        "🇺🇸 United States, North Bergen | [BL] 61",
+        "🇺🇸 United States, North Bergen | [BL] 62",
+        "🇺🇸 United States, North Bergen | [BL] 63",
+        "🇺🇸 United States, North Bergen | [BL] 64",
+        "🇺🇸 United States, North Bergen | [BL] 65",
+        "🇺🇸 United States, North Bergen | [BL] 66",
+        "🇺🇸 United States, North Bergen | [BL] 67",
+        "🇺🇸 United States, North Bergen | [BL] 68",
+        "🇺🇸 United States, North Bergen | [BL] 69",
+        "🇺🇸 United States, North Bergen | [BL] 70",
+        "🇺🇸 United States, North Bergen | [BL] 71",
+        "🇺🇸 United States, North Bergen | [BL] 72",
+        "🇺🇸 United States, North Bergen | [BL] 73",
+        "🇺🇸 United States, North Bergen | [BL] 74",
+        "🇺🇸 United States, North Bergen | [BL] 75",
+        "🇺🇸 United States, North Bergen | [BL] 76",
+        "🇺🇸 United States, North Bergen | [BL] 77",
+        "🇺🇸 United States, North Bergen | [BL] 78",
+        "🇺🇸 United States, North Bergen | [BL] 79",
+        "🇺🇸 United States, North Bergen | [BL] 80",
+        "🇺🇸 United States, North Bergen | [BL] 81",
+        "🇺🇸 United States, North Bergen | [BL] 82",
         "🇯🇵 Japan, Osaka (Shiromi) | 🌐 | [BL]",
         "🇯🇵 Japan, Osaka (Shiromi) | 🌐 | [BL] 2",
         "🇺🇸 United States, Chicago | [BL]",
         "🇺🇸 United States, Chicago | [BL] 2",
         "🇺🇸 United States, Chicago | [BL] 3",
-        "🇺🇸 United States, Chicago | [BL] 4",
         "🇺🇸 United States, Chicago | 🌐 | [BL]",
         "🇺🇸 United States, Chicago | 🌐 | [BL] 2",
         "🇺🇸 United States, Chicago | 🌐 | [BL] 3",
@@ -2684,22 +3194,7 @@
         "🇺🇸 United States, Chicago | 🌐 | [BL] 12",
         "🇺🇸 United States, Chicago | 🌐 | [BL] 13",
         "🇺🇸 United States, Chicago | 🌐 | [BL] 14",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 15",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 16",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 17",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 18",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 19",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 20",
-        "🇺🇸 United States, Chicago | 🌐 | [BL] 21",
-        "🇺🇸 United States, Minkler | [BL]",
-        "🇺🇸 United States, Minkler | [BL] 2",
-        "🇺🇸 United States, Minkler | [BL] 3",
-        "🇺🇸 United States, Minkler | [BL] 4",
-        "🇺🇸 United States, Piscataway | 🌐 | [BL]",
-        "🇺🇸 United States, St Louis (Downtown) | [BL]",
-        "🌐 Anycast-IP | 🇯🇵 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]",
-        "🌐 Anycast-IP | 🇨🇦 🇸🇪 🇺🇸 | [BL]"
+        "🇺🇸 United States, Chicago | 🌐 | [BL] 15"
       ]
     }
   ],
